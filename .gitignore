@@ -6,6 +6,7 @@
 .devcontainer
 .DS_Store
 *.code-workspace
+.venv/
 
 # Dependencies
 node_modules/
@@ -43,3 +44,9 @@ state.json
 state.bak.json
 results.json
 index.txt
+
+# generated artifacts
+*.sqlite3
+npm_package_cache.sqlite3
+nm_batch_out/
+candidates.json

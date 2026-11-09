@@ -27,6 +27,6 @@ for i in `find -name "*.js"`; do printf "\n// JALANGI DO NOT INSTRUMENT" >> $i; 
 
 echo "Installing NodeExploitSynthesis"
 cd ../NodeExploitSynthesis
-npm i -D @types/node@latest
+npm i -D @types/node@18
 cd src/synthesis/operation_types && ./run.sh
 pip3 install z3-solver==4.12.2

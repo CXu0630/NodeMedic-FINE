@@ -20,7 +20,7 @@ RUN wget https://github.com/sharkdp/hyperfine/releases/download/v1.11.0/hyperfin
 RUN dpkg -i hyperfine_1.11.0_amd64.deb
 
 # Set up node environment
-RUN npm i -g n typescript
+RUN npm i -g n typescript@4.9.5
 
 # Set up python environment
 RUN apt-get install -y make build-essential
