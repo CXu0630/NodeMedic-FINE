@@ -126,7 +126,7 @@ async function runPipeline(
             'filterBrowserAPIs', 'filterSinks', 'setupDependencies',
             'getEntryPoints', 'annotateNoInstrument', 'runJalangiBabel'];
     } else if (mode == 'analysis') {
-        taskList = ['setupPackage', 'getEntryPoints', 'runNonInstrumented', 
+        taskList = ['setupPackage', 'setupDependencies', 'getEntryPoints', 'runNonInstrumented', 
             'runInstrumented', 'setSinkType', 'trivialExploit', 'checkExploit',
             'smt', 'checkExploit'];
     }
