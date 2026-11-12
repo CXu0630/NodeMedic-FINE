@@ -1,0 +1,48 @@
+{
+    "1": {
+        "operation": "call:spawn",
+        "value": [
+            {
+                "0": "-",
+                "1": "l"
+            },
+            {
+                "0": "-",
+                "1": "c"
+            },
+            {}
+        ],
+        "file": "/nodetaint/packageData/spawn-default-shell/node_modules/spawn-default-shell/src/index.js",
+        "startLineNumber": 8,
+        "startColumnNumber": 10,
+        "endLineNumber": 12,
+        "endColumnNumber": 4,
+        "tainted": false,
+        "flows_from": [
+            "2"
+        ],
+        "sink_type": "spawn"
+    },
+    "2": {
+        "operation": "Untainted",
+        "value": [
+            {
+                "0": "-",
+                "1": "l"
+            },
+            {
+                "0": "-",
+                "1": "c"
+            },
+            {}
+        ],
+        "file": "/nodetaint/packageData/spawn-default-shell/node_modules/spawn-default-shell/src/index.js",
+        "startLineNumber": 8,
+        "startColumnNumber": 10,
+        "endLineNumber": 12,
+        "endColumnNumber": 4,
+        "tainted": false,
+        "flows_from": [],
+        "sink_type": ""
+    }
+}

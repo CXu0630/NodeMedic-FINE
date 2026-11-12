@@ -1,0 +1,56 @@
+{
+    "1": {
+        "operation": "call:Function",
+        "value": {},
+        "file": "/nodetaint/analysisArtifacts/run-vue-json-excel2.js",
+        "startLineNumber": 8,
+        "startColumnNumber": 1,
+        "endLineNumber": 8,
+        "endColumnNumber": 38,
+        "tainted": true,
+        "flows_from": [
+            "2"
+        ],
+        "sink_type": "Function"
+    },
+    "2": {
+        "operation": "Tainted",
+        "value": {},
+        "file": "/nodetaint/analysisArtifacts/run-vue-json-excel2.js",
+        "startLineNumber": 7,
+        "startColumnNumber": 1,
+        "endLineNumber": 7,
+        "endColumnNumber": 26,
+        "tainted": true,
+        "flows_from": [
+            "3"
+        ],
+        "sink_type": ""
+    },
+    "3": {
+        "operation": "call:__jalangi_set_taint__",
+        "value": {},
+        "file": "/nodetaint/analysisArtifacts/run-vue-json-excel2.js",
+        "startLineNumber": 7,
+        "startColumnNumber": 1,
+        "endLineNumber": 7,
+        "endColumnNumber": 26,
+        "tainted": false,
+        "flows_from": [
+            "4"
+        ],
+        "sink_type": ""
+    },
+    "4": {
+        "operation": "Untainted",
+        "value": {},
+        "file": "/nodetaint/analysisArtifacts/run-vue-json-excel2.js",
+        "startLineNumber": 7,
+        "startColumnNumber": 1,
+        "endLineNumber": 7,
+        "endColumnNumber": 26,
+        "tainted": false,
+        "flows_from": [],
+        "sink_type": ""
+    }
+}

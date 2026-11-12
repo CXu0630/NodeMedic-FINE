@@ -1,0 +1,3766 @@
+{
+    "1": {
+        "operation": "call:spawn",
+        "value": "1995-12-17T03:24:00.000Z",
+        "file": "/nodetaint/packageData/execcli/node_modules/execcli/lib/processing/spawn_process.js",
+        "startLineNumber": 14,
+        "startColumnNumber": 29,
+        "endLineNumber": 14,
+        "endColumnNumber": 67,
+        "tainted": true,
+        "flows_from": [
+            "2"
+        ],
+        "sink_type": "spawn"
+    },
+    "2": {
+        "operation": "object.GetField",
+        "value": "1995-12-17T03:24:00.000Z",
+        "file": "UNKNOWN",
+        "startLineNumber": -1,
+        "startColumnNumber": -1,
+        "endLineNumber": -1,
+        "endColumnNumber": -1,
+        "tainted": true,
+        "flows_from": [
+            "3",
+            "4",
+            "5"
+        ],
+        "sink_type": ""
+    },
+    "3": {
+        "operation": "Untainted",
+        "value": {
+            "0": {
+                "0": "."
+            },
+            "1": [],
+            "2": "1995-12-17T03:24:00.000Z"
+        },
+        "file": "UNKNOWN",
+        "startLineNumber": -1,
+        "startColumnNumber": -1,
+        "endLineNumber": -1,
+        "endColumnNumber": -1,
+        "tainted": false,
+        "flows_from": [],
+        "sink_type": ""
+    },
+    "4": {
+        "operation": "Untainted",
+        "value": 2,
+        "file": "UNKNOWN",
+        "startLineNumber": -1,
+        "startColumnNumber": -1,
+        "endLineNumber": -1,
+        "endColumnNumber": -1,
+        "tainted": false,
+        "flows_from": [],
+        "sink_type": ""
+    },
+    "5": {
+        "operation": "object.GetField",
+        "value": "1995-12-17T03:24:00.000Z",
+        "file": "UNKNOWN",
+        "startLineNumber": -1,
+        "startColumnNumber": -1,
+        "endLineNumber": -1,
+        "endColumnNumber": -1,
+        "tainted": true,
+        "flows_from": [
+            "6",
+            "7",
+            "8"
+        ],
+        "sink_type": ""
+    },
+    "6": {
+        "operation": "Untainted",
+        "value": {
+            "0": {
+                "0": "."
+            },
+            "1": [],
+            "2": "1995-12-17T03:24:00.000Z"
+        },
+        "file": "UNKNOWN",
+        "startLineNumber": -1,
+        "startColumnNumber": -1,
+        "endLineNumber": -1,
+        "endColumnNumber": -1,
+        "tainted": false,
+        "flows_from": [],
+        "sink_type": ""
+    },
+    "7": {
+        "operation": "Untainted",
+        "value": 2,
+        "file": "UNKNOWN",
+        "startLineNumber": -1,
+        "startColumnNumber": -1,
+        "endLineNumber": -1,
+        "endColumnNumber": -1,
+        "tainted": false,
+        "flows_from": [],
+        "sink_type": ""
+    },
+    "8": {
+        "operation": "call:spawnProcess",
+        "value": "1995-12-17T03:24:00.000Z",
+        "file": "/nodetaint/packageData/execcli/node_modules/execcli/lib/execcli.js",
+        "startLineNumber": 56,
+        "startColumnNumber": 15,
+        "endLineNumber": 56,
+        "endColumnNumber": 53,
+        "tainted": true,
+        "flows_from": [
+            "9"
+        ],
+        "sink_type": ""
+    },
+    "9": {
+        "operation": "object.GetField",
+        "value": "1995-12-17T03:24:00.000Z",
+        "file": "UNKNOWN",
+        "startLineNumber": -1,
+        "startColumnNumber": -1,
+        "endLineNumber": -1,
+        "endColumnNumber": -1,
+        "tainted": true,
+        "flows_from": [
+            "10",
+            "11",
+            "12"
+        ],
+        "sink_type": ""
+    },
+    "10": {
+        "operation": "Untainted",
+        "value": [
+            "1995-12-17T03:24:00.000Z"
+        ],
+        "file": "UNKNOWN",
+        "startLineNumber": -1,
+        "startColumnNumber": -1,
+        "endLineNumber": -1,
+        "endColumnNumber": -1,
+        "tainted": false,
+        "flows_from": [],
+        "sink_type": ""
+    },
+    "11": {
+        "operation": "Untainted",
+        "value": 0,
+        "file": "UNKNOWN",
+        "startLineNumber": -1,
+        "startColumnNumber": -1,
+        "endLineNumber": -1,
+        "endColumnNumber": -1,
+        "tainted": false,
+        "flows_from": [],
+        "sink_type": ""
+    },
+    "12": {
+        "operation": "call:Anonymous Function",
+        "value": "1995-12-17T03:24:00.000Z",
+        "file": "/nodetaint/packageData/execcli/node_modules/execcli/node_modules/iftype/lib/type/type_hits.js",
+        "startLineNumber": 35,
+        "startColumnNumber": 14,
+        "endLineNumber": 35,
+        "endColumnNumber": 28,
+        "tainted": true,
+        "flows_from": [
+            "13"
+        ],
+        "sink_type": ""
+    },
+    "13": {
+        "operation": "call:typeHits",
+        "value": "1995-12-17T03:24:00.000Z",
+        "file": "/nodetaint/packageData/execcli/node_modules/execcli/node_modules/iftype/lib/is.js",
+        "startLineNumber": 16,
+        "startColumnNumber": 10,
+        "endLineNumber": 16,
+        "endColumnNumber": 29,
+        "tainted": true,
+        "flows_from": [
+            "14"
+        ],
+        "sink_type": ""
+    },
+    "14": {
+        "operation": "call:is",
+        "value": "1995-12-17T03:24:00.000Z",
+        "file": "/nodetaint/packageData/execcli/node_modules/execcli/node_modules/iftype/lib/iftype.js",
+        "startLineNumber": 23,
+        "startColumnNumber": 12,
+        "endLineNumber": 23,
+        "endColumnNumber": 32,
+        "tainted": true,
+        "flows_from": [
+            "15"
+        ],
+        "sink_type": ""
+    },
+    "15": {
+        "operation": "object.GetField",
+        "value": "1995-12-17T03:24:00.000Z",
+        "file": "UNKNOWN",
+        "startLineNumber": -1,
+        "startColumnNumber": -1,
+        "endLineNumber": -1,
+        "endColumnNumber": -1,
+        "tainted": true,
+        "flows_from": [
+            "16",
+            "130",
+            "131"
+        ],
+        "sink_type": ""
+    },
+    "16": {
+        "operation": "imprecise:bound create",
+        "value": {
+            "_val": "1995-12-17T03:24:00.000Z"
+        },
+        "file": "/nodetaint/packageData/execcli/node_modules/execcli/node_modules/iftype/lib/iftype.js",
+        "startLineNumber": 69,
+        "startColumnNumber": 5,
+        "endLineNumber": 69,
+        "endColumnNumber": 21,
+        "tainted": true,
+        "flows_from": [
+            "17"
+        ],
+        "sink_type": ""
+    },
+    "17": {
+        "operation": "call:val",
+        "value": "1995-12-17T03:24:00.000Z",
+        "file": "/nodetaint/packageData/execcli/node_modules/execcli/node_modules/iftype/lib/iftype.js",
+        "startLineNumber": 13,
+        "startColumnNumber": 3,
+        "endLineNumber": 13,
+        "endColumnNumber": 16,
+        "tainted": true,
+        "flows_from": [
+            "18"
+        ],
+        "sink_type": ""
+    },
+    "18": {
+        "operation": "call:Iftype",
+        "value": "1995-12-17T03:24:00.000Z",
+        "file": "/nodetaint/packageData/execcli/node_modules/execcli/node_modules/iftype/lib/create.js",
+        "startLineNumber": 13,
+        "startColumnNumber": 10,
+        "endLineNumber": 13,
+        "endColumnNumber": 25,
+        "tainted": true,
+        "flows_from": [
+            "19"
+        ],
+        "sink_type": ""
+    },
+    "19": {
+        "operation": "call:bound create",
+        "value": "1995-12-17T03:24:00.000Z",
+        "file": "/nodetaint/packageData/execcli/node_modules/execcli/node_modules/argx/lib/argx.js",
+        "startLineNumber": 43,
+        "startColumnNumber": 33,
+        "endLineNumber": 43,
+        "endColumnNumber": 52,
+        "tainted": true,
+        "flows_from": [
+            "20"
+        ],
+        "sink_type": ""
+    },
+    "20": {
+        "operation": "object.GetField",
+        "value": "1995-12-17T03:24:00.000Z",
+        "file": "UNKNOWN",
+        "startLineNumber": -1,
+        "startColumnNumber": -1,
+        "endLineNumber": -1,
+        "endColumnNumber": -1,
+        "tainted": true,
+        "flows_from": [
+            "21",
+            "42",
+            "70"
+        ],
+        "sink_type": ""
+    },
+    "21": {
+        "operation": "object.GetField",
+        "value": [
+            {
+                "0": "~",
+                "1": "/"
+            }
+        ],
+        "file": "UNKNOWN",
+        "startLineNumber": -1,
+        "startColumnNumber": -1,
+        "endLineNumber": -1,
+        "endColumnNumber": -1,
+        "tainted": false,
+        "flows_from": [
+            "22",
+            "23",
+            "24"
+        ],
+        "sink_type": ""
+    },
+    "22": {
+        "operation": "Untainted",
+        "value": {
+            "values": [
+                {
+                    "0": "~",
+                    "1": "/"
+                }
+            ]
+        },
+        "file": "UNKNOWN",
+        "startLineNumber": -1,
+        "startColumnNumber": -1,
+        "endLineNumber": -1,
+        "endColumnNumber": -1,
+        "tainted": false,
+        "flows_from": [],
+        "sink_type": ""
+    },
+    "23": {
+        "operation": "Untainted",
+        "value": "values",
+        "file": "UNKNOWN",
+        "startLineNumber": -1,
+        "startColumnNumber": -1,
+        "endLineNumber": -1,
+        "endColumnNumber": -1,
+        "tainted": false,
+        "flows_from": [],
+        "sink_type": ""
+    },
+    "24": {
+        "operation": "object.GetField",
+        "value": [
+            {
+                "0": "~",
+                "1": "/"
+            }
+        ],
+        "file": "UNKNOWN",
+        "startLineNumber": -1,
+        "startColumnNumber": -1,
+        "endLineNumber": -1,
+        "endColumnNumber": -1,
+        "tainted": false,
+        "flows_from": [
+            "25",
+            "26",
+            "27"
+        ],
+        "sink_type": ""
+    },
+    "25": {
+        "operation": "Untainted",
+        "value": {
+            "values": [
+                {
+                    "0": "~",
+                    "1": "/"
+                }
+            ]
+        },
+        "file": "UNKNOWN",
+        "startLineNumber": -1,
+        "startColumnNumber": -1,
+        "endLineNumber": -1,
+        "endColumnNumber": -1,
+        "tainted": false,
+        "flows_from": [],
+        "sink_type": ""
+    },
+    "26": {
+        "operation": "Untainted",
+        "value": "values",
+        "file": "UNKNOWN",
+        "startLineNumber": -1,
+        "startColumnNumber": -1,
+        "endLineNumber": -1,
+        "endColumnNumber": -1,
+        "tainted": false,
+        "flows_from": [],
+        "sink_type": ""
+    },
+    "27": {
+        "operation": "object.GetField",
+        "value": [
+            {
+                "0": "~",
+                "1": "/"
+            }
+        ],
+        "file": "UNKNOWN",
+        "startLineNumber": -1,
+        "startColumnNumber": -1,
+        "endLineNumber": -1,
+        "endColumnNumber": -1,
+        "tainted": false,
+        "flows_from": [
+            "28",
+            "29",
+            "30"
+        ],
+        "sink_type": ""
+    },
+    "28": {
+        "operation": "Untainted",
+        "value": {
+            "values": [
+                {
+                    "0": "~",
+                    "1": "/"
+                }
+            ]
+        },
+        "file": "UNKNOWN",
+        "startLineNumber": -1,
+        "startColumnNumber": -1,
+        "endLineNumber": -1,
+        "endColumnNumber": -1,
+        "tainted": false,
+        "flows_from": [],
+        "sink_type": ""
+    },
+    "29": {
+        "operation": "Untainted",
+        "value": "values",
+        "file": "UNKNOWN",
+        "startLineNumber": -1,
+        "startColumnNumber": -1,
+        "endLineNumber": -1,
+        "endColumnNumber": -1,
+        "tainted": false,
+        "flows_from": [],
+        "sink_type": ""
+    },
+    "30": {
+        "operation": "object.GetField",
+        "value": [
+            {
+                "0": "~",
+                "1": "/"
+            }
+        ],
+        "file": "UNKNOWN",
+        "startLineNumber": -1,
+        "startColumnNumber": -1,
+        "endLineNumber": -1,
+        "endColumnNumber": -1,
+        "tainted": false,
+        "flows_from": [
+            "31",
+            "32",
+            "33"
+        ],
+        "sink_type": ""
+    },
+    "31": {
+        "operation": "Untainted",
+        "value": {
+            "values": [
+                {
+                    "0": "~",
+                    "1": "/"
+                }
+            ]
+        },
+        "file": "UNKNOWN",
+        "startLineNumber": -1,
+        "startColumnNumber": -1,
+        "endLineNumber": -1,
+        "endColumnNumber": -1,
+        "tainted": false,
+        "flows_from": [],
+        "sink_type": ""
+    },
+    "32": {
+        "operation": "Untainted",
+        "value": "values",
+        "file": "UNKNOWN",
+        "startLineNumber": -1,
+        "startColumnNumber": -1,
+        "endLineNumber": -1,
+        "endColumnNumber": -1,
+        "tainted": false,
+        "flows_from": [],
+        "sink_type": ""
+    },
+    "33": {
+        "operation": "object.GetField",
+        "value": [
+            {
+                "0": "~",
+                "1": "/"
+            }
+        ],
+        "file": "UNKNOWN",
+        "startLineNumber": -1,
+        "startColumnNumber": -1,
+        "endLineNumber": -1,
+        "endColumnNumber": -1,
+        "tainted": false,
+        "flows_from": [
+            "34",
+            "35",
+            "36"
+        ],
+        "sink_type": ""
+    },
+    "34": {
+        "operation": "Untainted",
+        "value": {
+            "values": [
+                {
+                    "0": "~",
+                    "1": "/"
+                }
+            ]
+        },
+        "file": "UNKNOWN",
+        "startLineNumber": -1,
+        "startColumnNumber": -1,
+        "endLineNumber": -1,
+        "endColumnNumber": -1,
+        "tainted": false,
+        "flows_from": [],
+        "sink_type": ""
+    },
+    "35": {
+        "operation": "Untainted",
+        "value": "values",
+        "file": "UNKNOWN",
+        "startLineNumber": -1,
+        "startColumnNumber": -1,
+        "endLineNumber": -1,
+        "endColumnNumber": -1,
+        "tainted": false,
+        "flows_from": [],
+        "sink_type": ""
+    },
+    "36": {
+        "operation": "object.GetField",
+        "value": [
+            {
+                "0": "~",
+                "1": "/"
+            }
+        ],
+        "file": "UNKNOWN",
+        "startLineNumber": -1,
+        "startColumnNumber": -1,
+        "endLineNumber": -1,
+        "endColumnNumber": -1,
+        "tainted": false,
+        "flows_from": [
+            "37",
+            "38",
+            "39"
+        ],
+        "sink_type": ""
+    },
+    "37": {
+        "operation": "Untainted",
+        "value": {
+            "values": [
+                {
+                    "0": "~",
+                    "1": "/"
+                }
+            ]
+        },
+        "file": "UNKNOWN",
+        "startLineNumber": -1,
+        "startColumnNumber": -1,
+        "endLineNumber": -1,
+        "endColumnNumber": -1,
+        "tainted": false,
+        "flows_from": [],
+        "sink_type": ""
+    },
+    "38": {
+        "operation": "Untainted",
+        "value": "values",
+        "file": "UNKNOWN",
+        "startLineNumber": -1,
+        "startColumnNumber": -1,
+        "endLineNumber": -1,
+        "endColumnNumber": -1,
+        "tainted": false,
+        "flows_from": [],
+        "sink_type": ""
+    },
+    "39": {
+        "operation": "object.GetField",
+        "value": [
+            {
+                "0": "~",
+                "1": "/"
+            }
+        ],
+        "file": "UNKNOWN",
+        "startLineNumber": -1,
+        "startColumnNumber": -1,
+        "endLineNumber": -1,
+        "endColumnNumber": -1,
+        "tainted": false,
+        "flows_from": [
+            "40",
+            "41"
+        ],
+        "sink_type": ""
+    },
+    "40": {
+        "operation": "Untainted",
+        "value": {
+            "values": [
+                {
+                    "0": "~",
+                    "1": "/"
+                }
+            ]
+        },
+        "file": "UNKNOWN",
+        "startLineNumber": -1,
+        "startColumnNumber": -1,
+        "endLineNumber": -1,
+        "endColumnNumber": -1,
+        "tainted": false,
+        "flows_from": [],
+        "sink_type": ""
+    },
+    "41": {
+        "operation": "Untainted",
+        "value": "values",
+        "file": "UNKNOWN",
+        "startLineNumber": -1,
+        "startColumnNumber": -1,
+        "endLineNumber": -1,
+        "endColumnNumber": -1,
+        "tainted": false,
+        "flows_from": [],
+        "sink_type": ""
+    },
+    "42": {
+        "operation": "-",
+        "value": 1,
+        "file": "/nodetaint/packageData/execcli/node_modules/execcli/node_modules/argx/lib/argx.js",
+        "startLineNumber": 42,
+        "startColumnNumber": 18,
+        "endLineNumber": 42,
+        "endColumnNumber": 37,
+        "tainted": false,
+        "flows_from": [
+            "43",
+            "69"
+        ],
+        "sink_type": ""
+    },
+    "43": {
+        "operation": "+",
+        "value": 2,
+        "file": "/nodetaint/packageData/execcli/node_modules/execcli/node_modules/argx/lib/argx.js",
+        "startLineNumber": 42,
+        "startColumnNumber": 18,
+        "endLineNumber": 42,
+        "endColumnNumber": 33,
+        "tainted": false,
+        "flows_from": [
+            "44",
+            "68"
+        ],
+        "sink_type": ""
+    },
+    "44": {
+        "operation": "+",
+        "value": 1,
+        "file": "/nodetaint/packageData/execcli/node_modules/execcli/node_modules/argx/lib/argx.js",
+        "startLineNumber": 38,
+        "startColumnNumber": 16,
+        "endLineNumber": 38,
+        "endColumnNumber": 31,
+        "tainted": false,
+        "flows_from": [
+            "45",
+            "48"
+        ],
+        "sink_type": ""
+    },
+    "45": {
+        "operation": "call:splice",
+        "value": -1,
+        "file": "/nodetaint/packageData/execcli/node_modules/execcli/node_modules/argx/lib/argx.js",
+        "startLineNumber": 87,
+        "startColumnNumber": 12,
+        "endLineNumber": 87,
+        "endColumnNumber": 41,
+        "tainted": false,
+        "flows_from": [
+            "46"
+        ],
+        "sink_type": ""
+    },
+    "46": {
+        "operation": "object.Unary",
+        "value": 1,
+        "file": "/nodetaint/packageData/execcli/node_modules/execcli/node_modules/argx/lib/argx.js",
+        "startLineNumber": 85,
+        "startColumnNumber": 14,
+        "endLineNumber": 85,
+        "endColumnNumber": 16,
+        "tainted": false,
+        "flows_from": [
+            "47"
+        ],
+        "sink_type": ""
+    },
+    "47": {
+        "operation": "Untainted",
+        "value": 1,
+        "file": "/nodetaint/packageData/execcli/node_modules/execcli/node_modules/argx/lib/argx.js",
+        "startLineNumber": 85,
+        "startColumnNumber": 14,
+        "endLineNumber": 85,
+        "endColumnNumber": 16,
+        "tainted": false,
+        "flows_from": [],
+        "sink_type": ""
+    },
+    "48": {
+        "operation": "object.GetField",
+        "value": 2,
+        "file": "UNKNOWN",
+        "startLineNumber": -1,
+        "startColumnNumber": -1,
+        "endLineNumber": -1,
+        "endColumnNumber": -1,
+        "tainted": false,
+        "flows_from": [
+            "49",
+            "67"
+        ],
+        "sink_type": ""
+    },
+    "49": {
+        "operation": "object.GetField",
+        "value": [
+            {
+                "0": "~",
+                "1": "/"
+            }
+        ],
+        "file": "UNKNOWN",
+        "startLineNumber": -1,
+        "startColumnNumber": -1,
+        "endLineNumber": -1,
+        "endColumnNumber": -1,
+        "tainted": false,
+        "flows_from": [
+            "50",
+            "51",
+            "52"
+        ],
+        "sink_type": ""
+    },
+    "50": {
+        "operation": "Untainted",
+        "value": {
+            "values": [
+                {
+                    "0": "~",
+                    "1": "/"
+                }
+            ]
+        },
+        "file": "UNKNOWN",
+        "startLineNumber": -1,
+        "startColumnNumber": -1,
+        "endLineNumber": -1,
+        "endColumnNumber": -1,
+        "tainted": false,
+        "flows_from": [],
+        "sink_type": ""
+    },
+    "51": {
+        "operation": "Untainted",
+        "value": "values",
+        "file": "UNKNOWN",
+        "startLineNumber": -1,
+        "startColumnNumber": -1,
+        "endLineNumber": -1,
+        "endColumnNumber": -1,
+        "tainted": false,
+        "flows_from": [],
+        "sink_type": ""
+    },
+    "52": {
+        "operation": "object.GetField",
+        "value": [
+            {
+                "0": "~",
+                "1": "/"
+            }
+        ],
+        "file": "UNKNOWN",
+        "startLineNumber": -1,
+        "startColumnNumber": -1,
+        "endLineNumber": -1,
+        "endColumnNumber": -1,
+        "tainted": false,
+        "flows_from": [
+            "53",
+            "54",
+            "55"
+        ],
+        "sink_type": ""
+    },
+    "53": {
+        "operation": "Untainted",
+        "value": {
+            "values": [
+                {
+                    "0": "~",
+                    "1": "/"
+                }
+            ]
+        },
+        "file": "UNKNOWN",
+        "startLineNumber": -1,
+        "startColumnNumber": -1,
+        "endLineNumber": -1,
+        "endColumnNumber": -1,
+        "tainted": false,
+        "flows_from": [],
+        "sink_type": ""
+    },
+    "54": {
+        "operation": "Untainted",
+        "value": "values",
+        "file": "UNKNOWN",
+        "startLineNumber": -1,
+        "startColumnNumber": -1,
+        "endLineNumber": -1,
+        "endColumnNumber": -1,
+        "tainted": false,
+        "flows_from": [],
+        "sink_type": ""
+    },
+    "55": {
+        "operation": "object.GetField",
+        "value": [
+            {
+                "0": "~",
+                "1": "/"
+            }
+        ],
+        "file": "UNKNOWN",
+        "startLineNumber": -1,
+        "startColumnNumber": -1,
+        "endLineNumber": -1,
+        "endColumnNumber": -1,
+        "tainted": false,
+        "flows_from": [
+            "56",
+            "57",
+            "58"
+        ],
+        "sink_type": ""
+    },
+    "56": {
+        "operation": "Untainted",
+        "value": {
+            "values": [
+                {
+                    "0": "~",
+                    "1": "/"
+                }
+            ]
+        },
+        "file": "UNKNOWN",
+        "startLineNumber": -1,
+        "startColumnNumber": -1,
+        "endLineNumber": -1,
+        "endColumnNumber": -1,
+        "tainted": false,
+        "flows_from": [],
+        "sink_type": ""
+    },
+    "57": {
+        "operation": "Untainted",
+        "value": "values",
+        "file": "UNKNOWN",
+        "startLineNumber": -1,
+        "startColumnNumber": -1,
+        "endLineNumber": -1,
+        "endColumnNumber": -1,
+        "tainted": false,
+        "flows_from": [],
+        "sink_type": ""
+    },
+    "58": {
+        "operation": "object.GetField",
+        "value": [
+            {
+                "0": "~",
+                "1": "/"
+            }
+        ],
+        "file": "UNKNOWN",
+        "startLineNumber": -1,
+        "startColumnNumber": -1,
+        "endLineNumber": -1,
+        "endColumnNumber": -1,
+        "tainted": false,
+        "flows_from": [
+            "59",
+            "60",
+            "61"
+        ],
+        "sink_type": ""
+    },
+    "59": {
+        "operation": "Untainted",
+        "value": {
+            "values": [
+                {
+                    "0": "~",
+                    "1": "/"
+                }
+            ]
+        },
+        "file": "UNKNOWN",
+        "startLineNumber": -1,
+        "startColumnNumber": -1,
+        "endLineNumber": -1,
+        "endColumnNumber": -1,
+        "tainted": false,
+        "flows_from": [],
+        "sink_type": ""
+    },
+    "60": {
+        "operation": "Untainted",
+        "value": "values",
+        "file": "UNKNOWN",
+        "startLineNumber": -1,
+        "startColumnNumber": -1,
+        "endLineNumber": -1,
+        "endColumnNumber": -1,
+        "tainted": false,
+        "flows_from": [],
+        "sink_type": ""
+    },
+    "61": {
+        "operation": "object.GetField",
+        "value": [
+            {
+                "0": "~",
+                "1": "/"
+            }
+        ],
+        "file": "UNKNOWN",
+        "startLineNumber": -1,
+        "startColumnNumber": -1,
+        "endLineNumber": -1,
+        "endColumnNumber": -1,
+        "tainted": false,
+        "flows_from": [
+            "62",
+            "63",
+            "64"
+        ],
+        "sink_type": ""
+    },
+    "62": {
+        "operation": "Untainted",
+        "value": {
+            "values": [
+                {
+                    "0": "~",
+                    "1": "/"
+                }
+            ]
+        },
+        "file": "UNKNOWN",
+        "startLineNumber": -1,
+        "startColumnNumber": -1,
+        "endLineNumber": -1,
+        "endColumnNumber": -1,
+        "tainted": false,
+        "flows_from": [],
+        "sink_type": ""
+    },
+    "63": {
+        "operation": "Untainted",
+        "value": "values",
+        "file": "UNKNOWN",
+        "startLineNumber": -1,
+        "startColumnNumber": -1,
+        "endLineNumber": -1,
+        "endColumnNumber": -1,
+        "tainted": false,
+        "flows_from": [],
+        "sink_type": ""
+    },
+    "64": {
+        "operation": "object.GetField",
+        "value": [
+            {
+                "0": "~",
+                "1": "/"
+            }
+        ],
+        "file": "UNKNOWN",
+        "startLineNumber": -1,
+        "startColumnNumber": -1,
+        "endLineNumber": -1,
+        "endColumnNumber": -1,
+        "tainted": false,
+        "flows_from": [
+            "65",
+            "66"
+        ],
+        "sink_type": ""
+    },
+    "65": {
+        "operation": "Untainted",
+        "value": {
+            "values": [
+                {
+                    "0": "~",
+                    "1": "/"
+                }
+            ]
+        },
+        "file": "UNKNOWN",
+        "startLineNumber": -1,
+        "startColumnNumber": -1,
+        "endLineNumber": -1,
+        "endColumnNumber": -1,
+        "tainted": false,
+        "flows_from": [],
+        "sink_type": ""
+    },
+    "66": {
+        "operation": "Untainted",
+        "value": "values",
+        "file": "UNKNOWN",
+        "startLineNumber": -1,
+        "startColumnNumber": -1,
+        "endLineNumber": -1,
+        "endColumnNumber": -1,
+        "tainted": false,
+        "flows_from": [],
+        "sink_type": ""
+    },
+    "67": {
+        "operation": "Untainted",
+        "value": "length",
+        "file": "UNKNOWN",
+        "startLineNumber": -1,
+        "startColumnNumber": -1,
+        "endLineNumber": -1,
+        "endColumnNumber": -1,
+        "tainted": false,
+        "flows_from": [],
+        "sink_type": ""
+    },
+    "68": {
+        "operation": "Untainted",
+        "value": 1,
+        "file": "/nodetaint/packageData/execcli/node_modules/execcli/node_modules/argx/lib/argx.js",
+        "startLineNumber": 42,
+        "startColumnNumber": 18,
+        "endLineNumber": 42,
+        "endColumnNumber": 33,
+        "tainted": false,
+        "flows_from": [],
+        "sink_type": ""
+    },
+    "69": {
+        "operation": "Untainted",
+        "value": 1,
+        "file": "/nodetaint/packageData/execcli/node_modules/execcli/node_modules/argx/lib/argx.js",
+        "startLineNumber": 42,
+        "startColumnNumber": 18,
+        "endLineNumber": 42,
+        "endColumnNumber": 37,
+        "tainted": false,
+        "flows_from": [],
+        "sink_type": ""
+    },
+    "70": {
+        "operation": "call:Anonymous Function",
+        "value": "1995-12-17T03:24:00.000Z",
+        "file": "/nodetaint/packageData/execcli/node_modules/execcli/node_modules/iftype/lib/type/type_hits.js",
+        "startLineNumber": 35,
+        "startColumnNumber": 14,
+        "endLineNumber": 35,
+        "endColumnNumber": 28,
+        "tainted": true,
+        "flows_from": [
+            "71"
+        ],
+        "sink_type": ""
+    },
+    "71": {
+        "operation": "call:typeHits",
+        "value": "1995-12-17T03:24:00.000Z",
+        "file": "/nodetaint/packageData/execcli/node_modules/execcli/node_modules/iftype/lib/is.js",
+        "startLineNumber": 16,
+        "startColumnNumber": 10,
+        "endLineNumber": 16,
+        "endColumnNumber": 29,
+        "tainted": true,
+        "flows_from": [
+            "72"
+        ],
+        "sink_type": ""
+    },
+    "72": {
+        "operation": "call:is",
+        "value": "1995-12-17T03:24:00.000Z",
+        "file": "/nodetaint/packageData/execcli/node_modules/execcli/node_modules/iftype/lib/iftype.js",
+        "startLineNumber": 23,
+        "startColumnNumber": 12,
+        "endLineNumber": 23,
+        "endColumnNumber": 32,
+        "tainted": true,
+        "flows_from": [
+            "73"
+        ],
+        "sink_type": ""
+    },
+    "73": {
+        "operation": "object.GetField",
+        "value": "1995-12-17T03:24:00.000Z",
+        "file": "UNKNOWN",
+        "startLineNumber": -1,
+        "startColumnNumber": -1,
+        "endLineNumber": -1,
+        "endColumnNumber": -1,
+        "tainted": true,
+        "flows_from": [
+            "74",
+            "102",
+            "103"
+        ],
+        "sink_type": ""
+    },
+    "74": {
+        "operation": "imprecise:bound create",
+        "value": {
+            "_val": "1995-12-17T03:24:00.000Z"
+        },
+        "file": "/nodetaint/packageData/execcli/node_modules/execcli/node_modules/iftype/lib/iftype.js",
+        "startLineNumber": 69,
+        "startColumnNumber": 5,
+        "endLineNumber": 69,
+        "endColumnNumber": 21,
+        "tainted": true,
+        "flows_from": [
+            "75"
+        ],
+        "sink_type": ""
+    },
+    "75": {
+        "operation": "call:val",
+        "value": "1995-12-17T03:24:00.000Z",
+        "file": "/nodetaint/packageData/execcli/node_modules/execcli/node_modules/iftype/lib/iftype.js",
+        "startLineNumber": 13,
+        "startColumnNumber": 3,
+        "endLineNumber": 13,
+        "endColumnNumber": 16,
+        "tainted": true,
+        "flows_from": [
+            "76"
+        ],
+        "sink_type": ""
+    },
+    "76": {
+        "operation": "call:Iftype",
+        "value": "1995-12-17T03:24:00.000Z",
+        "file": "/nodetaint/packageData/execcli/node_modules/execcli/node_modules/iftype/lib/create.js",
+        "startLineNumber": 13,
+        "startColumnNumber": 10,
+        "endLineNumber": 13,
+        "endColumnNumber": 25,
+        "tainted": true,
+        "flows_from": [
+            "77"
+        ],
+        "sink_type": ""
+    },
+    "77": {
+        "operation": "call:bound create",
+        "value": "1995-12-17T03:24:00.000Z",
+        "file": "/nodetaint/packageData/execcli/node_modules/execcli/node_modules/argx/lib/argx.js",
+        "startLineNumber": 43,
+        "startColumnNumber": 33,
+        "endLineNumber": 43,
+        "endColumnNumber": 52,
+        "tainted": true,
+        "flows_from": [
+            "78"
+        ],
+        "sink_type": ""
+    },
+    "78": {
+        "operation": "object.GetField",
+        "value": "1995-12-17T03:24:00.000Z",
+        "file": "UNKNOWN",
+        "startLineNumber": -1,
+        "startColumnNumber": -1,
+        "endLineNumber": -1,
+        "endColumnNumber": -1,
+        "tainted": true,
+        "flows_from": [
+            "79",
+            "85",
+            "98"
+        ],
+        "sink_type": ""
+    },
+    "79": {
+        "operation": "object.GetField",
+        "value": [
+            {
+                "0": "~",
+                "1": "/"
+            }
+        ],
+        "file": "UNKNOWN",
+        "startLineNumber": -1,
+        "startColumnNumber": -1,
+        "endLineNumber": -1,
+        "endColumnNumber": -1,
+        "tainted": false,
+        "flows_from": [
+            "80",
+            "81",
+            "82"
+        ],
+        "sink_type": ""
+    },
+    "80": {
+        "operation": "Untainted",
+        "value": {
+            "values": [
+                {
+                    "0": "~",
+                    "1": "/"
+                }
+            ]
+        },
+        "file": "UNKNOWN",
+        "startLineNumber": -1,
+        "startColumnNumber": -1,
+        "endLineNumber": -1,
+        "endColumnNumber": -1,
+        "tainted": false,
+        "flows_from": [],
+        "sink_type": ""
+    },
+    "81": {
+        "operation": "Untainted",
+        "value": "values",
+        "file": "UNKNOWN",
+        "startLineNumber": -1,
+        "startColumnNumber": -1,
+        "endLineNumber": -1,
+        "endColumnNumber": -1,
+        "tainted": false,
+        "flows_from": [],
+        "sink_type": ""
+    },
+    "82": {
+        "operation": "object.GetField",
+        "value": [
+            {
+                "0": "~",
+                "1": "/"
+            }
+        ],
+        "file": "UNKNOWN",
+        "startLineNumber": -1,
+        "startColumnNumber": -1,
+        "endLineNumber": -1,
+        "endColumnNumber": -1,
+        "tainted": false,
+        "flows_from": [
+            "83",
+            "84"
+        ],
+        "sink_type": ""
+    },
+    "83": {
+        "operation": "Untainted",
+        "value": {
+            "values": [
+                {
+                    "0": "~",
+                    "1": "/"
+                }
+            ]
+        },
+        "file": "UNKNOWN",
+        "startLineNumber": -1,
+        "startColumnNumber": -1,
+        "endLineNumber": -1,
+        "endColumnNumber": -1,
+        "tainted": false,
+        "flows_from": [],
+        "sink_type": ""
+    },
+    "84": {
+        "operation": "Untainted",
+        "value": "values",
+        "file": "UNKNOWN",
+        "startLineNumber": -1,
+        "startColumnNumber": -1,
+        "endLineNumber": -1,
+        "endColumnNumber": -1,
+        "tainted": false,
+        "flows_from": [],
+        "sink_type": ""
+    },
+    "85": {
+        "operation": "-",
+        "value": 2,
+        "file": "/nodetaint/packageData/execcli/node_modules/execcli/node_modules/argx/lib/argx.js",
+        "startLineNumber": 42,
+        "startColumnNumber": 18,
+        "endLineNumber": 42,
+        "endColumnNumber": 37,
+        "tainted": false,
+        "flows_from": [
+            "86",
+            "97"
+        ],
+        "sink_type": ""
+    },
+    "86": {
+        "operation": "+",
+        "value": 3,
+        "file": "/nodetaint/packageData/execcli/node_modules/execcli/node_modules/argx/lib/argx.js",
+        "startLineNumber": 42,
+        "startColumnNumber": 18,
+        "endLineNumber": 42,
+        "endColumnNumber": 33,
+        "tainted": false,
+        "flows_from": [
+            "87",
+            "96"
+        ],
+        "sink_type": ""
+    },
+    "87": {
+        "operation": "+",
+        "value": 2,
+        "file": "/nodetaint/packageData/execcli/node_modules/execcli/node_modules/argx/lib/argx.js",
+        "startLineNumber": 38,
+        "startColumnNumber": 16,
+        "endLineNumber": 38,
+        "endColumnNumber": 31,
+        "tainted": false,
+        "flows_from": [
+            "88",
+            "91"
+        ],
+        "sink_type": ""
+    },
+    "88": {
+        "operation": "call:splice",
+        "value": -1,
+        "file": "/nodetaint/packageData/execcli/node_modules/execcli/node_modules/argx/lib/argx.js",
+        "startLineNumber": 87,
+        "startColumnNumber": 12,
+        "endLineNumber": 87,
+        "endColumnNumber": 41,
+        "tainted": false,
+        "flows_from": [
+            "89"
+        ],
+        "sink_type": ""
+    },
+    "89": {
+        "operation": "object.Unary",
+        "value": 1,
+        "file": "/nodetaint/packageData/execcli/node_modules/execcli/node_modules/argx/lib/argx.js",
+        "startLineNumber": 85,
+        "startColumnNumber": 14,
+        "endLineNumber": 85,
+        "endColumnNumber": 16,
+        "tainted": false,
+        "flows_from": [
+            "90"
+        ],
+        "sink_type": ""
+    },
+    "90": {
+        "operation": "Untainted",
+        "value": 1,
+        "file": "/nodetaint/packageData/execcli/node_modules/execcli/node_modules/argx/lib/argx.js",
+        "startLineNumber": 85,
+        "startColumnNumber": 14,
+        "endLineNumber": 85,
+        "endColumnNumber": 16,
+        "tainted": false,
+        "flows_from": [],
+        "sink_type": ""
+    },
+    "91": {
+        "operation": "object.GetField",
+        "value": 3,
+        "file": "UNKNOWN",
+        "startLineNumber": -1,
+        "startColumnNumber": -1,
+        "endLineNumber": -1,
+        "endColumnNumber": -1,
+        "tainted": false,
+        "flows_from": [
+            "92",
+            "95"
+        ],
+        "sink_type": ""
+    },
+    "92": {
+        "operation": "object.GetField",
+        "value": [
+            {
+                "0": "~",
+                "1": "/"
+            }
+        ],
+        "file": "UNKNOWN",
+        "startLineNumber": -1,
+        "startColumnNumber": -1,
+        "endLineNumber": -1,
+        "endColumnNumber": -1,
+        "tainted": false,
+        "flows_from": [
+            "93",
+            "94"
+        ],
+        "sink_type": ""
+    },
+    "93": {
+        "operation": "Untainted",
+        "value": {
+            "values": [
+                {
+                    "0": "~",
+                    "1": "/"
+                }
+            ]
+        },
+        "file": "UNKNOWN",
+        "startLineNumber": -1,
+        "startColumnNumber": -1,
+        "endLineNumber": -1,
+        "endColumnNumber": -1,
+        "tainted": false,
+        "flows_from": [],
+        "sink_type": ""
+    },
+    "94": {
+        "operation": "Untainted",
+        "value": "values",
+        "file": "UNKNOWN",
+        "startLineNumber": -1,
+        "startColumnNumber": -1,
+        "endLineNumber": -1,
+        "endColumnNumber": -1,
+        "tainted": false,
+        "flows_from": [],
+        "sink_type": ""
+    },
+    "95": {
+        "operation": "Untainted",
+        "value": "length",
+        "file": "UNKNOWN",
+        "startLineNumber": -1,
+        "startColumnNumber": -1,
+        "endLineNumber": -1,
+        "endColumnNumber": -1,
+        "tainted": false,
+        "flows_from": [],
+        "sink_type": ""
+    },
+    "96": {
+        "operation": "Untainted",
+        "value": 1,
+        "file": "/nodetaint/packageData/execcli/node_modules/execcli/node_modules/argx/lib/argx.js",
+        "startLineNumber": 42,
+        "startColumnNumber": 18,
+        "endLineNumber": 42,
+        "endColumnNumber": 33,
+        "tainted": false,
+        "flows_from": [],
+        "sink_type": ""
+    },
+    "97": {
+        "operation": "Untainted",
+        "value": 1,
+        "file": "/nodetaint/packageData/execcli/node_modules/execcli/node_modules/argx/lib/argx.js",
+        "startLineNumber": 42,
+        "startColumnNumber": 18,
+        "endLineNumber": 42,
+        "endColumnNumber": 37,
+        "tainted": false,
+        "flows_from": [],
+        "sink_type": ""
+    },
+    "98": {
+        "operation": "call:execcli",
+        "value": "1995-12-17T03:24:00.000Z",
+        "file": "/nodetaint/analysisArtifacts/run-execcli2.js",
+        "startLineNumber": 10,
+        "startColumnNumber": 1,
+        "endLineNumber": 10,
+        "endColumnNumber": 27,
+        "tainted": true,
+        "flows_from": [
+            "99"
+        ],
+        "sink_type": ""
+    },
+    "99": {
+        "operation": "Tainted",
+        "value": "1995-12-17T03:24:00.000Z",
+        "file": "/nodetaint/analysisArtifacts/run-execcli2.js",
+        "startLineNumber": 9,
+        "startColumnNumber": 1,
+        "endLineNumber": 9,
+        "endColumnNumber": 26,
+        "tainted": true,
+        "flows_from": [
+            "100"
+        ],
+        "sink_type": ""
+    },
+    "100": {
+        "operation": "call:__jalangi_set_taint__",
+        "value": "1995-12-17T03:24:00.000Z",
+        "file": "/nodetaint/analysisArtifacts/run-execcli2.js",
+        "startLineNumber": 9,
+        "startColumnNumber": 1,
+        "endLineNumber": 9,
+        "endColumnNumber": 26,
+        "tainted": false,
+        "flows_from": [
+            "101"
+        ],
+        "sink_type": ""
+    },
+    "101": {
+        "operation": "Untainted",
+        "value": "1995-12-17T03:24:00.000Z",
+        "file": "/nodetaint/analysisArtifacts/run-execcli2.js",
+        "startLineNumber": 9,
+        "startColumnNumber": 1,
+        "endLineNumber": 9,
+        "endColumnNumber": 26,
+        "tainted": false,
+        "flows_from": [],
+        "sink_type": ""
+    },
+    "102": {
+        "operation": "Untainted",
+        "value": "_val",
+        "file": "UNKNOWN",
+        "startLineNumber": -1,
+        "startColumnNumber": -1,
+        "endLineNumber": -1,
+        "endColumnNumber": -1,
+        "tainted": false,
+        "flows_from": [],
+        "sink_type": ""
+    },
+    "103": {
+        "operation": "call:val",
+        "value": "1995-12-17T03:24:00.000Z",
+        "file": "/nodetaint/packageData/execcli/node_modules/execcli/node_modules/iftype/lib/iftype.js",
+        "startLineNumber": 13,
+        "startColumnNumber": 3,
+        "endLineNumber": 13,
+        "endColumnNumber": 16,
+        "tainted": true,
+        "flows_from": [
+            "104"
+        ],
+        "sink_type": ""
+    },
+    "104": {
+        "operation": "call:Iftype",
+        "value": "1995-12-17T03:24:00.000Z",
+        "file": "/nodetaint/packageData/execcli/node_modules/execcli/node_modules/iftype/lib/create.js",
+        "startLineNumber": 13,
+        "startColumnNumber": 10,
+        "endLineNumber": 13,
+        "endColumnNumber": 25,
+        "tainted": true,
+        "flows_from": [
+            "105"
+        ],
+        "sink_type": ""
+    },
+    "105": {
+        "operation": "call:bound create",
+        "value": "1995-12-17T03:24:00.000Z",
+        "file": "/nodetaint/packageData/execcli/node_modules/execcli/node_modules/argx/lib/argx.js",
+        "startLineNumber": 43,
+        "startColumnNumber": 33,
+        "endLineNumber": 43,
+        "endColumnNumber": 52,
+        "tainted": true,
+        "flows_from": [
+            "106"
+        ],
+        "sink_type": ""
+    },
+    "106": {
+        "operation": "object.GetField",
+        "value": "1995-12-17T03:24:00.000Z",
+        "file": "UNKNOWN",
+        "startLineNumber": -1,
+        "startColumnNumber": -1,
+        "endLineNumber": -1,
+        "endColumnNumber": -1,
+        "tainted": true,
+        "flows_from": [
+            "107",
+            "113",
+            "126"
+        ],
+        "sink_type": ""
+    },
+    "107": {
+        "operation": "object.GetField",
+        "value": [
+            {
+                "0": "~",
+                "1": "/"
+            }
+        ],
+        "file": "UNKNOWN",
+        "startLineNumber": -1,
+        "startColumnNumber": -1,
+        "endLineNumber": -1,
+        "endColumnNumber": -1,
+        "tainted": false,
+        "flows_from": [
+            "108",
+            "109",
+            "110"
+        ],
+        "sink_type": ""
+    },
+    "108": {
+        "operation": "Untainted",
+        "value": {
+            "values": [
+                {
+                    "0": "~",
+                    "1": "/"
+                }
+            ]
+        },
+        "file": "UNKNOWN",
+        "startLineNumber": -1,
+        "startColumnNumber": -1,
+        "endLineNumber": -1,
+        "endColumnNumber": -1,
+        "tainted": false,
+        "flows_from": [],
+        "sink_type": ""
+    },
+    "109": {
+        "operation": "Untainted",
+        "value": "values",
+        "file": "UNKNOWN",
+        "startLineNumber": -1,
+        "startColumnNumber": -1,
+        "endLineNumber": -1,
+        "endColumnNumber": -1,
+        "tainted": false,
+        "flows_from": [],
+        "sink_type": ""
+    },
+    "110": {
+        "operation": "object.GetField",
+        "value": [
+            {
+                "0": "~",
+                "1": "/"
+            }
+        ],
+        "file": "UNKNOWN",
+        "startLineNumber": -1,
+        "startColumnNumber": -1,
+        "endLineNumber": -1,
+        "endColumnNumber": -1,
+        "tainted": false,
+        "flows_from": [
+            "111",
+            "112"
+        ],
+        "sink_type": ""
+    },
+    "111": {
+        "operation": "Untainted",
+        "value": {
+            "values": [
+                {
+                    "0": "~",
+                    "1": "/"
+                }
+            ]
+        },
+        "file": "UNKNOWN",
+        "startLineNumber": -1,
+        "startColumnNumber": -1,
+        "endLineNumber": -1,
+        "endColumnNumber": -1,
+        "tainted": false,
+        "flows_from": [],
+        "sink_type": ""
+    },
+    "112": {
+        "operation": "Untainted",
+        "value": "values",
+        "file": "UNKNOWN",
+        "startLineNumber": -1,
+        "startColumnNumber": -1,
+        "endLineNumber": -1,
+        "endColumnNumber": -1,
+        "tainted": false,
+        "flows_from": [],
+        "sink_type": ""
+    },
+    "113": {
+        "operation": "-",
+        "value": 2,
+        "file": "/nodetaint/packageData/execcli/node_modules/execcli/node_modules/argx/lib/argx.js",
+        "startLineNumber": 42,
+        "startColumnNumber": 18,
+        "endLineNumber": 42,
+        "endColumnNumber": 37,
+        "tainted": false,
+        "flows_from": [
+            "114",
+            "125"
+        ],
+        "sink_type": ""
+    },
+    "114": {
+        "operation": "+",
+        "value": 3,
+        "file": "/nodetaint/packageData/execcli/node_modules/execcli/node_modules/argx/lib/argx.js",
+        "startLineNumber": 42,
+        "startColumnNumber": 18,
+        "endLineNumber": 42,
+        "endColumnNumber": 33,
+        "tainted": false,
+        "flows_from": [
+            "115",
+            "124"
+        ],
+        "sink_type": ""
+    },
+    "115": {
+        "operation": "+",
+        "value": 2,
+        "file": "/nodetaint/packageData/execcli/node_modules/execcli/node_modules/argx/lib/argx.js",
+        "startLineNumber": 38,
+        "startColumnNumber": 16,
+        "endLineNumber": 38,
+        "endColumnNumber": 31,
+        "tainted": false,
+        "flows_from": [
+            "116",
+            "119"
+        ],
+        "sink_type": ""
+    },
+    "116": {
+        "operation": "call:splice",
+        "value": -1,
+        "file": "/nodetaint/packageData/execcli/node_modules/execcli/node_modules/argx/lib/argx.js",
+        "startLineNumber": 87,
+        "startColumnNumber": 12,
+        "endLineNumber": 87,
+        "endColumnNumber": 41,
+        "tainted": false,
+        "flows_from": [
+            "117"
+        ],
+        "sink_type": ""
+    },
+    "117": {
+        "operation": "object.Unary",
+        "value": 1,
+        "file": "/nodetaint/packageData/execcli/node_modules/execcli/node_modules/argx/lib/argx.js",
+        "startLineNumber": 85,
+        "startColumnNumber": 14,
+        "endLineNumber": 85,
+        "endColumnNumber": 16,
+        "tainted": false,
+        "flows_from": [
+            "118"
+        ],
+        "sink_type": ""
+    },
+    "118": {
+        "operation": "Untainted",
+        "value": 1,
+        "file": "/nodetaint/packageData/execcli/node_modules/execcli/node_modules/argx/lib/argx.js",
+        "startLineNumber": 85,
+        "startColumnNumber": 14,
+        "endLineNumber": 85,
+        "endColumnNumber": 16,
+        "tainted": false,
+        "flows_from": [],
+        "sink_type": ""
+    },
+    "119": {
+        "operation": "object.GetField",
+        "value": 3,
+        "file": "UNKNOWN",
+        "startLineNumber": -1,
+        "startColumnNumber": -1,
+        "endLineNumber": -1,
+        "endColumnNumber": -1,
+        "tainted": false,
+        "flows_from": [
+            "120",
+            "123"
+        ],
+        "sink_type": ""
+    },
+    "120": {
+        "operation": "object.GetField",
+        "value": [
+            {
+                "0": "~",
+                "1": "/"
+            }
+        ],
+        "file": "UNKNOWN",
+        "startLineNumber": -1,
+        "startColumnNumber": -1,
+        "endLineNumber": -1,
+        "endColumnNumber": -1,
+        "tainted": false,
+        "flows_from": [
+            "121",
+            "122"
+        ],
+        "sink_type": ""
+    },
+    "121": {
+        "operation": "Untainted",
+        "value": {
+            "values": [
+                {
+                    "0": "~",
+                    "1": "/"
+                }
+            ]
+        },
+        "file": "UNKNOWN",
+        "startLineNumber": -1,
+        "startColumnNumber": -1,
+        "endLineNumber": -1,
+        "endColumnNumber": -1,
+        "tainted": false,
+        "flows_from": [],
+        "sink_type": ""
+    },
+    "122": {
+        "operation": "Untainted",
+        "value": "values",
+        "file": "UNKNOWN",
+        "startLineNumber": -1,
+        "startColumnNumber": -1,
+        "endLineNumber": -1,
+        "endColumnNumber": -1,
+        "tainted": false,
+        "flows_from": [],
+        "sink_type": ""
+    },
+    "123": {
+        "operation": "Untainted",
+        "value": "length",
+        "file": "UNKNOWN",
+        "startLineNumber": -1,
+        "startColumnNumber": -1,
+        "endLineNumber": -1,
+        "endColumnNumber": -1,
+        "tainted": false,
+        "flows_from": [],
+        "sink_type": ""
+    },
+    "124": {
+        "operation": "Untainted",
+        "value": 1,
+        "file": "/nodetaint/packageData/execcli/node_modules/execcli/node_modules/argx/lib/argx.js",
+        "startLineNumber": 42,
+        "startColumnNumber": 18,
+        "endLineNumber": 42,
+        "endColumnNumber": 33,
+        "tainted": false,
+        "flows_from": [],
+        "sink_type": ""
+    },
+    "125": {
+        "operation": "Untainted",
+        "value": 1,
+        "file": "/nodetaint/packageData/execcli/node_modules/execcli/node_modules/argx/lib/argx.js",
+        "startLineNumber": 42,
+        "startColumnNumber": 18,
+        "endLineNumber": 42,
+        "endColumnNumber": 37,
+        "tainted": false,
+        "flows_from": [],
+        "sink_type": ""
+    },
+    "126": {
+        "operation": "call:execcli",
+        "value": "1995-12-17T03:24:00.000Z",
+        "file": "/nodetaint/analysisArtifacts/run-execcli2.js",
+        "startLineNumber": 10,
+        "startColumnNumber": 1,
+        "endLineNumber": 10,
+        "endColumnNumber": 27,
+        "tainted": true,
+        "flows_from": [
+            "127"
+        ],
+        "sink_type": ""
+    },
+    "127": {
+        "operation": "Tainted",
+        "value": "1995-12-17T03:24:00.000Z",
+        "file": "/nodetaint/analysisArtifacts/run-execcli2.js",
+        "startLineNumber": 9,
+        "startColumnNumber": 1,
+        "endLineNumber": 9,
+        "endColumnNumber": 26,
+        "tainted": true,
+        "flows_from": [
+            "128"
+        ],
+        "sink_type": ""
+    },
+    "128": {
+        "operation": "call:__jalangi_set_taint__",
+        "value": "1995-12-17T03:24:00.000Z",
+        "file": "/nodetaint/analysisArtifacts/run-execcli2.js",
+        "startLineNumber": 9,
+        "startColumnNumber": 1,
+        "endLineNumber": 9,
+        "endColumnNumber": 26,
+        "tainted": false,
+        "flows_from": [
+            "129"
+        ],
+        "sink_type": ""
+    },
+    "129": {
+        "operation": "Untainted",
+        "value": "1995-12-17T03:24:00.000Z",
+        "file": "/nodetaint/analysisArtifacts/run-execcli2.js",
+        "startLineNumber": 9,
+        "startColumnNumber": 1,
+        "endLineNumber": 9,
+        "endColumnNumber": 26,
+        "tainted": false,
+        "flows_from": [],
+        "sink_type": ""
+    },
+    "130": {
+        "operation": "Untainted",
+        "value": "_val",
+        "file": "UNKNOWN",
+        "startLineNumber": -1,
+        "startColumnNumber": -1,
+        "endLineNumber": -1,
+        "endColumnNumber": -1,
+        "tainted": false,
+        "flows_from": [],
+        "sink_type": ""
+    },
+    "131": {
+        "operation": "call:val",
+        "value": "1995-12-17T03:24:00.000Z",
+        "file": "/nodetaint/packageData/execcli/node_modules/execcli/node_modules/iftype/lib/iftype.js",
+        "startLineNumber": 13,
+        "startColumnNumber": 3,
+        "endLineNumber": 13,
+        "endColumnNumber": 16,
+        "tainted": true,
+        "flows_from": [
+            "132"
+        ],
+        "sink_type": ""
+    },
+    "132": {
+        "operation": "call:Iftype",
+        "value": "1995-12-17T03:24:00.000Z",
+        "file": "/nodetaint/packageData/execcli/node_modules/execcli/node_modules/iftype/lib/create.js",
+        "startLineNumber": 13,
+        "startColumnNumber": 10,
+        "endLineNumber": 13,
+        "endColumnNumber": 25,
+        "tainted": true,
+        "flows_from": [
+            "133"
+        ],
+        "sink_type": ""
+    },
+    "133": {
+        "operation": "call:bound create",
+        "value": "1995-12-17T03:24:00.000Z",
+        "file": "/nodetaint/packageData/execcli/node_modules/execcli/node_modules/argx/lib/argx.js",
+        "startLineNumber": 43,
+        "startColumnNumber": 33,
+        "endLineNumber": 43,
+        "endColumnNumber": 52,
+        "tainted": true,
+        "flows_from": [
+            "134"
+        ],
+        "sink_type": ""
+    },
+    "134": {
+        "operation": "object.GetField",
+        "value": "1995-12-17T03:24:00.000Z",
+        "file": "UNKNOWN",
+        "startLineNumber": -1,
+        "startColumnNumber": -1,
+        "endLineNumber": -1,
+        "endColumnNumber": -1,
+        "tainted": true,
+        "flows_from": [
+            "135",
+            "156",
+            "184"
+        ],
+        "sink_type": ""
+    },
+    "135": {
+        "operation": "object.GetField",
+        "value": [
+            {
+                "0": "~",
+                "1": "/"
+            }
+        ],
+        "file": "UNKNOWN",
+        "startLineNumber": -1,
+        "startColumnNumber": -1,
+        "endLineNumber": -1,
+        "endColumnNumber": -1,
+        "tainted": false,
+        "flows_from": [
+            "136",
+            "137",
+            "138"
+        ],
+        "sink_type": ""
+    },
+    "136": {
+        "operation": "Untainted",
+        "value": {
+            "values": [
+                {
+                    "0": "~",
+                    "1": "/"
+                }
+            ]
+        },
+        "file": "UNKNOWN",
+        "startLineNumber": -1,
+        "startColumnNumber": -1,
+        "endLineNumber": -1,
+        "endColumnNumber": -1,
+        "tainted": false,
+        "flows_from": [],
+        "sink_type": ""
+    },
+    "137": {
+        "operation": "Untainted",
+        "value": "values",
+        "file": "UNKNOWN",
+        "startLineNumber": -1,
+        "startColumnNumber": -1,
+        "endLineNumber": -1,
+        "endColumnNumber": -1,
+        "tainted": false,
+        "flows_from": [],
+        "sink_type": ""
+    },
+    "138": {
+        "operation": "object.GetField",
+        "value": [
+            {
+                "0": "~",
+                "1": "/"
+            }
+        ],
+        "file": "UNKNOWN",
+        "startLineNumber": -1,
+        "startColumnNumber": -1,
+        "endLineNumber": -1,
+        "endColumnNumber": -1,
+        "tainted": false,
+        "flows_from": [
+            "139",
+            "140",
+            "141"
+        ],
+        "sink_type": ""
+    },
+    "139": {
+        "operation": "Untainted",
+        "value": {
+            "values": [
+                {
+                    "0": "~",
+                    "1": "/"
+                }
+            ]
+        },
+        "file": "UNKNOWN",
+        "startLineNumber": -1,
+        "startColumnNumber": -1,
+        "endLineNumber": -1,
+        "endColumnNumber": -1,
+        "tainted": false,
+        "flows_from": [],
+        "sink_type": ""
+    },
+    "140": {
+        "operation": "Untainted",
+        "value": "values",
+        "file": "UNKNOWN",
+        "startLineNumber": -1,
+        "startColumnNumber": -1,
+        "endLineNumber": -1,
+        "endColumnNumber": -1,
+        "tainted": false,
+        "flows_from": [],
+        "sink_type": ""
+    },
+    "141": {
+        "operation": "object.GetField",
+        "value": [
+            {
+                "0": "~",
+                "1": "/"
+            }
+        ],
+        "file": "UNKNOWN",
+        "startLineNumber": -1,
+        "startColumnNumber": -1,
+        "endLineNumber": -1,
+        "endColumnNumber": -1,
+        "tainted": false,
+        "flows_from": [
+            "142",
+            "143",
+            "144"
+        ],
+        "sink_type": ""
+    },
+    "142": {
+        "operation": "Untainted",
+        "value": {
+            "values": [
+                {
+                    "0": "~",
+                    "1": "/"
+                }
+            ]
+        },
+        "file": "UNKNOWN",
+        "startLineNumber": -1,
+        "startColumnNumber": -1,
+        "endLineNumber": -1,
+        "endColumnNumber": -1,
+        "tainted": false,
+        "flows_from": [],
+        "sink_type": ""
+    },
+    "143": {
+        "operation": "Untainted",
+        "value": "values",
+        "file": "UNKNOWN",
+        "startLineNumber": -1,
+        "startColumnNumber": -1,
+        "endLineNumber": -1,
+        "endColumnNumber": -1,
+        "tainted": false,
+        "flows_from": [],
+        "sink_type": ""
+    },
+    "144": {
+        "operation": "object.GetField",
+        "value": [
+            {
+                "0": "~",
+                "1": "/"
+            }
+        ],
+        "file": "UNKNOWN",
+        "startLineNumber": -1,
+        "startColumnNumber": -1,
+        "endLineNumber": -1,
+        "endColumnNumber": -1,
+        "tainted": false,
+        "flows_from": [
+            "145",
+            "146",
+            "147"
+        ],
+        "sink_type": ""
+    },
+    "145": {
+        "operation": "Untainted",
+        "value": {
+            "values": [
+                {
+                    "0": "~",
+                    "1": "/"
+                }
+            ]
+        },
+        "file": "UNKNOWN",
+        "startLineNumber": -1,
+        "startColumnNumber": -1,
+        "endLineNumber": -1,
+        "endColumnNumber": -1,
+        "tainted": false,
+        "flows_from": [],
+        "sink_type": ""
+    },
+    "146": {
+        "operation": "Untainted",
+        "value": "values",
+        "file": "UNKNOWN",
+        "startLineNumber": -1,
+        "startColumnNumber": -1,
+        "endLineNumber": -1,
+        "endColumnNumber": -1,
+        "tainted": false,
+        "flows_from": [],
+        "sink_type": ""
+    },
+    "147": {
+        "operation": "object.GetField",
+        "value": [
+            {
+                "0": "~",
+                "1": "/"
+            }
+        ],
+        "file": "UNKNOWN",
+        "startLineNumber": -1,
+        "startColumnNumber": -1,
+        "endLineNumber": -1,
+        "endColumnNumber": -1,
+        "tainted": false,
+        "flows_from": [
+            "148",
+            "149",
+            "150"
+        ],
+        "sink_type": ""
+    },
+    "148": {
+        "operation": "Untainted",
+        "value": {
+            "values": [
+                {
+                    "0": "~",
+                    "1": "/"
+                }
+            ]
+        },
+        "file": "UNKNOWN",
+        "startLineNumber": -1,
+        "startColumnNumber": -1,
+        "endLineNumber": -1,
+        "endColumnNumber": -1,
+        "tainted": false,
+        "flows_from": [],
+        "sink_type": ""
+    },
+    "149": {
+        "operation": "Untainted",
+        "value": "values",
+        "file": "UNKNOWN",
+        "startLineNumber": -1,
+        "startColumnNumber": -1,
+        "endLineNumber": -1,
+        "endColumnNumber": -1,
+        "tainted": false,
+        "flows_from": [],
+        "sink_type": ""
+    },
+    "150": {
+        "operation": "object.GetField",
+        "value": [
+            {
+                "0": "~",
+                "1": "/"
+            }
+        ],
+        "file": "UNKNOWN",
+        "startLineNumber": -1,
+        "startColumnNumber": -1,
+        "endLineNumber": -1,
+        "endColumnNumber": -1,
+        "tainted": false,
+        "flows_from": [
+            "151",
+            "152",
+            "153"
+        ],
+        "sink_type": ""
+    },
+    "151": {
+        "operation": "Untainted",
+        "value": {
+            "values": [
+                {
+                    "0": "~",
+                    "1": "/"
+                }
+            ]
+        },
+        "file": "UNKNOWN",
+        "startLineNumber": -1,
+        "startColumnNumber": -1,
+        "endLineNumber": -1,
+        "endColumnNumber": -1,
+        "tainted": false,
+        "flows_from": [],
+        "sink_type": ""
+    },
+    "152": {
+        "operation": "Untainted",
+        "value": "values",
+        "file": "UNKNOWN",
+        "startLineNumber": -1,
+        "startColumnNumber": -1,
+        "endLineNumber": -1,
+        "endColumnNumber": -1,
+        "tainted": false,
+        "flows_from": [],
+        "sink_type": ""
+    },
+    "153": {
+        "operation": "object.GetField",
+        "value": [
+            {
+                "0": "~",
+                "1": "/"
+            }
+        ],
+        "file": "UNKNOWN",
+        "startLineNumber": -1,
+        "startColumnNumber": -1,
+        "endLineNumber": -1,
+        "endColumnNumber": -1,
+        "tainted": false,
+        "flows_from": [
+            "154",
+            "155"
+        ],
+        "sink_type": ""
+    },
+    "154": {
+        "operation": "Untainted",
+        "value": {
+            "values": [
+                {
+                    "0": "~",
+                    "1": "/"
+                }
+            ]
+        },
+        "file": "UNKNOWN",
+        "startLineNumber": -1,
+        "startColumnNumber": -1,
+        "endLineNumber": -1,
+        "endColumnNumber": -1,
+        "tainted": false,
+        "flows_from": [],
+        "sink_type": ""
+    },
+    "155": {
+        "operation": "Untainted",
+        "value": "values",
+        "file": "UNKNOWN",
+        "startLineNumber": -1,
+        "startColumnNumber": -1,
+        "endLineNumber": -1,
+        "endColumnNumber": -1,
+        "tainted": false,
+        "flows_from": [],
+        "sink_type": ""
+    },
+    "156": {
+        "operation": "-",
+        "value": 1,
+        "file": "/nodetaint/packageData/execcli/node_modules/execcli/node_modules/argx/lib/argx.js",
+        "startLineNumber": 42,
+        "startColumnNumber": 18,
+        "endLineNumber": 42,
+        "endColumnNumber": 37,
+        "tainted": false,
+        "flows_from": [
+            "157",
+            "183"
+        ],
+        "sink_type": ""
+    },
+    "157": {
+        "operation": "+",
+        "value": 2,
+        "file": "/nodetaint/packageData/execcli/node_modules/execcli/node_modules/argx/lib/argx.js",
+        "startLineNumber": 42,
+        "startColumnNumber": 18,
+        "endLineNumber": 42,
+        "endColumnNumber": 33,
+        "tainted": false,
+        "flows_from": [
+            "158",
+            "182"
+        ],
+        "sink_type": ""
+    },
+    "158": {
+        "operation": "+",
+        "value": 1,
+        "file": "/nodetaint/packageData/execcli/node_modules/execcli/node_modules/argx/lib/argx.js",
+        "startLineNumber": 38,
+        "startColumnNumber": 16,
+        "endLineNumber": 38,
+        "endColumnNumber": 31,
+        "tainted": false,
+        "flows_from": [
+            "159",
+            "162"
+        ],
+        "sink_type": ""
+    },
+    "159": {
+        "operation": "call:splice",
+        "value": -1,
+        "file": "/nodetaint/packageData/execcli/node_modules/execcli/node_modules/argx/lib/argx.js",
+        "startLineNumber": 87,
+        "startColumnNumber": 12,
+        "endLineNumber": 87,
+        "endColumnNumber": 41,
+        "tainted": false,
+        "flows_from": [
+            "160"
+        ],
+        "sink_type": ""
+    },
+    "160": {
+        "operation": "object.Unary",
+        "value": 1,
+        "file": "/nodetaint/packageData/execcli/node_modules/execcli/node_modules/argx/lib/argx.js",
+        "startLineNumber": 85,
+        "startColumnNumber": 14,
+        "endLineNumber": 85,
+        "endColumnNumber": 16,
+        "tainted": false,
+        "flows_from": [
+            "161"
+        ],
+        "sink_type": ""
+    },
+    "161": {
+        "operation": "Untainted",
+        "value": 1,
+        "file": "/nodetaint/packageData/execcli/node_modules/execcli/node_modules/argx/lib/argx.js",
+        "startLineNumber": 85,
+        "startColumnNumber": 14,
+        "endLineNumber": 85,
+        "endColumnNumber": 16,
+        "tainted": false,
+        "flows_from": [],
+        "sink_type": ""
+    },
+    "162": {
+        "operation": "object.GetField",
+        "value": 2,
+        "file": "UNKNOWN",
+        "startLineNumber": -1,
+        "startColumnNumber": -1,
+        "endLineNumber": -1,
+        "endColumnNumber": -1,
+        "tainted": false,
+        "flows_from": [
+            "163",
+            "181"
+        ],
+        "sink_type": ""
+    },
+    "163": {
+        "operation": "object.GetField",
+        "value": [
+            {
+                "0": "~",
+                "1": "/"
+            }
+        ],
+        "file": "UNKNOWN",
+        "startLineNumber": -1,
+        "startColumnNumber": -1,
+        "endLineNumber": -1,
+        "endColumnNumber": -1,
+        "tainted": false,
+        "flows_from": [
+            "164",
+            "165",
+            "166"
+        ],
+        "sink_type": ""
+    },
+    "164": {
+        "operation": "Untainted",
+        "value": {
+            "values": [
+                {
+                    "0": "~",
+                    "1": "/"
+                }
+            ]
+        },
+        "file": "UNKNOWN",
+        "startLineNumber": -1,
+        "startColumnNumber": -1,
+        "endLineNumber": -1,
+        "endColumnNumber": -1,
+        "tainted": false,
+        "flows_from": [],
+        "sink_type": ""
+    },
+    "165": {
+        "operation": "Untainted",
+        "value": "values",
+        "file": "UNKNOWN",
+        "startLineNumber": -1,
+        "startColumnNumber": -1,
+        "endLineNumber": -1,
+        "endColumnNumber": -1,
+        "tainted": false,
+        "flows_from": [],
+        "sink_type": ""
+    },
+    "166": {
+        "operation": "object.GetField",
+        "value": [
+            {
+                "0": "~",
+                "1": "/"
+            }
+        ],
+        "file": "UNKNOWN",
+        "startLineNumber": -1,
+        "startColumnNumber": -1,
+        "endLineNumber": -1,
+        "endColumnNumber": -1,
+        "tainted": false,
+        "flows_from": [
+            "167",
+            "168",
+            "169"
+        ],
+        "sink_type": ""
+    },
+    "167": {
+        "operation": "Untainted",
+        "value": {
+            "values": [
+                {
+                    "0": "~",
+                    "1": "/"
+                }
+            ]
+        },
+        "file": "UNKNOWN",
+        "startLineNumber": -1,
+        "startColumnNumber": -1,
+        "endLineNumber": -1,
+        "endColumnNumber": -1,
+        "tainted": false,
+        "flows_from": [],
+        "sink_type": ""
+    },
+    "168": {
+        "operation": "Untainted",
+        "value": "values",
+        "file": "UNKNOWN",
+        "startLineNumber": -1,
+        "startColumnNumber": -1,
+        "endLineNumber": -1,
+        "endColumnNumber": -1,
+        "tainted": false,
+        "flows_from": [],
+        "sink_type": ""
+    },
+    "169": {
+        "operation": "object.GetField",
+        "value": [
+            {
+                "0": "~",
+                "1": "/"
+            }
+        ],
+        "file": "UNKNOWN",
+        "startLineNumber": -1,
+        "startColumnNumber": -1,
+        "endLineNumber": -1,
+        "endColumnNumber": -1,
+        "tainted": false,
+        "flows_from": [
+            "170",
+            "171",
+            "172"
+        ],
+        "sink_type": ""
+    },
+    "170": {
+        "operation": "Untainted",
+        "value": {
+            "values": [
+                {
+                    "0": "~",
+                    "1": "/"
+                }
+            ]
+        },
+        "file": "UNKNOWN",
+        "startLineNumber": -1,
+        "startColumnNumber": -1,
+        "endLineNumber": -1,
+        "endColumnNumber": -1,
+        "tainted": false,
+        "flows_from": [],
+        "sink_type": ""
+    },
+    "171": {
+        "operation": "Untainted",
+        "value": "values",
+        "file": "UNKNOWN",
+        "startLineNumber": -1,
+        "startColumnNumber": -1,
+        "endLineNumber": -1,
+        "endColumnNumber": -1,
+        "tainted": false,
+        "flows_from": [],
+        "sink_type": ""
+    },
+    "172": {
+        "operation": "object.GetField",
+        "value": [
+            {
+                "0": "~",
+                "1": "/"
+            }
+        ],
+        "file": "UNKNOWN",
+        "startLineNumber": -1,
+        "startColumnNumber": -1,
+        "endLineNumber": -1,
+        "endColumnNumber": -1,
+        "tainted": false,
+        "flows_from": [
+            "173",
+            "174",
+            "175"
+        ],
+        "sink_type": ""
+    },
+    "173": {
+        "operation": "Untainted",
+        "value": {
+            "values": [
+                {
+                    "0": "~",
+                    "1": "/"
+                }
+            ]
+        },
+        "file": "UNKNOWN",
+        "startLineNumber": -1,
+        "startColumnNumber": -1,
+        "endLineNumber": -1,
+        "endColumnNumber": -1,
+        "tainted": false,
+        "flows_from": [],
+        "sink_type": ""
+    },
+    "174": {
+        "operation": "Untainted",
+        "value": "values",
+        "file": "UNKNOWN",
+        "startLineNumber": -1,
+        "startColumnNumber": -1,
+        "endLineNumber": -1,
+        "endColumnNumber": -1,
+        "tainted": false,
+        "flows_from": [],
+        "sink_type": ""
+    },
+    "175": {
+        "operation": "object.GetField",
+        "value": [
+            {
+                "0": "~",
+                "1": "/"
+            }
+        ],
+        "file": "UNKNOWN",
+        "startLineNumber": -1,
+        "startColumnNumber": -1,
+        "endLineNumber": -1,
+        "endColumnNumber": -1,
+        "tainted": false,
+        "flows_from": [
+            "176",
+            "177",
+            "178"
+        ],
+        "sink_type": ""
+    },
+    "176": {
+        "operation": "Untainted",
+        "value": {
+            "values": [
+                {
+                    "0": "~",
+                    "1": "/"
+                }
+            ]
+        },
+        "file": "UNKNOWN",
+        "startLineNumber": -1,
+        "startColumnNumber": -1,
+        "endLineNumber": -1,
+        "endColumnNumber": -1,
+        "tainted": false,
+        "flows_from": [],
+        "sink_type": ""
+    },
+    "177": {
+        "operation": "Untainted",
+        "value": "values",
+        "file": "UNKNOWN",
+        "startLineNumber": -1,
+        "startColumnNumber": -1,
+        "endLineNumber": -1,
+        "endColumnNumber": -1,
+        "tainted": false,
+        "flows_from": [],
+        "sink_type": ""
+    },
+    "178": {
+        "operation": "object.GetField",
+        "value": [
+            {
+                "0": "~",
+                "1": "/"
+            }
+        ],
+        "file": "UNKNOWN",
+        "startLineNumber": -1,
+        "startColumnNumber": -1,
+        "endLineNumber": -1,
+        "endColumnNumber": -1,
+        "tainted": false,
+        "flows_from": [
+            "179",
+            "180"
+        ],
+        "sink_type": ""
+    },
+    "179": {
+        "operation": "Untainted",
+        "value": {
+            "values": [
+                {
+                    "0": "~",
+                    "1": "/"
+                }
+            ]
+        },
+        "file": "UNKNOWN",
+        "startLineNumber": -1,
+        "startColumnNumber": -1,
+        "endLineNumber": -1,
+        "endColumnNumber": -1,
+        "tainted": false,
+        "flows_from": [],
+        "sink_type": ""
+    },
+    "180": {
+        "operation": "Untainted",
+        "value": "values",
+        "file": "UNKNOWN",
+        "startLineNumber": -1,
+        "startColumnNumber": -1,
+        "endLineNumber": -1,
+        "endColumnNumber": -1,
+        "tainted": false,
+        "flows_from": [],
+        "sink_type": ""
+    },
+    "181": {
+        "operation": "Untainted",
+        "value": "length",
+        "file": "UNKNOWN",
+        "startLineNumber": -1,
+        "startColumnNumber": -1,
+        "endLineNumber": -1,
+        "endColumnNumber": -1,
+        "tainted": false,
+        "flows_from": [],
+        "sink_type": ""
+    },
+    "182": {
+        "operation": "Untainted",
+        "value": 1,
+        "file": "/nodetaint/packageData/execcli/node_modules/execcli/node_modules/argx/lib/argx.js",
+        "startLineNumber": 42,
+        "startColumnNumber": 18,
+        "endLineNumber": 42,
+        "endColumnNumber": 33,
+        "tainted": false,
+        "flows_from": [],
+        "sink_type": ""
+    },
+    "183": {
+        "operation": "Untainted",
+        "value": 1,
+        "file": "/nodetaint/packageData/execcli/node_modules/execcli/node_modules/argx/lib/argx.js",
+        "startLineNumber": 42,
+        "startColumnNumber": 18,
+        "endLineNumber": 42,
+        "endColumnNumber": 37,
+        "tainted": false,
+        "flows_from": [],
+        "sink_type": ""
+    },
+    "184": {
+        "operation": "call:Anonymous Function",
+        "value": "1995-12-17T03:24:00.000Z",
+        "file": "/nodetaint/packageData/execcli/node_modules/execcli/node_modules/iftype/lib/type/type_hits.js",
+        "startLineNumber": 35,
+        "startColumnNumber": 14,
+        "endLineNumber": 35,
+        "endColumnNumber": 28,
+        "tainted": true,
+        "flows_from": [
+            "185"
+        ],
+        "sink_type": ""
+    },
+    "185": {
+        "operation": "call:typeHits",
+        "value": "1995-12-17T03:24:00.000Z",
+        "file": "/nodetaint/packageData/execcli/node_modules/execcli/node_modules/iftype/lib/is.js",
+        "startLineNumber": 16,
+        "startColumnNumber": 10,
+        "endLineNumber": 16,
+        "endColumnNumber": 29,
+        "tainted": true,
+        "flows_from": [
+            "186"
+        ],
+        "sink_type": ""
+    },
+    "186": {
+        "operation": "call:is",
+        "value": "1995-12-17T03:24:00.000Z",
+        "file": "/nodetaint/packageData/execcli/node_modules/execcli/node_modules/iftype/lib/iftype.js",
+        "startLineNumber": 23,
+        "startColumnNumber": 12,
+        "endLineNumber": 23,
+        "endColumnNumber": 32,
+        "tainted": true,
+        "flows_from": [
+            "187"
+        ],
+        "sink_type": ""
+    },
+    "187": {
+        "operation": "object.GetField",
+        "value": "1995-12-17T03:24:00.000Z",
+        "file": "UNKNOWN",
+        "startLineNumber": -1,
+        "startColumnNumber": -1,
+        "endLineNumber": -1,
+        "endColumnNumber": -1,
+        "tainted": true,
+        "flows_from": [
+            "188",
+            "216",
+            "217"
+        ],
+        "sink_type": ""
+    },
+    "188": {
+        "operation": "imprecise:bound create",
+        "value": {
+            "_val": "1995-12-17T03:24:00.000Z"
+        },
+        "file": "/nodetaint/packageData/execcli/node_modules/execcli/node_modules/iftype/lib/iftype.js",
+        "startLineNumber": 69,
+        "startColumnNumber": 5,
+        "endLineNumber": 69,
+        "endColumnNumber": 21,
+        "tainted": true,
+        "flows_from": [
+            "189"
+        ],
+        "sink_type": ""
+    },
+    "189": {
+        "operation": "call:val",
+        "value": "1995-12-17T03:24:00.000Z",
+        "file": "/nodetaint/packageData/execcli/node_modules/execcli/node_modules/iftype/lib/iftype.js",
+        "startLineNumber": 13,
+        "startColumnNumber": 3,
+        "endLineNumber": 13,
+        "endColumnNumber": 16,
+        "tainted": true,
+        "flows_from": [
+            "190"
+        ],
+        "sink_type": ""
+    },
+    "190": {
+        "operation": "call:Iftype",
+        "value": "1995-12-17T03:24:00.000Z",
+        "file": "/nodetaint/packageData/execcli/node_modules/execcli/node_modules/iftype/lib/create.js",
+        "startLineNumber": 13,
+        "startColumnNumber": 10,
+        "endLineNumber": 13,
+        "endColumnNumber": 25,
+        "tainted": true,
+        "flows_from": [
+            "191"
+        ],
+        "sink_type": ""
+    },
+    "191": {
+        "operation": "call:bound create",
+        "value": "1995-12-17T03:24:00.000Z",
+        "file": "/nodetaint/packageData/execcli/node_modules/execcli/node_modules/argx/lib/argx.js",
+        "startLineNumber": 43,
+        "startColumnNumber": 33,
+        "endLineNumber": 43,
+        "endColumnNumber": 52,
+        "tainted": true,
+        "flows_from": [
+            "192"
+        ],
+        "sink_type": ""
+    },
+    "192": {
+        "operation": "object.GetField",
+        "value": "1995-12-17T03:24:00.000Z",
+        "file": "UNKNOWN",
+        "startLineNumber": -1,
+        "startColumnNumber": -1,
+        "endLineNumber": -1,
+        "endColumnNumber": -1,
+        "tainted": true,
+        "flows_from": [
+            "193",
+            "199",
+            "212"
+        ],
+        "sink_type": ""
+    },
+    "193": {
+        "operation": "object.GetField",
+        "value": [
+            {
+                "0": "~",
+                "1": "/"
+            }
+        ],
+        "file": "UNKNOWN",
+        "startLineNumber": -1,
+        "startColumnNumber": -1,
+        "endLineNumber": -1,
+        "endColumnNumber": -1,
+        "tainted": false,
+        "flows_from": [
+            "194",
+            "195",
+            "196"
+        ],
+        "sink_type": ""
+    },
+    "194": {
+        "operation": "Untainted",
+        "value": {
+            "values": [
+                {
+                    "0": "~",
+                    "1": "/"
+                }
+            ]
+        },
+        "file": "UNKNOWN",
+        "startLineNumber": -1,
+        "startColumnNumber": -1,
+        "endLineNumber": -1,
+        "endColumnNumber": -1,
+        "tainted": false,
+        "flows_from": [],
+        "sink_type": ""
+    },
+    "195": {
+        "operation": "Untainted",
+        "value": "values",
+        "file": "UNKNOWN",
+        "startLineNumber": -1,
+        "startColumnNumber": -1,
+        "endLineNumber": -1,
+        "endColumnNumber": -1,
+        "tainted": false,
+        "flows_from": [],
+        "sink_type": ""
+    },
+    "196": {
+        "operation": "object.GetField",
+        "value": [
+            {
+                "0": "~",
+                "1": "/"
+            }
+        ],
+        "file": "UNKNOWN",
+        "startLineNumber": -1,
+        "startColumnNumber": -1,
+        "endLineNumber": -1,
+        "endColumnNumber": -1,
+        "tainted": false,
+        "flows_from": [
+            "197",
+            "198"
+        ],
+        "sink_type": ""
+    },
+    "197": {
+        "operation": "Untainted",
+        "value": {
+            "values": [
+                {
+                    "0": "~",
+                    "1": "/"
+                }
+            ]
+        },
+        "file": "UNKNOWN",
+        "startLineNumber": -1,
+        "startColumnNumber": -1,
+        "endLineNumber": -1,
+        "endColumnNumber": -1,
+        "tainted": false,
+        "flows_from": [],
+        "sink_type": ""
+    },
+    "198": {
+        "operation": "Untainted",
+        "value": "values",
+        "file": "UNKNOWN",
+        "startLineNumber": -1,
+        "startColumnNumber": -1,
+        "endLineNumber": -1,
+        "endColumnNumber": -1,
+        "tainted": false,
+        "flows_from": [],
+        "sink_type": ""
+    },
+    "199": {
+        "operation": "-",
+        "value": 2,
+        "file": "/nodetaint/packageData/execcli/node_modules/execcli/node_modules/argx/lib/argx.js",
+        "startLineNumber": 42,
+        "startColumnNumber": 18,
+        "endLineNumber": 42,
+        "endColumnNumber": 37,
+        "tainted": false,
+        "flows_from": [
+            "200",
+            "211"
+        ],
+        "sink_type": ""
+    },
+    "200": {
+        "operation": "+",
+        "value": 3,
+        "file": "/nodetaint/packageData/execcli/node_modules/execcli/node_modules/argx/lib/argx.js",
+        "startLineNumber": 42,
+        "startColumnNumber": 18,
+        "endLineNumber": 42,
+        "endColumnNumber": 33,
+        "tainted": false,
+        "flows_from": [
+            "201",
+            "210"
+        ],
+        "sink_type": ""
+    },
+    "201": {
+        "operation": "+",
+        "value": 2,
+        "file": "/nodetaint/packageData/execcli/node_modules/execcli/node_modules/argx/lib/argx.js",
+        "startLineNumber": 38,
+        "startColumnNumber": 16,
+        "endLineNumber": 38,
+        "endColumnNumber": 31,
+        "tainted": false,
+        "flows_from": [
+            "202",
+            "205"
+        ],
+        "sink_type": ""
+    },
+    "202": {
+        "operation": "call:splice",
+        "value": -1,
+        "file": "/nodetaint/packageData/execcli/node_modules/execcli/node_modules/argx/lib/argx.js",
+        "startLineNumber": 87,
+        "startColumnNumber": 12,
+        "endLineNumber": 87,
+        "endColumnNumber": 41,
+        "tainted": false,
+        "flows_from": [
+            "203"
+        ],
+        "sink_type": ""
+    },
+    "203": {
+        "operation": "object.Unary",
+        "value": 1,
+        "file": "/nodetaint/packageData/execcli/node_modules/execcli/node_modules/argx/lib/argx.js",
+        "startLineNumber": 85,
+        "startColumnNumber": 14,
+        "endLineNumber": 85,
+        "endColumnNumber": 16,
+        "tainted": false,
+        "flows_from": [
+            "204"
+        ],
+        "sink_type": ""
+    },
+    "204": {
+        "operation": "Untainted",
+        "value": 1,
+        "file": "/nodetaint/packageData/execcli/node_modules/execcli/node_modules/argx/lib/argx.js",
+        "startLineNumber": 85,
+        "startColumnNumber": 14,
+        "endLineNumber": 85,
+        "endColumnNumber": 16,
+        "tainted": false,
+        "flows_from": [],
+        "sink_type": ""
+    },
+    "205": {
+        "operation": "object.GetField",
+        "value": 3,
+        "file": "UNKNOWN",
+        "startLineNumber": -1,
+        "startColumnNumber": -1,
+        "endLineNumber": -1,
+        "endColumnNumber": -1,
+        "tainted": false,
+        "flows_from": [
+            "206",
+            "209"
+        ],
+        "sink_type": ""
+    },
+    "206": {
+        "operation": "object.GetField",
+        "value": [
+            {
+                "0": "~",
+                "1": "/"
+            }
+        ],
+        "file": "UNKNOWN",
+        "startLineNumber": -1,
+        "startColumnNumber": -1,
+        "endLineNumber": -1,
+        "endColumnNumber": -1,
+        "tainted": false,
+        "flows_from": [
+            "207",
+            "208"
+        ],
+        "sink_type": ""
+    },
+    "207": {
+        "operation": "Untainted",
+        "value": {
+            "values": [
+                {
+                    "0": "~",
+                    "1": "/"
+                }
+            ]
+        },
+        "file": "UNKNOWN",
+        "startLineNumber": -1,
+        "startColumnNumber": -1,
+        "endLineNumber": -1,
+        "endColumnNumber": -1,
+        "tainted": false,
+        "flows_from": [],
+        "sink_type": ""
+    },
+    "208": {
+        "operation": "Untainted",
+        "value": "values",
+        "file": "UNKNOWN",
+        "startLineNumber": -1,
+        "startColumnNumber": -1,
+        "endLineNumber": -1,
+        "endColumnNumber": -1,
+        "tainted": false,
+        "flows_from": [],
+        "sink_type": ""
+    },
+    "209": {
+        "operation": "Untainted",
+        "value": "length",
+        "file": "UNKNOWN",
+        "startLineNumber": -1,
+        "startColumnNumber": -1,
+        "endLineNumber": -1,
+        "endColumnNumber": -1,
+        "tainted": false,
+        "flows_from": [],
+        "sink_type": ""
+    },
+    "210": {
+        "operation": "Untainted",
+        "value": 1,
+        "file": "/nodetaint/packageData/execcli/node_modules/execcli/node_modules/argx/lib/argx.js",
+        "startLineNumber": 42,
+        "startColumnNumber": 18,
+        "endLineNumber": 42,
+        "endColumnNumber": 33,
+        "tainted": false,
+        "flows_from": [],
+        "sink_type": ""
+    },
+    "211": {
+        "operation": "Untainted",
+        "value": 1,
+        "file": "/nodetaint/packageData/execcli/node_modules/execcli/node_modules/argx/lib/argx.js",
+        "startLineNumber": 42,
+        "startColumnNumber": 18,
+        "endLineNumber": 42,
+        "endColumnNumber": 37,
+        "tainted": false,
+        "flows_from": [],
+        "sink_type": ""
+    },
+    "212": {
+        "operation": "call:execcli",
+        "value": "1995-12-17T03:24:00.000Z",
+        "file": "/nodetaint/analysisArtifacts/run-execcli2.js",
+        "startLineNumber": 10,
+        "startColumnNumber": 1,
+        "endLineNumber": 10,
+        "endColumnNumber": 27,
+        "tainted": true,
+        "flows_from": [
+            "213"
+        ],
+        "sink_type": ""
+    },
+    "213": {
+        "operation": "Tainted",
+        "value": "1995-12-17T03:24:00.000Z",
+        "file": "/nodetaint/analysisArtifacts/run-execcli2.js",
+        "startLineNumber": 9,
+        "startColumnNumber": 1,
+        "endLineNumber": 9,
+        "endColumnNumber": 26,
+        "tainted": true,
+        "flows_from": [
+            "214"
+        ],
+        "sink_type": ""
+    },
+    "214": {
+        "operation": "call:__jalangi_set_taint__",
+        "value": "1995-12-17T03:24:00.000Z",
+        "file": "/nodetaint/analysisArtifacts/run-execcli2.js",
+        "startLineNumber": 9,
+        "startColumnNumber": 1,
+        "endLineNumber": 9,
+        "endColumnNumber": 26,
+        "tainted": false,
+        "flows_from": [
+            "215"
+        ],
+        "sink_type": ""
+    },
+    "215": {
+        "operation": "Untainted",
+        "value": "1995-12-17T03:24:00.000Z",
+        "file": "/nodetaint/analysisArtifacts/run-execcli2.js",
+        "startLineNumber": 9,
+        "startColumnNumber": 1,
+        "endLineNumber": 9,
+        "endColumnNumber": 26,
+        "tainted": false,
+        "flows_from": [],
+        "sink_type": ""
+    },
+    "216": {
+        "operation": "Untainted",
+        "value": "_val",
+        "file": "UNKNOWN",
+        "startLineNumber": -1,
+        "startColumnNumber": -1,
+        "endLineNumber": -1,
+        "endColumnNumber": -1,
+        "tainted": false,
+        "flows_from": [],
+        "sink_type": ""
+    },
+    "217": {
+        "operation": "call:val",
+        "value": "1995-12-17T03:24:00.000Z",
+        "file": "/nodetaint/packageData/execcli/node_modules/execcli/node_modules/iftype/lib/iftype.js",
+        "startLineNumber": 13,
+        "startColumnNumber": 3,
+        "endLineNumber": 13,
+        "endColumnNumber": 16,
+        "tainted": true,
+        "flows_from": [
+            "218"
+        ],
+        "sink_type": ""
+    },
+    "218": {
+        "operation": "call:Iftype",
+        "value": "1995-12-17T03:24:00.000Z",
+        "file": "/nodetaint/packageData/execcli/node_modules/execcli/node_modules/iftype/lib/create.js",
+        "startLineNumber": 13,
+        "startColumnNumber": 10,
+        "endLineNumber": 13,
+        "endColumnNumber": 25,
+        "tainted": true,
+        "flows_from": [
+            "219"
+        ],
+        "sink_type": ""
+    },
+    "219": {
+        "operation": "call:bound create",
+        "value": "1995-12-17T03:24:00.000Z",
+        "file": "/nodetaint/packageData/execcli/node_modules/execcli/node_modules/argx/lib/argx.js",
+        "startLineNumber": 43,
+        "startColumnNumber": 33,
+        "endLineNumber": 43,
+        "endColumnNumber": 52,
+        "tainted": true,
+        "flows_from": [
+            "220"
+        ],
+        "sink_type": ""
+    },
+    "220": {
+        "operation": "object.GetField",
+        "value": "1995-12-17T03:24:00.000Z",
+        "file": "UNKNOWN",
+        "startLineNumber": -1,
+        "startColumnNumber": -1,
+        "endLineNumber": -1,
+        "endColumnNumber": -1,
+        "tainted": true,
+        "flows_from": [
+            "221",
+            "227",
+            "240"
+        ],
+        "sink_type": ""
+    },
+    "221": {
+        "operation": "object.GetField",
+        "value": [
+            {
+                "0": "~",
+                "1": "/"
+            }
+        ],
+        "file": "UNKNOWN",
+        "startLineNumber": -1,
+        "startColumnNumber": -1,
+        "endLineNumber": -1,
+        "endColumnNumber": -1,
+        "tainted": false,
+        "flows_from": [
+            "222",
+            "223",
+            "224"
+        ],
+        "sink_type": ""
+    },
+    "222": {
+        "operation": "Untainted",
+        "value": {
+            "values": [
+                {
+                    "0": "~",
+                    "1": "/"
+                }
+            ]
+        },
+        "file": "UNKNOWN",
+        "startLineNumber": -1,
+        "startColumnNumber": -1,
+        "endLineNumber": -1,
+        "endColumnNumber": -1,
+        "tainted": false,
+        "flows_from": [],
+        "sink_type": ""
+    },
+    "223": {
+        "operation": "Untainted",
+        "value": "values",
+        "file": "UNKNOWN",
+        "startLineNumber": -1,
+        "startColumnNumber": -1,
+        "endLineNumber": -1,
+        "endColumnNumber": -1,
+        "tainted": false,
+        "flows_from": [],
+        "sink_type": ""
+    },
+    "224": {
+        "operation": "object.GetField",
+        "value": [
+            {
+                "0": "~",
+                "1": "/"
+            }
+        ],
+        "file": "UNKNOWN",
+        "startLineNumber": -1,
+        "startColumnNumber": -1,
+        "endLineNumber": -1,
+        "endColumnNumber": -1,
+        "tainted": false,
+        "flows_from": [
+            "225",
+            "226"
+        ],
+        "sink_type": ""
+    },
+    "225": {
+        "operation": "Untainted",
+        "value": {
+            "values": [
+                {
+                    "0": "~",
+                    "1": "/"
+                }
+            ]
+        },
+        "file": "UNKNOWN",
+        "startLineNumber": -1,
+        "startColumnNumber": -1,
+        "endLineNumber": -1,
+        "endColumnNumber": -1,
+        "tainted": false,
+        "flows_from": [],
+        "sink_type": ""
+    },
+    "226": {
+        "operation": "Untainted",
+        "value": "values",
+        "file": "UNKNOWN",
+        "startLineNumber": -1,
+        "startColumnNumber": -1,
+        "endLineNumber": -1,
+        "endColumnNumber": -1,
+        "tainted": false,
+        "flows_from": [],
+        "sink_type": ""
+    },
+    "227": {
+        "operation": "-",
+        "value": 2,
+        "file": "/nodetaint/packageData/execcli/node_modules/execcli/node_modules/argx/lib/argx.js",
+        "startLineNumber": 42,
+        "startColumnNumber": 18,
+        "endLineNumber": 42,
+        "endColumnNumber": 37,
+        "tainted": false,
+        "flows_from": [
+            "228",
+            "239"
+        ],
+        "sink_type": ""
+    },
+    "228": {
+        "operation": "+",
+        "value": 3,
+        "file": "/nodetaint/packageData/execcli/node_modules/execcli/node_modules/argx/lib/argx.js",
+        "startLineNumber": 42,
+        "startColumnNumber": 18,
+        "endLineNumber": 42,
+        "endColumnNumber": 33,
+        "tainted": false,
+        "flows_from": [
+            "229",
+            "238"
+        ],
+        "sink_type": ""
+    },
+    "229": {
+        "operation": "+",
+        "value": 2,
+        "file": "/nodetaint/packageData/execcli/node_modules/execcli/node_modules/argx/lib/argx.js",
+        "startLineNumber": 38,
+        "startColumnNumber": 16,
+        "endLineNumber": 38,
+        "endColumnNumber": 31,
+        "tainted": false,
+        "flows_from": [
+            "230",
+            "233"
+        ],
+        "sink_type": ""
+    },
+    "230": {
+        "operation": "call:splice",
+        "value": -1,
+        "file": "/nodetaint/packageData/execcli/node_modules/execcli/node_modules/argx/lib/argx.js",
+        "startLineNumber": 87,
+        "startColumnNumber": 12,
+        "endLineNumber": 87,
+        "endColumnNumber": 41,
+        "tainted": false,
+        "flows_from": [
+            "231"
+        ],
+        "sink_type": ""
+    },
+    "231": {
+        "operation": "object.Unary",
+        "value": 1,
+        "file": "/nodetaint/packageData/execcli/node_modules/execcli/node_modules/argx/lib/argx.js",
+        "startLineNumber": 85,
+        "startColumnNumber": 14,
+        "endLineNumber": 85,
+        "endColumnNumber": 16,
+        "tainted": false,
+        "flows_from": [
+            "232"
+        ],
+        "sink_type": ""
+    },
+    "232": {
+        "operation": "Untainted",
+        "value": 1,
+        "file": "/nodetaint/packageData/execcli/node_modules/execcli/node_modules/argx/lib/argx.js",
+        "startLineNumber": 85,
+        "startColumnNumber": 14,
+        "endLineNumber": 85,
+        "endColumnNumber": 16,
+        "tainted": false,
+        "flows_from": [],
+        "sink_type": ""
+    },
+    "233": {
+        "operation": "object.GetField",
+        "value": 3,
+        "file": "UNKNOWN",
+        "startLineNumber": -1,
+        "startColumnNumber": -1,
+        "endLineNumber": -1,
+        "endColumnNumber": -1,
+        "tainted": false,
+        "flows_from": [
+            "234",
+            "237"
+        ],
+        "sink_type": ""
+    },
+    "234": {
+        "operation": "object.GetField",
+        "value": [
+            {
+                "0": "~",
+                "1": "/"
+            }
+        ],
+        "file": "UNKNOWN",
+        "startLineNumber": -1,
+        "startColumnNumber": -1,
+        "endLineNumber": -1,
+        "endColumnNumber": -1,
+        "tainted": false,
+        "flows_from": [
+            "235",
+            "236"
+        ],
+        "sink_type": ""
+    },
+    "235": {
+        "operation": "Untainted",
+        "value": {
+            "values": [
+                {
+                    "0": "~",
+                    "1": "/"
+                }
+            ]
+        },
+        "file": "UNKNOWN",
+        "startLineNumber": -1,
+        "startColumnNumber": -1,
+        "endLineNumber": -1,
+        "endColumnNumber": -1,
+        "tainted": false,
+        "flows_from": [],
+        "sink_type": ""
+    },
+    "236": {
+        "operation": "Untainted",
+        "value": "values",
+        "file": "UNKNOWN",
+        "startLineNumber": -1,
+        "startColumnNumber": -1,
+        "endLineNumber": -1,
+        "endColumnNumber": -1,
+        "tainted": false,
+        "flows_from": [],
+        "sink_type": ""
+    },
+    "237": {
+        "operation": "Untainted",
+        "value": "length",
+        "file": "UNKNOWN",
+        "startLineNumber": -1,
+        "startColumnNumber": -1,
+        "endLineNumber": -1,
+        "endColumnNumber": -1,
+        "tainted": false,
+        "flows_from": [],
+        "sink_type": ""
+    },
+    "238": {
+        "operation": "Untainted",
+        "value": 1,
+        "file": "/nodetaint/packageData/execcli/node_modules/execcli/node_modules/argx/lib/argx.js",
+        "startLineNumber": 42,
+        "startColumnNumber": 18,
+        "endLineNumber": 42,
+        "endColumnNumber": 33,
+        "tainted": false,
+        "flows_from": [],
+        "sink_type": ""
+    },
+    "239": {
+        "operation": "Untainted",
+        "value": 1,
+        "file": "/nodetaint/packageData/execcli/node_modules/execcli/node_modules/argx/lib/argx.js",
+        "startLineNumber": 42,
+        "startColumnNumber": 18,
+        "endLineNumber": 42,
+        "endColumnNumber": 37,
+        "tainted": false,
+        "flows_from": [],
+        "sink_type": ""
+    },
+    "240": {
+        "operation": "call:execcli",
+        "value": "1995-12-17T03:24:00.000Z",
+        "file": "/nodetaint/analysisArtifacts/run-execcli2.js",
+        "startLineNumber": 10,
+        "startColumnNumber": 1,
+        "endLineNumber": 10,
+        "endColumnNumber": 27,
+        "tainted": true,
+        "flows_from": [
+            "241"
+        ],
+        "sink_type": ""
+    },
+    "241": {
+        "operation": "Tainted",
+        "value": "1995-12-17T03:24:00.000Z",
+        "file": "/nodetaint/analysisArtifacts/run-execcli2.js",
+        "startLineNumber": 9,
+        "startColumnNumber": 1,
+        "endLineNumber": 9,
+        "endColumnNumber": 26,
+        "tainted": true,
+        "flows_from": [
+            "242"
+        ],
+        "sink_type": ""
+    },
+    "242": {
+        "operation": "call:__jalangi_set_taint__",
+        "value": "1995-12-17T03:24:00.000Z",
+        "file": "/nodetaint/analysisArtifacts/run-execcli2.js",
+        "startLineNumber": 9,
+        "startColumnNumber": 1,
+        "endLineNumber": 9,
+        "endColumnNumber": 26,
+        "tainted": false,
+        "flows_from": [
+            "243"
+        ],
+        "sink_type": ""
+    },
+    "243": {
+        "operation": "Untainted",
+        "value": "1995-12-17T03:24:00.000Z",
+        "file": "/nodetaint/analysisArtifacts/run-execcli2.js",
+        "startLineNumber": 9,
+        "startColumnNumber": 1,
+        "endLineNumber": 9,
+        "endColumnNumber": 26,
+        "tainted": false,
+        "flows_from": [],
+        "sink_type": ""
+    }
+}

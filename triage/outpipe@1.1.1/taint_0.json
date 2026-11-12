@@ -1,0 +1,140 @@
+{
+    "1": {
+        "operation": "call:exec",
+        "value": "?Zv",
+        "file": "/nodetaint/packageData/outpipe/node_modules/outpipe/index.js",
+        "startLineNumber": 29,
+        "startColumnNumber": 11,
+        "endLineNumber": 29,
+        "endColumnNumber": 26,
+        "tainted": true,
+        "flows_from": [
+            "2"
+        ],
+        "sink_type": "exec"
+    },
+    "2": {
+        "operation": "call:exec",
+        "value": "?Zv",
+        "file": "/nodetaint/packageData/outpipe/node_modules/outpipe/node_modules/shell-quote/parse.js",
+        "startLineNumber": 59,
+        "startColumnNumber": 21,
+        "endLineNumber": 59,
+        "endColumnNumber": 30,
+        "tainted": true,
+        "flows_from": [
+            "3"
+        ],
+        "sink_type": ""
+    },
+    "3": {
+        "operation": "call:exec",
+        "value": "?Zv",
+        "file": "/nodetaint/packageData/outpipe/node_modules/outpipe/node_modules/shell-quote/parse.js",
+        "startLineNumber": 59,
+        "startColumnNumber": 21,
+        "endLineNumber": 59,
+        "endColumnNumber": 30,
+        "tainted": true,
+        "flows_from": [
+            "4"
+        ],
+        "sink_type": ""
+    },
+    "4": {
+        "operation": "call:matchAll",
+        "value": "?Zv",
+        "file": "/nodetaint/packageData/outpipe/node_modules/outpipe/node_modules/shell-quote/parse.js",
+        "startLineNumber": 150,
+        "startColumnNumber": 17,
+        "endLineNumber": 150,
+        "endColumnNumber": 42,
+        "tainted": true,
+        "flows_from": [
+            "5"
+        ],
+        "sink_type": ""
+    },
+    "5": {
+        "operation": "call:parseInternal",
+        "value": "?Zv",
+        "file": "/nodetaint/packageData/outpipe/node_modules/outpipe/node_modules/shell-quote/parse.js",
+        "startLineNumber": 361,
+        "startColumnNumber": 16,
+        "endLineNumber": 361,
+        "endColumnNumber": 43,
+        "tainted": true,
+        "flows_from": [
+            "6"
+        ],
+        "sink_type": ""
+    },
+    "6": {
+        "operation": "call:parse",
+        "value": "?Zv",
+        "file": "/nodetaint/packageData/outpipe/node_modules/outpipe/index.js",
+        "startLineNumber": 8,
+        "startColumnNumber": 15,
+        "endLineNumber": 8,
+        "endColumnNumber": 25,
+        "tainted": true,
+        "flows_from": [
+            "7"
+        ],
+        "sink_type": ""
+    },
+    "7": {
+        "operation": "call:Anonymous Function",
+        "value": "?Zv",
+        "file": "/nodetaint/analysisArtifacts/run-outpipe2.js",
+        "startLineNumber": 9,
+        "startColumnNumber": 1,
+        "endLineNumber": 9,
+        "endColumnNumber": 16,
+        "tainted": true,
+        "flows_from": [
+            "8"
+        ],
+        "sink_type": ""
+    },
+    "8": {
+        "operation": "Tainted",
+        "value": "?Zv",
+        "file": "/nodetaint/analysisArtifacts/run-outpipe2.js",
+        "startLineNumber": 8,
+        "startColumnNumber": 1,
+        "endLineNumber": 8,
+        "endColumnNumber": 26,
+        "tainted": true,
+        "flows_from": [
+            "9"
+        ],
+        "sink_type": ""
+    },
+    "9": {
+        "operation": "call:__jalangi_set_taint__",
+        "value": "?Zv",
+        "file": "/nodetaint/analysisArtifacts/run-outpipe2.js",
+        "startLineNumber": 8,
+        "startColumnNumber": 1,
+        "endLineNumber": 8,
+        "endColumnNumber": 26,
+        "tainted": false,
+        "flows_from": [
+            "10"
+        ],
+        "sink_type": ""
+    },
+    "10": {
+        "operation": "Untainted",
+        "value": "?Zv",
+        "file": "/nodetaint/analysisArtifacts/run-outpipe2.js",
+        "startLineNumber": 8,
+        "startColumnNumber": 1,
+        "endLineNumber": 8,
+        "endColumnNumber": 26,
+        "tainted": false,
+        "flows_from": [],
+        "sink_type": ""
+    }
+}

@@ -1,0 +1,643 @@
+{
+    "1": {
+        "operation": "call:Function",
+        "value": "var outStream = process.stdout;\nreturn {\n  gen: function* (next) {yield next;\n\noutStream.write('n?Zv!uw\\n');},\n  setStream: function (s) { outStream = s; return this; }\n}",
+        "file": "/nodetaint/packageData/koa-logger2/node_modules/koa-logger2/index.js",
+        "startLineNumber": 17,
+        "startColumnNumber": 10,
+        "endLineNumber": 17,
+        "endColumnNumber": 25,
+        "tainted": true,
+        "flows_from": [
+            "2"
+        ],
+        "sink_type": "Function"
+    },
+    "2": {
+        "operation": "precise:string.concat",
+        "value": "var outStream = process.stdout;\nreturn {\n  gen: function* (next) {yield next;\n\noutStream.write('n?Zv!uw\\n');},\n  setStream: function (s) { outStream = s; return this; }\n}",
+        "file": "/nodetaint/packageData/koa-logger2/node_modules/koa-logger2/index.js",
+        "startLineNumber": 11,
+        "startColumnNumber": 11,
+        "endLineNumber": 15,
+        "endColumnNumber": 6,
+        "tainted": true,
+        "flows_from": [
+            "3",
+            "40"
+        ],
+        "sink_type": ""
+    },
+    "3": {
+        "operation": "precise:string.concat",
+        "value": "var outStream = process.stdout;\nreturn {\n  gen: function* (next) {yield next;\n\noutStream.write('n?Zv!uw\\n');},\n  setStream: function (s) { outStream = s; return this; }\n",
+        "file": "/nodetaint/packageData/koa-logger2/node_modules/koa-logger2/index.js",
+        "startLineNumber": 11,
+        "startColumnNumber": 11,
+        "endLineNumber": 14,
+        "endColumnNumber": 64,
+        "tainted": true,
+        "flows_from": [
+            "4",
+            "39"
+        ],
+        "sink_type": ""
+    },
+    "4": {
+        "operation": "precise:string.concat",
+        "value": "var outStream = process.stdout;\nreturn {\n  gen: function* (next) {yield next;\n\noutStream.write('n?Zv!uw\\n');},\n",
+        "file": "/nodetaint/packageData/koa-logger2/node_modules/koa-logger2/index.js",
+        "startLineNumber": 11,
+        "startColumnNumber": 11,
+        "endLineNumber": 13,
+        "endColumnNumber": 55,
+        "tainted": true,
+        "flows_from": [
+            "5",
+            "38"
+        ],
+        "sink_type": ""
+    },
+    "5": {
+        "operation": "precise:string.concat",
+        "value": "var outStream = process.stdout;\nreturn {\n  gen: function* (next) {yield next;\n\noutStream.write('n?Zv!uw\\n');",
+        "file": "/nodetaint/packageData/koa-logger2/node_modules/koa-logger2/index.js",
+        "startLineNumber": 11,
+        "startColumnNumber": 11,
+        "endLineNumber": 13,
+        "endColumnNumber": 46,
+        "tainted": true,
+        "flows_from": [
+            "6",
+            "11"
+        ],
+        "sink_type": ""
+    },
+    "6": {
+        "operation": "precise:string.concat",
+        "value": "var outStream = process.stdout;\nreturn {\n  gen: function* (next) {",
+        "file": "/nodetaint/packageData/koa-logger2/node_modules/koa-logger2/index.js",
+        "startLineNumber": 11,
+        "startColumnNumber": 11,
+        "endLineNumber": 13,
+        "endColumnNumber": 30,
+        "tainted": false,
+        "flows_from": [
+            "7",
+            "10"
+        ],
+        "sink_type": ""
+    },
+    "7": {
+        "operation": "precise:string.concat",
+        "value": "var outStream = process.stdout;\nreturn {\n",
+        "file": "/nodetaint/packageData/koa-logger2/node_modules/koa-logger2/index.js",
+        "startLineNumber": 11,
+        "startColumnNumber": 11,
+        "endLineNumber": 12,
+        "endColumnNumber": 15,
+        "tainted": false,
+        "flows_from": [
+            "8",
+            "9"
+        ],
+        "sink_type": ""
+    },
+    "8": {
+        "operation": "Untainted",
+        "value": "var outStream = process.stdout;\n",
+        "file": "/nodetaint/packageData/koa-logger2/node_modules/koa-logger2/index.js",
+        "startLineNumber": 11,
+        "startColumnNumber": 11,
+        "endLineNumber": 12,
+        "endColumnNumber": 15,
+        "tainted": false,
+        "flows_from": [],
+        "sink_type": ""
+    },
+    "9": {
+        "operation": "Untainted",
+        "value": "return {\n",
+        "file": "/nodetaint/packageData/koa-logger2/node_modules/koa-logger2/index.js",
+        "startLineNumber": 11,
+        "startColumnNumber": 11,
+        "endLineNumber": 12,
+        "endColumnNumber": 15,
+        "tainted": false,
+        "flows_from": [],
+        "sink_type": ""
+    },
+    "10": {
+        "operation": "Untainted",
+        "value": "  gen: function* (next) {",
+        "file": "/nodetaint/packageData/koa-logger2/node_modules/koa-logger2/index.js",
+        "startLineNumber": 11,
+        "startColumnNumber": 11,
+        "endLineNumber": 13,
+        "endColumnNumber": 30,
+        "tainted": false,
+        "flows_from": [],
+        "sink_type": ""
+    },
+    "11": {
+        "operation": "precise:string.concat",
+        "value": "yield next;\n\noutStream.write('n?Zv!uw\\n');",
+        "file": "/nodetaint/packageData/koa-logger2/node_modules/koa-logger2/index.js",
+        "startLineNumber": 121,
+        "startColumnNumber": 10,
+        "endLineNumber": 121,
+        "endColumnNumber": 45,
+        "tainted": true,
+        "flows_from": [
+            "12",
+            "17"
+        ],
+        "sink_type": ""
+    },
+    "12": {
+        "operation": "precise:string.concat",
+        "value": "yield next;\n",
+        "file": "/nodetaint/packageData/koa-logger2/node_modules/koa-logger2/index.js",
+        "startLineNumber": 121,
+        "startColumnNumber": 10,
+        "endLineNumber": 121,
+        "endColumnNumber": 35,
+        "tainted": false,
+        "flows_from": [
+            "13",
+            "16"
+        ],
+        "sink_type": ""
+    },
+    "13": {
+        "operation": "object.GetField",
+        "value": "",
+        "file": "UNKNOWN",
+        "startLineNumber": -1,
+        "startColumnNumber": -1,
+        "endLineNumber": -1,
+        "endColumnNumber": -1,
+        "tainted": false,
+        "flows_from": [
+            "14",
+            "15"
+        ],
+        "sink_type": ""
+    },
+    "14": {
+        "operation": "Untainted",
+        "value": {
+            "beg": {},
+            "end": {
+                "0": "\n",
+                "1": "o",
+                "2": "u",
+                "3": "t",
+                "4": "S",
+                "5": "t",
+                "6": "r",
+                "7": "e",
+                "8": "a",
+                "9": "m",
+                "10": ".",
+                "11": "w",
+                "12": "r",
+                "13": "i",
+                "14": "t",
+                "15": "e",
+                "16": "(",
+                "17": "'",
+                "18": "n",
+                "19": "?",
+                "20": "Z",
+                "21": "v",
+                "22": "!",
+                "23": "u",
+                "24": "w",
+                "25": "\\",
+                "26": "n",
+                "27": "'",
+                "28": ")",
+                "29": ";"
+            }
+        },
+        "file": "UNKNOWN",
+        "startLineNumber": -1,
+        "startColumnNumber": -1,
+        "endLineNumber": -1,
+        "endColumnNumber": -1,
+        "tainted": false,
+        "flows_from": [],
+        "sink_type": ""
+    },
+    "15": {
+        "operation": "Untainted",
+        "value": "beg",
+        "file": "UNKNOWN",
+        "startLineNumber": -1,
+        "startColumnNumber": -1,
+        "endLineNumber": -1,
+        "endColumnNumber": -1,
+        "tainted": false,
+        "flows_from": [],
+        "sink_type": ""
+    },
+    "16": {
+        "operation": "Untainted",
+        "value": "yield next;\n",
+        "file": "/nodetaint/packageData/koa-logger2/node_modules/koa-logger2/index.js",
+        "startLineNumber": 121,
+        "startColumnNumber": 10,
+        "endLineNumber": 121,
+        "endColumnNumber": 35,
+        "tainted": false,
+        "flows_from": [],
+        "sink_type": ""
+    },
+    "17": {
+        "operation": "object.GetField",
+        "value": "\noutStream.write('n?Zv!uw\\n');",
+        "file": "UNKNOWN",
+        "startLineNumber": -1,
+        "startColumnNumber": -1,
+        "endLineNumber": -1,
+        "endColumnNumber": -1,
+        "tainted": true,
+        "flows_from": [
+            "18",
+            "19",
+            "20"
+        ],
+        "sink_type": ""
+    },
+    "18": {
+        "operation": "Untainted",
+        "value": {
+            "beg": {},
+            "end": {
+                "0": "\n",
+                "1": "o",
+                "2": "u",
+                "3": "t",
+                "4": "S",
+                "5": "t",
+                "6": "r",
+                "7": "e",
+                "8": "a",
+                "9": "m",
+                "10": ".",
+                "11": "w",
+                "12": "r",
+                "13": "i",
+                "14": "t",
+                "15": "e",
+                "16": "(",
+                "17": "'",
+                "18": "n",
+                "19": "?",
+                "20": "Z",
+                "21": "v",
+                "22": "!",
+                "23": "u",
+                "24": "w",
+                "25": "\\",
+                "26": "n",
+                "27": "'",
+                "28": ")",
+                "29": ";"
+            }
+        },
+        "file": "UNKNOWN",
+        "startLineNumber": -1,
+        "startColumnNumber": -1,
+        "endLineNumber": -1,
+        "endColumnNumber": -1,
+        "tainted": false,
+        "flows_from": [],
+        "sink_type": ""
+    },
+    "19": {
+        "operation": "Untainted",
+        "value": "end",
+        "file": "UNKNOWN",
+        "startLineNumber": -1,
+        "startColumnNumber": -1,
+        "endLineNumber": -1,
+        "endColumnNumber": -1,
+        "tainted": false,
+        "flows_from": [],
+        "sink_type": ""
+    },
+    "20": {
+        "operation": "precise:string.concat",
+        "value": "\noutStream.write('n?Zv!uw\\n');",
+        "file": "/nodetaint/packageData/koa-logger2/node_modules/koa-logger2/index.js",
+        "startLineNumber": 120,
+        "startColumnNumber": 3,
+        "endLineNumber": 120,
+        "endColumnNumber": 50,
+        "tainted": true,
+        "flows_from": [
+            "21",
+            "24"
+        ],
+        "sink_type": ""
+    },
+    "21": {
+        "operation": "object.GetField",
+        "value": "",
+        "file": "UNKNOWN",
+        "startLineNumber": -1,
+        "startColumnNumber": -1,
+        "endLineNumber": -1,
+        "endColumnNumber": -1,
+        "tainted": false,
+        "flows_from": [
+            "22",
+            "23"
+        ],
+        "sink_type": ""
+    },
+    "22": {
+        "operation": "Untainted",
+        "value": {
+            "beg": {},
+            "end": {
+                "0": "\n",
+                "1": "o",
+                "2": "u",
+                "3": "t",
+                "4": "S",
+                "5": "t",
+                "6": "r",
+                "7": "e",
+                "8": "a",
+                "9": "m",
+                "10": ".",
+                "11": "w",
+                "12": "r",
+                "13": "i",
+                "14": "t",
+                "15": "e",
+                "16": "(",
+                "17": "'",
+                "18": "n",
+                "19": "?",
+                "20": "Z",
+                "21": "v",
+                "22": "!",
+                "23": "u",
+                "24": "w",
+                "25": "\\",
+                "26": "n",
+                "27": "'",
+                "28": ")",
+                "29": ";"
+            }
+        },
+        "file": "UNKNOWN",
+        "startLineNumber": -1,
+        "startColumnNumber": -1,
+        "endLineNumber": -1,
+        "endColumnNumber": -1,
+        "tainted": false,
+        "flows_from": [],
+        "sink_type": ""
+    },
+    "23": {
+        "operation": "Untainted",
+        "value": "end",
+        "file": "UNKNOWN",
+        "startLineNumber": -1,
+        "startColumnNumber": -1,
+        "endLineNumber": -1,
+        "endColumnNumber": -1,
+        "tainted": false,
+        "flows_from": [],
+        "sink_type": ""
+    },
+    "24": {
+        "operation": "precise:string.concat",
+        "value": "\noutStream.write('n?Zv!uw\\n');",
+        "file": "/nodetaint/packageData/koa-logger2/node_modules/koa-logger2/index.js",
+        "startLineNumber": 120,
+        "startColumnNumber": 14,
+        "endLineNumber": 120,
+        "endColumnNumber": 50,
+        "tainted": true,
+        "flows_from": [
+            "25",
+            "37"
+        ],
+        "sink_type": ""
+    },
+    "25": {
+        "operation": "precise:string.concat",
+        "value": "\noutStream.write('n?Zv!uw",
+        "file": "/nodetaint/packageData/koa-logger2/node_modules/koa-logger2/index.js",
+        "startLineNumber": 120,
+        "startColumnNumber": 14,
+        "endLineNumber": 120,
+        "endColumnNumber": 39,
+        "tainted": true,
+        "flows_from": [
+            "26",
+            "27"
+        ],
+        "sink_type": ""
+    },
+    "26": {
+        "operation": "Untainted",
+        "value": "\noutStream.write('",
+        "file": "/nodetaint/packageData/koa-logger2/node_modules/koa-logger2/index.js",
+        "startLineNumber": 120,
+        "startColumnNumber": 14,
+        "endLineNumber": 120,
+        "endColumnNumber": 39,
+        "tainted": false,
+        "flows_from": [],
+        "sink_type": ""
+    },
+    "27": {
+        "operation": "precise:string.replace",
+        "value": "n?Zv!uw",
+        "file": "/nodetaint/packageData/koa-logger2/node_modules/koa-logger2/index.js",
+        "startLineNumber": 113,
+        "startColumnNumber": 11,
+        "endLineNumber": 118,
+        "endColumnNumber": 5,
+        "tainted": true,
+        "flows_from": [
+            "28",
+            "33",
+            "35"
+        ],
+        "sink_type": ""
+    },
+    "28": {
+        "operation": "call:compile",
+        "value": "n?Zv!uw",
+        "file": "/nodetaint/packageData/koa-logger2/node_modules/koa-logger2/index.js",
+        "startLineNumber": 13,
+        "startColumnNumber": 33,
+        "endLineNumber": 13,
+        "endColumnNumber": 46,
+        "tainted": true,
+        "flows_from": [
+            "29"
+        ],
+        "sink_type": ""
+    },
+    "29": {
+        "operation": "call:main",
+        "value": "n?Zv!uw",
+        "file": "/nodetaint/analysisArtifacts/run-koa-logger22.js",
+        "startLineNumber": 8,
+        "startColumnNumber": 1,
+        "endLineNumber": 8,
+        "endColumnNumber": 12,
+        "tainted": true,
+        "flows_from": [
+            "30"
+        ],
+        "sink_type": ""
+    },
+    "30": {
+        "operation": "Tainted",
+        "value": "n?Zv!uw",
+        "file": "/nodetaint/analysisArtifacts/run-koa-logger22.js",
+        "startLineNumber": 7,
+        "startColumnNumber": 1,
+        "endLineNumber": 7,
+        "endColumnNumber": 26,
+        "tainted": true,
+        "flows_from": [
+            "31"
+        ],
+        "sink_type": ""
+    },
+    "31": {
+        "operation": "call:__jalangi_set_taint__",
+        "value": "n?Zv!uw",
+        "file": "/nodetaint/analysisArtifacts/run-koa-logger22.js",
+        "startLineNumber": 7,
+        "startColumnNumber": 1,
+        "endLineNumber": 7,
+        "endColumnNumber": 26,
+        "tainted": false,
+        "flows_from": [
+            "32"
+        ],
+        "sink_type": ""
+    },
+    "32": {
+        "operation": "Untainted",
+        "value": "n?Zv!uw",
+        "file": "/nodetaint/analysisArtifacts/run-koa-logger22.js",
+        "startLineNumber": 7,
+        "startColumnNumber": 1,
+        "endLineNumber": 7,
+        "endColumnNumber": 26,
+        "tainted": false,
+        "flows_from": [],
+        "sink_type": ""
+    },
+    "33": {
+        "operation": "call:replace",
+        "value": {},
+        "file": "/nodetaint/packageData/koa-logger2/node_modules/koa-logger2/index.js",
+        "startLineNumber": 113,
+        "startColumnNumber": 11,
+        "endLineNumber": 118,
+        "endColumnNumber": 5,
+        "tainted": false,
+        "flows_from": [
+            "34"
+        ],
+        "sink_type": ""
+    },
+    "34": {
+        "operation": "Untainted",
+        "value": {},
+        "file": "/nodetaint/packageData/koa-logger2/node_modules/koa-logger2/index.js",
+        "startLineNumber": 113,
+        "startColumnNumber": 11,
+        "endLineNumber": 118,
+        "endColumnNumber": 5,
+        "tainted": false,
+        "flows_from": [],
+        "sink_type": ""
+    },
+    "35": {
+        "operation": "call:replace",
+        "file": "/nodetaint/packageData/koa-logger2/node_modules/koa-logger2/index.js",
+        "startLineNumber": 113,
+        "startColumnNumber": 11,
+        "endLineNumber": 118,
+        "endColumnNumber": 5,
+        "tainted": false,
+        "flows_from": [
+            "36"
+        ],
+        "sink_type": ""
+    },
+    "36": {
+        "operation": "Untainted",
+        "file": "/nodetaint/packageData/koa-logger2/node_modules/koa-logger2/index.js",
+        "startLineNumber": 113,
+        "startColumnNumber": 11,
+        "endLineNumber": 118,
+        "endColumnNumber": 5,
+        "tainted": false,
+        "flows_from": [],
+        "sink_type": ""
+    },
+    "37": {
+        "operation": "Untainted",
+        "value": "\\n');",
+        "file": "/nodetaint/packageData/koa-logger2/node_modules/koa-logger2/index.js",
+        "startLineNumber": 120,
+        "startColumnNumber": 14,
+        "endLineNumber": 120,
+        "endColumnNumber": 50,
+        "tainted": false,
+        "flows_from": [],
+        "sink_type": ""
+    },
+    "38": {
+        "operation": "Untainted",
+        "value": "},\n",
+        "file": "/nodetaint/packageData/koa-logger2/node_modules/koa-logger2/index.js",
+        "startLineNumber": 11,
+        "startColumnNumber": 11,
+        "endLineNumber": 13,
+        "endColumnNumber": 55,
+        "tainted": false,
+        "flows_from": [],
+        "sink_type": ""
+    },
+    "39": {
+        "operation": "Untainted",
+        "value": "  setStream: function (s) { outStream = s; return this; }\n",
+        "file": "/nodetaint/packageData/koa-logger2/node_modules/koa-logger2/index.js",
+        "startLineNumber": 11,
+        "startColumnNumber": 11,
+        "endLineNumber": 14,
+        "endColumnNumber": 64,
+        "tainted": false,
+        "flows_from": [],
+        "sink_type": ""
+    },
+    "40": {
+        "operation": "Untainted",
+        "value": "}",
+        "file": "/nodetaint/packageData/koa-logger2/node_modules/koa-logger2/index.js",
+        "startLineNumber": 11,
+        "startColumnNumber": 11,
+        "endLineNumber": 15,
+        "endColumnNumber": 6,
+        "tainted": false,
+        "flows_from": [],
+        "sink_type": ""
+    }
+}

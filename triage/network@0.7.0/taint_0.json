@@ -1,0 +1,152 @@
+{
+    "1": {
+        "operation": "call:exec",
+        "value": "ip r | grep DW1PgBUw | grep default | cut -d ' ' -f 3 | head -n1",
+        "file": "/nodetaint/packageData/network/node_modules/network/lib/linux.js",
+        "startLineNumber": 8,
+        "startColumnNumber": 3,
+        "endLineNumber": 13,
+        "endColumnNumber": 5,
+        "tainted": true,
+        "flows_from": [
+            "2"
+        ],
+        "sink_type": "exec"
+    },
+    "2": {
+        "operation": "call:trim_exec",
+        "value": "ip r | grep DW1PgBUw | grep default | cut -d ' ' -f 3 | head -n1",
+        "file": "/nodetaint/packageData/network/node_modules/network/lib/linux.js",
+        "startLineNumber": 54,
+        "startColumnNumber": 3,
+        "endLineNumber": 54,
+        "endColumnNumber": 92,
+        "tainted": true,
+        "flows_from": [
+            "3"
+        ],
+        "sink_type": ""
+    },
+    "3": {
+        "operation": "precise:string.concat",
+        "value": "ip r | grep DW1PgBUw | grep default | cut -d ' ' -f 3 | head -n1",
+        "file": "/nodetaint/packageData/network/node_modules/network/lib/linux.js",
+        "startLineNumber": 54,
+        "startColumnNumber": 13,
+        "endLineNumber": 54,
+        "endColumnNumber": 87,
+        "tainted": true,
+        "flows_from": [
+            "4",
+            "11"
+        ],
+        "sink_type": ""
+    },
+    "4": {
+        "operation": "precise:string.concat",
+        "value": "ip r | grep DW1PgBUw",
+        "file": "/nodetaint/packageData/network/node_modules/network/lib/linux.js",
+        "startLineNumber": 54,
+        "startColumnNumber": 13,
+        "endLineNumber": 54,
+        "endColumnNumber": 38,
+        "tainted": true,
+        "flows_from": [
+            "5",
+            "6"
+        ],
+        "sink_type": ""
+    },
+    "5": {
+        "operation": "Untainted",
+        "value": "ip r | grep ",
+        "file": "/nodetaint/packageData/network/node_modules/network/lib/linux.js",
+        "startLineNumber": 54,
+        "startColumnNumber": 13,
+        "endLineNumber": 54,
+        "endColumnNumber": 38,
+        "tainted": false,
+        "flows_from": [],
+        "sink_type": ""
+    },
+    "6": {
+        "operation": "call:ensure_valid_nic",
+        "value": "DW1PgBUw",
+        "file": "/nodetaint/packageData/network/node_modules/network/lib/linux.js",
+        "startLineNumber": 53,
+        "startColumnNumber": 3,
+        "endLineNumber": 53,
+        "endColumnNumber": 29,
+        "tainted": true,
+        "flows_from": [
+            "7"
+        ],
+        "sink_type": ""
+    },
+    "7": {
+        "operation": "call:gateway_ip_for",
+        "value": "DW1PgBUw",
+        "file": "/nodetaint/analysisArtifacts/run-network2.js",
+        "startLineNumber": 9,
+        "startColumnNumber": 1,
+        "endLineNumber": 9,
+        "endColumnNumber": 34,
+        "tainted": true,
+        "flows_from": [
+            "8"
+        ],
+        "sink_type": ""
+    },
+    "8": {
+        "operation": "Tainted",
+        "value": "DW1PgBUw",
+        "file": "/nodetaint/analysisArtifacts/run-network2.js",
+        "startLineNumber": 8,
+        "startColumnNumber": 1,
+        "endLineNumber": 8,
+        "endColumnNumber": 26,
+        "tainted": true,
+        "flows_from": [
+            "9"
+        ],
+        "sink_type": ""
+    },
+    "9": {
+        "operation": "call:__jalangi_set_taint__",
+        "value": "DW1PgBUw",
+        "file": "/nodetaint/analysisArtifacts/run-network2.js",
+        "startLineNumber": 8,
+        "startColumnNumber": 1,
+        "endLineNumber": 8,
+        "endColumnNumber": 26,
+        "tainted": false,
+        "flows_from": [
+            "10"
+        ],
+        "sink_type": ""
+    },
+    "10": {
+        "operation": "Untainted",
+        "value": "DW1PgBUw",
+        "file": "/nodetaint/analysisArtifacts/run-network2.js",
+        "startLineNumber": 8,
+        "startColumnNumber": 1,
+        "endLineNumber": 8,
+        "endColumnNumber": 26,
+        "tainted": false,
+        "flows_from": [],
+        "sink_type": ""
+    },
+    "11": {
+        "operation": "Untainted",
+        "value": " | grep default | cut -d ' ' -f 3 | head -n1",
+        "file": "/nodetaint/packageData/network/node_modules/network/lib/linux.js",
+        "startLineNumber": 54,
+        "startColumnNumber": 13,
+        "endLineNumber": 54,
+        "endColumnNumber": 87,
+        "tainted": false,
+        "flows_from": [],
+        "sink_type": ""
+    }
+}

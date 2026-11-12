@@ -1,0 +1,36 @@
+{
+    "1": {
+        "operation": "call:spawn",
+        "value": [
+            {
+                "0": "."
+            }
+        ],
+        "file": "/nodetaint/packageData/rclone.js/node_modules/rclone.js/rclone.js",
+        "startLineNumber": 75,
+        "startColumnNumber": 10,
+        "endLineNumber": 75,
+        "endColumnNumber": 54,
+        "tainted": false,
+        "flows_from": [
+            "2"
+        ],
+        "sink_type": "spawn"
+    },
+    "2": {
+        "operation": "Untainted",
+        "value": [
+            {
+                "0": "."
+            }
+        ],
+        "file": "/nodetaint/packageData/rclone.js/node_modules/rclone.js/rclone.js",
+        "startLineNumber": 75,
+        "startColumnNumber": 10,
+        "endLineNumber": 75,
+        "endColumnNumber": 54,
+        "tainted": false,
+        "flows_from": [],
+        "sink_type": ""
+    }
+}

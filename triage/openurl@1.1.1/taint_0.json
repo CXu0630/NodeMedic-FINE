@@ -1,0 +1,32 @@
+{
+    "1": {
+        "operation": "call:spawn",
+        "value": [
+            {}
+        ],
+        "file": "/nodetaint/packageData/openurl/node_modules/openurl/openurl.js",
+        "startLineNumber": 27,
+        "startColumnNumber": 15,
+        "endLineNumber": 27,
+        "endColumnNumber": 36,
+        "tainted": false,
+        "flows_from": [
+            "2"
+        ],
+        "sink_type": "spawn"
+    },
+    "2": {
+        "operation": "Untainted",
+        "value": [
+            {}
+        ],
+        "file": "/nodetaint/packageData/openurl/node_modules/openurl/openurl.js",
+        "startLineNumber": 27,
+        "startColumnNumber": 15,
+        "endLineNumber": 27,
+        "endColumnNumber": 36,
+        "tainted": false,
+        "flows_from": [],
+        "sink_type": ""
+    }
+}

@@ -1,0 +1,124 @@
+{
+    "1": {
+        "operation": "call:spawn",
+        "value": [
+            {
+                "0": "-",
+                "1": "$",
+                "2": "p"
+            },
+            {
+                "0": "-",
+                "1": "0"
+            },
+            {
+                "0": "S"
+            },
+            {
+                "0": "-",
+                "1": "1"
+            },
+            {
+                "0": "^"
+            },
+            {
+                "0": "-",
+                "1": "2"
+            },
+            {
+                "0": "g"
+            },
+            {
+                "0": "-",
+                "1": "3"
+            },
+            {
+                "0": "\t"
+            },
+            {
+                "0": "-",
+                "1": "4"
+            },
+            {
+                "0": "4"
+            },
+            {
+                "0": "-",
+                "1": "5"
+            },
+            {
+                "0": "@"
+            }
+        ],
+        "file": "/nodetaint/packageData/openssl-wrapper/node_modules/openssl-wrapper/lib/index.js",
+        "startLineNumber": 65,
+        "startColumnNumber": 17,
+        "endLineNumber": 65,
+        "endColumnNumber": 61,
+        "tainted": false,
+        "flows_from": [
+            "2"
+        ],
+        "sink_type": "spawn"
+    },
+    "2": {
+        "operation": "Untainted",
+        "value": [
+            {
+                "0": "-",
+                "1": "$",
+                "2": "p"
+            },
+            {
+                "0": "-",
+                "1": "0"
+            },
+            {
+                "0": "S"
+            },
+            {
+                "0": "-",
+                "1": "1"
+            },
+            {
+                "0": "^"
+            },
+            {
+                "0": "-",
+                "1": "2"
+            },
+            {
+                "0": "g"
+            },
+            {
+                "0": "-",
+                "1": "3"
+            },
+            {
+                "0": "\t"
+            },
+            {
+                "0": "-",
+                "1": "4"
+            },
+            {
+                "0": "4"
+            },
+            {
+                "0": "-",
+                "1": "5"
+            },
+            {
+                "0": "@"
+            }
+        ],
+        "file": "/nodetaint/packageData/openssl-wrapper/node_modules/openssl-wrapper/lib/index.js",
+        "startLineNumber": 65,
+        "startColumnNumber": 17,
+        "endLineNumber": 65,
+        "endColumnNumber": 61,
+        "tainted": false,
+        "flows_from": [],
+        "sink_type": ""
+    }
+}

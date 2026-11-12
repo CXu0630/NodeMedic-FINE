@@ -1,0 +1,48 @@
+{
+    "1": {
+        "operation": "call:exec",
+        "value": {
+            "cwd": {
+                "0": "<",
+                "1": "5",
+                "2": "+",
+                "3": "T",
+                "4": "/",
+                "5": "9",
+                "6": "\t"
+            }
+        },
+        "file": "/nodetaint/packageData/git-last-commit/node_modules/git-last-commit/source/index.js",
+        "startLineNumber": 11,
+        "startColumnNumber": 3,
+        "endLineNumber": 23,
+        "endColumnNumber": 5,
+        "tainted": false,
+        "flows_from": [
+            "2"
+        ],
+        "sink_type": "exec"
+    },
+    "2": {
+        "operation": "Untainted",
+        "value": {
+            "cwd": {
+                "0": "<",
+                "1": "5",
+                "2": "+",
+                "3": "T",
+                "4": "/",
+                "5": "9",
+                "6": "\t"
+            }
+        },
+        "file": "/nodetaint/packageData/git-last-commit/node_modules/git-last-commit/source/index.js",
+        "startLineNumber": 11,
+        "startColumnNumber": 3,
+        "endLineNumber": 23,
+        "endColumnNumber": 5,
+        "tainted": false,
+        "flows_from": [],
+        "sink_type": ""
+    }
+}

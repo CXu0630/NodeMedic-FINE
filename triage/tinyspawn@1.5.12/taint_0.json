@@ -1,0 +1,233 @@
+{
+    "1": {
+        "operation": "call:spawn",
+        "value": "e!",
+        "file": "/nodetaint/packageData/tinyspawn/node_modules/tinyspawn/src/index.js",
+        "startLineNumber": 73,
+        "startColumnNumber": 22,
+        "endLineNumber": 73,
+        "endColumnNumber": 47,
+        "tainted": true,
+        "flows_from": [
+            "2"
+        ],
+        "sink_type": "spawn"
+    },
+    "2": {
+        "operation": "object.GetField",
+        "value": "e!",
+        "file": "UNKNOWN",
+        "startLineNumber": -1,
+        "startColumnNumber": -1,
+        "endLineNumber": -1,
+        "endColumnNumber": -1,
+        "tainted": true,
+        "flows_from": [
+            "3",
+            "10",
+            "11"
+        ],
+        "sink_type": ""
+    },
+    "3": {
+        "operation": "call:isArray",
+        "value": [
+            {
+                "0": "e",
+                "1": "!"
+            }
+        ],
+        "file": "/nodetaint/packageData/tinyspawn/node_modules/tinyspawn/src/index.js",
+        "startLineNumber": 1,
+        "startColumnNumber": 3052,
+        "endLineNumber": 1,
+        "endColumnNumber": 3068,
+        "tainted": false,
+        "flows_from": [
+            "4"
+        ],
+        "sink_type": ""
+    },
+    "4": {
+        "operation": "call:_arrayWithHoles",
+        "value": [
+            {
+                "0": "e",
+                "1": "!"
+            }
+        ],
+        "file": "/nodetaint/packageData/tinyspawn/node_modules/tinyspawn/src/index.js",
+        "startLineNumber": 1,
+        "startColumnNumber": 2068,
+        "endLineNumber": 1,
+        "endColumnNumber": 2086,
+        "tainted": false,
+        "flows_from": [
+            "5"
+        ],
+        "sink_type": ""
+    },
+    "5": {
+        "operation": "call:_toArray",
+        "value": [
+            {
+                "0": "e",
+                "1": "!"
+            }
+        ],
+        "file": "/nodetaint/packageData/tinyspawn/node_modules/tinyspawn/src/index.js",
+        "startLineNumber": 68,
+        "startColumnNumber": 48,
+        "endLineNumber": 68,
+        "endColumnNumber": 63,
+        "tainted": false,
+        "flows_from": [
+            "6"
+        ],
+        "sink_type": ""
+    },
+    "6": {
+        "operation": "imprecise:filter",
+        "value": [
+            {
+                "0": "e",
+                "1": "!"
+            }
+        ],
+        "file": "/nodetaint/packageData/tinyspawn/node_modules/tinyspawn/src/index.js",
+        "startLineNumber": 68,
+        "startColumnNumber": 7,
+        "endLineNumber": 68,
+        "endColumnNumber": 39,
+        "tainted": false,
+        "flows_from": [
+            "7",
+            "8"
+        ],
+        "sink_type": ""
+    },
+    "7": {
+        "operation": "Untainted",
+        "value": [
+            {
+                "0": "e",
+                "1": "!"
+            }
+        ],
+        "file": "/nodetaint/packageData/tinyspawn/node_modules/tinyspawn/src/index.js",
+        "startLineNumber": 68,
+        "startColumnNumber": 7,
+        "endLineNumber": 68,
+        "endColumnNumber": 23,
+        "tainted": false,
+        "flows_from": [],
+        "sink_type": ""
+    },
+    "8": {
+        "operation": "call:filter",
+        "file": "/nodetaint/packageData/tinyspawn/node_modules/tinyspawn/src/index.js",
+        "startLineNumber": 68,
+        "startColumnNumber": 7,
+        "endLineNumber": 68,
+        "endColumnNumber": 39,
+        "tainted": false,
+        "flows_from": [
+            "9"
+        ],
+        "sink_type": ""
+    },
+    "9": {
+        "operation": "Untainted",
+        "file": "/nodetaint/packageData/tinyspawn/node_modules/tinyspawn/src/index.js",
+        "startLineNumber": 68,
+        "startColumnNumber": 7,
+        "endLineNumber": 68,
+        "endColumnNumber": 39,
+        "tainted": false,
+        "flows_from": [],
+        "sink_type": ""
+    },
+    "10": {
+        "operation": "Untainted",
+        "value": 0,
+        "file": "UNKNOWN",
+        "startLineNumber": -1,
+        "startColumnNumber": -1,
+        "endLineNumber": -1,
+        "endColumnNumber": -1,
+        "tainted": false,
+        "flows_from": [],
+        "sink_type": ""
+    },
+    "11": {
+        "operation": "model:string.split",
+        "value": {
+            "0": "e",
+            "1": "!"
+        },
+        "file": "/nodetaint/packageData/tinyspawn/node_modules/tinyspawn/src/index.js",
+        "startLineNumber": 68,
+        "startColumnNumber": 7,
+        "endLineNumber": 68,
+        "endColumnNumber": 23,
+        "tainted": true,
+        "flows_from": [
+            "12"
+        ],
+        "sink_type": ""
+    },
+    "12": {
+        "operation": "call:json",
+        "value": "e!",
+        "file": "/nodetaint/analysisArtifacts/run-tinyspawn2.js",
+        "startLineNumber": 8,
+        "startColumnNumber": 1,
+        "endLineNumber": 8,
+        "endColumnNumber": 16,
+        "tainted": true,
+        "flows_from": [
+            "13"
+        ],
+        "sink_type": ""
+    },
+    "13": {
+        "operation": "Tainted",
+        "value": "e!",
+        "file": "/nodetaint/analysisArtifacts/run-tinyspawn2.js",
+        "startLineNumber": 7,
+        "startColumnNumber": 1,
+        "endLineNumber": 7,
+        "endColumnNumber": 26,
+        "tainted": true,
+        "flows_from": [
+            "14"
+        ],
+        "sink_type": ""
+    },
+    "14": {
+        "operation": "call:__jalangi_set_taint__",
+        "value": "e!",
+        "file": "/nodetaint/analysisArtifacts/run-tinyspawn2.js",
+        "startLineNumber": 7,
+        "startColumnNumber": 1,
+        "endLineNumber": 7,
+        "endColumnNumber": 26,
+        "tainted": false,
+        "flows_from": [
+            "15"
+        ],
+        "sink_type": ""
+    },
+    "15": {
+        "operation": "Untainted",
+        "value": "e!",
+        "file": "/nodetaint/analysisArtifacts/run-tinyspawn2.js",
+        "startLineNumber": 7,
+        "startColumnNumber": 1,
+        "endLineNumber": 7,
+        "endColumnNumber": 26,
+        "tainted": false,
+        "flows_from": [],
+        "sink_type": ""
+    }
+}

@@ -1,0 +1,40 @@
+{
+    "1": {
+        "operation": "call:spawn",
+        "value": [
+            {
+                "0": "-",
+                "1": "c"
+            },
+            {}
+        ],
+        "file": "/nodetaint/packageData/spawn-command/node_modules/spawn-command/lib/spawn-command.js",
+        "startLineNumber": 15,
+        "startColumnNumber": 10,
+        "endLineNumber": 15,
+        "endColumnNumber": 36,
+        "tainted": false,
+        "flows_from": [
+            "2"
+        ],
+        "sink_type": "spawn"
+    },
+    "2": {
+        "operation": "Untainted",
+        "value": [
+            {
+                "0": "-",
+                "1": "c"
+            },
+            {}
+        ],
+        "file": "/nodetaint/packageData/spawn-command/node_modules/spawn-command/lib/spawn-command.js",
+        "startLineNumber": 15,
+        "startColumnNumber": 10,
+        "endLineNumber": 15,
+        "endColumnNumber": 36,
+        "tainted": false,
+        "flows_from": [],
+        "sink_type": ""
+    }
+}

@@ -1,0 +1,249 @@
+{
+    "1": {
+        "operation": "call:spawn",
+        "value": [
+            {},
+            {}
+        ],
+        "file": "/nodetaint/packageData/ps-man/node_modules/ps-man/lib/index.js",
+        "startLineNumber": 140,
+        "startColumnNumber": 14,
+        "endLineNumber": 140,
+        "endColumnNumber": 59,
+        "tainted": true,
+        "flows_from": [
+            "2"
+        ],
+        "sink_type": "spawn"
+    },
+    "2": {
+        "operation": "imprecise:concat",
+        "value": [
+            {},
+            {}
+        ],
+        "file": "/nodetaint/packageData/ps-man/node_modules/ps-man/lib/index.js",
+        "startLineNumber": 130,
+        "startColumnNumber": 23,
+        "endLineNumber": 130,
+        "endColumnNumber": 73,
+        "tainted": true,
+        "flows_from": [
+            "3",
+            "8",
+            "10"
+        ],
+        "sink_type": ""
+    },
+    "3": {
+        "operation": "object.GetField",
+        "value": [],
+        "file": "UNKNOWN",
+        "startLineNumber": -1,
+        "startColumnNumber": -1,
+        "endLineNumber": -1,
+        "endColumnNumber": -1,
+        "tainted": false,
+        "flows_from": [
+            "4",
+            "7"
+        ],
+        "sink_type": ""
+    },
+    "4": {
+        "operation": "object.GetField",
+        "value": {
+            "command": "kill",
+            "arguments": []
+        },
+        "file": "UNKNOWN",
+        "startLineNumber": -1,
+        "startColumnNumber": -1,
+        "endLineNumber": -1,
+        "endColumnNumber": -1,
+        "tainted": false,
+        "flows_from": [
+            "5",
+            "6"
+        ],
+        "sink_type": ""
+    },
+    "5": {
+        "operation": "Untainted",
+        "value": {
+            "ps": {
+                "command": "ps",
+                "arguments": [
+                    "axo",
+                    "pid,args"
+                ],
+                "indexes": {
+                    "pid": 0,
+                    "command": 1
+                }
+            },
+            "kill": {
+                "command": "kill",
+                "arguments": []
+            }
+        },
+        "file": "UNKNOWN",
+        "startLineNumber": -1,
+        "startColumnNumber": -1,
+        "endLineNumber": -1,
+        "endColumnNumber": -1,
+        "tainted": false,
+        "flows_from": [],
+        "sink_type": ""
+    },
+    "6": {
+        "operation": "Untainted",
+        "value": "kill",
+        "file": "UNKNOWN",
+        "startLineNumber": -1,
+        "startColumnNumber": -1,
+        "endLineNumber": -1,
+        "endColumnNumber": -1,
+        "tainted": false,
+        "flows_from": [],
+        "sink_type": ""
+    },
+    "7": {
+        "operation": "Untainted",
+        "value": "arguments",
+        "file": "UNKNOWN",
+        "startLineNumber": -1,
+        "startColumnNumber": -1,
+        "endLineNumber": -1,
+        "endColumnNumber": -1,
+        "tainted": false,
+        "flows_from": [],
+        "sink_type": ""
+    },
+    "8": {
+        "operation": "call:concat",
+        "value": [],
+        "file": "/nodetaint/packageData/ps-man/node_modules/ps-man/lib/index.js",
+        "startLineNumber": 130,
+        "startColumnNumber": 23,
+        "endLineNumber": 130,
+        "endColumnNumber": 73,
+        "tainted": false,
+        "flows_from": [
+            "9"
+        ],
+        "sink_type": ""
+    },
+    "9": {
+        "operation": "Untainted",
+        "value": [],
+        "file": "/nodetaint/packageData/ps-man/node_modules/ps-man/lib/index.js",
+        "startLineNumber": 130,
+        "startColumnNumber": 23,
+        "endLineNumber": 130,
+        "endColumnNumber": 73,
+        "tainted": false,
+        "flows_from": [],
+        "sink_type": ""
+    },
+    "10": {
+        "operation": "call:concat",
+        "value": [
+            {},
+            {}
+        ],
+        "file": "/nodetaint/packageData/ps-man/node_modules/ps-man/lib/index.js",
+        "startLineNumber": 130,
+        "startColumnNumber": 23,
+        "endLineNumber": 130,
+        "endColumnNumber": 73,
+        "tainted": true,
+        "flows_from": [
+            "11"
+        ],
+        "sink_type": ""
+    },
+    "11": {
+        "operation": "call:isArray",
+        "value": [
+            {},
+            {}
+        ],
+        "file": "/nodetaint/packageData/ps-man/node_modules/ps-man/lib/index.js",
+        "startLineNumber": 121,
+        "startColumnNumber": 7,
+        "endLineNumber": 121,
+        "endColumnNumber": 29,
+        "tainted": true,
+        "flows_from": [
+            "12"
+        ],
+        "sink_type": ""
+    },
+    "12": {
+        "operation": "call:killProcesses",
+        "value": [
+            {},
+            {}
+        ],
+        "file": "/nodetaint/analysisArtifacts/run-ps-man2.js",
+        "startLineNumber": 9,
+        "startColumnNumber": 1,
+        "endLineNumber": 9,
+        "endColumnNumber": 24,
+        "tainted": true,
+        "flows_from": [
+            "13"
+        ],
+        "sink_type": ""
+    },
+    "13": {
+        "operation": "Tainted",
+        "value": [
+            {},
+            {}
+        ],
+        "file": "/nodetaint/analysisArtifacts/run-ps-man2.js",
+        "startLineNumber": 8,
+        "startColumnNumber": 1,
+        "endLineNumber": 8,
+        "endColumnNumber": 26,
+        "tainted": true,
+        "flows_from": [
+            "14"
+        ],
+        "sink_type": ""
+    },
+    "14": {
+        "operation": "call:__jalangi_set_taint__",
+        "value": [
+            {},
+            {}
+        ],
+        "file": "/nodetaint/analysisArtifacts/run-ps-man2.js",
+        "startLineNumber": 8,
+        "startColumnNumber": 1,
+        "endLineNumber": 8,
+        "endColumnNumber": 26,
+        "tainted": false,
+        "flows_from": [
+            "15"
+        ],
+        "sink_type": ""
+    },
+    "15": {
+        "operation": "Untainted",
+        "value": [
+            {},
+            {}
+        ],
+        "file": "/nodetaint/analysisArtifacts/run-ps-man2.js",
+        "startLineNumber": 8,
+        "startColumnNumber": 1,
+        "endLineNumber": 8,
+        "endColumnNumber": 26,
+        "tainted": false,
+        "flows_from": [],
+        "sink_type": ""
+    }
+}

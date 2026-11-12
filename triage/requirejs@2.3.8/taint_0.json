@@ -1,0 +1,138 @@
+{
+    "1": {
+        "operation": "call:eval",
+        "value": "(function (require, requirejs, define) { [object Object]\n}(requirejsVars.require, requirejsVars.requirejs, requirejsVars.define));",
+        "file": "/nodetaint/packageData/requirejs/node_modules/requirejs/bin/r.js",
+        "startLineNumber": 2549,
+        "startColumnNumber": 7,
+        "endLineNumber": 2551,
+        "endColumnNumber": 78,
+        "tainted": true,
+        "flows_from": [
+            "2"
+        ],
+        "sink_type": "eval"
+    },
+    "2": {
+        "operation": "precise:string.concat",
+        "value": "(function (require, requirejs, define) { [object Object]\n}(requirejsVars.require, requirejsVars.requirejs, requirejsVars.define));",
+        "file": "/nodetaint/packageData/requirejs/node_modules/requirejs/bin/r.js",
+        "startLineNumber": 2549,
+        "startColumnNumber": 7,
+        "endLineNumber": 2551,
+        "endColumnNumber": 78,
+        "tainted": true,
+        "flows_from": [
+            "3",
+            "10"
+        ],
+        "sink_type": ""
+    },
+    "3": {
+        "operation": "precise:string.concat",
+        "value": "(function (require, requirejs, define) { [object Object]",
+        "file": "/nodetaint/packageData/requirejs/node_modules/requirejs/bin/r.js",
+        "startLineNumber": 2549,
+        "startColumnNumber": 7,
+        "endLineNumber": 2550,
+        "endColumnNumber": 9,
+        "tainted": true,
+        "flows_from": [
+            "4",
+            "5"
+        ],
+        "sink_type": ""
+    },
+    "4": {
+        "operation": "Untainted",
+        "value": "(function (require, requirejs, define) { ",
+        "file": "/nodetaint/packageData/requirejs/node_modules/requirejs/bin/r.js",
+        "startLineNumber": 2549,
+        "startColumnNumber": 7,
+        "endLineNumber": 2550,
+        "endColumnNumber": 9,
+        "tainted": false,
+        "flows_from": [],
+        "sink_type": ""
+    },
+    "5": {
+        "operation": "call:makeNodeWrapper",
+        "value": {},
+        "file": "/nodetaint/packageData/requirejs/node_modules/requirejs/bin/r.js",
+        "startLineNumber": 2618,
+        "startColumnNumber": 6,
+        "endLineNumber": 2618,
+        "endColumnNumber": 31,
+        "tainted": true,
+        "flows_from": [
+            "6"
+        ],
+        "sink_type": ""
+    },
+    "6": {
+        "operation": "call:exec",
+        "value": {},
+        "file": "/nodetaint/analysisArtifacts/run-requirejs2.js",
+        "startLineNumber": 8,
+        "startColumnNumber": 1,
+        "endLineNumber": 8,
+        "endColumnNumber": 20,
+        "tainted": true,
+        "flows_from": [
+            "7"
+        ],
+        "sink_type": ""
+    },
+    "7": {
+        "operation": "Tainted",
+        "value": {},
+        "file": "/nodetaint/analysisArtifacts/run-requirejs2.js",
+        "startLineNumber": 7,
+        "startColumnNumber": 1,
+        "endLineNumber": 7,
+        "endColumnNumber": 26,
+        "tainted": true,
+        "flows_from": [
+            "8"
+        ],
+        "sink_type": ""
+    },
+    "8": {
+        "operation": "call:__jalangi_set_taint__",
+        "value": {},
+        "file": "/nodetaint/analysisArtifacts/run-requirejs2.js",
+        "startLineNumber": 7,
+        "startColumnNumber": 1,
+        "endLineNumber": 7,
+        "endColumnNumber": 26,
+        "tainted": false,
+        "flows_from": [
+            "9"
+        ],
+        "sink_type": ""
+    },
+    "9": {
+        "operation": "Untainted",
+        "value": {},
+        "file": "/nodetaint/analysisArtifacts/run-requirejs2.js",
+        "startLineNumber": 7,
+        "startColumnNumber": 1,
+        "endLineNumber": 7,
+        "endColumnNumber": 26,
+        "tainted": false,
+        "flows_from": [],
+        "sink_type": ""
+    },
+    "10": {
+        "operation": "Untainted",
+        "value": "\n}(requirejsVars.require, requirejsVars.requirejs, requirejsVars.define));",
+        "file": "/nodetaint/packageData/requirejs/node_modules/requirejs/bin/r.js",
+        "startLineNumber": 2549,
+        "startColumnNumber": 7,
+        "endLineNumber": 2551,
+        "endColumnNumber": 78,
+        "tainted": false,
+        "flows_from": [],
+        "sink_type": ""
+    }
+}

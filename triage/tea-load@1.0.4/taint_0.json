@@ -1,0 +1,70 @@
+{
+    "1": {
+        "operation": "call:runInContext",
+        "value": {},
+        "file": "/nodetaint/packageData/tea-load/node_modules/tea-load/index.js",
+        "startLineNumber": 56,
+        "startColumnNumber": 3,
+        "endLineNumber": 56,
+        "endColumnNumber": 39,
+        "tainted": true,
+        "flows_from": [
+            "2"
+        ],
+        "sink_type": "eval"
+    },
+    "2": {
+        "operation": "call:compiler",
+        "value": {},
+        "file": "/nodetaint/analysisArtifacts/run-tea-load2.js",
+        "startLineNumber": 10,
+        "startColumnNumber": 1,
+        "endLineNumber": 10,
+        "endColumnNumber": 32,
+        "tainted": true,
+        "flows_from": [
+            "3"
+        ],
+        "sink_type": ""
+    },
+    "3": {
+        "operation": "Tainted",
+        "value": {},
+        "file": "/nodetaint/analysisArtifacts/run-tea-load2.js",
+        "startLineNumber": 9,
+        "startColumnNumber": 1,
+        "endLineNumber": 9,
+        "endColumnNumber": 26,
+        "tainted": true,
+        "flows_from": [
+            "4"
+        ],
+        "sink_type": ""
+    },
+    "4": {
+        "operation": "call:__jalangi_set_taint__",
+        "value": {},
+        "file": "/nodetaint/analysisArtifacts/run-tea-load2.js",
+        "startLineNumber": 9,
+        "startColumnNumber": 1,
+        "endLineNumber": 9,
+        "endColumnNumber": 26,
+        "tainted": false,
+        "flows_from": [
+            "5"
+        ],
+        "sink_type": ""
+    },
+    "5": {
+        "operation": "Untainted",
+        "value": {},
+        "file": "/nodetaint/analysisArtifacts/run-tea-load2.js",
+        "startLineNumber": 9,
+        "startColumnNumber": 1,
+        "endLineNumber": 9,
+        "endColumnNumber": 26,
+        "tainted": false,
+        "flows_from": [],
+        "sink_type": ""
+    }
+}

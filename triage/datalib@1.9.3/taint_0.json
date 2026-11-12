@@ -1,0 +1,357 @@
+{
+    "1": {
+        "operation": "call:Function",
+        "value": "return x[\"fACPy6U>0T$\"];",
+        "file": "/nodetaint/packageData/datalib/node_modules/datalib/src/util.js",
+        "startLineNumber": 147,
+        "startColumnNumber": 18,
+        "endLineNumber": 147,
+        "endColumnNumber": 86,
+        "tainted": false,
+        "flows_from": [
+            "2"
+        ],
+        "sink_type": "Function"
+    },
+    "2": {
+        "operation": "precise:string.concat",
+        "value": "return x[\"fACPy6U>0T$\"];",
+        "file": "/nodetaint/packageData/datalib/node_modules/datalib/src/util.js",
+        "startLineNumber": 147,
+        "startColumnNumber": 32,
+        "endLineNumber": 147,
+        "endColumnNumber": 85,
+        "tainted": false,
+        "flows_from": [
+            "3",
+            "26"
+        ],
+        "sink_type": ""
+    },
+    "3": {
+        "operation": "precise:string.concat",
+        "value": "return x[\"fACPy6U>0T$\"",
+        "file": "/nodetaint/packageData/datalib/node_modules/datalib/src/util.js",
+        "startLineNumber": 147,
+        "startColumnNumber": 32,
+        "endLineNumber": 147,
+        "endColumnNumber": 78,
+        "tainted": false,
+        "flows_from": [
+            "4",
+            "5"
+        ],
+        "sink_type": ""
+    },
+    "4": {
+        "operation": "Untainted",
+        "value": "return x[",
+        "file": "/nodetaint/packageData/datalib/node_modules/datalib/src/util.js",
+        "startLineNumber": 147,
+        "startColumnNumber": 32,
+        "endLineNumber": 147,
+        "endColumnNumber": 78,
+        "tainted": false,
+        "flows_from": [],
+        "sink_type": ""
+    },
+    "5": {
+        "operation": "model:array.join",
+        "value": "\"fACPy6U>0T$\"",
+        "file": "/nodetaint/packageData/datalib/node_modules/datalib/src/util.js",
+        "startLineNumber": 147,
+        "startColumnNumber": 46,
+        "endLineNumber": 147,
+        "endColumnNumber": 78,
+        "tainted": false,
+        "flows_from": [
+            "6"
+        ],
+        "sink_type": ""
+    },
+    "6": {
+        "operation": "precise:string.replace",
+        "value": "\"fACPy6U>0T$\"",
+        "file": "/nodetaint/packageData/datalib/node_modules/datalib/src/util.js",
+        "startLineNumber": 128,
+        "startColumnNumber": 3,
+        "endLineNumber": 128,
+        "endColumnNumber": 78,
+        "tainted": false,
+        "flows_from": [
+            "7",
+            "22",
+            "24"
+        ],
+        "sink_type": ""
+    },
+    "7": {
+        "operation": "precise:string.replace",
+        "value": "\"fACPy6U>0T$\"",
+        "file": "/nodetaint/packageData/datalib/node_modules/datalib/src/util.js",
+        "startLineNumber": 128,
+        "startColumnNumber": 3,
+        "endLineNumber": 128,
+        "endColumnNumber": 49,
+        "tainted": false,
+        "flows_from": [
+            "8",
+            "18",
+            "20"
+        ],
+        "sink_type": ""
+    },
+    "8": {
+        "operation": "imprecise:stringify",
+        "value": "\"fACPy6U>0T$\"",
+        "file": "/nodetaint/packageData/datalib/node_modules/datalib/src/util.js",
+        "startLineNumber": 128,
+        "startColumnNumber": 3,
+        "endLineNumber": 128,
+        "endColumnNumber": 20,
+        "tainted": false,
+        "flows_from": [
+            "9",
+            "10"
+        ],
+        "sink_type": ""
+    },
+    "9": {
+        "operation": "Untainted",
+        "value": {},
+        "file": "/nodetaint/packageData/datalib/node_modules/datalib/src/util.js",
+        "startLineNumber": 128,
+        "startColumnNumber": 3,
+        "endLineNumber": 128,
+        "endColumnNumber": 20,
+        "tainted": false,
+        "flows_from": [],
+        "sink_type": ""
+    },
+    "10": {
+        "operation": "call:stringify",
+        "value": "fACPy6U>0T$",
+        "file": "/nodetaint/packageData/datalib/node_modules/datalib/src/util.js",
+        "startLineNumber": 128,
+        "startColumnNumber": 3,
+        "endLineNumber": 128,
+        "endColumnNumber": 20,
+        "tainted": false,
+        "flows_from": [
+            "11"
+        ],
+        "sink_type": ""
+    },
+    "11": {
+        "operation": "call:toString",
+        "value": "fACPy6U>0T$",
+        "file": "/nodetaint/packageData/datalib/node_modules/datalib/src/util.js",
+        "startLineNumber": 78,
+        "startColumnNumber": 39,
+        "endLineNumber": 78,
+        "endColumnNumber": 57,
+        "tainted": false,
+        "flows_from": [
+            "12"
+        ],
+        "sink_type": ""
+    },
+    "12": {
+        "operation": "call:isString",
+        "value": "fACPy6U>0T$",
+        "file": "/nodetaint/packageData/datalib/node_modules/datalib/src/util.js",
+        "startLineNumber": 125,
+        "startColumnNumber": 20,
+        "endLineNumber": 125,
+        "endColumnNumber": 33,
+        "tainted": false,
+        "flows_from": [
+            "13"
+        ],
+        "sink_type": ""
+    },
+    "13": {
+        "operation": "call:Object",
+        "value": "fACPy6U>0T$",
+        "file": "/nodetaint/packageData/datalib/node_modules/datalib/src/util.js",
+        "startLineNumber": 70,
+        "startColumnNumber": 18,
+        "endLineNumber": 70,
+        "endColumnNumber": 29,
+        "tainted": false,
+        "flows_from": [
+            "14"
+        ],
+        "sink_type": ""
+    },
+    "14": {
+        "operation": "call:isObject",
+        "value": "fACPy6U>0T$",
+        "file": "/nodetaint/packageData/datalib/node_modules/datalib/src/util.js",
+        "startLineNumber": 125,
+        "startColumnNumber": 3,
+        "endLineNumber": 125,
+        "endColumnNumber": 16,
+        "tainted": false,
+        "flows_from": [
+            "15"
+        ],
+        "sink_type": ""
+    },
+    "15": {
+        "operation": "call:isArray",
+        "value": "fACPy6U>0T$",
+        "file": "/nodetaint/packageData/datalib/node_modules/datalib/src/util.js",
+        "startLineNumber": 124,
+        "startColumnNumber": 10,
+        "endLineNumber": 124,
+        "endColumnNumber": 22,
+        "tainted": false,
+        "flows_from": [
+            "16"
+        ],
+        "sink_type": ""
+    },
+    "16": {
+        "operation": "model:array.map",
+        "value": "fACPy6U>0T$",
+        "file": "/nodetaint/packageData/datalib/node_modules/datalib/src/util.js",
+        "startLineNumber": 138,
+        "startColumnNumber": 12,
+        "endLineNumber": 138,
+        "endColumnNumber": 24,
+        "tainted": false,
+        "flows_from": [
+            "17"
+        ],
+        "sink_type": ""
+    },
+    "17": {
+        "operation": "Untainted",
+        "value": "fACPy6U>0T$",
+        "file": "/nodetaint/packageData/datalib/node_modules/datalib/src/util.js",
+        "startLineNumber": 138,
+        "startColumnNumber": 12,
+        "endLineNumber": 138,
+        "endColumnNumber": 24,
+        "tainted": false,
+        "flows_from": [],
+        "sink_type": ""
+    },
+    "18": {
+        "operation": "call:replace",
+        "value": " ",
+        "file": "/nodetaint/packageData/datalib/node_modules/datalib/src/util.js",
+        "startLineNumber": 128,
+        "startColumnNumber": 3,
+        "endLineNumber": 128,
+        "endColumnNumber": 49,
+        "tainted": false,
+        "flows_from": [
+            "19"
+        ],
+        "sink_type": ""
+    },
+    "19": {
+        "operation": "Untainted",
+        "value": " ",
+        "file": "/nodetaint/packageData/datalib/node_modules/datalib/src/util.js",
+        "startLineNumber": 128,
+        "startColumnNumber": 3,
+        "endLineNumber": 128,
+        "endColumnNumber": 49,
+        "tainted": false,
+        "flows_from": [],
+        "sink_type": ""
+    },
+    "20": {
+        "operation": "call:replace",
+        "value": "\\u2028",
+        "file": "/nodetaint/packageData/datalib/node_modules/datalib/src/util.js",
+        "startLineNumber": 128,
+        "startColumnNumber": 3,
+        "endLineNumber": 128,
+        "endColumnNumber": 49,
+        "tainted": false,
+        "flows_from": [
+            "21"
+        ],
+        "sink_type": ""
+    },
+    "21": {
+        "operation": "Untainted",
+        "value": "\\u2028",
+        "file": "/nodetaint/packageData/datalib/node_modules/datalib/src/util.js",
+        "startLineNumber": 128,
+        "startColumnNumber": 3,
+        "endLineNumber": 128,
+        "endColumnNumber": 49,
+        "tainted": false,
+        "flows_from": [],
+        "sink_type": ""
+    },
+    "22": {
+        "operation": "call:replace",
+        "value": " ",
+        "file": "/nodetaint/packageData/datalib/node_modules/datalib/src/util.js",
+        "startLineNumber": 128,
+        "startColumnNumber": 3,
+        "endLineNumber": 128,
+        "endColumnNumber": 78,
+        "tainted": false,
+        "flows_from": [
+            "23"
+        ],
+        "sink_type": ""
+    },
+    "23": {
+        "operation": "Untainted",
+        "value": " ",
+        "file": "/nodetaint/packageData/datalib/node_modules/datalib/src/util.js",
+        "startLineNumber": 128,
+        "startColumnNumber": 3,
+        "endLineNumber": 128,
+        "endColumnNumber": 78,
+        "tainted": false,
+        "flows_from": [],
+        "sink_type": ""
+    },
+    "24": {
+        "operation": "call:replace",
+        "value": "\\u2029",
+        "file": "/nodetaint/packageData/datalib/node_modules/datalib/src/util.js",
+        "startLineNumber": 128,
+        "startColumnNumber": 3,
+        "endLineNumber": 128,
+        "endColumnNumber": 78,
+        "tainted": false,
+        "flows_from": [
+            "25"
+        ],
+        "sink_type": ""
+    },
+    "25": {
+        "operation": "Untainted",
+        "value": "\\u2029",
+        "file": "/nodetaint/packageData/datalib/node_modules/datalib/src/util.js",
+        "startLineNumber": 128,
+        "startColumnNumber": 3,
+        "endLineNumber": 128,
+        "endColumnNumber": 78,
+        "tainted": false,
+        "flows_from": [],
+        "sink_type": ""
+    },
+    "26": {
+        "operation": "Untainted",
+        "value": "];",
+        "file": "/nodetaint/packageData/datalib/node_modules/datalib/src/util.js",
+        "startLineNumber": 147,
+        "startColumnNumber": 32,
+        "endLineNumber": 147,
+        "endColumnNumber": 85,
+        "tainted": false,
+        "flows_from": [],
+        "sink_type": ""
+    }
+}

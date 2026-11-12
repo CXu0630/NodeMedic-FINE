@@ -1,0 +1,632 @@
+{
+    "1": {
+        "operation": "call:spawn",
+        "file": "/nodetaint/packageData/flagged-respawn/node_modules/flagged-respawn/lib/respawn.js",
+        "startLineNumber": 4,
+        "startColumnNumber": 15,
+        "endLineNumber": 4,
+        "endColumnNumber": 66,
+        "tainted": true,
+        "flows_from": [
+            "2"
+        ],
+        "sink_type": "spawn"
+    },
+    "2": {
+        "operation": "object.GetField",
+        "file": "UNKNOWN",
+        "startLineNumber": -1,
+        "startColumnNumber": -1,
+        "endLineNumber": -1,
+        "endColumnNumber": -1,
+        "tainted": true,
+        "flows_from": [
+            "3",
+            "23",
+            "24"
+        ],
+        "sink_type": ""
+    },
+    "3": {
+        "operation": "call:Anonymous Function",
+        "value": [
+            null,
+            {},
+            {},
+            {
+                "0": "9",
+                "1": "\t",
+                "2": "p",
+                "3": "@",
+                "4": "I",
+                "5": "Q",
+                "6": "m",
+                "7": "."
+            },
+            {
+                "0": "-",
+                "1": "-",
+                "2": "n",
+                "3": "o",
+                "4": "-",
+                "5": "r",
+                "6": "e",
+                "7": "s",
+                "8": "p",
+                "9": "a",
+                "10": "w",
+                "11": "n",
+                "12": "i",
+                "13": "n",
+                "14": "g"
+            }
+        ],
+        "file": "/nodetaint/packageData/flagged-respawn/node_modules/flagged-respawn/index.js",
+        "startLineNumber": 50,
+        "startColumnNumber": 12,
+        "endLineNumber": 50,
+        "endColumnNumber": 30,
+        "tainted": false,
+        "flows_from": [
+            "4"
+        ],
+        "sink_type": ""
+    },
+    "4": {
+        "operation": "imprecise:concat",
+        "value": [
+            null,
+            {},
+            {},
+            {
+                "0": "9",
+                "1": "\t",
+                "2": "p",
+                "3": "@",
+                "4": "I",
+                "5": "Q",
+                "6": "m",
+                "7": "."
+            },
+            {
+                "0": "-",
+                "1": "-",
+                "2": "n",
+                "3": "o",
+                "4": "-",
+                "5": "r",
+                "6": "e",
+                "7": "s",
+                "8": "p",
+                "9": "a",
+                "10": "w",
+                "11": "n",
+                "12": "i",
+                "13": "n",
+                "14": "g"
+            }
+        ],
+        "file": "/nodetaint/packageData/flagged-respawn/node_modules/flagged-respawn/index.js",
+        "startLineNumber": 41,
+        "startColumnNumber": 17,
+        "endLineNumber": 44,
+        "endColumnNumber": 31,
+        "tainted": false,
+        "flows_from": [
+            "5",
+            "17"
+        ],
+        "sink_type": ""
+    },
+    "5": {
+        "operation": "imprecise:concat",
+        "value": [
+            null,
+            {},
+            {}
+        ],
+        "file": "/nodetaint/packageData/flagged-respawn/node_modules/flagged-respawn/index.js",
+        "startLineNumber": 41,
+        "startColumnNumber": 17,
+        "endLineNumber": 43,
+        "endColumnNumber": 24,
+        "tainted": false,
+        "flows_from": [
+            "6",
+            "13"
+        ],
+        "sink_type": ""
+    },
+    "6": {
+        "operation": "imprecise:slice",
+        "value": [
+            null
+        ],
+        "file": "/nodetaint/packageData/flagged-respawn/node_modules/flagged-respawn/index.js",
+        "startLineNumber": 41,
+        "startColumnNumber": 17,
+        "endLineNumber": 42,
+        "endColumnNumber": 16,
+        "tainted": false,
+        "flows_from": [
+            "7",
+            "9",
+            "11"
+        ],
+        "sink_type": ""
+    },
+    "7": {
+        "operation": "call:stringify",
+        "value": [
+            null,
+            {
+                "0": "9",
+                "1": "\t",
+                "2": "p",
+                "3": "@",
+                "4": "I",
+                "5": "Q",
+                "6": "m",
+                "7": "."
+            }
+        ],
+        "file": "/nodetaint/packageData/flagged-respawn/node_modules/flagged-respawn/index.js",
+        "startLineNumber": 38,
+        "startColumnNumber": 40,
+        "endLineNumber": 38,
+        "endColumnNumber": 65,
+        "tainted": false,
+        "flows_from": [
+            "8"
+        ],
+        "sink_type": ""
+    },
+    "8": {
+        "operation": "Untainted",
+        "value": [
+            null,
+            {
+                "0": "9",
+                "1": "\t",
+                "2": "p",
+                "3": "@",
+                "4": "I",
+                "5": "Q",
+                "6": "m",
+                "7": "."
+            }
+        ],
+        "file": "/nodetaint/packageData/flagged-respawn/node_modules/flagged-respawn/index.js",
+        "startLineNumber": 38,
+        "startColumnNumber": 40,
+        "endLineNumber": 38,
+        "endColumnNumber": 65,
+        "tainted": false,
+        "flows_from": [],
+        "sink_type": ""
+    },
+    "9": {
+        "operation": "call:slice",
+        "value": 0,
+        "file": "/nodetaint/packageData/flagged-respawn/node_modules/flagged-respawn/index.js",
+        "startLineNumber": 41,
+        "startColumnNumber": 17,
+        "endLineNumber": 42,
+        "endColumnNumber": 16,
+        "tainted": false,
+        "flows_from": [
+            "10"
+        ],
+        "sink_type": ""
+    },
+    "10": {
+        "operation": "Untainted",
+        "value": 0,
+        "file": "/nodetaint/packageData/flagged-respawn/node_modules/flagged-respawn/index.js",
+        "startLineNumber": 41,
+        "startColumnNumber": 17,
+        "endLineNumber": 42,
+        "endColumnNumber": 16,
+        "tainted": false,
+        "flows_from": [],
+        "sink_type": ""
+    },
+    "11": {
+        "operation": "call:slice",
+        "value": 1,
+        "file": "/nodetaint/packageData/flagged-respawn/node_modules/flagged-respawn/index.js",
+        "startLineNumber": 41,
+        "startColumnNumber": 17,
+        "endLineNumber": 42,
+        "endColumnNumber": 16,
+        "tainted": false,
+        "flows_from": [
+            "12"
+        ],
+        "sink_type": ""
+    },
+    "12": {
+        "operation": "Untainted",
+        "value": 1,
+        "file": "/nodetaint/packageData/flagged-respawn/node_modules/flagged-respawn/index.js",
+        "startLineNumber": 41,
+        "startColumnNumber": 17,
+        "endLineNumber": 42,
+        "endColumnNumber": 16,
+        "tainted": false,
+        "flows_from": [],
+        "sink_type": ""
+    },
+    "13": {
+        "operation": "call:concat",
+        "value": [
+            {},
+            {}
+        ],
+        "file": "/nodetaint/packageData/flagged-respawn/node_modules/flagged-respawn/index.js",
+        "startLineNumber": 41,
+        "startColumnNumber": 17,
+        "endLineNumber": 43,
+        "endColumnNumber": 24,
+        "tainted": false,
+        "flows_from": [
+            "14"
+        ],
+        "sink_type": ""
+    },
+    "14": {
+        "operation": "call:isArray",
+        "value": [
+            {},
+            {}
+        ],
+        "file": "/nodetaint/packageData/flagged-respawn/node_modules/flagged-respawn/index.js",
+        "startLineNumber": 24,
+        "startColumnNumber": 8,
+        "endLineNumber": 24,
+        "endColumnNumber": 34,
+        "tainted": false,
+        "flows_from": [
+            "15"
+        ],
+        "sink_type": ""
+    },
+    "15": {
+        "operation": "call:Anonymous Function",
+        "value": [
+            {},
+            {}
+        ],
+        "file": "/nodetaint/analysisArtifacts/run-flagged-respawn2.js",
+        "startLineNumber": 11,
+        "startColumnNumber": 1,
+        "endLineNumber": 11,
+        "endColumnNumber": 24,
+        "tainted": false,
+        "flows_from": [
+            "16"
+        ],
+        "sink_type": ""
+    },
+    "16": {
+        "operation": "Untainted",
+        "value": [
+            {},
+            {}
+        ],
+        "file": "/nodetaint/analysisArtifacts/run-flagged-respawn2.js",
+        "startLineNumber": 11,
+        "startColumnNumber": 1,
+        "endLineNumber": 11,
+        "endColumnNumber": 24,
+        "tainted": false,
+        "flows_from": [],
+        "sink_type": ""
+    },
+    "17": {
+        "operation": "call:concat",
+        "value": [
+            {
+                "0": "9",
+                "1": "\t",
+                "2": "p",
+                "3": "@",
+                "4": "I",
+                "5": "Q",
+                "6": "m",
+                "7": "."
+            }
+        ],
+        "file": "/nodetaint/packageData/flagged-respawn/node_modules/flagged-respawn/index.js",
+        "startLineNumber": 41,
+        "startColumnNumber": 17,
+        "endLineNumber": 44,
+        "endColumnNumber": 31,
+        "tainted": false,
+        "flows_from": [
+            "18"
+        ],
+        "sink_type": ""
+    },
+    "18": {
+        "operation": "imprecise:slice",
+        "value": [
+            {
+                "0": "9",
+                "1": "\t",
+                "2": "p",
+                "3": "@",
+                "4": "I",
+                "5": "Q",
+                "6": "m",
+                "7": "."
+            }
+        ],
+        "file": "/nodetaint/packageData/flagged-respawn/node_modules/flagged-respawn/index.js",
+        "startLineNumber": 44,
+        "startColumnNumber": 12,
+        "endLineNumber": 44,
+        "endColumnNumber": 30,
+        "tainted": false,
+        "flows_from": [
+            "19",
+            "21"
+        ],
+        "sink_type": ""
+    },
+    "19": {
+        "operation": "call:stringify",
+        "value": [
+            null,
+            {
+                "0": "9",
+                "1": "\t",
+                "2": "p",
+                "3": "@",
+                "4": "I",
+                "5": "Q",
+                "6": "m",
+                "7": "."
+            }
+        ],
+        "file": "/nodetaint/packageData/flagged-respawn/node_modules/flagged-respawn/index.js",
+        "startLineNumber": 38,
+        "startColumnNumber": 40,
+        "endLineNumber": 38,
+        "endColumnNumber": 65,
+        "tainted": false,
+        "flows_from": [
+            "20"
+        ],
+        "sink_type": ""
+    },
+    "20": {
+        "operation": "Untainted",
+        "value": [
+            null,
+            {
+                "0": "9",
+                "1": "\t",
+                "2": "p",
+                "3": "@",
+                "4": "I",
+                "5": "Q",
+                "6": "m",
+                "7": "."
+            }
+        ],
+        "file": "/nodetaint/packageData/flagged-respawn/node_modules/flagged-respawn/index.js",
+        "startLineNumber": 38,
+        "startColumnNumber": 40,
+        "endLineNumber": 38,
+        "endColumnNumber": 65,
+        "tainted": false,
+        "flows_from": [],
+        "sink_type": ""
+    },
+    "21": {
+        "operation": "call:slice",
+        "value": 1,
+        "file": "/nodetaint/packageData/flagged-respawn/node_modules/flagged-respawn/index.js",
+        "startLineNumber": 44,
+        "startColumnNumber": 12,
+        "endLineNumber": 44,
+        "endColumnNumber": 30,
+        "tainted": false,
+        "flows_from": [
+            "22"
+        ],
+        "sink_type": ""
+    },
+    "22": {
+        "operation": "Untainted",
+        "value": 1,
+        "file": "/nodetaint/packageData/flagged-respawn/node_modules/flagged-respawn/index.js",
+        "startLineNumber": 44,
+        "startColumnNumber": 12,
+        "endLineNumber": 44,
+        "endColumnNumber": 30,
+        "tainted": false,
+        "flows_from": [],
+        "sink_type": ""
+    },
+    "23": {
+        "operation": "Untainted",
+        "value": 0,
+        "file": "UNKNOWN",
+        "startLineNumber": -1,
+        "startColumnNumber": -1,
+        "endLineNumber": -1,
+        "endColumnNumber": -1,
+        "tainted": false,
+        "flows_from": [],
+        "sink_type": ""
+    },
+    "24": {
+        "operation": "call:unshift",
+        "file": "/nodetaint/packageData/flagged-respawn/node_modules/flagged-respawn/lib/reorder.js",
+        "startLineNumber": 16,
+        "startColumnNumber": 3,
+        "endLineNumber": 16,
+        "endColumnNumber": 24,
+        "tainted": true,
+        "flows_from": [
+            "25"
+        ],
+        "sink_type": ""
+    },
+    "25": {
+        "operation": "object.GetField",
+        "file": "UNKNOWN",
+        "startLineNumber": -1,
+        "startColumnNumber": -1,
+        "endLineNumber": -1,
+        "endColumnNumber": -1,
+        "tainted": true,
+        "flows_from": [
+            "26",
+            "31"
+        ],
+        "sink_type": ""
+    },
+    "26": {
+        "operation": "call:Anonymous Function",
+        "value": [
+            null,
+            {
+                "0": "9",
+                "1": "\t",
+                "2": "p",
+                "3": "@",
+                "4": "I",
+                "5": "Q",
+                "6": "m",
+                "7": "."
+            }
+        ],
+        "file": "/nodetaint/packageData/flagged-respawn/node_modules/flagged-respawn/index.js",
+        "startLineNumber": 37,
+        "startColumnNumber": 19,
+        "endLineNumber": 37,
+        "endColumnNumber": 39,
+        "tainted": true,
+        "flows_from": [
+            "27"
+        ],
+        "sink_type": ""
+    },
+    "27": {
+        "operation": "call:Anonymous Function",
+        "value": [
+            null,
+            {
+                "0": "9",
+                "1": "\t",
+                "2": "p",
+                "3": "@",
+                "4": "I",
+                "5": "Q",
+                "6": "m",
+                "7": "."
+            }
+        ],
+        "file": "/nodetaint/analysisArtifacts/run-flagged-respawn2.js",
+        "startLineNumber": 11,
+        "startColumnNumber": 1,
+        "endLineNumber": 11,
+        "endColumnNumber": 24,
+        "tainted": true,
+        "flows_from": [
+            "28"
+        ],
+        "sink_type": ""
+    },
+    "28": {
+        "operation": "Tainted",
+        "value": [
+            null,
+            {
+                "0": "9",
+                "1": "\t",
+                "2": "p",
+                "3": "@",
+                "4": "I",
+                "5": "Q",
+                "6": "m",
+                "7": "."
+            }
+        ],
+        "file": "/nodetaint/analysisArtifacts/run-flagged-respawn2.js",
+        "startLineNumber": 10,
+        "startColumnNumber": 1,
+        "endLineNumber": 10,
+        "endColumnNumber": 26,
+        "tainted": true,
+        "flows_from": [
+            "29"
+        ],
+        "sink_type": ""
+    },
+    "29": {
+        "operation": "call:__jalangi_set_taint__",
+        "value": [
+            null,
+            {
+                "0": "9",
+                "1": "\t",
+                "2": "p",
+                "3": "@",
+                "4": "I",
+                "5": "Q",
+                "6": "m",
+                "7": "."
+            }
+        ],
+        "file": "/nodetaint/analysisArtifacts/run-flagged-respawn2.js",
+        "startLineNumber": 10,
+        "startColumnNumber": 1,
+        "endLineNumber": 10,
+        "endColumnNumber": 26,
+        "tainted": false,
+        "flows_from": [
+            "30"
+        ],
+        "sink_type": ""
+    },
+    "30": {
+        "operation": "Untainted",
+        "value": [
+            null,
+            {
+                "0": "9",
+                "1": "\t",
+                "2": "p",
+                "3": "@",
+                "4": "I",
+                "5": "Q",
+                "6": "m",
+                "7": "."
+            }
+        ],
+        "file": "/nodetaint/analysisArtifacts/run-flagged-respawn2.js",
+        "startLineNumber": 10,
+        "startColumnNumber": 1,
+        "endLineNumber": 10,
+        "endColumnNumber": 26,
+        "tainted": false,
+        "flows_from": [],
+        "sink_type": ""
+    },
+    "31": {
+        "operation": "Untainted",
+        "value": 0,
+        "file": "UNKNOWN",
+        "startLineNumber": -1,
+        "startColumnNumber": -1,
+        "endLineNumber": -1,
+        "endColumnNumber": -1,
+        "tainted": false,
+        "flows_from": [],
+        "sink_type": ""
+    }
+}

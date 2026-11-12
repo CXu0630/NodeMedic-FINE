@@ -1,0 +1,12 @@
+// JALANGI DRIVER
+process.backup_exit = process.exit;
+process.exit = function(){console.log("Tried calling process.exit")};
+    
+var PUT = require('/nodetaint/packageData/vm-browserify/node_modules/vm-browserify');
+global.CTF = function() {console.log("GLOBAL.CTF HIT")}
+try {
+	var x0 = {"code":"global.CTF()//"};
+new PUT["runInThisContext"](x0)();
+} catch (e) {
+	console.log(e);
+}

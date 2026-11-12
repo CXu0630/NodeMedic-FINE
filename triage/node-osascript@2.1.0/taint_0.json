@@ -1,0 +1,36 @@
+{
+    "1": {
+        "operation": "call:spawn",
+        "value": {
+            "cwd": {
+                "0": "."
+            }
+        },
+        "file": "/nodetaint/packageData/node-osascript/node_modules/node-osascript/lib/index.js",
+        "startLineNumber": 29,
+        "startColumnNumber": 12,
+        "endLineNumber": 29,
+        "endColumnNumber": 50,
+        "tainted": false,
+        "flows_from": [
+            "2"
+        ],
+        "sink_type": "spawn"
+    },
+    "2": {
+        "operation": "Untainted",
+        "value": {
+            "cwd": {
+                "0": "."
+            }
+        },
+        "file": "/nodetaint/packageData/node-osascript/node_modules/node-osascript/lib/index.js",
+        "startLineNumber": 29,
+        "startColumnNumber": 12,
+        "endLineNumber": 29,
+        "endColumnNumber": 50,
+        "tainted": false,
+        "flows_from": [],
+        "sink_type": ""
+    }
+}

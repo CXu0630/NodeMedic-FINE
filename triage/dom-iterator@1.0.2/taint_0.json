@@ -1,0 +1,233 @@
+{
+    "1": {
+        "operation": "call:Function",
+        "value": "Object.freeze(node); return 4;n",
+        "file": "/nodetaint/packageData/dom-iterator/node_modules/dom-iterator/index.js",
+        "startLineNumber": 270,
+        "startColumnNumber": 14,
+        "endLineNumber": 270,
+        "endColumnNumber": 89,
+        "tainted": true,
+        "flows_from": [
+            "2"
+        ],
+        "sink_type": "Function"
+    },
+    "2": {
+        "operation": "precise:string.concat",
+        "value": "Object.freeze(node); return 4;n",
+        "file": "/nodetaint/packageData/dom-iterator/node_modules/dom-iterator/index.js",
+        "startLineNumber": 270,
+        "startColumnNumber": 35,
+        "endLineNumber": 270,
+        "endColumnNumber": 88,
+        "tainted": true,
+        "flows_from": [
+            "3",
+            "4"
+        ],
+        "sink_type": ""
+    },
+    "3": {
+        "operation": "Untainted",
+        "value": "Object.freeze(node); return ",
+        "file": "/nodetaint/packageData/dom-iterator/node_modules/dom-iterator/index.js",
+        "startLineNumber": 270,
+        "startColumnNumber": 35,
+        "endLineNumber": 270,
+        "endColumnNumber": 88,
+        "tainted": false,
+        "flows_from": [],
+        "sink_type": ""
+    },
+    "4": {
+        "operation": "precise:string.replace",
+        "value": "4;n",
+        "file": "/nodetaint/packageData/dom-iterator/node_modules/dom-iterator/node_modules/component-props/index.js",
+        "startLineNumber": 53,
+        "startColumnNumber": 9,
+        "endLineNumber": 53,
+        "endColumnNumber": 27,
+        "tainted": true,
+        "flows_from": [
+            "5",
+            "14",
+            "16"
+        ],
+        "sink_type": ""
+    },
+    "5": {
+        "operation": "call:map",
+        "value": "4;n",
+        "file": "/nodetaint/packageData/dom-iterator/node_modules/dom-iterator/node_modules/component-props/index.js",
+        "startLineNumber": 19,
+        "startColumnNumber": 18,
+        "endLineNumber": 19,
+        "endColumnNumber": 33,
+        "tainted": true,
+        "flows_from": [
+            "6"
+        ],
+        "sink_type": ""
+    },
+    "6": {
+        "operation": "call:props",
+        "value": "4;n",
+        "file": "/nodetaint/packageData/dom-iterator/node_modules/dom-iterator/node_modules/component-props/index.js",
+        "startLineNumber": 17,
+        "startColumnNumber": 18,
+        "endLineNumber": 17,
+        "endColumnNumber": 28,
+        "tainted": true,
+        "flows_from": [
+            "7"
+        ],
+        "sink_type": ""
+    },
+    "7": {
+        "operation": "call:Anonymous Function",
+        "value": "4;n",
+        "file": "/nodetaint/packageData/dom-iterator/node_modules/dom-iterator/index.js",
+        "startLineNumber": 270,
+        "startColumnNumber": 68,
+        "endLineNumber": 270,
+        "endColumnNumber": 88,
+        "tainted": true,
+        "flows_from": [
+            "8"
+        ],
+        "sink_type": ""
+    },
+    "8": {
+        "operation": "call:Anonymous Function",
+        "value": "4;n",
+        "file": "/nodetaint/packageData/dom-iterator/node_modules/dom-iterator/index.js",
+        "startLineNumber": 1,
+        "startColumnNumber": 300,
+        "endLineNumber": 1,
+        "endColumnNumber": 310,
+        "tainted": true,
+        "flows_from": [
+            "9"
+        ],
+        "sink_type": ""
+    },
+    "9": {
+        "operation": "call:_typeof",
+        "value": "4;n",
+        "file": "/nodetaint/packageData/dom-iterator/node_modules/dom-iterator/index.js",
+        "startLineNumber": 266,
+        "startColumnNumber": 11,
+        "endLineNumber": 266,
+        "endColumnNumber": 24,
+        "tainted": true,
+        "flows_from": [
+            "10"
+        ],
+        "sink_type": ""
+    },
+    "10": {
+        "operation": "call:compile",
+        "value": "4;n",
+        "file": "/nodetaint/analysisArtifacts/run-dom-iterator2.js",
+        "startLineNumber": 8,
+        "startColumnNumber": 1,
+        "endLineNumber": 8,
+        "endColumnNumber": 36,
+        "tainted": true,
+        "flows_from": [
+            "11"
+        ],
+        "sink_type": ""
+    },
+    "11": {
+        "operation": "Tainted",
+        "value": "4;n",
+        "file": "/nodetaint/analysisArtifacts/run-dom-iterator2.js",
+        "startLineNumber": 7,
+        "startColumnNumber": 1,
+        "endLineNumber": 7,
+        "endColumnNumber": 26,
+        "tainted": true,
+        "flows_from": [
+            "12"
+        ],
+        "sink_type": ""
+    },
+    "12": {
+        "operation": "call:__jalangi_set_taint__",
+        "value": "4;n",
+        "file": "/nodetaint/analysisArtifacts/run-dom-iterator2.js",
+        "startLineNumber": 7,
+        "startColumnNumber": 1,
+        "endLineNumber": 7,
+        "endColumnNumber": 26,
+        "tainted": false,
+        "flows_from": [
+            "13"
+        ],
+        "sink_type": ""
+    },
+    "13": {
+        "operation": "Untainted",
+        "value": "4;n",
+        "file": "/nodetaint/analysisArtifacts/run-dom-iterator2.js",
+        "startLineNumber": 7,
+        "startColumnNumber": 1,
+        "endLineNumber": 7,
+        "endColumnNumber": 26,
+        "tainted": false,
+        "flows_from": [],
+        "sink_type": ""
+    },
+    "14": {
+        "operation": "call:replace",
+        "value": {},
+        "file": "/nodetaint/packageData/dom-iterator/node_modules/dom-iterator/node_modules/component-props/index.js",
+        "startLineNumber": 51,
+        "startColumnNumber": 10,
+        "endLineNumber": 55,
+        "endColumnNumber": 5,
+        "tainted": false,
+        "flows_from": [
+            "15"
+        ],
+        "sink_type": ""
+    },
+    "15": {
+        "operation": "Untainted",
+        "value": {},
+        "file": "/nodetaint/packageData/dom-iterator/node_modules/dom-iterator/node_modules/component-props/index.js",
+        "startLineNumber": 51,
+        "startColumnNumber": 10,
+        "endLineNumber": 55,
+        "endColumnNumber": 5,
+        "tainted": false,
+        "flows_from": [],
+        "sink_type": ""
+    },
+    "16": {
+        "operation": "call:replace",
+        "file": "/nodetaint/packageData/dom-iterator/node_modules/dom-iterator/node_modules/component-props/index.js",
+        "startLineNumber": 51,
+        "startColumnNumber": 10,
+        "endLineNumber": 55,
+        "endColumnNumber": 5,
+        "tainted": false,
+        "flows_from": [
+            "17"
+        ],
+        "sink_type": ""
+    },
+    "17": {
+        "operation": "Untainted",
+        "file": "/nodetaint/packageData/dom-iterator/node_modules/dom-iterator/node_modules/component-props/index.js",
+        "startLineNumber": 51,
+        "startColumnNumber": 10,
+        "endLineNumber": 55,
+        "endColumnNumber": 5,
+        "tainted": false,
+        "flows_from": [],
+        "sink_type": ""
+    }
+}

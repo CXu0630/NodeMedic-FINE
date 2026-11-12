@@ -1,0 +1,32 @@
+{
+    "1": {
+        "operation": "call:exec",
+        "value": {
+            "cwd": {}
+        },
+        "file": "/nodetaint/packageData/npm-programmatic/node_modules/npm-programmatic/index.js",
+        "startLineNumber": 71,
+        "startColumnNumber": 7,
+        "endLineNumber": 98,
+        "endColumnNumber": 9,
+        "tainted": false,
+        "flows_from": [
+            "2"
+        ],
+        "sink_type": "exec"
+    },
+    "2": {
+        "operation": "Untainted",
+        "value": {
+            "cwd": {}
+        },
+        "file": "/nodetaint/packageData/npm-programmatic/node_modules/npm-programmatic/index.js",
+        "startLineNumber": 71,
+        "startColumnNumber": 7,
+        "endLineNumber": 98,
+        "endColumnNumber": 9,
+        "tainted": false,
+        "flows_from": [],
+        "sink_type": ""
+    }
+}

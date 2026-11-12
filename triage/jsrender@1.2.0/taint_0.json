@@ -1,0 +1,1631 @@
+{
+    "1": {
+        "operation": "call:Function",
+        "value": "// unnamed\nvar v,ret=\"\"+\"lwe?:ZE2yn\";\nreturn ret;",
+        "file": "/nodetaint/packageData/jsrender/node_modules/jsrender/jsrender-node.js",
+        "startLineNumber": 2576,
+        "startColumnNumber": 14,
+        "endLineNumber": 2576,
+        "endColumnNumber": 47,
+        "tainted": true,
+        "flows_from": [
+            "2"
+        ],
+        "sink_type": "Function"
+    },
+    "2": {
+        "operation": "precise:string.concat",
+        "value": "// unnamed\nvar v,ret=\"\"+\"lwe?:ZE2yn\";\nreturn ret;",
+        "file": "/nodetaint/packageData/jsrender/node_modules/jsrender/jsrender-node.js",
+        "startLineNumber": 2560,
+        "startColumnNumber": 12,
+        "endLineNumber": 2573,
+        "endColumnNumber": 42,
+        "tainted": true,
+        "flows_from": [
+            "3",
+            "100"
+        ],
+        "sink_type": ""
+    },
+    "3": {
+        "operation": "precise:string.concat",
+        "value": "// unnamed\nvar v,ret=\"\"+\"lwe?:ZE2yn\"",
+        "file": "/nodetaint/packageData/jsrender/node_modules/jsrender/jsrender-node.js",
+        "startLineNumber": 2560,
+        "startColumnNumber": 12,
+        "endLineNumber": 2572,
+        "endColumnNumber": 9,
+        "tainted": true,
+        "flows_from": [
+            "4",
+            "30"
+        ],
+        "sink_type": ""
+    },
+    "4": {
+        "operation": "precise:string.concat",
+        "value": "// unnamed\nvar v,ret=\"\"",
+        "file": "/nodetaint/packageData/jsrender/node_modules/jsrender/jsrender-node.js",
+        "startLineNumber": 2560,
+        "startColumnNumber": 12,
+        "endLineNumber": 2571,
+        "endColumnNumber": 15,
+        "tainted": false,
+        "flows_from": [
+            "5",
+            "29"
+        ],
+        "sink_type": ""
+    },
+    "5": {
+        "operation": "precise:string.concat",
+        "value": "// unnamed\nvar v",
+        "file": "/nodetaint/packageData/jsrender/node_modules/jsrender/jsrender-node.js",
+        "startLineNumber": 2560,
+        "startColumnNumber": 12,
+        "endLineNumber": 2565,
+        "endColumnNumber": 39,
+        "tainted": false,
+        "flows_from": [
+            "6",
+            "28"
+        ],
+        "sink_type": ""
+    },
+    "6": {
+        "operation": "precise:string.concat",
+        "value": "// unnamed\nvar v",
+        "file": "/nodetaint/packageData/jsrender/node_modules/jsrender/jsrender-node.js",
+        "startLineNumber": 2560,
+        "startColumnNumber": 12,
+        "endLineNumber": 2564,
+        "endColumnNumber": 36,
+        "tainted": false,
+        "flows_from": [
+            "7",
+            "27"
+        ],
+        "sink_type": ""
+    },
+    "7": {
+        "operation": "precise:string.concat",
+        "value": "// unnamed\nvar v",
+        "file": "/nodetaint/packageData/jsrender/node_modules/jsrender/jsrender-node.js",
+        "startLineNumber": 2560,
+        "startColumnNumber": 12,
+        "endLineNumber": 2563,
+        "endColumnNumber": 31,
+        "tainted": false,
+        "flows_from": [
+            "8",
+            "26"
+        ],
+        "sink_type": ""
+    },
+    "8": {
+        "operation": "precise:string.concat",
+        "value": "// unnamed\nvar v",
+        "file": "/nodetaint/packageData/jsrender/node_modules/jsrender/jsrender-node.js",
+        "startLineNumber": 2560,
+        "startColumnNumber": 12,
+        "endLineNumber": 2562,
+        "endColumnNumber": 14,
+        "tainted": false,
+        "flows_from": [
+            "9",
+            "25"
+        ],
+        "sink_type": ""
+    },
+    "9": {
+        "operation": "precise:string.concat",
+        "value": "// unnamed",
+        "file": "/nodetaint/packageData/jsrender/node_modules/jsrender/jsrender-node.js",
+        "startLineNumber": 2560,
+        "startColumnNumber": 12,
+        "endLineNumber": 2561,
+        "endColumnNumber": 44,
+        "tainted": false,
+        "flows_from": [
+            "10",
+            "24"
+        ],
+        "sink_type": ""
+    },
+    "10": {
+        "operation": "precise:string.concat",
+        "value": "// unnamed",
+        "file": "/nodetaint/packageData/jsrender/node_modules/jsrender/jsrender-node.js",
+        "startLineNumber": 2560,
+        "startColumnNumber": 12,
+        "endLineNumber": 2560,
+        "endColumnNumber": 28,
+        "tainted": false,
+        "flows_from": [
+            "11",
+            "12"
+        ],
+        "sink_type": ""
+    },
+    "11": {
+        "operation": "Untainted",
+        "value": "// ",
+        "file": "/nodetaint/packageData/jsrender/node_modules/jsrender/jsrender-node.js",
+        "startLineNumber": 2560,
+        "startColumnNumber": 12,
+        "endLineNumber": 2560,
+        "endColumnNumber": 28,
+        "tainted": false,
+        "flows_from": [],
+        "sink_type": ""
+    },
+    "12": {
+        "operation": "object.GetField",
+        "value": "unnamed",
+        "file": "UNKNOWN",
+        "startLineNumber": -1,
+        "startColumnNumber": -1,
+        "endLineNumber": -1,
+        "endColumnNumber": -1,
+        "tainted": false,
+        "flows_from": [
+            "13",
+            "18",
+            "19"
+        ],
+        "sink_type": ""
+    },
+    "13": {
+        "operation": "call:Anonymous Function",
+        "value": {
+            "tmpls": [],
+            "links": {},
+            "bnds": [],
+            "_is": {
+                "0": "t",
+                "1": "e",
+                "2": "m",
+                "3": "p",
+                "4": "l",
+                "5": "a",
+                "6": "t",
+                "7": "e"
+            },
+            "tmplName": {
+                "0": "u",
+                "1": "n",
+                "2": "n",
+                "3": "a",
+                "4": "m",
+                "5": "e",
+                "6": "d"
+            },
+            "markup": {
+                "0": "l",
+                "1": "w",
+                "2": "e",
+                "3": "?",
+                "4": ":",
+                "5": "Z",
+                "6": "E",
+                "7": "2",
+                "8": "y",
+                "9": "n"
+            },
+            "htmlTag": {}
+        },
+        "file": "/nodetaint/packageData/jsrender/node_modules/jsrender/jsrender-node.js",
+        "startLineNumber": 2396,
+        "startColumnNumber": 9,
+        "endLineNumber": 2396,
+        "endColumnNumber": 22,
+        "tainted": false,
+        "flows_from": [
+            "14"
+        ],
+        "sink_type": ""
+    },
+    "14": {
+        "operation": "call:buildCode",
+        "value": {
+            "tmpls": [],
+            "links": {},
+            "bnds": [],
+            "_is": {
+                "0": "t",
+                "1": "e",
+                "2": "m",
+                "3": "p",
+                "4": "l",
+                "5": "a",
+                "6": "t",
+                "7": "e"
+            },
+            "tmplName": {
+                "0": "u",
+                "1": "n",
+                "2": "n",
+                "3": "a",
+                "4": "m",
+                "5": "e",
+                "6": "d"
+            },
+            "markup": {
+                "0": "l",
+                "1": "w",
+                "2": "e",
+                "3": "?",
+                "4": ":",
+                "5": "Z",
+                "6": "E",
+                "7": "2",
+                "8": "y",
+                "9": "n"
+            },
+            "htmlTag": {}
+        },
+        "file": "/nodetaint/packageData/jsrender/node_modules/jsrender/jsrender-node.js",
+        "startLineNumber": 2065,
+        "startColumnNumber": 16,
+        "endLineNumber": 2065,
+        "endColumnNumber": 39,
+        "tainted": false,
+        "flows_from": [
+            "15"
+        ],
+        "sink_type": ""
+    },
+    "15": {
+        "operation": "call:tmplFn",
+        "value": {
+            "tmpls": [],
+            "links": {},
+            "bnds": [],
+            "_is": {
+                "0": "t",
+                "1": "e",
+                "2": "m",
+                "3": "p",
+                "4": "l",
+                "5": "a",
+                "6": "t",
+                "7": "e"
+            },
+            "tmplName": {
+                "0": "u",
+                "1": "n",
+                "2": "n",
+                "3": "a",
+                "4": "m",
+                "5": "e",
+                "6": "d"
+            },
+            "markup": {
+                "0": "l",
+                "1": "w",
+                "2": "e",
+                "3": "?",
+                "4": ":",
+                "5": "Z",
+                "6": "E",
+                "7": "2",
+                "8": "y",
+                "9": "n"
+            },
+            "htmlTag": {}
+        },
+        "file": "/nodetaint/packageData/jsrender/node_modules/jsrender/jsrender-node.js",
+        "startLineNumber": 1161,
+        "startColumnNumber": 9,
+        "endLineNumber": 1161,
+        "endColumnNumber": 66,
+        "tainted": false,
+        "flows_from": [
+            "16"
+        ],
+        "sink_type": ""
+    },
+    "16": {
+        "operation": "call:$extend",
+        "value": {
+            "tmpls": [],
+            "links": {},
+            "bnds": [],
+            "_is": {
+                "0": "t",
+                "1": "e",
+                "2": "m",
+                "3": "p",
+                "4": "l",
+                "5": "a",
+                "6": "t",
+                "7": "e"
+            },
+            "tmplName": {
+                "0": "u",
+                "1": "n",
+                "2": "n",
+                "3": "a",
+                "4": "m",
+                "5": "e",
+                "6": "d"
+            },
+            "markup": {
+                "0": "l",
+                "1": "w",
+                "2": "e",
+                "3": "?",
+                "4": ":",
+                "5": "Z",
+                "6": "E",
+                "7": "2",
+                "8": "y",
+                "9": "n"
+            },
+            "htmlTag": {}
+        },
+        "file": "/nodetaint/packageData/jsrender/node_modules/jsrender/jsrender-node.js",
+        "startLineNumber": 1460,
+        "startColumnNumber": 14,
+        "endLineNumber": 1460,
+        "endColumnNumber": 36,
+        "tainted": false,
+        "flows_from": [
+            "17"
+        ],
+        "sink_type": ""
+    },
+    "17": {
+        "operation": "Untainted",
+        "value": {
+            "tmpls": [],
+            "links": {},
+            "bnds": [],
+            "_is": {
+                "0": "t",
+                "1": "e",
+                "2": "m",
+                "3": "p",
+                "4": "l",
+                "5": "a",
+                "6": "t",
+                "7": "e"
+            },
+            "tmplName": {
+                "0": "u",
+                "1": "n",
+                "2": "n",
+                "3": "a",
+                "4": "m",
+                "5": "e",
+                "6": "d"
+            },
+            "markup": {
+                "0": "l",
+                "1": "w",
+                "2": "e",
+                "3": "?",
+                "4": ":",
+                "5": "Z",
+                "6": "E",
+                "7": "2",
+                "8": "y",
+                "9": "n"
+            },
+            "htmlTag": {}
+        },
+        "file": "/nodetaint/packageData/jsrender/node_modules/jsrender/jsrender-node.js",
+        "startLineNumber": 1460,
+        "startColumnNumber": 14,
+        "endLineNumber": 1460,
+        "endColumnNumber": 36,
+        "tainted": false,
+        "flows_from": [],
+        "sink_type": ""
+    },
+    "18": {
+        "operation": "Untainted",
+        "value": "tmplName",
+        "file": "UNKNOWN",
+        "startLineNumber": -1,
+        "startColumnNumber": -1,
+        "endLineNumber": -1,
+        "endColumnNumber": -1,
+        "tainted": false,
+        "flows_from": [],
+        "sink_type": ""
+    },
+    "19": {
+        "operation": "object.GetField",
+        "value": "unnamed",
+        "file": "UNKNOWN",
+        "startLineNumber": -1,
+        "startColumnNumber": -1,
+        "endLineNumber": -1,
+        "endColumnNumber": -1,
+        "tainted": false,
+        "flows_from": [
+            "20",
+            "23"
+        ],
+        "sink_type": ""
+    },
+    "20": {
+        "operation": "call:$extend",
+        "value": {
+            "tmplName": {
+                "0": "u",
+                "1": "n",
+                "2": "n",
+                "3": "a",
+                "4": "m",
+                "5": "e",
+                "6": "d"
+            }
+        },
+        "file": "/nodetaint/packageData/jsrender/node_modules/jsrender/jsrender-node.js",
+        "startLineNumber": 1460,
+        "startColumnNumber": 14,
+        "endLineNumber": 1460,
+        "endColumnNumber": 36,
+        "tainted": false,
+        "flows_from": [
+            "21"
+        ],
+        "sink_type": ""
+    },
+    "21": {
+        "operation": "call:tmplObject",
+        "value": {
+            "tmplName": {
+                "0": "u",
+                "1": "n",
+                "2": "n",
+                "3": "a",
+                "4": "m",
+                "5": "e",
+                "6": "d"
+            }
+        },
+        "file": "/nodetaint/packageData/jsrender/node_modules/jsrender/jsrender-node.js",
+        "startLineNumber": 1159,
+        "startColumnNumber": 16,
+        "endLineNumber": 1159,
+        "endColumnNumber": 49,
+        "tainted": false,
+        "flows_from": [
+            "22"
+        ],
+        "sink_type": ""
+    },
+    "22": {
+        "operation": "Untainted",
+        "value": {
+            "tmplName": {
+                "0": "u",
+                "1": "n",
+                "2": "n",
+                "3": "a",
+                "4": "m",
+                "5": "e",
+                "6": "d"
+            }
+        },
+        "file": "/nodetaint/packageData/jsrender/node_modules/jsrender/jsrender-node.js",
+        "startLineNumber": 1159,
+        "startColumnNumber": 16,
+        "endLineNumber": 1159,
+        "endColumnNumber": 49,
+        "tainted": false,
+        "flows_from": [],
+        "sink_type": ""
+    },
+    "23": {
+        "operation": "Untainted",
+        "value": "tmplName",
+        "file": "UNKNOWN",
+        "startLineNumber": -1,
+        "startColumnNumber": -1,
+        "endLineNumber": -1,
+        "endColumnNumber": -1,
+        "tainted": false,
+        "flows_from": [],
+        "sink_type": ""
+    },
+    "24": {
+        "operation": "Untainted",
+        "value": "",
+        "file": "/nodetaint/packageData/jsrender/node_modules/jsrender/jsrender-node.js",
+        "startLineNumber": 2560,
+        "startColumnNumber": 12,
+        "endLineNumber": 2561,
+        "endColumnNumber": 44,
+        "tainted": false,
+        "flows_from": [],
+        "sink_type": ""
+    },
+    "25": {
+        "operation": "Untainted",
+        "value": "\nvar v",
+        "file": "/nodetaint/packageData/jsrender/node_modules/jsrender/jsrender-node.js",
+        "startLineNumber": 2560,
+        "startColumnNumber": 12,
+        "endLineNumber": 2562,
+        "endColumnNumber": 14,
+        "tainted": false,
+        "flows_from": [],
+        "sink_type": ""
+    },
+    "26": {
+        "operation": "Untainted",
+        "value": "",
+        "file": "/nodetaint/packageData/jsrender/node_modules/jsrender/jsrender-node.js",
+        "startLineNumber": 2560,
+        "startColumnNumber": 12,
+        "endLineNumber": 2563,
+        "endColumnNumber": 31,
+        "tainted": false,
+        "flows_from": [],
+        "sink_type": ""
+    },
+    "27": {
+        "operation": "Untainted",
+        "value": "",
+        "file": "/nodetaint/packageData/jsrender/node_modules/jsrender/jsrender-node.js",
+        "startLineNumber": 2560,
+        "startColumnNumber": 12,
+        "endLineNumber": 2564,
+        "endColumnNumber": 36,
+        "tainted": false,
+        "flows_from": [],
+        "sink_type": ""
+    },
+    "28": {
+        "operation": "Untainted",
+        "value": "",
+        "file": "/nodetaint/packageData/jsrender/node_modules/jsrender/jsrender-node.js",
+        "startLineNumber": 2560,
+        "startColumnNumber": 12,
+        "endLineNumber": 2565,
+        "endColumnNumber": 39,
+        "tainted": false,
+        "flows_from": [],
+        "sink_type": ""
+    },
+    "29": {
+        "operation": "Untainted",
+        "value": ",ret=\"\"",
+        "file": "/nodetaint/packageData/jsrender/node_modules/jsrender/jsrender-node.js",
+        "startLineNumber": 2560,
+        "startColumnNumber": 12,
+        "endLineNumber": 2571,
+        "endColumnNumber": 15,
+        "tainted": false,
+        "flows_from": [],
+        "sink_type": ""
+    },
+    "30": {
+        "operation": "precise:string.concat",
+        "value": "+\"lwe?:ZE2yn\"",
+        "file": "/nodetaint/packageData/jsrender/node_modules/jsrender/jsrender-node.js",
+        "startLineNumber": 2417,
+        "startColumnNumber": 17,
+        "endLineNumber": 2417,
+        "endColumnNumber": 34,
+        "tainted": true,
+        "flows_from": [
+            "31",
+            "32"
+        ],
+        "sink_type": ""
+    },
+    "31": {
+        "operation": "Untainted",
+        "value": "",
+        "file": "/nodetaint/packageData/jsrender/node_modules/jsrender/jsrender-node.js",
+        "startLineNumber": 2417,
+        "startColumnNumber": 17,
+        "endLineNumber": 2417,
+        "endColumnNumber": 34,
+        "tainted": false,
+        "flows_from": [],
+        "sink_type": ""
+    },
+    "32": {
+        "operation": "precise:string.concat",
+        "value": "+\"lwe?:ZE2yn\"",
+        "file": "/nodetaint/packageData/jsrender/node_modules/jsrender/jsrender-node.js",
+        "startLineNumber": 2417,
+        "startColumnNumber": 17,
+        "endLineNumber": 2417,
+        "endColumnNumber": 34,
+        "tainted": true,
+        "flows_from": [
+            "33",
+            "99"
+        ],
+        "sink_type": ""
+    },
+    "33": {
+        "operation": "precise:string.concat",
+        "value": "+\"lwe?:ZE2yn",
+        "file": "/nodetaint/packageData/jsrender/node_modules/jsrender/jsrender-node.js",
+        "startLineNumber": 2417,
+        "startColumnNumber": 17,
+        "endLineNumber": 2417,
+        "endColumnNumber": 28,
+        "tainted": true,
+        "flows_from": [
+            "34",
+            "35"
+        ],
+        "sink_type": ""
+    },
+    "34": {
+        "operation": "Untainted",
+        "value": "+\"",
+        "file": "/nodetaint/packageData/jsrender/node_modules/jsrender/jsrender-node.js",
+        "startLineNumber": 2417,
+        "startColumnNumber": 17,
+        "endLineNumber": 2417,
+        "endColumnNumber": 28,
+        "tainted": false,
+        "flows_from": [],
+        "sink_type": ""
+    },
+    "35": {
+        "operation": "call:Anonymous Function",
+        "value": "lwe?:ZE2yn",
+        "file": "/nodetaint/packageData/jsrender/node_modules/jsrender/jsrender-node.js",
+        "startLineNumber": 2415,
+        "startColumnNumber": 11,
+        "endLineNumber": 2415,
+        "endColumnNumber": 24,
+        "tainted": true,
+        "flows_from": [
+            "36"
+        ],
+        "sink_type": ""
+    },
+    "36": {
+        "operation": "object.GetField",
+        "value": "lwe?:ZE2yn",
+        "file": "UNKNOWN",
+        "startLineNumber": -1,
+        "startColumnNumber": -1,
+        "endLineNumber": -1,
+        "endColumnNumber": -1,
+        "tainted": true,
+        "flows_from": [
+            "37",
+            "39",
+            "40"
+        ],
+        "sink_type": ""
+    },
+    "37": {
+        "operation": "call:buildCode",
+        "value": [
+            {
+                "0": "l",
+                "1": "w",
+                "2": "e",
+                "3": "?",
+                "4": ":",
+                "5": "Z",
+                "6": "E",
+                "7": "2",
+                "8": "y",
+                "9": "n"
+            }
+        ],
+        "file": "/nodetaint/packageData/jsrender/node_modules/jsrender/jsrender-node.js",
+        "startLineNumber": 2065,
+        "startColumnNumber": 16,
+        "endLineNumber": 2065,
+        "endColumnNumber": 39,
+        "tainted": false,
+        "flows_from": [
+            "38"
+        ],
+        "sink_type": ""
+    },
+    "38": {
+        "operation": "Untainted",
+        "value": [
+            {
+                "0": "l",
+                "1": "w",
+                "2": "e",
+                "3": "?",
+                "4": ":",
+                "5": "Z",
+                "6": "E",
+                "7": "2",
+                "8": "y",
+                "9": "n"
+            }
+        ],
+        "file": "/nodetaint/packageData/jsrender/node_modules/jsrender/jsrender-node.js",
+        "startLineNumber": 2065,
+        "startColumnNumber": 16,
+        "endLineNumber": 2065,
+        "endColumnNumber": 39,
+        "tainted": false,
+        "flows_from": [],
+        "sink_type": ""
+    },
+    "39": {
+        "operation": "Untainted",
+        "value": 0,
+        "file": "UNKNOWN",
+        "startLineNumber": -1,
+        "startColumnNumber": -1,
+        "endLineNumber": -1,
+        "endColumnNumber": -1,
+        "tainted": false,
+        "flows_from": [],
+        "sink_type": ""
+    },
+    "40": {
+        "operation": "call:Anonymous Function",
+        "value": "lwe?:ZE2yn",
+        "file": "/nodetaint/packageData/jsrender/node_modules/jsrender/jsrender-node.js",
+        "startLineNumber": 2051,
+        "startColumnNumber": 21,
+        "endLineNumber": 2051,
+        "endColumnNumber": 33,
+        "tainted": true,
+        "flows_from": [
+            "41"
+        ],
+        "sink_type": ""
+    },
+    "41": {
+        "operation": "object.GetField",
+        "value": "lwe?:ZE2yn",
+        "file": "UNKNOWN",
+        "startLineNumber": -1,
+        "startColumnNumber": -1,
+        "endLineNumber": -1,
+        "endColumnNumber": -1,
+        "tainted": true,
+        "flows_from": [
+            "42",
+            "43",
+            "48"
+        ],
+        "sink_type": ""
+    },
+    "42": {
+        "operation": "Untainted",
+        "value": [
+            {
+                "0": "l",
+                "1": "w",
+                "2": "e",
+                "3": "?",
+                "4": ":",
+                "5": "Z",
+                "6": "E",
+                "7": "2",
+                "8": "y",
+                "9": "n"
+            }
+        ],
+        "file": "UNKNOWN",
+        "startLineNumber": -1,
+        "startColumnNumber": -1,
+        "endLineNumber": -1,
+        "endColumnNumber": -1,
+        "tainted": false,
+        "flows_from": [],
+        "sink_type": ""
+    },
+    "43": {
+        "operation": "-",
+        "value": 0,
+        "file": "/nodetaint/packageData/jsrender/node_modules/jsrender/jsrender-node.js",
+        "startLineNumber": 2050,
+        "startColumnNumber": 22,
+        "endLineNumber": 2050,
+        "endColumnNumber": 39,
+        "tainted": false,
+        "flows_from": [
+            "44",
+            "47"
+        ],
+        "sink_type": ""
+    },
+    "44": {
+        "operation": "object.GetField",
+        "value": 1,
+        "file": "UNKNOWN",
+        "startLineNumber": -1,
+        "startColumnNumber": -1,
+        "endLineNumber": -1,
+        "endColumnNumber": -1,
+        "tainted": false,
+        "flows_from": [
+            "45",
+            "46"
+        ],
+        "sink_type": ""
+    },
+    "45": {
+        "operation": "Untainted",
+        "value": [
+            {
+                "0": "l",
+                "1": "w",
+                "2": "e",
+                "3": "?",
+                "4": ":",
+                "5": "Z",
+                "6": "E",
+                "7": "2",
+                "8": "y",
+                "9": "n"
+            }
+        ],
+        "file": "UNKNOWN",
+        "startLineNumber": -1,
+        "startColumnNumber": -1,
+        "endLineNumber": -1,
+        "endColumnNumber": -1,
+        "tainted": false,
+        "flows_from": [],
+        "sink_type": ""
+    },
+    "46": {
+        "operation": "Untainted",
+        "value": "length",
+        "file": "UNKNOWN",
+        "startLineNumber": -1,
+        "startColumnNumber": -1,
+        "endLineNumber": -1,
+        "endColumnNumber": -1,
+        "tainted": false,
+        "flows_from": [],
+        "sink_type": ""
+    },
+    "47": {
+        "operation": "Untainted",
+        "value": 1,
+        "file": "/nodetaint/packageData/jsrender/node_modules/jsrender/jsrender-node.js",
+        "startLineNumber": 2050,
+        "startColumnNumber": 22,
+        "endLineNumber": 2050,
+        "endColumnNumber": 39,
+        "tainted": false,
+        "flows_from": [],
+        "sink_type": ""
+    },
+    "48": {
+        "operation": "call:push",
+        "value": "lwe?:ZE2yn",
+        "file": "/nodetaint/packageData/jsrender/node_modules/jsrender/jsrender-node.js",
+        "startLineNumber": 1854,
+        "startColumnNumber": 9,
+        "endLineNumber": 1854,
+        "endColumnNumber": 73,
+        "tainted": true,
+        "flows_from": [
+            "49"
+        ],
+        "sink_type": ""
+    },
+    "49": {
+        "operation": "precise:string.replace",
+        "value": "lwe?:ZE2yn",
+        "file": "/nodetaint/packageData/jsrender/node_modules/jsrender/jsrender-node.js",
+        "startLineNumber": 1854,
+        "startColumnNumber": 22,
+        "endLineNumber": 1854,
+        "endColumnNumber": 72,
+        "tainted": true,
+        "flows_from": [
+            "50",
+            "95",
+            "97"
+        ],
+        "sink_type": ""
+    },
+    "50": {
+        "operation": "precise:string.substr",
+        "value": "lwe?:ZE2yn",
+        "file": "/nodetaint/packageData/jsrender/node_modules/jsrender/jsrender-node.js",
+        "startLineNumber": 1854,
+        "startColumnNumber": 22,
+        "endLineNumber": 1854,
+        "endColumnNumber": 47,
+        "tainted": true,
+        "flows_from": [
+            "51",
+            "69",
+            "71"
+        ],
+        "sink_type": ""
+    },
+    "51": {
+        "operation": "call:tmplFn",
+        "value": "lwe?:ZE2yn",
+        "file": "/nodetaint/packageData/jsrender/node_modules/jsrender/jsrender-node.js",
+        "startLineNumber": 1161,
+        "startColumnNumber": 9,
+        "endLineNumber": 1161,
+        "endColumnNumber": 66,
+        "tainted": true,
+        "flows_from": [
+            "52"
+        ],
+        "sink_type": ""
+    },
+    "52": {
+        "operation": "precise:string.replace",
+        "value": "lwe?:ZE2yn",
+        "file": "/nodetaint/packageData/jsrender/node_modules/jsrender/jsrender-node.js",
+        "startLineNumber": 1161,
+        "startColumnNumber": 16,
+        "endLineNumber": 1161,
+        "endColumnNumber": 59,
+        "tainted": true,
+        "flows_from": [
+            "53",
+            "65",
+            "67"
+        ],
+        "sink_type": ""
+    },
+    "53": {
+        "operation": "call:exec",
+        "value": "lwe?:ZE2yn",
+        "file": "/nodetaint/packageData/jsrender/node_modules/jsrender/jsrender-node.js",
+        "startLineNumber": 1466,
+        "startColumnNumber": 17,
+        "endLineNumber": 1466,
+        "endColumnNumber": 40,
+        "tainted": true,
+        "flows_from": [
+            "54"
+        ],
+        "sink_type": ""
+    },
+    "54": {
+        "operation": "call:tmplObject",
+        "value": "lwe?:ZE2yn",
+        "file": "/nodetaint/packageData/jsrender/node_modules/jsrender/jsrender-node.js",
+        "startLineNumber": 1159,
+        "startColumnNumber": 16,
+        "endLineNumber": 1159,
+        "endColumnNumber": 49,
+        "tainted": true,
+        "flows_from": [
+            "55"
+        ],
+        "sink_type": ""
+    },
+    "55": {
+        "operation": "call:test",
+        "value": "lwe?:ZE2yn",
+        "file": "/nodetaint/packageData/jsrender/node_modules/jsrender/jsrender-node.js",
+        "startLineNumber": 1087,
+        "startColumnNumber": 15,
+        "endLineNumber": 1087,
+        "endColumnNumber": 48,
+        "tainted": true,
+        "flows_from": [
+            "56"
+        ],
+        "sink_type": ""
+    },
+    "56": {
+        "operation": "call:Anonymous Function",
+        "value": "lwe?:ZE2yn",
+        "file": "/nodetaint/packageData/jsrender/node_modules/jsrender/jsrender-node.js",
+        "startLineNumber": 1085,
+        "startColumnNumber": 11,
+        "endLineNumber": 1085,
+        "endColumnNumber": 25,
+        "tainted": true,
+        "flows_from": [
+            "57"
+        ],
+        "sink_type": ""
+    },
+    "57": {
+        "operation": "call:lookupTemplate",
+        "value": "lwe?:ZE2yn",
+        "file": "/nodetaint/packageData/jsrender/node_modules/jsrender/jsrender-node.js",
+        "startLineNumber": 1128,
+        "startColumnNumber": 22,
+        "endLineNumber": 1128,
+        "endColumnNumber": 50,
+        "tainted": true,
+        "flows_from": [
+            "58"
+        ],
+        "sink_type": ""
+    },
+    "58": {
+        "operation": "call:compileTmpl",
+        "value": "lwe?:ZE2yn",
+        "file": "/nodetaint/packageData/jsrender/node_modules/jsrender/jsrender-node.js",
+        "startLineNumber": 1542,
+        "startColumnNumber": 18,
+        "endLineNumber": 1542,
+        "endColumnNumber": 68,
+        "tainted": true,
+        "flows_from": [
+            "59"
+        ],
+        "sink_type": ""
+    },
+    "59": {
+        "operation": "call:Anonymous Function",
+        "value": "lwe?:ZE2yn",
+        "file": "/nodetaint/packageData/jsrender/node_modules/jsrender/jsrender-node.js",
+        "startLineNumber": 1519,
+        "startColumnNumber": 19,
+        "endLineNumber": 1519,
+        "endColumnNumber": 32,
+        "tainted": true,
+        "flows_from": [
+            "60"
+        ],
+        "sink_type": ""
+    },
+    "60": {
+        "operation": "call:Anonymous Function",
+        "value": "lwe?:ZE2yn",
+        "file": "/nodetaint/packageData/jsrender/node_modules/jsrender/jsrender-node.js",
+        "startLineNumber": 1508,
+        "startColumnNumber": 19,
+        "endLineNumber": 1508,
+        "endColumnNumber": 32,
+        "tainted": true,
+        "flows_from": [
+            "61"
+        ],
+        "sink_type": ""
+    },
+    "61": {
+        "operation": "call:theStore",
+        "value": "lwe?:ZE2yn",
+        "file": "/nodetaint/analysisArtifacts/run-jsrender2.js",
+        "startLineNumber": 8,
+        "startColumnNumber": 1,
+        "endLineNumber": 8,
+        "endColumnNumber": 25,
+        "tainted": true,
+        "flows_from": [
+            "62"
+        ],
+        "sink_type": ""
+    },
+    "62": {
+        "operation": "Tainted",
+        "value": "lwe?:ZE2yn",
+        "file": "/nodetaint/analysisArtifacts/run-jsrender2.js",
+        "startLineNumber": 7,
+        "startColumnNumber": 1,
+        "endLineNumber": 7,
+        "endColumnNumber": 26,
+        "tainted": true,
+        "flows_from": [
+            "63"
+        ],
+        "sink_type": ""
+    },
+    "63": {
+        "operation": "call:__jalangi_set_taint__",
+        "value": "lwe?:ZE2yn",
+        "file": "/nodetaint/analysisArtifacts/run-jsrender2.js",
+        "startLineNumber": 7,
+        "startColumnNumber": 1,
+        "endLineNumber": 7,
+        "endColumnNumber": 26,
+        "tainted": false,
+        "flows_from": [
+            "64"
+        ],
+        "sink_type": ""
+    },
+    "64": {
+        "operation": "Untainted",
+        "value": "lwe?:ZE2yn",
+        "file": "/nodetaint/analysisArtifacts/run-jsrender2.js",
+        "startLineNumber": 7,
+        "startColumnNumber": 1,
+        "endLineNumber": 7,
+        "endColumnNumber": 26,
+        "tainted": false,
+        "flows_from": [],
+        "sink_type": ""
+    },
+    "65": {
+        "operation": "call:replace",
+        "value": {},
+        "file": "/nodetaint/packageData/jsrender/node_modules/jsrender/jsrender-node.js",
+        "startLineNumber": 1161,
+        "startColumnNumber": 16,
+        "endLineNumber": 1161,
+        "endColumnNumber": 59,
+        "tainted": false,
+        "flows_from": [
+            "66"
+        ],
+        "sink_type": ""
+    },
+    "66": {
+        "operation": "Untainted",
+        "value": {},
+        "file": "/nodetaint/packageData/jsrender/node_modules/jsrender/jsrender-node.js",
+        "startLineNumber": 1161,
+        "startColumnNumber": 16,
+        "endLineNumber": 1161,
+        "endColumnNumber": 59,
+        "tainted": false,
+        "flows_from": [],
+        "sink_type": ""
+    },
+    "67": {
+        "operation": "call:replace",
+        "value": "\\$&",
+        "file": "/nodetaint/packageData/jsrender/node_modules/jsrender/jsrender-node.js",
+        "startLineNumber": 1161,
+        "startColumnNumber": 16,
+        "endLineNumber": 1161,
+        "endColumnNumber": 59,
+        "tainted": false,
+        "flows_from": [
+            "68"
+        ],
+        "sink_type": ""
+    },
+    "68": {
+        "operation": "Untainted",
+        "value": "\\$&",
+        "file": "/nodetaint/packageData/jsrender/node_modules/jsrender/jsrender-node.js",
+        "startLineNumber": 1161,
+        "startColumnNumber": 16,
+        "endLineNumber": 1161,
+        "endColumnNumber": 59,
+        "tainted": false,
+        "flows_from": [],
+        "sink_type": ""
+    },
+    "69": {
+        "operation": "call:substr",
+        "value": 0,
+        "file": "/nodetaint/packageData/jsrender/node_modules/jsrender/jsrender-node.js",
+        "startLineNumber": 1854,
+        "startColumnNumber": 22,
+        "endLineNumber": 1854,
+        "endColumnNumber": 47,
+        "tainted": false,
+        "flows_from": [
+            "70"
+        ],
+        "sink_type": ""
+    },
+    "70": {
+        "operation": "Untainted",
+        "value": 0,
+        "file": "/nodetaint/packageData/jsrender/node_modules/jsrender/jsrender-node.js",
+        "startLineNumber": 1854,
+        "startColumnNumber": 22,
+        "endLineNumber": 1854,
+        "endColumnNumber": 47,
+        "tainted": false,
+        "flows_from": [],
+        "sink_type": ""
+    },
+    "71": {
+        "operation": "call:substr",
+        "value": 10,
+        "file": "/nodetaint/packageData/jsrender/node_modules/jsrender/jsrender-node.js",
+        "startLineNumber": 1854,
+        "startColumnNumber": 22,
+        "endLineNumber": 1854,
+        "endColumnNumber": 47,
+        "tainted": true,
+        "flows_from": [
+            "72"
+        ],
+        "sink_type": ""
+    },
+    "72": {
+        "operation": "-",
+        "value": 10,
+        "file": "/nodetaint/packageData/jsrender/node_modules/jsrender/jsrender-node.js",
+        "startLineNumber": 1852,
+        "startColumnNumber": 16,
+        "endLineNumber": 1852,
+        "endColumnNumber": 19,
+        "tainted": true,
+        "flows_from": [
+            "73",
+            "94"
+        ],
+        "sink_type": ""
+    },
+    "73": {
+        "operation": "call:pushprecedingContent",
+        "value": 10,
+        "file": "/nodetaint/packageData/jsrender/node_modules/jsrender/jsrender-node.js",
+        "startLineNumber": 2048,
+        "startColumnNumber": 5,
+        "endLineNumber": 2048,
+        "endColumnNumber": 40,
+        "tainted": true,
+        "flows_from": [
+            "74"
+        ],
+        "sink_type": ""
+    },
+    "74": {
+        "operation": "string.GetField",
+        "value": 10,
+        "file": "UNKNOWN",
+        "startLineNumber": -1,
+        "startColumnNumber": -1,
+        "endLineNumber": -1,
+        "endColumnNumber": -1,
+        "tainted": true,
+        "flows_from": [
+            "75",
+            "93"
+        ],
+        "sink_type": ""
+    },
+    "75": {
+        "operation": "call:tmplFn",
+        "value": "lwe?:ZE2yn",
+        "file": "/nodetaint/packageData/jsrender/node_modules/jsrender/jsrender-node.js",
+        "startLineNumber": 1161,
+        "startColumnNumber": 9,
+        "endLineNumber": 1161,
+        "endColumnNumber": 66,
+        "tainted": true,
+        "flows_from": [
+            "76"
+        ],
+        "sink_type": ""
+    },
+    "76": {
+        "operation": "precise:string.replace",
+        "value": "lwe?:ZE2yn",
+        "file": "/nodetaint/packageData/jsrender/node_modules/jsrender/jsrender-node.js",
+        "startLineNumber": 1161,
+        "startColumnNumber": 16,
+        "endLineNumber": 1161,
+        "endColumnNumber": 59,
+        "tainted": true,
+        "flows_from": [
+            "77",
+            "89",
+            "91"
+        ],
+        "sink_type": ""
+    },
+    "77": {
+        "operation": "call:exec",
+        "value": "lwe?:ZE2yn",
+        "file": "/nodetaint/packageData/jsrender/node_modules/jsrender/jsrender-node.js",
+        "startLineNumber": 1466,
+        "startColumnNumber": 17,
+        "endLineNumber": 1466,
+        "endColumnNumber": 40,
+        "tainted": true,
+        "flows_from": [
+            "78"
+        ],
+        "sink_type": ""
+    },
+    "78": {
+        "operation": "call:tmplObject",
+        "value": "lwe?:ZE2yn",
+        "file": "/nodetaint/packageData/jsrender/node_modules/jsrender/jsrender-node.js",
+        "startLineNumber": 1159,
+        "startColumnNumber": 16,
+        "endLineNumber": 1159,
+        "endColumnNumber": 49,
+        "tainted": true,
+        "flows_from": [
+            "79"
+        ],
+        "sink_type": ""
+    },
+    "79": {
+        "operation": "call:test",
+        "value": "lwe?:ZE2yn",
+        "file": "/nodetaint/packageData/jsrender/node_modules/jsrender/jsrender-node.js",
+        "startLineNumber": 1087,
+        "startColumnNumber": 15,
+        "endLineNumber": 1087,
+        "endColumnNumber": 48,
+        "tainted": true,
+        "flows_from": [
+            "80"
+        ],
+        "sink_type": ""
+    },
+    "80": {
+        "operation": "call:Anonymous Function",
+        "value": "lwe?:ZE2yn",
+        "file": "/nodetaint/packageData/jsrender/node_modules/jsrender/jsrender-node.js",
+        "startLineNumber": 1085,
+        "startColumnNumber": 11,
+        "endLineNumber": 1085,
+        "endColumnNumber": 25,
+        "tainted": true,
+        "flows_from": [
+            "81"
+        ],
+        "sink_type": ""
+    },
+    "81": {
+        "operation": "call:lookupTemplate",
+        "value": "lwe?:ZE2yn",
+        "file": "/nodetaint/packageData/jsrender/node_modules/jsrender/jsrender-node.js",
+        "startLineNumber": 1128,
+        "startColumnNumber": 22,
+        "endLineNumber": 1128,
+        "endColumnNumber": 50,
+        "tainted": true,
+        "flows_from": [
+            "82"
+        ],
+        "sink_type": ""
+    },
+    "82": {
+        "operation": "call:compileTmpl",
+        "value": "lwe?:ZE2yn",
+        "file": "/nodetaint/packageData/jsrender/node_modules/jsrender/jsrender-node.js",
+        "startLineNumber": 1542,
+        "startColumnNumber": 18,
+        "endLineNumber": 1542,
+        "endColumnNumber": 68,
+        "tainted": true,
+        "flows_from": [
+            "83"
+        ],
+        "sink_type": ""
+    },
+    "83": {
+        "operation": "call:Anonymous Function",
+        "value": "lwe?:ZE2yn",
+        "file": "/nodetaint/packageData/jsrender/node_modules/jsrender/jsrender-node.js",
+        "startLineNumber": 1519,
+        "startColumnNumber": 19,
+        "endLineNumber": 1519,
+        "endColumnNumber": 32,
+        "tainted": true,
+        "flows_from": [
+            "84"
+        ],
+        "sink_type": ""
+    },
+    "84": {
+        "operation": "call:Anonymous Function",
+        "value": "lwe?:ZE2yn",
+        "file": "/nodetaint/packageData/jsrender/node_modules/jsrender/jsrender-node.js",
+        "startLineNumber": 1508,
+        "startColumnNumber": 19,
+        "endLineNumber": 1508,
+        "endColumnNumber": 32,
+        "tainted": true,
+        "flows_from": [
+            "85"
+        ],
+        "sink_type": ""
+    },
+    "85": {
+        "operation": "call:theStore",
+        "value": "lwe?:ZE2yn",
+        "file": "/nodetaint/analysisArtifacts/run-jsrender2.js",
+        "startLineNumber": 8,
+        "startColumnNumber": 1,
+        "endLineNumber": 8,
+        "endColumnNumber": 25,
+        "tainted": true,
+        "flows_from": [
+            "86"
+        ],
+        "sink_type": ""
+    },
+    "86": {
+        "operation": "Tainted",
+        "value": "lwe?:ZE2yn",
+        "file": "/nodetaint/analysisArtifacts/run-jsrender2.js",
+        "startLineNumber": 7,
+        "startColumnNumber": 1,
+        "endLineNumber": 7,
+        "endColumnNumber": 26,
+        "tainted": true,
+        "flows_from": [
+            "87"
+        ],
+        "sink_type": ""
+    },
+    "87": {
+        "operation": "call:__jalangi_set_taint__",
+        "value": "lwe?:ZE2yn",
+        "file": "/nodetaint/analysisArtifacts/run-jsrender2.js",
+        "startLineNumber": 7,
+        "startColumnNumber": 1,
+        "endLineNumber": 7,
+        "endColumnNumber": 26,
+        "tainted": false,
+        "flows_from": [
+            "88"
+        ],
+        "sink_type": ""
+    },
+    "88": {
+        "operation": "Untainted",
+        "value": "lwe?:ZE2yn",
+        "file": "/nodetaint/analysisArtifacts/run-jsrender2.js",
+        "startLineNumber": 7,
+        "startColumnNumber": 1,
+        "endLineNumber": 7,
+        "endColumnNumber": 26,
+        "tainted": false,
+        "flows_from": [],
+        "sink_type": ""
+    },
+    "89": {
+        "operation": "call:replace",
+        "value": {},
+        "file": "/nodetaint/packageData/jsrender/node_modules/jsrender/jsrender-node.js",
+        "startLineNumber": 1161,
+        "startColumnNumber": 16,
+        "endLineNumber": 1161,
+        "endColumnNumber": 59,
+        "tainted": false,
+        "flows_from": [
+            "90"
+        ],
+        "sink_type": ""
+    },
+    "90": {
+        "operation": "Untainted",
+        "value": {},
+        "file": "/nodetaint/packageData/jsrender/node_modules/jsrender/jsrender-node.js",
+        "startLineNumber": 1161,
+        "startColumnNumber": 16,
+        "endLineNumber": 1161,
+        "endColumnNumber": 59,
+        "tainted": false,
+        "flows_from": [],
+        "sink_type": ""
+    },
+    "91": {
+        "operation": "call:replace",
+        "value": "\\$&",
+        "file": "/nodetaint/packageData/jsrender/node_modules/jsrender/jsrender-node.js",
+        "startLineNumber": 1161,
+        "startColumnNumber": 16,
+        "endLineNumber": 1161,
+        "endColumnNumber": 59,
+        "tainted": false,
+        "flows_from": [
+            "92"
+        ],
+        "sink_type": ""
+    },
+    "92": {
+        "operation": "Untainted",
+        "value": "\\$&",
+        "file": "/nodetaint/packageData/jsrender/node_modules/jsrender/jsrender-node.js",
+        "startLineNumber": 1161,
+        "startColumnNumber": 16,
+        "endLineNumber": 1161,
+        "endColumnNumber": 59,
+        "tainted": false,
+        "flows_from": [],
+        "sink_type": ""
+    },
+    "93": {
+        "operation": "Untainted",
+        "value": "length",
+        "file": "UNKNOWN",
+        "startLineNumber": -1,
+        "startColumnNumber": -1,
+        "endLineNumber": -1,
+        "endColumnNumber": -1,
+        "tainted": false,
+        "flows_from": [],
+        "sink_type": ""
+    },
+    "94": {
+        "operation": "Untainted",
+        "value": 0,
+        "file": "/nodetaint/packageData/jsrender/node_modules/jsrender/jsrender-node.js",
+        "startLineNumber": 1852,
+        "startColumnNumber": 16,
+        "endLineNumber": 1852,
+        "endColumnNumber": 19,
+        "tainted": false,
+        "flows_from": [],
+        "sink_type": ""
+    },
+    "95": {
+        "operation": "call:replace",
+        "value": {},
+        "file": "/nodetaint/packageData/jsrender/node_modules/jsrender/jsrender-node.js",
+        "startLineNumber": 1854,
+        "startColumnNumber": 22,
+        "endLineNumber": 1854,
+        "endColumnNumber": 72,
+        "tainted": false,
+        "flows_from": [
+            "96"
+        ],
+        "sink_type": ""
+    },
+    "96": {
+        "operation": "Untainted",
+        "value": {},
+        "file": "/nodetaint/packageData/jsrender/node_modules/jsrender/jsrender-node.js",
+        "startLineNumber": 1854,
+        "startColumnNumber": 22,
+        "endLineNumber": 1854,
+        "endColumnNumber": 72,
+        "tainted": false,
+        "flows_from": [],
+        "sink_type": ""
+    },
+    "97": {
+        "operation": "call:replace",
+        "value": "\\n",
+        "file": "/nodetaint/packageData/jsrender/node_modules/jsrender/jsrender-node.js",
+        "startLineNumber": 1854,
+        "startColumnNumber": 22,
+        "endLineNumber": 1854,
+        "endColumnNumber": 72,
+        "tainted": false,
+        "flows_from": [
+            "98"
+        ],
+        "sink_type": ""
+    },
+    "98": {
+        "operation": "Untainted",
+        "value": "\\n",
+        "file": "/nodetaint/packageData/jsrender/node_modules/jsrender/jsrender-node.js",
+        "startLineNumber": 1854,
+        "startColumnNumber": 22,
+        "endLineNumber": 1854,
+        "endColumnNumber": 72,
+        "tainted": false,
+        "flows_from": [],
+        "sink_type": ""
+    },
+    "99": {
+        "operation": "Untainted",
+        "value": "\"",
+        "file": "/nodetaint/packageData/jsrender/node_modules/jsrender/jsrender-node.js",
+        "startLineNumber": 2417,
+        "startColumnNumber": 17,
+        "endLineNumber": 2417,
+        "endColumnNumber": 34,
+        "tainted": false,
+        "flows_from": [],
+        "sink_type": ""
+    },
+    "100": {
+        "operation": "Untainted",
+        "value": ";\nreturn ret;",
+        "file": "/nodetaint/packageData/jsrender/node_modules/jsrender/jsrender-node.js",
+        "startLineNumber": 2560,
+        "startColumnNumber": 12,
+        "endLineNumber": 2573,
+        "endColumnNumber": 42,
+        "tainted": false,
+        "flows_from": [],
+        "sink_type": ""
+    }
+}

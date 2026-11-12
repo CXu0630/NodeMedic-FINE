@@ -1,0 +1,924 @@
+{
+    "1": {
+        "operation": "call:Function",
+        "value": "return function () {var self = this;var args;var argLength = arguments.length;if (arguments.length > NaN) {args = new Array(arguments.length + 1);for (var i = 0; i < arguments.length; i++) {args[i] = arguments[i];}}return new Promise(function (rs, rj) {var cb = function (err, res) {if (err) { rj(err); } else { rs(res); }};var res;switch (argLength) {case 0:res = fn.call(self,cb);break;default:args[argLength] = cb;res = fn.apply(self, args);}if (res &&(typeof res === \"object\" || typeof res === \"function\") &&typeof res.then === \"function\") {rs(res);}});};",
+        "file": "/nodetaint/packageData/promise/node_modules/promise/lib/node-extensions.js",
+        "startLineNumber": 90,
+        "startColumnNumber": 10,
+        "endLineNumber": 93,
+        "endColumnNumber": 4,
+        "tainted": true,
+        "flows_from": [
+            "2"
+        ],
+        "sink_type": "Function"
+    },
+    "2": {
+        "operation": "model:array.join",
+        "value": "return function () {var self = this;var args;var argLength = arguments.length;if (arguments.length > NaN) {args = new Array(arguments.length + 1);for (var i = 0; i < arguments.length; i++) {args[i] = arguments[i];}}return new Promise(function (rs, rj) {var cb = function (err, res) {if (err) { rj(err); } else { rs(res); }};var res;switch (argLength) {case 0:res = fn.call(self,cb);break;default:args[argLength] = cb;res = fn.apply(self, args);}if (res &&(typeof res === \"object\" || typeof res === \"function\") &&typeof res.then === \"function\") {rs(res);}});};",
+        "file": "/nodetaint/packageData/promise/node_modules/promise/lib/node-extensions.js",
+        "startLineNumber": 55,
+        "startColumnNumber": 14,
+        "endLineNumber": 88,
+        "endColumnNumber": 11,
+        "tainted": true,
+        "flows_from": [
+            "3",
+            "9",
+            "10",
+            "11",
+            "12",
+            "30",
+            "31",
+            "32",
+            "33",
+            "34",
+            "35",
+            "36",
+            "41",
+            "42",
+            "43",
+            "60",
+            "61",
+            "62",
+            "63",
+            "64",
+            "65",
+            "66",
+            "67",
+            "68",
+            "69"
+        ],
+        "sink_type": ""
+    },
+    "3": {
+        "operation": "precise:string.concat",
+        "value": "return function () {",
+        "file": "/nodetaint/packageData/promise/node_modules/promise/lib/node-extensions.js",
+        "startLineNumber": 56,
+        "startColumnNumber": 3,
+        "endLineNumber": 56,
+        "endColumnNumber": 47,
+        "tainted": false,
+        "flows_from": [
+            "4",
+            "8"
+        ],
+        "sink_type": ""
+    },
+    "4": {
+        "operation": "precise:string.concat",
+        "value": "return function (",
+        "file": "/nodetaint/packageData/promise/node_modules/promise/lib/node-extensions.js",
+        "startLineNumber": 56,
+        "startColumnNumber": 3,
+        "endLineNumber": 56,
+        "endColumnNumber": 39,
+        "tainted": false,
+        "flows_from": [
+            "5",
+            "6"
+        ],
+        "sink_type": ""
+    },
+    "5": {
+        "operation": "Untainted",
+        "value": "return function (",
+        "file": "/nodetaint/packageData/promise/node_modules/promise/lib/node-extensions.js",
+        "startLineNumber": 56,
+        "startColumnNumber": 3,
+        "endLineNumber": 56,
+        "endColumnNumber": 39,
+        "tainted": false,
+        "flows_from": [],
+        "sink_type": ""
+    },
+    "6": {
+        "operation": "model:array.join",
+        "value": "",
+        "file": "/nodetaint/packageData/promise/node_modules/promise/lib/node-extensions.js",
+        "startLineNumber": 56,
+        "startColumnNumber": 25,
+        "endLineNumber": 56,
+        "endColumnNumber": 39,
+        "tainted": false,
+        "flows_from": [
+            "7"
+        ],
+        "sink_type": ""
+    },
+    "7": {
+        "operation": "Untainted",
+        "value": "",
+        "file": "/nodetaint/packageData/promise/node_modules/promise/lib/node-extensions.js",
+        "startLineNumber": 56,
+        "startColumnNumber": 25,
+        "endLineNumber": 56,
+        "endColumnNumber": 39,
+        "tainted": false,
+        "flows_from": [],
+        "sink_type": ""
+    },
+    "8": {
+        "operation": "Untainted",
+        "value": ") {",
+        "file": "/nodetaint/packageData/promise/node_modules/promise/lib/node-extensions.js",
+        "startLineNumber": 56,
+        "startColumnNumber": 3,
+        "endLineNumber": 56,
+        "endColumnNumber": 47,
+        "tainted": false,
+        "flows_from": [],
+        "sink_type": ""
+    },
+    "9": {
+        "operation": "Untainted",
+        "value": "var self = this;",
+        "file": "/nodetaint/packageData/promise/node_modules/promise/lib/node-extensions.js",
+        "startLineNumber": 55,
+        "startColumnNumber": 14,
+        "endLineNumber": 88,
+        "endColumnNumber": 11,
+        "tainted": false,
+        "flows_from": [],
+        "sink_type": ""
+    },
+    "10": {
+        "operation": "Untainted",
+        "value": "var args;",
+        "file": "/nodetaint/packageData/promise/node_modules/promise/lib/node-extensions.js",
+        "startLineNumber": 55,
+        "startColumnNumber": 14,
+        "endLineNumber": 88,
+        "endColumnNumber": 11,
+        "tainted": false,
+        "flows_from": [],
+        "sink_type": ""
+    },
+    "11": {
+        "operation": "Untainted",
+        "value": "var argLength = arguments.length;",
+        "file": "/nodetaint/packageData/promise/node_modules/promise/lib/node-extensions.js",
+        "startLineNumber": 55,
+        "startColumnNumber": 14,
+        "endLineNumber": 88,
+        "endColumnNumber": 11,
+        "tainted": false,
+        "flows_from": [],
+        "sink_type": ""
+    },
+    "12": {
+        "operation": "precise:string.concat",
+        "value": "if (arguments.length > NaN) {",
+        "file": "/nodetaint/packageData/promise/node_modules/promise/lib/node-extensions.js",
+        "startLineNumber": 60,
+        "startColumnNumber": 3,
+        "endLineNumber": 60,
+        "endColumnNumber": 47,
+        "tainted": true,
+        "flows_from": [
+            "13",
+            "29"
+        ],
+        "sink_type": ""
+    },
+    "13": {
+        "operation": "precise:string.concat",
+        "value": "if (arguments.length > NaN",
+        "file": "/nodetaint/packageData/promise/node_modules/promise/lib/node-extensions.js",
+        "startLineNumber": 60,
+        "startColumnNumber": 3,
+        "endLineNumber": 60,
+        "endColumnNumber": 39,
+        "tainted": true,
+        "flows_from": [
+            "14",
+            "15"
+        ],
+        "sink_type": ""
+    },
+    "14": {
+        "operation": "Untainted",
+        "value": "if (arguments.length > ",
+        "file": "/nodetaint/packageData/promise/node_modules/promise/lib/node-extensions.js",
+        "startLineNumber": 60,
+        "startColumnNumber": 3,
+        "endLineNumber": 60,
+        "endColumnNumber": 39,
+        "tainted": false,
+        "flows_from": [],
+        "sink_type": ""
+    },
+    "15": {
+        "operation": "imprecise:max",
+        "value": null,
+        "file": "/nodetaint/packageData/promise/node_modules/promise/lib/node-extensions.js",
+        "startLineNumber": 50,
+        "startColumnNumber": 18,
+        "endLineNumber": 50,
+        "endColumnNumber": 44,
+        "tainted": true,
+        "flows_from": [
+            "16",
+            "17",
+            "27"
+        ],
+        "sink_type": ""
+    },
+    "16": {
+        "operation": "Untainted",
+        "value": {},
+        "file": "/nodetaint/packageData/promise/node_modules/promise/lib/node-extensions.js",
+        "startLineNumber": 50,
+        "startColumnNumber": 18,
+        "endLineNumber": 50,
+        "endColumnNumber": 44,
+        "tainted": false,
+        "flows_from": [],
+        "sink_type": ""
+    },
+    "17": {
+        "operation": "call:max",
+        "value": null,
+        "file": "/nodetaint/packageData/promise/node_modules/promise/lib/node-extensions.js",
+        "startLineNumber": 50,
+        "startColumnNumber": 18,
+        "endLineNumber": 50,
+        "endColumnNumber": 44,
+        "tainted": true,
+        "flows_from": [
+            "18"
+        ],
+        "sink_type": ""
+    },
+    "18": {
+        "operation": "-",
+        "value": null,
+        "file": "/nodetaint/packageData/promise/node_modules/promise/lib/node-extensions.js",
+        "startLineNumber": 50,
+        "startColumnNumber": 27,
+        "endLineNumber": 50,
+        "endColumnNumber": 40,
+        "tainted": true,
+        "flows_from": [
+            "19",
+            "26"
+        ],
+        "sink_type": ""
+    },
+    "19": {
+        "operation": "object.GetField",
+        "file": "UNKNOWN",
+        "startLineNumber": -1,
+        "startColumnNumber": -1,
+        "endLineNumber": -1,
+        "endColumnNumber": -1,
+        "tainted": true,
+        "flows_from": [
+            "20",
+            "25"
+        ],
+        "sink_type": ""
+    },
+    "20": {
+        "operation": "call:denodeifyWithoutCount",
+        "value": {},
+        "file": "/nodetaint/packageData/promise/node_modules/promise/lib/node-extensions.js",
+        "startLineNumber": 19,
+        "startColumnNumber": 12,
+        "endLineNumber": 19,
+        "endColumnNumber": 37,
+        "tainted": true,
+        "flows_from": [
+            "21"
+        ],
+        "sink_type": ""
+    },
+    "21": {
+        "operation": "call:denodeify",
+        "value": {},
+        "file": "/nodetaint/analysisArtifacts/run-promise2.js",
+        "startLineNumber": 9,
+        "startColumnNumber": 1,
+        "endLineNumber": 9,
+        "endColumnNumber": 29,
+        "tainted": true,
+        "flows_from": [
+            "22"
+        ],
+        "sink_type": ""
+    },
+    "22": {
+        "operation": "Tainted",
+        "value": {},
+        "file": "/nodetaint/analysisArtifacts/run-promise2.js",
+        "startLineNumber": 8,
+        "startColumnNumber": 1,
+        "endLineNumber": 8,
+        "endColumnNumber": 26,
+        "tainted": true,
+        "flows_from": [
+            "23"
+        ],
+        "sink_type": ""
+    },
+    "23": {
+        "operation": "call:__jalangi_set_taint__",
+        "value": {},
+        "file": "/nodetaint/analysisArtifacts/run-promise2.js",
+        "startLineNumber": 8,
+        "startColumnNumber": 1,
+        "endLineNumber": 8,
+        "endColumnNumber": 26,
+        "tainted": false,
+        "flows_from": [
+            "24"
+        ],
+        "sink_type": ""
+    },
+    "24": {
+        "operation": "Untainted",
+        "value": {},
+        "file": "/nodetaint/analysisArtifacts/run-promise2.js",
+        "startLineNumber": 8,
+        "startColumnNumber": 1,
+        "endLineNumber": 8,
+        "endColumnNumber": 26,
+        "tainted": false,
+        "flows_from": [],
+        "sink_type": ""
+    },
+    "25": {
+        "operation": "Untainted",
+        "value": "length",
+        "file": "UNKNOWN",
+        "startLineNumber": -1,
+        "startColumnNumber": -1,
+        "endLineNumber": -1,
+        "endColumnNumber": -1,
+        "tainted": false,
+        "flows_from": [],
+        "sink_type": ""
+    },
+    "26": {
+        "operation": "Untainted",
+        "value": 1,
+        "file": "/nodetaint/packageData/promise/node_modules/promise/lib/node-extensions.js",
+        "startLineNumber": 50,
+        "startColumnNumber": 27,
+        "endLineNumber": 50,
+        "endColumnNumber": 40,
+        "tainted": false,
+        "flows_from": [],
+        "sink_type": ""
+    },
+    "27": {
+        "operation": "call:max",
+        "value": 3,
+        "file": "/nodetaint/packageData/promise/node_modules/promise/lib/node-extensions.js",
+        "startLineNumber": 50,
+        "startColumnNumber": 18,
+        "endLineNumber": 50,
+        "endColumnNumber": 44,
+        "tainted": false,
+        "flows_from": [
+            "28"
+        ],
+        "sink_type": ""
+    },
+    "28": {
+        "operation": "Untainted",
+        "value": 3,
+        "file": "/nodetaint/packageData/promise/node_modules/promise/lib/node-extensions.js",
+        "startLineNumber": 50,
+        "startColumnNumber": 18,
+        "endLineNumber": 50,
+        "endColumnNumber": 44,
+        "tainted": false,
+        "flows_from": [],
+        "sink_type": ""
+    },
+    "29": {
+        "operation": "Untainted",
+        "value": ") {",
+        "file": "/nodetaint/packageData/promise/node_modules/promise/lib/node-extensions.js",
+        "startLineNumber": 60,
+        "startColumnNumber": 3,
+        "endLineNumber": 60,
+        "endColumnNumber": 47,
+        "tainted": false,
+        "flows_from": [],
+        "sink_type": ""
+    },
+    "30": {
+        "operation": "Untainted",
+        "value": "args = new Array(arguments.length + 1);",
+        "file": "/nodetaint/packageData/promise/node_modules/promise/lib/node-extensions.js",
+        "startLineNumber": 55,
+        "startColumnNumber": 14,
+        "endLineNumber": 88,
+        "endColumnNumber": 11,
+        "tainted": false,
+        "flows_from": [],
+        "sink_type": ""
+    },
+    "31": {
+        "operation": "Untainted",
+        "value": "for (var i = 0; i < arguments.length; i++) {",
+        "file": "/nodetaint/packageData/promise/node_modules/promise/lib/node-extensions.js",
+        "startLineNumber": 55,
+        "startColumnNumber": 14,
+        "endLineNumber": 88,
+        "endColumnNumber": 11,
+        "tainted": false,
+        "flows_from": [],
+        "sink_type": ""
+    },
+    "32": {
+        "operation": "Untainted",
+        "value": "args[i] = arguments[i];",
+        "file": "/nodetaint/packageData/promise/node_modules/promise/lib/node-extensions.js",
+        "startLineNumber": 55,
+        "startColumnNumber": 14,
+        "endLineNumber": 88,
+        "endColumnNumber": 11,
+        "tainted": false,
+        "flows_from": [],
+        "sink_type": ""
+    },
+    "33": {
+        "operation": "Untainted",
+        "value": "}",
+        "file": "/nodetaint/packageData/promise/node_modules/promise/lib/node-extensions.js",
+        "startLineNumber": 55,
+        "startColumnNumber": 14,
+        "endLineNumber": 88,
+        "endColumnNumber": 11,
+        "tainted": false,
+        "flows_from": [],
+        "sink_type": ""
+    },
+    "34": {
+        "operation": "Untainted",
+        "value": "}",
+        "file": "/nodetaint/packageData/promise/node_modules/promise/lib/node-extensions.js",
+        "startLineNumber": 55,
+        "startColumnNumber": 14,
+        "endLineNumber": 88,
+        "endColumnNumber": 11,
+        "tainted": false,
+        "flows_from": [],
+        "sink_type": ""
+    },
+    "35": {
+        "operation": "Untainted",
+        "value": "return new Promise(function (rs, rj) {",
+        "file": "/nodetaint/packageData/promise/node_modules/promise/lib/node-extensions.js",
+        "startLineNumber": 55,
+        "startColumnNumber": 14,
+        "endLineNumber": 88,
+        "endColumnNumber": 11,
+        "tainted": false,
+        "flows_from": [],
+        "sink_type": ""
+    },
+    "36": {
+        "operation": "precise:string.concat",
+        "value": "var cb = function (err, res) {if (err) { rj(err); } else { rs(res); }};",
+        "file": "/nodetaint/packageData/promise/node_modules/promise/lib/node-extensions.js",
+        "startLineNumber": 67,
+        "startColumnNumber": 3,
+        "endLineNumber": 67,
+        "endColumnNumber": 33,
+        "tainted": false,
+        "flows_from": [
+            "37",
+            "40"
+        ],
+        "sink_type": ""
+    },
+    "37": {
+        "operation": "precise:string.concat",
+        "value": "var cb = function (err, res) {if (err) { rj(err); } else { rs(res); }}",
+        "file": "/nodetaint/packageData/promise/node_modules/promise/lib/node-extensions.js",
+        "startLineNumber": 67,
+        "startColumnNumber": 3,
+        "endLineNumber": 67,
+        "endColumnNumber": 27,
+        "tainted": false,
+        "flows_from": [
+            "38",
+            "39"
+        ],
+        "sink_type": ""
+    },
+    "38": {
+        "operation": "Untainted",
+        "value": "var cb = ",
+        "file": "/nodetaint/packageData/promise/node_modules/promise/lib/node-extensions.js",
+        "startLineNumber": 67,
+        "startColumnNumber": 3,
+        "endLineNumber": 67,
+        "endColumnNumber": 27,
+        "tainted": false,
+        "flows_from": [],
+        "sink_type": ""
+    },
+    "39": {
+        "operation": "Untainted",
+        "value": "function (err, res) {if (err) { rj(err); } else { rs(res); }}",
+        "file": "/nodetaint/packageData/promise/node_modules/promise/lib/node-extensions.js",
+        "startLineNumber": 67,
+        "startColumnNumber": 3,
+        "endLineNumber": 67,
+        "endColumnNumber": 27,
+        "tainted": false,
+        "flows_from": [],
+        "sink_type": ""
+    },
+    "40": {
+        "operation": "Untainted",
+        "value": ";",
+        "file": "/nodetaint/packageData/promise/node_modules/promise/lib/node-extensions.js",
+        "startLineNumber": 67,
+        "startColumnNumber": 3,
+        "endLineNumber": 67,
+        "endColumnNumber": 33,
+        "tainted": false,
+        "flows_from": [],
+        "sink_type": ""
+    },
+    "41": {
+        "operation": "Untainted",
+        "value": "var res;",
+        "file": "/nodetaint/packageData/promise/node_modules/promise/lib/node-extensions.js",
+        "startLineNumber": 55,
+        "startColumnNumber": 14,
+        "endLineNumber": 88,
+        "endColumnNumber": 11,
+        "tainted": false,
+        "flows_from": [],
+        "sink_type": ""
+    },
+    "42": {
+        "operation": "Untainted",
+        "value": "switch (argLength) {",
+        "file": "/nodetaint/packageData/promise/node_modules/promise/lib/node-extensions.js",
+        "startLineNumber": 55,
+        "startColumnNumber": 14,
+        "endLineNumber": 88,
+        "endColumnNumber": 11,
+        "tainted": false,
+        "flows_from": [],
+        "sink_type": ""
+    },
+    "43": {
+        "operation": "model:array.join",
+        "value": "case 0:res = fn.call(self,cb);break;",
+        "file": "/nodetaint/packageData/promise/node_modules/promise/lib/node-extensions.js",
+        "startLineNumber": 70,
+        "startColumnNumber": 3,
+        "endLineNumber": 76,
+        "endColumnNumber": 14,
+        "tainted": false,
+        "flows_from": [
+            "44"
+        ],
+        "sink_type": ""
+    },
+    "44": {
+        "operation": "precise:string.concat",
+        "value": "case 0:res = fn.call(self,cb);break;",
+        "file": "/nodetaint/packageData/promise/node_modules/promise/lib/node-extensions.js",
+        "startLineNumber": 72,
+        "startColumnNumber": 7,
+        "endLineNumber": 74,
+        "endColumnNumber": 15,
+        "tainted": false,
+        "flows_from": [
+            "45",
+            "59"
+        ],
+        "sink_type": ""
+    },
+    "45": {
+        "operation": "precise:string.concat",
+        "value": "case 0:res = fn.call(self,cb);",
+        "file": "/nodetaint/packageData/promise/node_modules/promise/lib/node-extensions.js",
+        "startLineNumber": 72,
+        "startColumnNumber": 7,
+        "endLineNumber": 73,
+        "endColumnNumber": 93,
+        "tainted": false,
+        "flows_from": [
+            "46",
+            "58"
+        ],
+        "sink_type": ""
+    },
+    "46": {
+        "operation": "precise:string.concat",
+        "value": "case 0:res = fn.call(self,cb",
+        "file": "/nodetaint/packageData/promise/node_modules/promise/lib/node-extensions.js",
+        "startLineNumber": 72,
+        "startColumnNumber": 7,
+        "endLineNumber": 73,
+        "endColumnNumber": 86,
+        "tainted": false,
+        "flows_from": [
+            "47",
+            "54"
+        ],
+        "sink_type": ""
+    },
+    "47": {
+        "operation": "precise:string.concat",
+        "value": "case 0:res = fn.call(",
+        "file": "/nodetaint/packageData/promise/node_modules/promise/lib/node-extensions.js",
+        "startLineNumber": 72,
+        "startColumnNumber": 7,
+        "endLineNumber": 73,
+        "endColumnNumber": 23,
+        "tainted": false,
+        "flows_from": [
+            "48",
+            "53"
+        ],
+        "sink_type": ""
+    },
+    "48": {
+        "operation": "precise:string.concat",
+        "value": "case 0:",
+        "file": "/nodetaint/packageData/promise/node_modules/promise/lib/node-extensions.js",
+        "startLineNumber": 72,
+        "startColumnNumber": 7,
+        "endLineNumber": 72,
+        "endColumnNumber": 28,
+        "tainted": false,
+        "flows_from": [
+            "49",
+            "52"
+        ],
+        "sink_type": ""
+    },
+    "49": {
+        "operation": "precise:string.concat",
+        "value": "case 0",
+        "file": "/nodetaint/packageData/promise/node_modules/promise/lib/node-extensions.js",
+        "startLineNumber": 72,
+        "startColumnNumber": 7,
+        "endLineNumber": 72,
+        "endColumnNumber": 22,
+        "tainted": false,
+        "flows_from": [
+            "50",
+            "51"
+        ],
+        "sink_type": ""
+    },
+    "50": {
+        "operation": "Untainted",
+        "value": "case ",
+        "file": "/nodetaint/packageData/promise/node_modules/promise/lib/node-extensions.js",
+        "startLineNumber": 72,
+        "startColumnNumber": 7,
+        "endLineNumber": 72,
+        "endColumnNumber": 22,
+        "tainted": false,
+        "flows_from": [],
+        "sink_type": ""
+    },
+    "51": {
+        "operation": "Untainted",
+        "value": 0,
+        "file": "/nodetaint/packageData/promise/node_modules/promise/lib/node-extensions.js",
+        "startLineNumber": 72,
+        "startColumnNumber": 7,
+        "endLineNumber": 72,
+        "endColumnNumber": 22,
+        "tainted": false,
+        "flows_from": [],
+        "sink_type": ""
+    },
+    "52": {
+        "operation": "Untainted",
+        "value": ":",
+        "file": "/nodetaint/packageData/promise/node_modules/promise/lib/node-extensions.js",
+        "startLineNumber": 72,
+        "startColumnNumber": 7,
+        "endLineNumber": 72,
+        "endColumnNumber": 28,
+        "tainted": false,
+        "flows_from": [],
+        "sink_type": ""
+    },
+    "53": {
+        "operation": "Untainted",
+        "value": "res = fn.call(",
+        "file": "/nodetaint/packageData/promise/node_modules/promise/lib/node-extensions.js",
+        "startLineNumber": 72,
+        "startColumnNumber": 7,
+        "endLineNumber": 73,
+        "endColumnNumber": 23,
+        "tainted": false,
+        "flows_from": [],
+        "sink_type": ""
+    },
+    "54": {
+        "operation": "model:array.join",
+        "value": "self,cb",
+        "file": "/nodetaint/packageData/promise/node_modules/promise/lib/node-extensions.js",
+        "startLineNumber": 73,
+        "startColumnNumber": 26,
+        "endLineNumber": 73,
+        "endColumnNumber": 86,
+        "tainted": false,
+        "flows_from": [
+            "55",
+            "56"
+        ],
+        "sink_type": ""
+    },
+    "55": {
+        "operation": "Untainted",
+        "value": "self",
+        "file": "/nodetaint/packageData/promise/node_modules/promise/lib/node-extensions.js",
+        "startLineNumber": 73,
+        "startColumnNumber": 26,
+        "endLineNumber": 73,
+        "endColumnNumber": 86,
+        "tainted": false,
+        "flows_from": [],
+        "sink_type": ""
+    },
+    "56": {
+        "operation": "call:concat",
+        "value": "cb",
+        "file": "/nodetaint/packageData/promise/node_modules/promise/lib/node-extensions.js",
+        "startLineNumber": 73,
+        "startColumnNumber": 26,
+        "endLineNumber": 73,
+        "endColumnNumber": 76,
+        "tainted": false,
+        "flows_from": [
+            "57"
+        ],
+        "sink_type": ""
+    },
+    "57": {
+        "operation": "Untainted",
+        "value": "cb",
+        "file": "/nodetaint/packageData/promise/node_modules/promise/lib/node-extensions.js",
+        "startLineNumber": 73,
+        "startColumnNumber": 26,
+        "endLineNumber": 73,
+        "endColumnNumber": 76,
+        "tainted": false,
+        "flows_from": [],
+        "sink_type": ""
+    },
+    "58": {
+        "operation": "Untainted",
+        "value": ");",
+        "file": "/nodetaint/packageData/promise/node_modules/promise/lib/node-extensions.js",
+        "startLineNumber": 72,
+        "startColumnNumber": 7,
+        "endLineNumber": 73,
+        "endColumnNumber": 93,
+        "tainted": false,
+        "flows_from": [],
+        "sink_type": ""
+    },
+    "59": {
+        "operation": "Untainted",
+        "value": "break;",
+        "file": "/nodetaint/packageData/promise/node_modules/promise/lib/node-extensions.js",
+        "startLineNumber": 72,
+        "startColumnNumber": 7,
+        "endLineNumber": 74,
+        "endColumnNumber": 15,
+        "tainted": false,
+        "flows_from": [],
+        "sink_type": ""
+    },
+    "60": {
+        "operation": "Untainted",
+        "value": "default:",
+        "file": "/nodetaint/packageData/promise/node_modules/promise/lib/node-extensions.js",
+        "startLineNumber": 55,
+        "startColumnNumber": 14,
+        "endLineNumber": 88,
+        "endColumnNumber": 11,
+        "tainted": false,
+        "flows_from": [],
+        "sink_type": ""
+    },
+    "61": {
+        "operation": "Untainted",
+        "value": "args[argLength] = cb;",
+        "file": "/nodetaint/packageData/promise/node_modules/promise/lib/node-extensions.js",
+        "startLineNumber": 55,
+        "startColumnNumber": 14,
+        "endLineNumber": 88,
+        "endColumnNumber": 11,
+        "tainted": false,
+        "flows_from": [],
+        "sink_type": ""
+    },
+    "62": {
+        "operation": "Untainted",
+        "value": "res = fn.apply(self, args);",
+        "file": "/nodetaint/packageData/promise/node_modules/promise/lib/node-extensions.js",
+        "startLineNumber": 55,
+        "startColumnNumber": 14,
+        "endLineNumber": 88,
+        "endColumnNumber": 11,
+        "tainted": false,
+        "flows_from": [],
+        "sink_type": ""
+    },
+    "63": {
+        "operation": "Untainted",
+        "value": "}",
+        "file": "/nodetaint/packageData/promise/node_modules/promise/lib/node-extensions.js",
+        "startLineNumber": 55,
+        "startColumnNumber": 14,
+        "endLineNumber": 88,
+        "endColumnNumber": 11,
+        "tainted": false,
+        "flows_from": [],
+        "sink_type": ""
+    },
+    "64": {
+        "operation": "Untainted",
+        "value": "if (res &&",
+        "file": "/nodetaint/packageData/promise/node_modules/promise/lib/node-extensions.js",
+        "startLineNumber": 55,
+        "startColumnNumber": 14,
+        "endLineNumber": 88,
+        "endColumnNumber": 11,
+        "tainted": false,
+        "flows_from": [],
+        "sink_type": ""
+    },
+    "65": {
+        "operation": "Untainted",
+        "value": "(typeof res === \"object\" || typeof res === \"function\") &&",
+        "file": "/nodetaint/packageData/promise/node_modules/promise/lib/node-extensions.js",
+        "startLineNumber": 55,
+        "startColumnNumber": 14,
+        "endLineNumber": 88,
+        "endColumnNumber": 11,
+        "tainted": false,
+        "flows_from": [],
+        "sink_type": ""
+    },
+    "66": {
+        "operation": "Untainted",
+        "value": "typeof res.then === \"function\"",
+        "file": "/nodetaint/packageData/promise/node_modules/promise/lib/node-extensions.js",
+        "startLineNumber": 55,
+        "startColumnNumber": 14,
+        "endLineNumber": 88,
+        "endColumnNumber": 11,
+        "tainted": false,
+        "flows_from": [],
+        "sink_type": ""
+    },
+    "67": {
+        "operation": "Untainted",
+        "value": ") {rs(res);}",
+        "file": "/nodetaint/packageData/promise/node_modules/promise/lib/node-extensions.js",
+        "startLineNumber": 55,
+        "startColumnNumber": 14,
+        "endLineNumber": 88,
+        "endColumnNumber": 11,
+        "tainted": false,
+        "flows_from": [],
+        "sink_type": ""
+    },
+    "68": {
+        "operation": "Untainted",
+        "value": "});",
+        "file": "/nodetaint/packageData/promise/node_modules/promise/lib/node-extensions.js",
+        "startLineNumber": 55,
+        "startColumnNumber": 14,
+        "endLineNumber": 88,
+        "endColumnNumber": 11,
+        "tainted": false,
+        "flows_from": [],
+        "sink_type": ""
+    },
+    "69": {
+        "operation": "Untainted",
+        "value": "};",
+        "file": "/nodetaint/packageData/promise/node_modules/promise/lib/node-extensions.js",
+        "startLineNumber": 55,
+        "startColumnNumber": 14,
+        "endLineNumber": 88,
+        "endColumnNumber": 11,
+        "tainted": false,
+        "flows_from": [],
+        "sink_type": ""
+    }
+}

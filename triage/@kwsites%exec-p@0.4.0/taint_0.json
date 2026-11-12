@@ -1,0 +1,70 @@
+{
+    "1": {
+        "operation": "call:spawn",
+        "value": {},
+        "file": "/nodetaint/packageData/@kwsites/exec-p/node_modules/@kwsites/exec-p/dist/index.js",
+        "startLineNumber": 14,
+        "startColumnNumber": 19,
+        "endLineNumber": 14,
+        "endColumnNumber": 66,
+        "tainted": true,
+        "flows_from": [
+            "2"
+        ],
+        "sink_type": "spawn"
+    },
+    "2": {
+        "operation": "call:execP",
+        "value": {},
+        "file": "/nodetaint/analysisArtifacts/run-@kwsites%exec-p2.js",
+        "startLineNumber": 10,
+        "startColumnNumber": 1,
+        "endLineNumber": 10,
+        "endColumnNumber": 29,
+        "tainted": true,
+        "flows_from": [
+            "3"
+        ],
+        "sink_type": ""
+    },
+    "3": {
+        "operation": "Tainted",
+        "value": {},
+        "file": "/nodetaint/analysisArtifacts/run-@kwsites%exec-p2.js",
+        "startLineNumber": 9,
+        "startColumnNumber": 1,
+        "endLineNumber": 9,
+        "endColumnNumber": 26,
+        "tainted": true,
+        "flows_from": [
+            "4"
+        ],
+        "sink_type": ""
+    },
+    "4": {
+        "operation": "call:__jalangi_set_taint__",
+        "value": {},
+        "file": "/nodetaint/analysisArtifacts/run-@kwsites%exec-p2.js",
+        "startLineNumber": 9,
+        "startColumnNumber": 1,
+        "endLineNumber": 9,
+        "endColumnNumber": 26,
+        "tainted": false,
+        "flows_from": [
+            "5"
+        ],
+        "sink_type": ""
+    },
+    "5": {
+        "operation": "Untainted",
+        "value": {},
+        "file": "/nodetaint/analysisArtifacts/run-@kwsites%exec-p2.js",
+        "startLineNumber": 9,
+        "startColumnNumber": 1,
+        "endLineNumber": 9,
+        "endColumnNumber": 26,
+        "tainted": false,
+        "flows_from": [],
+        "sink_type": ""
+    }
+}

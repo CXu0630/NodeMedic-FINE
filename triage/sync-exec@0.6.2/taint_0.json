@@ -1,0 +1,84 @@
+{
+    "1": {
+        "operation": "call:execSync",
+        "value": {},
+        "file": "/nodetaint/packageData/sync-exec/node_modules/sync-exec/js/lib/proxy.js",
+        "startLineNumber": 16,
+        "startColumnNumber": 16,
+        "endLineNumber": 16,
+        "endColumnNumber": 52,
+        "tainted": true,
+        "flows_from": [
+            "2"
+        ],
+        "sink_type": "exec"
+    },
+    "2": {
+        "operation": "call:Anonymous Function",
+        "value": {},
+        "file": "/nodetaint/packageData/sync-exec/node_modules/sync-exec/js/sync-exec.js",
+        "startLineNumber": 39,
+        "startColumnNumber": 14,
+        "endLineNumber": 39,
+        "endColumnNumber": 43,
+        "tainted": true,
+        "flows_from": [
+            "3"
+        ],
+        "sink_type": ""
+    },
+    "3": {
+        "operation": "call:Anonymous Function",
+        "value": {},
+        "file": "/nodetaint/analysisArtifacts/run-sync-exec2.js",
+        "startLineNumber": 10,
+        "startColumnNumber": 1,
+        "endLineNumber": 10,
+        "endColumnNumber": 20,
+        "tainted": true,
+        "flows_from": [
+            "4"
+        ],
+        "sink_type": ""
+    },
+    "4": {
+        "operation": "Tainted",
+        "value": {},
+        "file": "/nodetaint/analysisArtifacts/run-sync-exec2.js",
+        "startLineNumber": 9,
+        "startColumnNumber": 1,
+        "endLineNumber": 9,
+        "endColumnNumber": 26,
+        "tainted": true,
+        "flows_from": [
+            "5"
+        ],
+        "sink_type": ""
+    },
+    "5": {
+        "operation": "call:__jalangi_set_taint__",
+        "value": {},
+        "file": "/nodetaint/analysisArtifacts/run-sync-exec2.js",
+        "startLineNumber": 9,
+        "startColumnNumber": 1,
+        "endLineNumber": 9,
+        "endColumnNumber": 26,
+        "tainted": false,
+        "flows_from": [
+            "6"
+        ],
+        "sink_type": ""
+    },
+    "6": {
+        "operation": "Untainted",
+        "value": {},
+        "file": "/nodetaint/analysisArtifacts/run-sync-exec2.js",
+        "startLineNumber": 9,
+        "startColumnNumber": 1,
+        "endLineNumber": 9,
+        "endColumnNumber": 26,
+        "tainted": false,
+        "flows_from": [],
+        "sink_type": ""
+    }
+}

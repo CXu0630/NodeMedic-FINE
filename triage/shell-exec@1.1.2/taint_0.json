@@ -1,0 +1,40 @@
+{
+    "1": {
+        "operation": "call:spawn",
+        "value": [
+            {
+                "0": "-",
+                "1": "c"
+            },
+            {}
+        ],
+        "file": "/nodetaint/packageData/shell-exec/node_modules/shell-exec/dist/index.js",
+        "startLineNumber": 56,
+        "startColumnNumber": 17,
+        "endLineNumber": 56,
+        "endColumnNumber": 69,
+        "tainted": false,
+        "flows_from": [
+            "2"
+        ],
+        "sink_type": "spawn"
+    },
+    "2": {
+        "operation": "Untainted",
+        "value": [
+            {
+                "0": "-",
+                "1": "c"
+            },
+            {}
+        ],
+        "file": "/nodetaint/packageData/shell-exec/node_modules/shell-exec/dist/index.js",
+        "startLineNumber": 56,
+        "startColumnNumber": 17,
+        "endLineNumber": 56,
+        "endColumnNumber": 69,
+        "tainted": false,
+        "flows_from": [],
+        "sink_type": ""
+    }
+}

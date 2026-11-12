@@ -1,0 +1,122 @@
+{
+    "1": {
+        "operation": "call:spawn",
+        "value": [
+            {
+                "0": "i",
+                "1": "n",
+                "2": "s",
+                "3": "t",
+                "4": "a",
+                "5": "l",
+                "6": "l"
+            },
+            {
+                "0": "-",
+                "1": "-",
+                "2": "n",
+                "3": "o",
+                "4": "-",
+                "5": "s",
+                "6": "a",
+                "7": "v",
+                "8": "e"
+            },
+            {
+                "0": "n",
+                "1": "o",
+                "2": "d",
+                "3": "e",
+                "4": "-",
+                "5": "l",
+                "6": "i",
+                "7": "n",
+                "8": "u",
+                "9": "x",
+                "10": "-",
+                "11": "x",
+                "12": "6",
+                "13": "4",
+                "14": "@",
+                "15": "u",
+                "16": "n",
+                "17": "d",
+                "18": "e",
+                "19": "f",
+                "20": "i",
+                "21": "n",
+                "22": "e",
+                "23": "d"
+            }
+        ],
+        "file": "/nodetaint/packageData/node-bin-setup/node_modules/node-bin-setup/index.js",
+        "startLineNumber": 14,
+        "startColumnNumber": 12,
+        "endLineNumber": 17,
+        "endColumnNumber": 5,
+        "tainted": false,
+        "flows_from": [
+            "2"
+        ],
+        "sink_type": "spawn"
+    },
+    "2": {
+        "operation": "Untainted",
+        "value": [
+            {
+                "0": "i",
+                "1": "n",
+                "2": "s",
+                "3": "t",
+                "4": "a",
+                "5": "l",
+                "6": "l"
+            },
+            {
+                "0": "-",
+                "1": "-",
+                "2": "n",
+                "3": "o",
+                "4": "-",
+                "5": "s",
+                "6": "a",
+                "7": "v",
+                "8": "e"
+            },
+            {
+                "0": "n",
+                "1": "o",
+                "2": "d",
+                "3": "e",
+                "4": "-",
+                "5": "l",
+                "6": "i",
+                "7": "n",
+                "8": "u",
+                "9": "x",
+                "10": "-",
+                "11": "x",
+                "12": "6",
+                "13": "4",
+                "14": "@",
+                "15": "u",
+                "16": "n",
+                "17": "d",
+                "18": "e",
+                "19": "f",
+                "20": "i",
+                "21": "n",
+                "22": "e",
+                "23": "d"
+            }
+        ],
+        "file": "/nodetaint/packageData/node-bin-setup/node_modules/node-bin-setup/index.js",
+        "startLineNumber": 14,
+        "startColumnNumber": 12,
+        "endLineNumber": 17,
+        "endColumnNumber": 5,
+        "tainted": false,
+        "flows_from": [],
+        "sink_type": ""
+    }
+}

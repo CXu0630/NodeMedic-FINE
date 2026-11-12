@@ -1,0 +1,84 @@
+{
+    "1": {
+        "operation": "call:spawn",
+        "value": [
+            {
+                "0": "Q",
+                "1": "U",
+                "2": "E",
+                "3": "R",
+                "4": "Y"
+            },
+            {},
+            {
+                "0": "/",
+                "1": "v"
+            },
+            null
+        ],
+        "file": "/nodetaint/packageData/winreg/node_modules/winreg/lib/registry.js",
+        "startLineNumber": 620,
+        "startColumnNumber": 14,
+        "endLineNumber": 626,
+        "endColumnNumber": 7,
+        "tainted": false,
+        "flows_from": [
+            "2"
+        ],
+        "sink_type": "spawn"
+    },
+    "2": {
+        "operation": "call:pushArch",
+        "value": [
+            {
+                "0": "Q",
+                "1": "U",
+                "2": "E",
+                "3": "R",
+                "4": "Y"
+            },
+            {},
+            {
+                "0": "/",
+                "1": "v"
+            },
+            null
+        ],
+        "file": "/nodetaint/packageData/winreg/node_modules/winreg/lib/registry.js",
+        "startLineNumber": 618,
+        "startColumnNumber": 3,
+        "endLineNumber": 618,
+        "endColumnNumber": 28,
+        "tainted": false,
+        "flows_from": [
+            "3"
+        ],
+        "sink_type": ""
+    },
+    "3": {
+        "operation": "Untainted",
+        "value": [
+            {
+                "0": "Q",
+                "1": "U",
+                "2": "E",
+                "3": "R",
+                "4": "Y"
+            },
+            {},
+            {
+                "0": "/",
+                "1": "v"
+            },
+            null
+        ],
+        "file": "/nodetaint/packageData/winreg/node_modules/winreg/lib/registry.js",
+        "startLineNumber": 618,
+        "startColumnNumber": 3,
+        "endLineNumber": 618,
+        "endColumnNumber": 28,
+        "tainted": false,
+        "flows_from": [],
+        "sink_type": ""
+    }
+}

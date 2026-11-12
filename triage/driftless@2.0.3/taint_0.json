@@ -1,0 +1,84 @@
+{
+    "1": {
+        "operation": "call:Function",
+        "value": {},
+        "file": "/nodetaint/packageData/driftless/node_modules/driftless/lib/driftless.js",
+        "startLineNumber": 83,
+        "startColumnNumber": 42,
+        "endLineNumber": 83,
+        "endColumnNumber": 58,
+        "tainted": true,
+        "flows_from": [
+            "2"
+        ],
+        "sink_type": "Function"
+    },
+    "2": {
+        "operation": "call:castToFn",
+        "value": {},
+        "file": "/nodetaint/packageData/driftless/node_modules/driftless/lib/driftless.js",
+        "startLineNumber": 91,
+        "startColumnNumber": 16,
+        "endLineNumber": 91,
+        "endColumnNumber": 28,
+        "tainted": true,
+        "flows_from": [
+            "3"
+        ],
+        "sink_type": ""
+    },
+    "3": {
+        "operation": "call:setDriftlessTimeout",
+        "value": {},
+        "file": "/nodetaint/analysisArtifacts/run-driftless2.js",
+        "startLineNumber": 9,
+        "startColumnNumber": 1,
+        "endLineNumber": 9,
+        "endColumnNumber": 39,
+        "tainted": true,
+        "flows_from": [
+            "4"
+        ],
+        "sink_type": ""
+    },
+    "4": {
+        "operation": "Tainted",
+        "value": {},
+        "file": "/nodetaint/analysisArtifacts/run-driftless2.js",
+        "startLineNumber": 8,
+        "startColumnNumber": 1,
+        "endLineNumber": 8,
+        "endColumnNumber": 26,
+        "tainted": true,
+        "flows_from": [
+            "5"
+        ],
+        "sink_type": ""
+    },
+    "5": {
+        "operation": "call:__jalangi_set_taint__",
+        "value": {},
+        "file": "/nodetaint/analysisArtifacts/run-driftless2.js",
+        "startLineNumber": 8,
+        "startColumnNumber": 1,
+        "endLineNumber": 8,
+        "endColumnNumber": 26,
+        "tainted": false,
+        "flows_from": [
+            "6"
+        ],
+        "sink_type": ""
+    },
+    "6": {
+        "operation": "Untainted",
+        "value": {},
+        "file": "/nodetaint/analysisArtifacts/run-driftless2.js",
+        "startLineNumber": 8,
+        "startColumnNumber": 1,
+        "endLineNumber": 8,
+        "endColumnNumber": 26,
+        "tainted": false,
+        "flows_from": [],
+        "sink_type": ""
+    }
+}

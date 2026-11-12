@@ -1,0 +1,84 @@
+{
+    "1": {
+        "operation": "call:execSync",
+        "value": {},
+        "file": "/nodetaint/packageData/scripting-tools/node_modules/scripting-tools/dist/lib/index.js",
+        "startLineNumber": 158,
+        "startColumnNumber": 10,
+        "endLineNumber": 158,
+        "endColumnNumber": 90,
+        "tainted": true,
+        "flows_from": [
+            "2"
+        ],
+        "sink_type": "exec"
+    },
+    "2": {
+        "operation": "call:traceCmdIfEnabled",
+        "value": {},
+        "file": "/nodetaint/packageData/scripting-tools/node_modules/scripting-tools/dist/lib/index.js",
+        "startLineNumber": 157,
+        "startColumnNumber": 3,
+        "endLineNumber": 157,
+        "endColumnNumber": 34,
+        "tainted": true,
+        "flows_from": [
+            "3"
+        ],
+        "sink_type": ""
+    },
+    "3": {
+        "operation": "call:execSync",
+        "value": {},
+        "file": "/nodetaint/analysisArtifacts/run-scripting-tools2.js",
+        "startLineNumber": 9,
+        "startColumnNumber": 1,
+        "endLineNumber": 9,
+        "endColumnNumber": 28,
+        "tainted": true,
+        "flows_from": [
+            "4"
+        ],
+        "sink_type": ""
+    },
+    "4": {
+        "operation": "Tainted",
+        "value": {},
+        "file": "/nodetaint/analysisArtifacts/run-scripting-tools2.js",
+        "startLineNumber": 8,
+        "startColumnNumber": 1,
+        "endLineNumber": 8,
+        "endColumnNumber": 26,
+        "tainted": true,
+        "flows_from": [
+            "5"
+        ],
+        "sink_type": ""
+    },
+    "5": {
+        "operation": "call:__jalangi_set_taint__",
+        "value": {},
+        "file": "/nodetaint/analysisArtifacts/run-scripting-tools2.js",
+        "startLineNumber": 8,
+        "startColumnNumber": 1,
+        "endLineNumber": 8,
+        "endColumnNumber": 26,
+        "tainted": false,
+        "flows_from": [
+            "6"
+        ],
+        "sink_type": ""
+    },
+    "6": {
+        "operation": "Untainted",
+        "value": {},
+        "file": "/nodetaint/analysisArtifacts/run-scripting-tools2.js",
+        "startLineNumber": 8,
+        "startColumnNumber": 1,
+        "endLineNumber": 8,
+        "endColumnNumber": 26,
+        "tainted": false,
+        "flows_from": [],
+        "sink_type": ""
+    }
+}

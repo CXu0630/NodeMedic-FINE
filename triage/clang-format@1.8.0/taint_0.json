@@ -1,0 +1,228 @@
+{
+    "1": {
+        "operation": "call:spawn",
+        "value": [
+            {},
+            {
+                "0": " ",
+                "1": "R",
+                "2": "d",
+                "3": "=",
+                "4": "B",
+                "5": "V",
+                "6": "p"
+            },
+            {
+                "0": "#"
+            },
+            {},
+            [
+                {}
+            ],
+            {},
+            {},
+            {},
+            {},
+            {},
+            {}
+        ],
+        "file": "/nodetaint/packageData/clang-format/node_modules/clang-format/index.js",
+        "startLineNumber": 111,
+        "startColumnNumber": 30,
+        "endLineNumber": 111,
+        "endColumnNumber": 73,
+        "tainted": true,
+        "flows_from": [
+            "2"
+        ],
+        "sink_type": "spawn"
+    },
+    "2": {
+        "operation": "call:getGlobArg",
+        "value": [
+            {},
+            {
+                "0": " ",
+                "1": "R",
+                "2": "d",
+                "3": "=",
+                "4": "B",
+                "5": "V",
+                "6": "p"
+            },
+            {
+                "0": "#"
+            },
+            {},
+            [
+                {}
+            ],
+            {},
+            {},
+            {},
+            {},
+            {},
+            {}
+        ],
+        "file": "/nodetaint/packageData/clang-format/node_modules/clang-format/index.js",
+        "startLineNumber": 67,
+        "startColumnNumber": 19,
+        "endLineNumber": 67,
+        "endColumnNumber": 35,
+        "tainted": true,
+        "flows_from": [
+            "3"
+        ],
+        "sink_type": ""
+    },
+    "3": {
+        "operation": "call:spawnClangFormat",
+        "value": [
+            {},
+            {
+                "0": " ",
+                "1": "R",
+                "2": "d",
+                "3": "=",
+                "4": "B",
+                "5": "V",
+                "6": "p"
+            },
+            {
+                "0": "#"
+            },
+            {},
+            [
+                {}
+            ],
+            {},
+            {},
+            {},
+            {},
+            {},
+            {}
+        ],
+        "file": "/nodetaint/analysisArtifacts/run-clang-format2.js",
+        "startLineNumber": 10,
+        "startColumnNumber": 1,
+        "endLineNumber": 10,
+        "endColumnNumber": 40,
+        "tainted": true,
+        "flows_from": [
+            "4"
+        ],
+        "sink_type": ""
+    },
+    "4": {
+        "operation": "Tainted",
+        "value": [
+            {},
+            {
+                "0": " ",
+                "1": "R",
+                "2": "d",
+                "3": "=",
+                "4": "B",
+                "5": "V",
+                "6": "p"
+            },
+            {
+                "0": "#"
+            },
+            {},
+            [
+                {}
+            ],
+            {},
+            {},
+            {},
+            {},
+            {},
+            {}
+        ],
+        "file": "/nodetaint/analysisArtifacts/run-clang-format2.js",
+        "startLineNumber": 9,
+        "startColumnNumber": 1,
+        "endLineNumber": 9,
+        "endColumnNumber": 26,
+        "tainted": true,
+        "flows_from": [
+            "5"
+        ],
+        "sink_type": ""
+    },
+    "5": {
+        "operation": "call:__jalangi_set_taint__",
+        "value": [
+            {},
+            {
+                "0": " ",
+                "1": "R",
+                "2": "d",
+                "3": "=",
+                "4": "B",
+                "5": "V",
+                "6": "p"
+            },
+            {
+                "0": "#"
+            },
+            {},
+            [
+                {}
+            ],
+            {},
+            {},
+            {},
+            {},
+            {},
+            {}
+        ],
+        "file": "/nodetaint/analysisArtifacts/run-clang-format2.js",
+        "startLineNumber": 9,
+        "startColumnNumber": 1,
+        "endLineNumber": 9,
+        "endColumnNumber": 26,
+        "tainted": false,
+        "flows_from": [
+            "6"
+        ],
+        "sink_type": ""
+    },
+    "6": {
+        "operation": "Untainted",
+        "value": [
+            {},
+            {
+                "0": " ",
+                "1": "R",
+                "2": "d",
+                "3": "=",
+                "4": "B",
+                "5": "V",
+                "6": "p"
+            },
+            {
+                "0": "#"
+            },
+            {},
+            [
+                {}
+            ],
+            {},
+            {},
+            {},
+            {},
+            {},
+            {}
+        ],
+        "file": "/nodetaint/analysisArtifacts/run-clang-format2.js",
+        "startLineNumber": 9,
+        "startColumnNumber": 1,
+        "endLineNumber": 9,
+        "endColumnNumber": 26,
+        "tainted": false,
+        "flows_from": [],
+        "sink_type": ""
+    }
+}

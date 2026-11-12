@@ -28,6 +28,9 @@ import json
 import re
 import sys
 import tarfile
+import random
+import time
+import urllib.error
 import urllib.parse
 import urllib.request
 from concurrent.futures import ThreadPoolExecutor, as_completed
@@ -63,10 +66,31 @@ SINK_RES = [
 ]
 
 
+def _fetch(url, timeout=30, max_bytes=None, tries=6):
+    """GET with retry/backoff on 429 and 5xx (honors Retry-After)."""
+    last = None
+    for attempt in range(tries):
+        try:
+            req = urllib.request.Request(url, headers=UA)
+            with urllib.request.urlopen(req, timeout=timeout) as r:
+                return r.read() if max_bytes is None else r.read(max_bytes + 1)
+        except urllib.error.HTTPError as e:
+            last = e
+            if e.code in (429, 500, 502, 503, 504):
+                ra = e.headers.get("Retry-After")
+                wait = int(ra) if (ra and ra.isdigit()) else min(60, 2 ** attempt)
+                time.sleep(wait + random.uniform(0, 1))
+                continue
+            raise
+        except (urllib.error.URLError, TimeoutError) as e:
+            last = e
+            time.sleep(min(20, 2 ** attempt) + random.uniform(0, 1))
+            continue
+    raise last
+
+
 def http_json(url, timeout=30):
-    req = urllib.request.Request(url, headers=UA)
-    with urllib.request.urlopen(req, timeout=timeout) as r:
-        return json.load(r)
+    return json.loads(_fetch(url, timeout))
 
 
 def enc(name):
@@ -89,6 +113,7 @@ def search_names(keywords, per_keyword):
                     names.add(n)
         except Exception as e:
             print(f"! search '{kw}' failed: {e}", file=sys.stderr)
+        time.sleep(1.0)  # the search endpoint is throttled harder than the registry
     return sorted(names)
 
 
@@ -108,9 +133,7 @@ def weekly_downloads(name):
 
 def scan_tarball(url, cap=25_000_000, max_files=600):
     """Download the tgz and grep .js files for sink calls. (hits dict, oversized)."""
-    req = urllib.request.Request(url, headers=UA)
-    with urllib.request.urlopen(req, timeout=90) as r:
-        raw = r.read(cap + 1)
+    raw = _fetch(url, timeout=90, max_bytes=cap)
     if len(raw) > cap:
         return {}, True  # too large to scan safely; skip
     hits = {}
@@ -164,7 +187,7 @@ def main():
     ap.add_argument("--min-sinks", type=int, default=1, help="minimum static sink hits to keep")
     ap.add_argument("--min-downloads", type=int, default=0, help="minimum weekly downloads to keep")
     ap.add_argument("--no-downloads", action="store_true", help="skip popularity lookup/ranking")
-    ap.add_argument("--jobs", type=int, default=8, help="concurrent fetches")
+    ap.add_argument("--jobs", type=int, default=4, help="concurrent fetches")
     args = ap.parse_args()
 
     if args.names:

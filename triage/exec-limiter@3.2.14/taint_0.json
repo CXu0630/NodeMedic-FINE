@@ -1,0 +1,70 @@
+{
+    "1": {
+        "operation": "call:spawn",
+        "value": {},
+        "file": "/nodetaint/packageData/exec-limiter/node_modules/exec-limiter/lib/index.js",
+        "startLineNumber": 98,
+        "startColumnNumber": 17,
+        "endLineNumber": 98,
+        "endColumnNumber": 59,
+        "tainted": true,
+        "flows_from": [
+            "2"
+        ],
+        "sink_type": "spawn"
+    },
+    "2": {
+        "operation": "call:add",
+        "value": {},
+        "file": "/nodetaint/analysisArtifacts/run-exec-limiter2.js",
+        "startLineNumber": 12,
+        "startColumnNumber": 1,
+        "endLineNumber": 12,
+        "endColumnNumber": 27,
+        "tainted": true,
+        "flows_from": [
+            "3"
+        ],
+        "sink_type": ""
+    },
+    "3": {
+        "operation": "Tainted",
+        "value": {},
+        "file": "/nodetaint/analysisArtifacts/run-exec-limiter2.js",
+        "startLineNumber": 10,
+        "startColumnNumber": 1,
+        "endLineNumber": 10,
+        "endColumnNumber": 26,
+        "tainted": true,
+        "flows_from": [
+            "4"
+        ],
+        "sink_type": ""
+    },
+    "4": {
+        "operation": "call:__jalangi_set_taint__",
+        "value": {},
+        "file": "/nodetaint/analysisArtifacts/run-exec-limiter2.js",
+        "startLineNumber": 10,
+        "startColumnNumber": 1,
+        "endLineNumber": 10,
+        "endColumnNumber": 26,
+        "tainted": false,
+        "flows_from": [
+            "5"
+        ],
+        "sink_type": ""
+    },
+    "5": {
+        "operation": "Untainted",
+        "value": {},
+        "file": "/nodetaint/analysisArtifacts/run-exec-limiter2.js",
+        "startLineNumber": 10,
+        "startColumnNumber": 1,
+        "endLineNumber": 10,
+        "endColumnNumber": 26,
+        "tainted": false,
+        "flows_from": [],
+        "sink_type": ""
+    }
+}

@@ -1,0 +1,92 @@
+{
+    "1": {
+        "operation": "call:spawn",
+        "value": [
+            {
+                "0": "x"
+            },
+            {},
+            {
+                "0": "-",
+                "1": "y"
+            }
+        ],
+        "file": "/nodetaint/packageData/7zip-min/node_modules/7zip-min/src/index.js",
+        "startLineNumber": 200,
+        "startColumnNumber": 14,
+        "endLineNumber": 200,
+        "endColumnNumber": 75,
+        "tainted": false,
+        "flows_from": [
+            "2"
+        ],
+        "sink_type": "spawn"
+    },
+    "2": {
+        "operation": "call:run",
+        "value": [
+            {
+                "0": "x"
+            },
+            {},
+            {
+                "0": "-",
+                "1": "y"
+            }
+        ],
+        "file": "/nodetaint/packageData/7zip-min/node_modules/7zip-min/src/index.js",
+        "startLineNumber": 126,
+        "startColumnNumber": 3,
+        "endLineNumber": 126,
+        "endColumnNumber": 16,
+        "tainted": false,
+        "flows_from": [
+            "3"
+        ],
+        "sink_type": ""
+    },
+    "3": {
+        "operation": "call:resolveOptionalDest",
+        "value": [
+            {
+                "0": "x"
+            },
+            {},
+            {
+                "0": "-",
+                "1": "y"
+            }
+        ],
+        "file": "/nodetaint/packageData/7zip-min/node_modules/7zip-min/src/index.js",
+        "startLineNumber": 125,
+        "startColumnNumber": 8,
+        "endLineNumber": 125,
+        "endColumnNumber": 51,
+        "tainted": false,
+        "flows_from": [
+            "4"
+        ],
+        "sink_type": ""
+    },
+    "4": {
+        "operation": "Untainted",
+        "value": [
+            {
+                "0": "x"
+            },
+            {},
+            {
+                "0": "-",
+                "1": "y"
+            }
+        ],
+        "file": "/nodetaint/packageData/7zip-min/node_modules/7zip-min/src/index.js",
+        "startLineNumber": 125,
+        "startColumnNumber": 8,
+        "endLineNumber": 125,
+        "endColumnNumber": 51,
+        "tainted": false,
+        "flows_from": [],
+        "sink_type": ""
+    }
+}

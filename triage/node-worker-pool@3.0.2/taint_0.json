@@ -1,0 +1,136 @@
+{
+    "1": {
+        "operation": "call:spawn",
+        "value": false,
+        "file": "/nodetaint/packageData/node-worker-pool/node_modules/node-worker-pool/Worker.js",
+        "startLineNumber": 21,
+        "startColumnNumber": 15,
+        "endLineNumber": 21,
+        "endColumnNumber": 58,
+        "tainted": true,
+        "flows_from": [
+            "2"
+        ],
+        "sink_type": "spawn"
+    },
+    "2": {
+        "operation": "call:Worker",
+        "value": false,
+        "file": "/nodetaint/packageData/node-worker-pool/node_modules/node-worker-pool/WorkerPool.js",
+        "startLineNumber": 29,
+        "startColumnNumber": 16,
+        "endLineNumber": 33,
+        "endColumnNumber": 5,
+        "tainted": true,
+        "flows_from": [
+            "3"
+        ],
+        "sink_type": ""
+    },
+    "3": {
+        "operation": "object.GetField",
+        "value": false,
+        "file": "UNKNOWN",
+        "startLineNumber": -1,
+        "startColumnNumber": -1,
+        "endLineNumber": -1,
+        "endColumnNumber": -1,
+        "tainted": true,
+        "flows_from": [
+            "4",
+            "5",
+            "6"
+        ],
+        "sink_type": ""
+    },
+    "4": {
+        "operation": "Untainted",
+        "value": {
+            "_numWorkers": {},
+            "_workerArgs": {},
+            "_workerPath": {},
+            "_opts": {},
+            "_availableWorkers": [],
+            "_allWorkers": [],
+            "_isDestroyed": {},
+            "_allPendingResponses": [],
+            "_queuedMessages": [],
+            "_queuedWorkerSpecificMessages": {},
+            "_workerPendingResponses": {}
+        },
+        "file": "UNKNOWN",
+        "startLineNumber": -1,
+        "startColumnNumber": -1,
+        "endLineNumber": -1,
+        "endColumnNumber": -1,
+        "tainted": false,
+        "flows_from": [],
+        "sink_type": ""
+    },
+    "5": {
+        "operation": "Untainted",
+        "value": "_workerPath",
+        "file": "UNKNOWN",
+        "startLineNumber": -1,
+        "startColumnNumber": -1,
+        "endLineNumber": -1,
+        "endColumnNumber": -1,
+        "tainted": false,
+        "flows_from": [],
+        "sink_type": ""
+    },
+    "6": {
+        "operation": "call:WorkerPool",
+        "value": false,
+        "file": "/nodetaint/analysisArtifacts/run-node-worker-pool2.js",
+        "startLineNumber": 11,
+        "startColumnNumber": 1,
+        "endLineNumber": 11,
+        "endColumnNumber": 24,
+        "tainted": true,
+        "flows_from": [
+            "7"
+        ],
+        "sink_type": ""
+    },
+    "7": {
+        "operation": "Tainted",
+        "value": false,
+        "file": "/nodetaint/analysisArtifacts/run-node-worker-pool2.js",
+        "startLineNumber": 10,
+        "startColumnNumber": 1,
+        "endLineNumber": 10,
+        "endColumnNumber": 26,
+        "tainted": true,
+        "flows_from": [
+            "8"
+        ],
+        "sink_type": ""
+    },
+    "8": {
+        "operation": "call:__jalangi_set_taint__",
+        "value": false,
+        "file": "/nodetaint/analysisArtifacts/run-node-worker-pool2.js",
+        "startLineNumber": 10,
+        "startColumnNumber": 1,
+        "endLineNumber": 10,
+        "endColumnNumber": 26,
+        "tainted": false,
+        "flows_from": [
+            "9"
+        ],
+        "sink_type": ""
+    },
+    "9": {
+        "operation": "Untainted",
+        "value": false,
+        "file": "/nodetaint/analysisArtifacts/run-node-worker-pool2.js",
+        "startLineNumber": 10,
+        "startColumnNumber": 1,
+        "endLineNumber": 10,
+        "endColumnNumber": 26,
+        "tainted": false,
+        "flows_from": [],
+        "sink_type": ""
+    }
+}

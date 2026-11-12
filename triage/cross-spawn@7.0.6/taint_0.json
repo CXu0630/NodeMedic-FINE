@@ -1,0 +1,156 @@
+{
+    "1": {
+        "operation": "call:spawn",
+        "value": {},
+        "file": "/nodetaint/packageData/cross-spawn/node_modules/cross-spawn/index.js",
+        "startLineNumber": 12,
+        "startColumnNumber": 17,
+        "endLineNumber": 12,
+        "endColumnNumber": 70,
+        "tainted": true,
+        "flows_from": [
+            "2"
+        ],
+        "sink_type": "spawn"
+    },
+    "2": {
+        "operation": "object.GetField",
+        "value": {},
+        "file": "UNKNOWN",
+        "startLineNumber": -1,
+        "startColumnNumber": -1,
+        "endLineNumber": -1,
+        "endColumnNumber": -1,
+        "tainted": true,
+        "flows_from": [
+            "3",
+            "5",
+            "6"
+        ],
+        "sink_type": ""
+    },
+    "3": {
+        "operation": "call:parseNonShell",
+        "value": {
+            "command": {},
+            "args": [],
+            "options": {},
+            "file": {},
+            "original": {
+                "command": {},
+                "args": []
+            }
+        },
+        "file": "/nodetaint/packageData/cross-spawn/node_modules/cross-spawn/lib/parse.js",
+        "startLineNumber": 88,
+        "startColumnNumber": 35,
+        "endLineNumber": 88,
+        "endColumnNumber": 56,
+        "tainted": false,
+        "flows_from": [
+            "4"
+        ],
+        "sink_type": ""
+    },
+    "4": {
+        "operation": "Untainted",
+        "value": {
+            "command": {},
+            "args": [],
+            "options": {},
+            "file": {},
+            "original": {
+                "command": {},
+                "args": []
+            }
+        },
+        "file": "/nodetaint/packageData/cross-spawn/node_modules/cross-spawn/lib/parse.js",
+        "startLineNumber": 88,
+        "startColumnNumber": 35,
+        "endLineNumber": 88,
+        "endColumnNumber": 56,
+        "tainted": false,
+        "flows_from": [],
+        "sink_type": ""
+    },
+    "5": {
+        "operation": "Untainted",
+        "value": "command",
+        "file": "UNKNOWN",
+        "startLineNumber": -1,
+        "startColumnNumber": -1,
+        "endLineNumber": -1,
+        "endColumnNumber": -1,
+        "tainted": false,
+        "flows_from": [],
+        "sink_type": ""
+    },
+    "6": {
+        "operation": "call:parse",
+        "value": {},
+        "file": "/nodetaint/packageData/cross-spawn/node_modules/cross-spawn/index.js",
+        "startLineNumber": 9,
+        "startColumnNumber": 16,
+        "endLineNumber": 9,
+        "endColumnNumber": 45,
+        "tainted": true,
+        "flows_from": [
+            "7"
+        ],
+        "sink_type": ""
+    },
+    "7": {
+        "operation": "call:spawn",
+        "value": {},
+        "file": "/nodetaint/analysisArtifacts/run-cross-spawn2.js",
+        "startLineNumber": 10,
+        "startColumnNumber": 1,
+        "endLineNumber": 10,
+        "endColumnNumber": 29,
+        "tainted": true,
+        "flows_from": [
+            "8"
+        ],
+        "sink_type": ""
+    },
+    "8": {
+        "operation": "Tainted",
+        "value": {},
+        "file": "/nodetaint/analysisArtifacts/run-cross-spawn2.js",
+        "startLineNumber": 9,
+        "startColumnNumber": 1,
+        "endLineNumber": 9,
+        "endColumnNumber": 26,
+        "tainted": true,
+        "flows_from": [
+            "9"
+        ],
+        "sink_type": ""
+    },
+    "9": {
+        "operation": "call:__jalangi_set_taint__",
+        "value": {},
+        "file": "/nodetaint/analysisArtifacts/run-cross-spawn2.js",
+        "startLineNumber": 9,
+        "startColumnNumber": 1,
+        "endLineNumber": 9,
+        "endColumnNumber": 26,
+        "tainted": false,
+        "flows_from": [
+            "10"
+        ],
+        "sink_type": ""
+    },
+    "10": {
+        "operation": "Untainted",
+        "value": {},
+        "file": "/nodetaint/analysisArtifacts/run-cross-spawn2.js",
+        "startLineNumber": 9,
+        "startColumnNumber": 1,
+        "endLineNumber": 9,
+        "endColumnNumber": 26,
+        "tainted": false,
+        "flows_from": [],
+        "sink_type": ""
+    }
+}

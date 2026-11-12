@@ -1,0 +1,141 @@
+{
+    "1": {
+        "operation": "call:spawn",
+        "value": [
+            {
+                "0": "c",
+                "1": "r",
+                "2": "e",
+                "3": "a",
+                "4": "t",
+                "5": "e",
+                "6": "-",
+                "7": "s",
+                "8": "e",
+                "9": "r",
+                "10": "v",
+                "11": "i",
+                "12": "c",
+                "13": "e"
+            },
+            {},
+            {},
+            {},
+            {
+                "0": "-",
+                "1": "c"
+            },
+            {},
+            {
+                "0": "-",
+                "1": "-",
+                "2": "w",
+                "3": "a",
+                "4": "i",
+                "5": "t"
+            }
+        ],
+        "file": "/nodetaint/packageData/@sap/cf-tools/node_modules/@sap/cf-tools/out/src/cli.js",
+        "startLineNumber": 24,
+        "startColumnNumber": 28,
+        "endLineNumber": 24,
+        "endColumnNumber": 81,
+        "tainted": false,
+        "flows_from": [
+            "2"
+        ],
+        "sink_type": "spawn"
+    },
+    "2": {
+        "operation": "call:execute",
+        "value": [
+            {
+                "0": "c",
+                "1": "r",
+                "2": "e",
+                "3": "a",
+                "4": "t",
+                "5": "e",
+                "6": "-",
+                "7": "s",
+                "8": "e",
+                "9": "r",
+                "10": "v",
+                "11": "i",
+                "12": "c",
+                "13": "e"
+            },
+            {},
+            {},
+            {},
+            {
+                "0": "-",
+                "1": "c"
+            },
+            {},
+            {
+                "0": "-",
+                "1": "-",
+                "2": "w",
+                "3": "a",
+                "4": "i",
+                "5": "t"
+            }
+        ],
+        "file": "/nodetaint/packageData/@sap/cf-tools/node_modules/@sap/cf-tools/out/src/cfServicesUtil.js",
+        "startLineNumber": 29,
+        "startColumnNumber": 10,
+        "endLineNumber": 29,
+        "endColumnNumber": 33,
+        "tainted": false,
+        "flows_from": [
+            "3"
+        ],
+        "sink_type": ""
+    },
+    "3": {
+        "operation": "Untainted",
+        "value": [
+            {
+                "0": "c",
+                "1": "r",
+                "2": "e",
+                "3": "a",
+                "4": "t",
+                "5": "e",
+                "6": "-",
+                "7": "s",
+                "8": "e",
+                "9": "r",
+                "10": "v",
+                "11": "i",
+                "12": "c",
+                "13": "e"
+            },
+            {},
+            {},
+            {},
+            {
+                "0": "-",
+                "1": "c"
+            },
+            {},
+            {
+                "0": "-",
+                "1": "-",
+                "2": "w",
+                "3": "a",
+                "4": "i",
+                "5": "t"
+            }
+        ],
+        "file": "/nodetaint/packageData/@sap/cf-tools/node_modules/@sap/cf-tools/out/src/cfServicesUtil.js",
+        "startLineNumber": 29,
+        "startColumnNumber": 10,
+        "endLineNumber": 29,
+        "endColumnNumber": 33,
+        "tainted": false,
+        "flows_from": [],
+        "sink_type": ""
+    }
+}

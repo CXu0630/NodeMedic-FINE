@@ -1,0 +1,82 @@
+{
+    "1": {
+        "operation": "call:spawn",
+        "value": "?Z",
+        "file": "/nodetaint/packageData/node-run-cmd/node_modules/node-run-cmd/index.js",
+        "startLineNumber": 57,
+        "startColumnNumber": 17,
+        "endLineNumber": 57,
+        "endColumnNumber": 54,
+        "tainted": false,
+        "flows_from": [
+            "2"
+        ],
+        "sink_type": "spawn"
+    },
+    "2": {
+        "operation": "object.GetField",
+        "value": "?Z",
+        "file": "UNKNOWN",
+        "startLineNumber": -1,
+        "startColumnNumber": -1,
+        "endLineNumber": -1,
+        "endColumnNumber": -1,
+        "tainted": false,
+        "flows_from": [
+            "3",
+            "4",
+            "5"
+        ],
+        "sink_type": ""
+    },
+    "3": {
+        "operation": "Untainted",
+        "value": [],
+        "file": "UNKNOWN",
+        "startLineNumber": -1,
+        "startColumnNumber": -1,
+        "endLineNumber": -1,
+        "endColumnNumber": -1,
+        "tainted": false,
+        "flows_from": [],
+        "sink_type": ""
+    },
+    "4": {
+        "operation": "Untainted",
+        "value": 0,
+        "file": "UNKNOWN",
+        "startLineNumber": -1,
+        "startColumnNumber": -1,
+        "endLineNumber": -1,
+        "endColumnNumber": -1,
+        "tainted": false,
+        "flows_from": [],
+        "sink_type": ""
+    },
+    "5": {
+        "operation": "model:array.map",
+        "value": "?Z",
+        "file": "/nodetaint/packageData/node-run-cmd/node_modules/node-run-cmd/index.js",
+        "startLineNumber": 53,
+        "startColumnNumber": 14,
+        "endLineNumber": 53,
+        "endColumnNumber": 36,
+        "tainted": false,
+        "flows_from": [
+            "6"
+        ],
+        "sink_type": ""
+    },
+    "6": {
+        "operation": "Untainted",
+        "value": "?Z",
+        "file": "/nodetaint/packageData/node-run-cmd/node_modules/node-run-cmd/index.js",
+        "startLineNumber": 53,
+        "startColumnNumber": 14,
+        "endLineNumber": 53,
+        "endColumnNumber": 36,
+        "tainted": false,
+        "flows_from": [],
+        "sink_type": ""
+    }
+}

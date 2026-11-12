@@ -1,0 +1,40 @@
+{
+    "1": {
+        "operation": "call:spawn",
+        "value": [
+            {
+                "0": "-",
+                "1": "c"
+            },
+            {}
+        ],
+        "file": "/nodetaint/packageData/exec-sh/node_modules/exec-sh/lib/exec-sh.js",
+        "startLineNumber": 53,
+        "startColumnNumber": 13,
+        "endLineNumber": 53,
+        "endColumnNumber": 63,
+        "tainted": false,
+        "flows_from": [
+            "2"
+        ],
+        "sink_type": "spawn"
+    },
+    "2": {
+        "operation": "Untainted",
+        "value": [
+            {
+                "0": "-",
+                "1": "c"
+            },
+            {}
+        ],
+        "file": "/nodetaint/packageData/exec-sh/node_modules/exec-sh/lib/exec-sh.js",
+        "startLineNumber": 53,
+        "startColumnNumber": 13,
+        "endLineNumber": 53,
+        "endColumnNumber": 63,
+        "tainted": false,
+        "flows_from": [],
+        "sink_type": ""
+    }
+}

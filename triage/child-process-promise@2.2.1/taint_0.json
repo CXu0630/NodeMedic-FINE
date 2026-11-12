@@ -1,0 +1,157 @@
+{
+    "1": {
+        "operation": "call:spawn",
+        "value": {},
+        "file": "/nodetaint/packageData/child-process-promise/node_modules/child-process-promise/node_modules/cross-spawn/index.js",
+        "startLineNumber": 17,
+        "startColumnNumber": 13,
+        "endLineNumber": 17,
+        "endColumnNumber": 66,
+        "tainted": true,
+        "flows_from": [
+            "2"
+        ],
+        "sink_type": "spawn"
+    },
+    "2": {
+        "operation": "object.GetField",
+        "value": {},
+        "file": "UNKNOWN",
+        "startLineNumber": -1,
+        "startColumnNumber": -1,
+        "endLineNumber": -1,
+        "endColumnNumber": -1,
+        "tainted": true,
+        "flows_from": [
+            "3",
+            "4",
+            "5"
+        ],
+        "sink_type": ""
+    },
+    "3": {
+        "operation": "Untainted",
+        "value": {
+            "command": {},
+            "args": [],
+            "options": {},
+            "original": {}
+        },
+        "file": "UNKNOWN",
+        "startLineNumber": -1,
+        "startColumnNumber": -1,
+        "endLineNumber": -1,
+        "endColumnNumber": -1,
+        "tainted": false,
+        "flows_from": [],
+        "sink_type": ""
+    },
+    "4": {
+        "operation": "Untainted",
+        "value": "command",
+        "file": "UNKNOWN",
+        "startLineNumber": -1,
+        "startColumnNumber": -1,
+        "endLineNumber": -1,
+        "endColumnNumber": -1,
+        "tainted": false,
+        "flows_from": [],
+        "sink_type": ""
+    },
+    "5": {
+        "operation": "call:parse",
+        "value": {},
+        "file": "/nodetaint/packageData/child-process-promise/node_modules/child-process-promise/node_modules/cross-spawn/index.js",
+        "startLineNumber": 14,
+        "startColumnNumber": 12,
+        "endLineNumber": 14,
+        "endColumnNumber": 41,
+        "tainted": true,
+        "flows_from": [
+            "6"
+        ],
+        "sink_type": ""
+    },
+    "6": {
+        "operation": "call:spawn",
+        "value": {},
+        "file": "/nodetaint/packageData/child-process-promise/node_modules/child-process-promise/lib/index.js",
+        "startLineNumber": 90,
+        "startColumnNumber": 8,
+        "endLineNumber": 90,
+        "endColumnNumber": 38,
+        "tainted": true,
+        "flows_from": [
+            "7"
+        ],
+        "sink_type": ""
+    },
+    "7": {
+        "operation": "call:doSpawn",
+        "value": {},
+        "file": "/nodetaint/packageData/child-process-promise/node_modules/child-process-promise/lib/index.js",
+        "startLineNumber": 155,
+        "startColumnNumber": 10,
+        "endLineNumber": 155,
+        "endColumnNumber": 53,
+        "tainted": true,
+        "flows_from": [
+            "8"
+        ],
+        "sink_type": ""
+    },
+    "8": {
+        "operation": "call:spawn",
+        "value": {},
+        "file": "/nodetaint/analysisArtifacts/run-child-process-promise2.js",
+        "startLineNumber": 10,
+        "startColumnNumber": 1,
+        "endLineNumber": 10,
+        "endColumnNumber": 29,
+        "tainted": true,
+        "flows_from": [
+            "9"
+        ],
+        "sink_type": ""
+    },
+    "9": {
+        "operation": "Tainted",
+        "value": {},
+        "file": "/nodetaint/analysisArtifacts/run-child-process-promise2.js",
+        "startLineNumber": 9,
+        "startColumnNumber": 1,
+        "endLineNumber": 9,
+        "endColumnNumber": 26,
+        "tainted": true,
+        "flows_from": [
+            "10"
+        ],
+        "sink_type": ""
+    },
+    "10": {
+        "operation": "call:__jalangi_set_taint__",
+        "value": {},
+        "file": "/nodetaint/analysisArtifacts/run-child-process-promise2.js",
+        "startLineNumber": 9,
+        "startColumnNumber": 1,
+        "endLineNumber": 9,
+        "endColumnNumber": 26,
+        "tainted": false,
+        "flows_from": [
+            "11"
+        ],
+        "sink_type": ""
+    },
+    "11": {
+        "operation": "Untainted",
+        "value": {},
+        "file": "/nodetaint/analysisArtifacts/run-child-process-promise2.js",
+        "startLineNumber": 9,
+        "startColumnNumber": 1,
+        "endLineNumber": 9,
+        "endColumnNumber": 26,
+        "tainted": false,
+        "flows_from": [],
+        "sink_type": ""
+    }
+}

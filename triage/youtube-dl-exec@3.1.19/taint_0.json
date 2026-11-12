@@ -1,0 +1,40 @@
+{
+    "1": {
+        "operation": "call:spawn",
+        "value": [
+            {
+                "0": "-",
+                "1": "-"
+            },
+            {}
+        ],
+        "file": "/nodetaint/packageData/youtube-dl-exec/node_modules/youtube-dl-exec/node_modules/tinyspawn/src/index.js",
+        "startLineNumber": 73,
+        "startColumnNumber": 22,
+        "endLineNumber": 73,
+        "endColumnNumber": 47,
+        "tainted": false,
+        "flows_from": [
+            "2"
+        ],
+        "sink_type": "spawn"
+    },
+    "2": {
+        "operation": "Untainted",
+        "value": [
+            {
+                "0": "-",
+                "1": "-"
+            },
+            {}
+        ],
+        "file": "/nodetaint/packageData/youtube-dl-exec/node_modules/youtube-dl-exec/node_modules/tinyspawn/src/index.js",
+        "startLineNumber": 73,
+        "startColumnNumber": 22,
+        "endLineNumber": 73,
+        "endColumnNumber": 47,
+        "tainted": false,
+        "flows_from": [],
+        "sink_type": ""
+    }
+}

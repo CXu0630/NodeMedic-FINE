@@ -1,0 +1,56 @@
+{
+    "1": {
+        "operation": "call:spawn",
+        "value": {
+            "stdio": [
+                {},
+                {},
+                {},
+                {},
+                {},
+                {},
+                {},
+                {},
+                {},
+                {},
+                {}
+            ]
+        },
+        "file": "/nodetaint/packageData/google-java-format/node_modules/google-java-format/index.js",
+        "startLineNumber": 47,
+        "startColumnNumber": 14,
+        "endLineNumber": 47,
+        "endColumnNumber": 57,
+        "tainted": false,
+        "flows_from": [
+            "2"
+        ],
+        "sink_type": "spawn"
+    },
+    "2": {
+        "operation": "Untainted",
+        "value": {
+            "stdio": [
+                {},
+                {},
+                {},
+                {},
+                {},
+                {},
+                {},
+                {},
+                {},
+                {},
+                {}
+            ]
+        },
+        "file": "/nodetaint/packageData/google-java-format/node_modules/google-java-format/index.js",
+        "startLineNumber": 47,
+        "startColumnNumber": 14,
+        "endLineNumber": 47,
+        "endColumnNumber": 57,
+        "tainted": false,
+        "flows_from": [],
+        "sink_type": ""
+    }
+}

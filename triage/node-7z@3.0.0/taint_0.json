@@ -1,0 +1,1753 @@
+{
+    "1": {
+        "operation": "call:spawn",
+        "value": [
+            {
+                "0": "a"
+            },
+            {},
+            {},
+            {},
+            {},
+            {
+                "0": "-",
+                "1": "s",
+                "2": "n",
+                "3": "c"
+            },
+            {},
+            {}
+        ],
+        "file": "/nodetaint/packageData/node-7z/node_modules/node-7z/src/lifecycle.js",
+        "startLineNumber": 74,
+        "startColumnNumber": 26,
+        "endLineNumber": 74,
+        "endColumnNumber": 72,
+        "tainted": false,
+        "flows_from": [
+            "2"
+        ],
+        "sink_type": "spawn"
+    },
+    "2": {
+        "operation": "object.GetField",
+        "value": [
+            {
+                "0": "a"
+            },
+            {},
+            {},
+            {},
+            {},
+            {
+                "0": "-",
+                "1": "s",
+                "2": "n",
+                "3": "c"
+            },
+            {},
+            {}
+        ],
+        "file": "UNKNOWN",
+        "startLineNumber": -1,
+        "startColumnNumber": -1,
+        "endLineNumber": -1,
+        "endColumnNumber": -1,
+        "tainted": false,
+        "flows_from": [
+            "3",
+            "5",
+            "6"
+        ],
+        "sink_type": ""
+    },
+    "3": {
+        "operation": "call:run",
+        "value": {
+            "_events": {},
+            "_readableState": {
+                "highWaterMark": 16,
+                "buffer": [],
+                "bufferIndex": 0,
+                "length": 0,
+                "pipes": [],
+                "awaitDrainWriters": null
+            },
+            "_bin": {
+                "0": "7",
+                "1": "z"
+            },
+            "_args": [
+                {
+                    "0": "a"
+                },
+                {},
+                {},
+                {},
+                {},
+                {
+                    "0": "-",
+                    "1": "s",
+                    "2": "n",
+                    "3": "c"
+                },
+                {},
+                {}
+            ],
+            "_isProgressFlag": {},
+            "_dataType": {
+                "0": "s",
+                "1": "y",
+                "2": "m",
+                "3": "b",
+                "4": "o",
+                "5": "l"
+            },
+            "info": {}
+        },
+        "file": "/nodetaint/packageData/node-7z/node_modules/node-7z/src/main.js",
+        "startLineNumber": 55,
+        "startColumnNumber": 9,
+        "endLineNumber": 55,
+        "endColumnNumber": 29,
+        "tainted": false,
+        "flows_from": [
+            "4"
+        ],
+        "sink_type": ""
+    },
+    "4": {
+        "operation": "Untainted",
+        "value": {
+            "_events": {},
+            "_readableState": {
+                "highWaterMark": 16,
+                "buffer": [],
+                "bufferIndex": 0,
+                "length": 0,
+                "pipes": [],
+                "awaitDrainWriters": null
+            },
+            "_bin": {
+                "0": "7",
+                "1": "z"
+            },
+            "_args": [
+                {
+                    "0": "a"
+                },
+                {},
+                {},
+                {},
+                {},
+                {
+                    "0": "-",
+                    "1": "s",
+                    "2": "n",
+                    "3": "c"
+                },
+                {},
+                {}
+            ],
+            "_isProgressFlag": {},
+            "_dataType": {
+                "0": "s",
+                "1": "y",
+                "2": "m",
+                "3": "b",
+                "4": "o",
+                "5": "l"
+            },
+            "info": {}
+        },
+        "file": "/nodetaint/packageData/node-7z/node_modules/node-7z/src/main.js",
+        "startLineNumber": 55,
+        "startColumnNumber": 9,
+        "endLineNumber": 55,
+        "endColumnNumber": 29,
+        "tainted": false,
+        "flows_from": [],
+        "sink_type": ""
+    },
+    "5": {
+        "operation": "Untainted",
+        "value": "_args",
+        "file": "UNKNOWN",
+        "startLineNumber": -1,
+        "startColumnNumber": -1,
+        "endLineNumber": -1,
+        "endColumnNumber": -1,
+        "tainted": false,
+        "flows_from": [],
+        "sink_type": ""
+    },
+    "6": {
+        "operation": "object.GetField",
+        "value": [
+            {
+                "0": "a"
+            },
+            {},
+            {},
+            {},
+            {},
+            {
+                "0": "-",
+                "1": "s",
+                "2": "n",
+                "3": "c"
+            },
+            {},
+            {}
+        ],
+        "file": "UNKNOWN",
+        "startLineNumber": -1,
+        "startColumnNumber": -1,
+        "endLineNumber": -1,
+        "endColumnNumber": -1,
+        "tainted": false,
+        "flows_from": [
+            "7",
+            "8",
+            "9"
+        ],
+        "sink_type": ""
+    },
+    "7": {
+        "operation": "Untainted",
+        "value": {
+            "_events": {},
+            "_readableState": {
+                "highWaterMark": 16,
+                "buffer": [],
+                "bufferIndex": 0,
+                "length": 0,
+                "pipes": [],
+                "awaitDrainWriters": null
+            },
+            "_bin": {
+                "0": "7",
+                "1": "z"
+            },
+            "_args": [
+                {
+                    "0": "a"
+                },
+                {},
+                {},
+                {},
+                {},
+                {
+                    "0": "-",
+                    "1": "s",
+                    "2": "n",
+                    "3": "c"
+                },
+                {},
+                {}
+            ],
+            "_isProgressFlag": {},
+            "_dataType": {
+                "0": "s",
+                "1": "y",
+                "2": "m",
+                "3": "b",
+                "4": "o",
+                "5": "l"
+            },
+            "info": {}
+        },
+        "file": "UNKNOWN",
+        "startLineNumber": -1,
+        "startColumnNumber": -1,
+        "endLineNumber": -1,
+        "endColumnNumber": -1,
+        "tainted": false,
+        "flows_from": [],
+        "sink_type": ""
+    },
+    "8": {
+        "operation": "Untainted",
+        "value": "_args",
+        "file": "UNKNOWN",
+        "startLineNumber": -1,
+        "startColumnNumber": -1,
+        "endLineNumber": -1,
+        "endColumnNumber": -1,
+        "tainted": false,
+        "flows_from": [],
+        "sink_type": ""
+    },
+    "9": {
+        "operation": "imprecise:concat",
+        "value": [
+            {
+                "0": "a"
+            },
+            {},
+            {},
+            {},
+            {},
+            {
+                "0": "-",
+                "1": "s",
+                "2": "n",
+                "3": "c"
+            },
+            {},
+            {}
+        ],
+        "file": "/nodetaint/packageData/node-7z/node_modules/node-7z/src/lifecycle.js",
+        "startLineNumber": 40,
+        "startColumnNumber": 21,
+        "endLineNumber": 42,
+        "endColumnNumber": 41,
+        "tainted": false,
+        "flows_from": [
+            "10",
+            "11"
+        ],
+        "sink_type": ""
+    },
+    "10": {
+        "operation": "Untainted",
+        "value": [
+            {
+                "0": "a"
+            },
+            {},
+            {}
+        ],
+        "file": "/nodetaint/packageData/node-7z/node_modules/node-7z/src/lifecycle.js",
+        "startLineNumber": 40,
+        "startColumnNumber": 21,
+        "endLineNumber": 42,
+        "endColumnNumber": 41,
+        "tainted": false,
+        "flows_from": [],
+        "sink_type": ""
+    },
+    "11": {
+        "operation": "call:concat",
+        "value": [
+            {},
+            {},
+            {
+                "0": "-",
+                "1": "s",
+                "2": "n",
+                "3": "c"
+            },
+            {},
+            {}
+        ],
+        "file": "/nodetaint/packageData/node-7z/node_modules/node-7z/src/lifecycle.js",
+        "startLineNumber": 40,
+        "startColumnNumber": 21,
+        "endLineNumber": 42,
+        "endColumnNumber": 41,
+        "tainted": false,
+        "flows_from": [
+            "12"
+        ],
+        "sink_type": ""
+    },
+    "12": {
+        "operation": "imprecise:filter",
+        "value": [
+            {},
+            {},
+            {
+                "0": "-",
+                "1": "s",
+                "2": "n",
+                "3": "c"
+            },
+            {},
+            {}
+        ],
+        "file": "/nodetaint/packageData/node-7z/node_modules/node-7z/node_modules/lodash.negate/index.js",
+        "startLineNumber": 43,
+        "startColumnNumber": 21,
+        "endLineNumber": 43,
+        "endColumnNumber": 69,
+        "tainted": false,
+        "flows_from": [
+            "13",
+            "72"
+        ],
+        "sink_type": ""
+    },
+    "13": {
+        "operation": "call:isEmpty",
+        "value": [
+            {},
+            {},
+            {
+                "0": "-",
+                "1": "s",
+                "2": "n",
+                "3": "c"
+            },
+            {},
+            {}
+        ],
+        "file": "/nodetaint/packageData/node-7z/node_modules/node-7z/node_modules/lodash.negate/index.js",
+        "startLineNumber": 43,
+        "startColumnNumber": 22,
+        "endLineNumber": 43,
+        "endColumnNumber": 69,
+        "tainted": false,
+        "flows_from": [
+            "14"
+        ],
+        "sink_type": ""
+    },
+    "14": {
+        "operation": "object.GetField",
+        "value": [
+            {},
+            {},
+            {
+                "0": "-",
+                "1": "s",
+                "2": "n",
+                "3": "c"
+            },
+            {},
+            {}
+        ],
+        "file": "UNKNOWN",
+        "startLineNumber": -1,
+        "startColumnNumber": -1,
+        "endLineNumber": -1,
+        "endColumnNumber": -1,
+        "tainted": false,
+        "flows_from": [
+            "15",
+            "16",
+            "17"
+        ],
+        "sink_type": ""
+    },
+    "15": {
+        "operation": "Untainted",
+        "value": {
+            "0": {},
+            "1": 4,
+            "2": [
+                {},
+                {},
+                {
+                    "0": "-",
+                    "1": "s",
+                    "2": "n",
+                    "3": "c"
+                },
+                {},
+                {}
+            ]
+        },
+        "file": "UNKNOWN",
+        "startLineNumber": -1,
+        "startColumnNumber": -1,
+        "endLineNumber": -1,
+        "endColumnNumber": -1,
+        "tainted": false,
+        "flows_from": [],
+        "sink_type": ""
+    },
+    "16": {
+        "operation": "Untainted",
+        "value": 2,
+        "file": "UNKNOWN",
+        "startLineNumber": -1,
+        "startColumnNumber": -1,
+        "endLineNumber": -1,
+        "endColumnNumber": -1,
+        "tainted": false,
+        "flows_from": [],
+        "sink_type": ""
+    },
+    "17": {
+        "operation": "call:isEmpty",
+        "value": [
+            {},
+            {},
+            {
+                "0": "-",
+                "1": "s",
+                "2": "n",
+                "3": "c"
+            },
+            {},
+            {}
+        ],
+        "file": "/nodetaint/packageData/node-7z/node_modules/node-7z/node_modules/lodash.negate/index.js",
+        "startLineNumber": 43,
+        "startColumnNumber": 22,
+        "endLineNumber": 43,
+        "endColumnNumber": 69,
+        "tainted": false,
+        "flows_from": [
+            "18"
+        ],
+        "sink_type": ""
+    },
+    "18": {
+        "operation": "object.GetField",
+        "value": [
+            {},
+            {},
+            {
+                "0": "-",
+                "1": "s",
+                "2": "n",
+                "3": "c"
+            },
+            {},
+            {}
+        ],
+        "file": "UNKNOWN",
+        "startLineNumber": -1,
+        "startColumnNumber": -1,
+        "endLineNumber": -1,
+        "endColumnNumber": -1,
+        "tainted": false,
+        "flows_from": [
+            "19",
+            "20",
+            "21"
+        ],
+        "sink_type": ""
+    },
+    "19": {
+        "operation": "Untainted",
+        "value": {
+            "0": {},
+            "1": 3,
+            "2": [
+                {},
+                {},
+                {
+                    "0": "-",
+                    "1": "s",
+                    "2": "n",
+                    "3": "c"
+                },
+                {},
+                {}
+            ]
+        },
+        "file": "UNKNOWN",
+        "startLineNumber": -1,
+        "startColumnNumber": -1,
+        "endLineNumber": -1,
+        "endColumnNumber": -1,
+        "tainted": false,
+        "flows_from": [],
+        "sink_type": ""
+    },
+    "20": {
+        "operation": "Untainted",
+        "value": 2,
+        "file": "UNKNOWN",
+        "startLineNumber": -1,
+        "startColumnNumber": -1,
+        "endLineNumber": -1,
+        "endColumnNumber": -1,
+        "tainted": false,
+        "flows_from": [],
+        "sink_type": ""
+    },
+    "21": {
+        "operation": "call:isEmpty",
+        "value": [
+            {},
+            {},
+            {
+                "0": "-",
+                "1": "s",
+                "2": "n",
+                "3": "c"
+            },
+            {},
+            {}
+        ],
+        "file": "/nodetaint/packageData/node-7z/node_modules/node-7z/node_modules/lodash.negate/index.js",
+        "startLineNumber": 43,
+        "startColumnNumber": 22,
+        "endLineNumber": 43,
+        "endColumnNumber": 69,
+        "tainted": false,
+        "flows_from": [
+            "22"
+        ],
+        "sink_type": ""
+    },
+    "22": {
+        "operation": "object.GetField",
+        "value": [
+            {},
+            {},
+            {
+                "0": "-",
+                "1": "s",
+                "2": "n",
+                "3": "c"
+            },
+            {},
+            {}
+        ],
+        "file": "UNKNOWN",
+        "startLineNumber": -1,
+        "startColumnNumber": -1,
+        "endLineNumber": -1,
+        "endColumnNumber": -1,
+        "tainted": false,
+        "flows_from": [
+            "23",
+            "24",
+            "25"
+        ],
+        "sink_type": ""
+    },
+    "23": {
+        "operation": "Untainted",
+        "value": {
+            "0": {
+                "0": "-",
+                "1": "s",
+                "2": "n",
+                "3": "c"
+            },
+            "1": 2,
+            "2": [
+                {},
+                {},
+                {
+                    "0": "-",
+                    "1": "s",
+                    "2": "n",
+                    "3": "c"
+                },
+                {},
+                {}
+            ]
+        },
+        "file": "UNKNOWN",
+        "startLineNumber": -1,
+        "startColumnNumber": -1,
+        "endLineNumber": -1,
+        "endColumnNumber": -1,
+        "tainted": false,
+        "flows_from": [],
+        "sink_type": ""
+    },
+    "24": {
+        "operation": "Untainted",
+        "value": 2,
+        "file": "UNKNOWN",
+        "startLineNumber": -1,
+        "startColumnNumber": -1,
+        "endLineNumber": -1,
+        "endColumnNumber": -1,
+        "tainted": false,
+        "flows_from": [],
+        "sink_type": ""
+    },
+    "25": {
+        "operation": "call:isEmpty",
+        "value": [
+            {},
+            {},
+            {
+                "0": "-",
+                "1": "s",
+                "2": "n",
+                "3": "c"
+            },
+            {},
+            {}
+        ],
+        "file": "/nodetaint/packageData/node-7z/node_modules/node-7z/node_modules/lodash.negate/index.js",
+        "startLineNumber": 43,
+        "startColumnNumber": 22,
+        "endLineNumber": 43,
+        "endColumnNumber": 69,
+        "tainted": false,
+        "flows_from": [
+            "26"
+        ],
+        "sink_type": ""
+    },
+    "26": {
+        "operation": "object.GetField",
+        "value": [
+            {},
+            {},
+            {
+                "0": "-",
+                "1": "s",
+                "2": "n",
+                "3": "c"
+            },
+            {},
+            {}
+        ],
+        "file": "UNKNOWN",
+        "startLineNumber": -1,
+        "startColumnNumber": -1,
+        "endLineNumber": -1,
+        "endColumnNumber": -1,
+        "tainted": false,
+        "flows_from": [
+            "27",
+            "28",
+            "29"
+        ],
+        "sink_type": ""
+    },
+    "27": {
+        "operation": "Untainted",
+        "value": {
+            "0": {},
+            "1": 1,
+            "2": [
+                {},
+                {},
+                {
+                    "0": "-",
+                    "1": "s",
+                    "2": "n",
+                    "3": "c"
+                },
+                {},
+                {}
+            ]
+        },
+        "file": "UNKNOWN",
+        "startLineNumber": -1,
+        "startColumnNumber": -1,
+        "endLineNumber": -1,
+        "endColumnNumber": -1,
+        "tainted": false,
+        "flows_from": [],
+        "sink_type": ""
+    },
+    "28": {
+        "operation": "Untainted",
+        "value": 2,
+        "file": "UNKNOWN",
+        "startLineNumber": -1,
+        "startColumnNumber": -1,
+        "endLineNumber": -1,
+        "endColumnNumber": -1,
+        "tainted": false,
+        "flows_from": [],
+        "sink_type": ""
+    },
+    "29": {
+        "operation": "call:isEmpty",
+        "value": [
+            {},
+            {},
+            {
+                "0": "-",
+                "1": "s",
+                "2": "n",
+                "3": "c"
+            },
+            {},
+            {}
+        ],
+        "file": "/nodetaint/packageData/node-7z/node_modules/node-7z/node_modules/lodash.negate/index.js",
+        "startLineNumber": 43,
+        "startColumnNumber": 22,
+        "endLineNumber": 43,
+        "endColumnNumber": 69,
+        "tainted": false,
+        "flows_from": [
+            "30"
+        ],
+        "sink_type": ""
+    },
+    "30": {
+        "operation": "object.GetField",
+        "value": [
+            {},
+            {},
+            {
+                "0": "-",
+                "1": "s",
+                "2": "n",
+                "3": "c"
+            },
+            {},
+            {}
+        ],
+        "file": "UNKNOWN",
+        "startLineNumber": -1,
+        "startColumnNumber": -1,
+        "endLineNumber": -1,
+        "endColumnNumber": -1,
+        "tainted": false,
+        "flows_from": [
+            "31",
+            "32",
+            "33"
+        ],
+        "sink_type": ""
+    },
+    "31": {
+        "operation": "Untainted",
+        "value": {
+            "0": {},
+            "1": 0,
+            "2": [
+                {},
+                {},
+                {
+                    "0": "-",
+                    "1": "s",
+                    "2": "n",
+                    "3": "c"
+                },
+                {},
+                {}
+            ]
+        },
+        "file": "UNKNOWN",
+        "startLineNumber": -1,
+        "startColumnNumber": -1,
+        "endLineNumber": -1,
+        "endColumnNumber": -1,
+        "tainted": false,
+        "flows_from": [],
+        "sink_type": ""
+    },
+    "32": {
+        "operation": "Untainted",
+        "value": 2,
+        "file": "UNKNOWN",
+        "startLineNumber": -1,
+        "startColumnNumber": -1,
+        "endLineNumber": -1,
+        "endColumnNumber": -1,
+        "tainted": false,
+        "flows_from": [],
+        "sink_type": ""
+    },
+    "33": {
+        "operation": "imprecise:concat",
+        "value": [
+            {},
+            {},
+            {
+                "0": "-",
+                "1": "s",
+                "2": "n",
+                "3": "c"
+            },
+            {},
+            {}
+        ],
+        "file": "/nodetaint/packageData/node-7z/node_modules/node-7z/src/flags.js",
+        "startLineNumber": 32,
+        "startColumnNumber": 41,
+        "endLineNumber": 32,
+        "endColumnNumber": 59,
+        "tainted": false,
+        "flows_from": [
+            "34",
+            "67"
+        ],
+        "sink_type": ""
+    },
+    "34": {
+        "operation": "imprecise:concat",
+        "value": [
+            {},
+            {},
+            {
+                "0": "-",
+                "1": "s",
+                "2": "n",
+                "3": "c"
+            },
+            {}
+        ],
+        "file": "/nodetaint/packageData/node-7z/node_modules/node-7z/src/flags.js",
+        "startLineNumber": 32,
+        "startColumnNumber": 41,
+        "endLineNumber": 32,
+        "endColumnNumber": 59,
+        "tainted": false,
+        "flows_from": [
+            "35",
+            "62"
+        ],
+        "sink_type": ""
+    },
+    "35": {
+        "operation": "imprecise:concat",
+        "value": [
+            {},
+            {},
+            {
+                "0": "-",
+                "1": "s",
+                "2": "n",
+                "3": "c"
+            }
+        ],
+        "file": "/nodetaint/packageData/node-7z/node_modules/node-7z/src/flags.js",
+        "startLineNumber": 32,
+        "startColumnNumber": 41,
+        "endLineNumber": 32,
+        "endColumnNumber": 59,
+        "tainted": false,
+        "flows_from": [
+            "36",
+            "50"
+        ],
+        "sink_type": ""
+    },
+    "36": {
+        "operation": "imprecise:concat",
+        "value": [
+            {},
+            {}
+        ],
+        "file": "/nodetaint/packageData/node-7z/node_modules/node-7z/src/flags.js",
+        "startLineNumber": 32,
+        "startColumnNumber": 41,
+        "endLineNumber": 32,
+        "endColumnNumber": 59,
+        "tainted": false,
+        "flows_from": [
+            "37",
+            "45"
+        ],
+        "sink_type": ""
+    },
+    "37": {
+        "operation": "imprecise:concat",
+        "value": [
+            {}
+        ],
+        "file": "/nodetaint/packageData/node-7z/node_modules/node-7z/src/flags.js",
+        "startLineNumber": 32,
+        "startColumnNumber": 41,
+        "endLineNumber": 32,
+        "endColumnNumber": 59,
+        "tainted": false,
+        "flows_from": [
+            "38",
+            "40"
+        ],
+        "sink_type": ""
+    },
+    "38": {
+        "operation": "call:reduce",
+        "value": [],
+        "file": "/nodetaint/packageData/node-7z/node_modules/node-7z/src/flags.js",
+        "startLineNumber": 27,
+        "startColumnNumber": 14,
+        "endLineNumber": 32,
+        "endColumnNumber": 66,
+        "tainted": false,
+        "flows_from": [
+            "39"
+        ],
+        "sink_type": ""
+    },
+    "39": {
+        "operation": "Untainted",
+        "value": [],
+        "file": "/nodetaint/packageData/node-7z/node_modules/node-7z/src/flags.js",
+        "startLineNumber": 27,
+        "startColumnNumber": 14,
+        "endLineNumber": 32,
+        "endColumnNumber": 66,
+        "tainted": false,
+        "flows_from": [],
+        "sink_type": ""
+    },
+    "40": {
+        "operation": "call:concat",
+        "value": "",
+        "file": "/nodetaint/packageData/node-7z/node_modules/node-7z/src/flags.js",
+        "startLineNumber": 32,
+        "startColumnNumber": 41,
+        "endLineNumber": 32,
+        "endColumnNumber": 59,
+        "tainted": false,
+        "flows_from": [
+            "41"
+        ],
+        "sink_type": ""
+    },
+    "41": {
+        "operation": "model:array.map",
+        "value": "",
+        "file": "/nodetaint/packageData/node-7z/node_modules/node-7z/src/flags.js",
+        "startLineNumber": 62,
+        "startColumnNumber": 14,
+        "endLineNumber": 62,
+        "endColumnNumber": 33,
+        "tainted": false,
+        "flows_from": [
+            "42"
+        ],
+        "sink_type": ""
+    },
+    "42": {
+        "operation": "call:bool",
+        "value": {
+            "api": {
+                "0": "_",
+                "1": "c",
+                "2": "o",
+                "3": "m",
+                "4": "m",
+                "5": "a",
+                "6": "n",
+                "7": "d"
+            },
+            "value": {
+                "0": "a",
+                "1": "d",
+                "2": "d"
+            },
+            "type": {
+                "0": "b",
+                "1": "o",
+                "2": "o",
+                "3": "l"
+            },
+            "cli": {
+                "0": "s",
+                "1": "n",
+                "2": "c"
+            }
+        },
+        "file": "/nodetaint/packageData/node-7z/node_modules/node-7z/src/flags.js",
+        "startLineNumber": 83,
+        "startColumnNumber": 10,
+        "endLineNumber": 83,
+        "endColumnNumber": 35,
+        "tainted": false,
+        "flows_from": [
+            "43"
+        ],
+        "sink_type": ""
+    },
+    "43": {
+        "operation": "model:array.map",
+        "value": {
+            "api": {
+                "0": "_",
+                "1": "c",
+                "2": "o",
+                "3": "m",
+                "4": "m",
+                "5": "a",
+                "6": "n",
+                "7": "d"
+            },
+            "value": {
+                "0": "a",
+                "1": "d",
+                "2": "d"
+            },
+            "type": {
+                "0": "b",
+                "1": "o",
+                "2": "o",
+                "3": "l"
+            },
+            "cli": {
+                "0": "s",
+                "1": "n",
+                "2": "c"
+            }
+        },
+        "file": "UNKNOWN",
+        "startLineNumber": -1,
+        "startColumnNumber": -1,
+        "endLineNumber": -1,
+        "endColumnNumber": -1,
+        "tainted": false,
+        "flows_from": [
+            "44"
+        ],
+        "sink_type": ""
+    },
+    "44": {
+        "operation": "Untainted",
+        "value": [
+            {
+                "0": "_",
+                "1": "c",
+                "2": "o",
+                "3": "m",
+                "4": "m",
+                "5": "a",
+                "6": "n",
+                "7": "d"
+            },
+            {
+                "0": "a",
+                "1": "d",
+                "2": "d"
+            }
+        ],
+        "file": "UNKNOWN",
+        "startLineNumber": -1,
+        "startColumnNumber": -1,
+        "endLineNumber": -1,
+        "endColumnNumber": -1,
+        "tainted": false,
+        "flows_from": [],
+        "sink_type": ""
+    },
+    "45": {
+        "operation": "call:concat",
+        "value": "",
+        "file": "/nodetaint/packageData/node-7z/node_modules/node-7z/src/flags.js",
+        "startLineNumber": 32,
+        "startColumnNumber": 41,
+        "endLineNumber": 32,
+        "endColumnNumber": 59,
+        "tainted": false,
+        "flows_from": [
+            "46"
+        ],
+        "sink_type": ""
+    },
+    "46": {
+        "operation": "model:array.map",
+        "value": "",
+        "file": "/nodetaint/packageData/node-7z/node_modules/node-7z/src/flags.js",
+        "startLineNumber": 62,
+        "startColumnNumber": 14,
+        "endLineNumber": 62,
+        "endColumnNumber": 33,
+        "tainted": false,
+        "flows_from": [
+            "47"
+        ],
+        "sink_type": ""
+    },
+    "47": {
+        "operation": "call:bool",
+        "value": {
+            "api": {
+                "0": "_",
+                "1": "t",
+                "2": "a",
+                "3": "r",
+                "4": "g",
+                "5": "e",
+                "6": "t"
+            },
+            "value": [
+                {},
+                {}
+            ],
+            "type": {
+                "0": "b",
+                "1": "o",
+                "2": "o",
+                "3": "l"
+            },
+            "cli": {
+                "0": "s",
+                "1": "n",
+                "2": "c"
+            }
+        },
+        "file": "/nodetaint/packageData/node-7z/node_modules/node-7z/src/flags.js",
+        "startLineNumber": 83,
+        "startColumnNumber": 10,
+        "endLineNumber": 83,
+        "endColumnNumber": 35,
+        "tainted": false,
+        "flows_from": [
+            "48"
+        ],
+        "sink_type": ""
+    },
+    "48": {
+        "operation": "model:array.map",
+        "value": {
+            "api": {
+                "0": "_",
+                "1": "t",
+                "2": "a",
+                "3": "r",
+                "4": "g",
+                "5": "e",
+                "6": "t"
+            },
+            "value": [
+                {},
+                {}
+            ],
+            "type": {
+                "0": "b",
+                "1": "o",
+                "2": "o",
+                "3": "l"
+            },
+            "cli": {
+                "0": "s",
+                "1": "n",
+                "2": "c"
+            }
+        },
+        "file": "UNKNOWN",
+        "startLineNumber": -1,
+        "startColumnNumber": -1,
+        "endLineNumber": -1,
+        "endColumnNumber": -1,
+        "tainted": false,
+        "flows_from": [
+            "49"
+        ],
+        "sink_type": ""
+    },
+    "49": {
+        "operation": "Untainted",
+        "value": [
+            {
+                "0": "_",
+                "1": "t",
+                "2": "a",
+                "3": "r",
+                "4": "g",
+                "5": "e",
+                "6": "t"
+            },
+            [
+                {},
+                {}
+            ]
+        ],
+        "file": "UNKNOWN",
+        "startLineNumber": -1,
+        "startColumnNumber": -1,
+        "endLineNumber": -1,
+        "endColumnNumber": -1,
+        "tainted": false,
+        "flows_from": [],
+        "sink_type": ""
+    },
+    "50": {
+        "operation": "call:concat",
+        "value": "-snc",
+        "file": "/nodetaint/packageData/node-7z/node_modules/node-7z/src/flags.js",
+        "startLineNumber": 32,
+        "startColumnNumber": 41,
+        "endLineNumber": 32,
+        "endColumnNumber": 59,
+        "tainted": false,
+        "flows_from": [
+            "51"
+        ],
+        "sink_type": ""
+    },
+    "51": {
+        "operation": "precise:string.concat",
+        "value": "-snc",
+        "file": "/nodetaint/packageData/node-7z/node_modules/node-7z/src/flags.js",
+        "startLineNumber": 62,
+        "startColumnNumber": 36,
+        "endLineNumber": 62,
+        "endColumnNumber": 56,
+        "tainted": false,
+        "flows_from": [
+            "52",
+            "53"
+        ],
+        "sink_type": ""
+    },
+    "52": {
+        "operation": "Untainted",
+        "value": "-",
+        "file": "/nodetaint/packageData/node-7z/node_modules/node-7z/src/flags.js",
+        "startLineNumber": 62,
+        "startColumnNumber": 36,
+        "endLineNumber": 62,
+        "endColumnNumber": 56,
+        "tainted": false,
+        "flows_from": [],
+        "sink_type": ""
+    },
+    "53": {
+        "operation": "call:concat",
+        "value": "snc",
+        "file": "/nodetaint/packageData/node-7z/node_modules/node-7z/src/flags.js",
+        "startLineNumber": 62,
+        "startColumnNumber": 36,
+        "endLineNumber": 62,
+        "endColumnNumber": 56,
+        "tainted": false,
+        "flows_from": [
+            "54"
+        ],
+        "sink_type": ""
+    },
+    "54": {
+        "operation": "object.GetField",
+        "value": "snc",
+        "file": "UNKNOWN",
+        "startLineNumber": -1,
+        "startColumnNumber": -1,
+        "endLineNumber": -1,
+        "endColumnNumber": -1,
+        "tainted": false,
+        "flows_from": [
+            "55",
+            "58",
+            "59"
+        ],
+        "sink_type": ""
+    },
+    "55": {
+        "operation": "call:bool",
+        "value": {
+            "api": {
+                "0": "y",
+                "1": "e",
+                "2": "s"
+            },
+            "value": {},
+            "type": {
+                "0": "b",
+                "1": "o",
+                "2": "o",
+                "3": "l"
+            },
+            "cli": {
+                "0": "s",
+                "1": "n",
+                "2": "c"
+            }
+        },
+        "file": "/nodetaint/packageData/node-7z/node_modules/node-7z/src/flags.js",
+        "startLineNumber": 83,
+        "startColumnNumber": 10,
+        "endLineNumber": 83,
+        "endColumnNumber": 35,
+        "tainted": false,
+        "flows_from": [
+            "56"
+        ],
+        "sink_type": ""
+    },
+    "56": {
+        "operation": "model:array.map",
+        "value": {
+            "api": {
+                "0": "y",
+                "1": "e",
+                "2": "s"
+            },
+            "value": {},
+            "type": {
+                "0": "b",
+                "1": "o",
+                "2": "o",
+                "3": "l"
+            },
+            "cli": {
+                "0": "s",
+                "1": "n",
+                "2": "c"
+            }
+        },
+        "file": "UNKNOWN",
+        "startLineNumber": -1,
+        "startColumnNumber": -1,
+        "endLineNumber": -1,
+        "endColumnNumber": -1,
+        "tainted": false,
+        "flows_from": [
+            "57"
+        ],
+        "sink_type": ""
+    },
+    "57": {
+        "operation": "Untainted",
+        "value": [
+            {
+                "0": "y",
+                "1": "e",
+                "2": "s"
+            },
+            {}
+        ],
+        "file": "UNKNOWN",
+        "startLineNumber": -1,
+        "startColumnNumber": -1,
+        "endLineNumber": -1,
+        "endColumnNumber": -1,
+        "tainted": false,
+        "flows_from": [],
+        "sink_type": ""
+    },
+    "58": {
+        "operation": "Untainted",
+        "value": "cli",
+        "file": "UNKNOWN",
+        "startLineNumber": -1,
+        "startColumnNumber": -1,
+        "endLineNumber": -1,
+        "endColumnNumber": -1,
+        "tainted": false,
+        "flows_from": [],
+        "sink_type": ""
+    },
+    "59": {
+        "operation": "object.GetField",
+        "value": "snc",
+        "file": "UNKNOWN",
+        "startLineNumber": -1,
+        "startColumnNumber": -1,
+        "endLineNumber": -1,
+        "endColumnNumber": -1,
+        "tainted": false,
+        "flows_from": [
+            "60",
+            "61"
+        ],
+        "sink_type": ""
+    },
+    "60": {
+        "operation": "Untainted",
+        "value": {
+            "type": "bool",
+            "api": "alternateStreamExtract",
+            "cli": "snc"
+        },
+        "file": "UNKNOWN",
+        "startLineNumber": -1,
+        "startColumnNumber": -1,
+        "endLineNumber": -1,
+        "endColumnNumber": -1,
+        "tainted": false,
+        "flows_from": [],
+        "sink_type": ""
+    },
+    "61": {
+        "operation": "Untainted",
+        "value": "cli",
+        "file": "UNKNOWN",
+        "startLineNumber": -1,
+        "startColumnNumber": -1,
+        "endLineNumber": -1,
+        "endColumnNumber": -1,
+        "tainted": false,
+        "flows_from": [],
+        "sink_type": ""
+    },
+    "62": {
+        "operation": "call:concat",
+        "value": "",
+        "file": "/nodetaint/packageData/node-7z/node_modules/node-7z/src/flags.js",
+        "startLineNumber": 32,
+        "startColumnNumber": 41,
+        "endLineNumber": 32,
+        "endColumnNumber": 59,
+        "tainted": false,
+        "flows_from": [
+            "63"
+        ],
+        "sink_type": ""
+    },
+    "63": {
+        "operation": "model:array.map",
+        "value": "",
+        "file": "/nodetaint/packageData/node-7z/node_modules/node-7z/src/flags.js",
+        "startLineNumber": 62,
+        "startColumnNumber": 14,
+        "endLineNumber": 62,
+        "endColumnNumber": 33,
+        "tainted": false,
+        "flows_from": [
+            "64"
+        ],
+        "sink_type": ""
+    },
+    "64": {
+        "operation": "call:bool",
+        "value": {
+            "api": {
+                "0": "l",
+                "1": "o",
+                "2": "g",
+                "3": "L",
+                "4": "e",
+                "5": "v",
+                "6": "e",
+                "7": "l"
+            },
+            "value": {
+                "0": "3"
+            },
+            "type": {
+                "0": "b",
+                "1": "o",
+                "2": "o",
+                "3": "l"
+            },
+            "cli": {
+                "0": "s",
+                "1": "n",
+                "2": "c"
+            }
+        },
+        "file": "/nodetaint/packageData/node-7z/node_modules/node-7z/src/flags.js",
+        "startLineNumber": 83,
+        "startColumnNumber": 10,
+        "endLineNumber": 83,
+        "endColumnNumber": 35,
+        "tainted": false,
+        "flows_from": [
+            "65"
+        ],
+        "sink_type": ""
+    },
+    "65": {
+        "operation": "model:array.map",
+        "value": {
+            "api": {
+                "0": "l",
+                "1": "o",
+                "2": "g",
+                "3": "L",
+                "4": "e",
+                "5": "v",
+                "6": "e",
+                "7": "l"
+            },
+            "value": {
+                "0": "3"
+            },
+            "type": {
+                "0": "b",
+                "1": "o",
+                "2": "o",
+                "3": "l"
+            },
+            "cli": {
+                "0": "s",
+                "1": "n",
+                "2": "c"
+            }
+        },
+        "file": "UNKNOWN",
+        "startLineNumber": -1,
+        "startColumnNumber": -1,
+        "endLineNumber": -1,
+        "endColumnNumber": -1,
+        "tainted": false,
+        "flows_from": [
+            "66"
+        ],
+        "sink_type": ""
+    },
+    "66": {
+        "operation": "Untainted",
+        "value": [
+            {
+                "0": "l",
+                "1": "o",
+                "2": "g",
+                "3": "L",
+                "4": "e",
+                "5": "v",
+                "6": "e",
+                "7": "l"
+            },
+            {
+                "0": "3"
+            }
+        ],
+        "file": "UNKNOWN",
+        "startLineNumber": -1,
+        "startColumnNumber": -1,
+        "endLineNumber": -1,
+        "endColumnNumber": -1,
+        "tainted": false,
+        "flows_from": [],
+        "sink_type": ""
+    },
+    "67": {
+        "operation": "call:concat",
+        "value": "",
+        "file": "/nodetaint/packageData/node-7z/node_modules/node-7z/src/flags.js",
+        "startLineNumber": 32,
+        "startColumnNumber": 41,
+        "endLineNumber": 32,
+        "endColumnNumber": 59,
+        "tainted": false,
+        "flows_from": [
+            "68"
+        ],
+        "sink_type": ""
+    },
+    "68": {
+        "operation": "model:array.map",
+        "value": "",
+        "file": "/nodetaint/packageData/node-7z/node_modules/node-7z/src/flags.js",
+        "startLineNumber": 62,
+        "startColumnNumber": 14,
+        "endLineNumber": 62,
+        "endColumnNumber": 33,
+        "tainted": false,
+        "flows_from": [
+            "69"
+        ],
+        "sink_type": ""
+    },
+    "69": {
+        "operation": "call:bool",
+        "value": {
+            "api": {
+                "0": "o",
+                "1": "u",
+                "2": "t",
+                "3": "p",
+                "4": "u",
+                "5": "t",
+                "6": "S",
+                "7": "t",
+                "8": "r",
+                "9": "e",
+                "10": "a",
+                "11": "m",
+                "12": "s"
+            },
+            "value": [],
+            "type": {
+                "0": "b",
+                "1": "o",
+                "2": "o",
+                "3": "l"
+            },
+            "cli": {
+                "0": "s",
+                "1": "n",
+                "2": "c"
+            }
+        },
+        "file": "/nodetaint/packageData/node-7z/node_modules/node-7z/src/flags.js",
+        "startLineNumber": 83,
+        "startColumnNumber": 10,
+        "endLineNumber": 83,
+        "endColumnNumber": 35,
+        "tainted": false,
+        "flows_from": [
+            "70"
+        ],
+        "sink_type": ""
+    },
+    "70": {
+        "operation": "model:array.map",
+        "value": {
+            "api": {
+                "0": "o",
+                "1": "u",
+                "2": "t",
+                "3": "p",
+                "4": "u",
+                "5": "t",
+                "6": "S",
+                "7": "t",
+                "8": "r",
+                "9": "e",
+                "10": "a",
+                "11": "m",
+                "12": "s"
+            },
+            "value": [],
+            "type": {
+                "0": "b",
+                "1": "o",
+                "2": "o",
+                "3": "l"
+            },
+            "cli": {
+                "0": "s",
+                "1": "n",
+                "2": "c"
+            }
+        },
+        "file": "UNKNOWN",
+        "startLineNumber": -1,
+        "startColumnNumber": -1,
+        "endLineNumber": -1,
+        "endColumnNumber": -1,
+        "tainted": false,
+        "flows_from": [
+            "71"
+        ],
+        "sink_type": ""
+    },
+    "71": {
+        "operation": "Untainted",
+        "value": [
+            {
+                "0": "o",
+                "1": "u",
+                "2": "t",
+                "3": "p",
+                "4": "u",
+                "5": "t",
+                "6": "S",
+                "7": "t",
+                "8": "r",
+                "9": "e",
+                "10": "a",
+                "11": "m",
+                "12": "s"
+            },
+            []
+        ],
+        "file": "UNKNOWN",
+        "startLineNumber": -1,
+        "startColumnNumber": -1,
+        "endLineNumber": -1,
+        "endColumnNumber": -1,
+        "tainted": false,
+        "flows_from": [],
+        "sink_type": ""
+    },
+    "72": {
+        "operation": "call:filter",
+        "file": "/nodetaint/packageData/node-7z/node_modules/node-7z/src/flags.js",
+        "startLineNumber": 27,
+        "startColumnNumber": 14,
+        "endLineNumber": 33,
+        "endColumnNumber": 26,
+        "tainted": false,
+        "flows_from": [
+            "73"
+        ],
+        "sink_type": ""
+    },
+    "73": {
+        "operation": "Untainted",
+        "file": "/nodetaint/packageData/node-7z/node_modules/node-7z/src/flags.js",
+        "startLineNumber": 27,
+        "startColumnNumber": 14,
+        "endLineNumber": 33,
+        "endColumnNumber": 26,
+        "tainted": false,
+        "flows_from": [],
+        "sink_type": ""
+    }
+}

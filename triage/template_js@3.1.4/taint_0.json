@@ -1,0 +1,973 @@
+{
+    "1": {
+        "operation": "call:Function",
+        "value": "\n    var html = (function (__data__, __modifierMap__) {\n        var __str__ = \"\", __code__ = \"\";\n        for(var key in __data__) {\n            __str__+=(\"var \" + key + \"=__data__['\" + key + \"'];\");\n        }\n        eval(__str__);\n\n;__code__ += (\"[object Object]\")\n\n        ;return __code__;\n    }(__data__, __modifierMap__));\n    return html;\n",
+        "file": "/nodetaint/packageData/template_js/node_modules/template_js/dist/index.js",
+        "startLineNumber": 39,
+        "startColumnNumber": 18,
+        "endLineNumber": 39,
+        "endColumnNumber": 67,
+        "tainted": true,
+        "flows_from": [
+            "2"
+        ],
+        "sink_type": "Function"
+    },
+    "2": {
+        "operation": "precise:string.replace",
+        "value": "\n    var html = (function (__data__, __modifierMap__) {\n        var __str__ = \"\", __code__ = \"\";\n        for(var key in __data__) {\n            __str__+=(\"var \" + key + \"=__data__['\" + key + \"'];\");\n        }\n        eval(__str__);\n\n;__code__ += (\"[object Object]\")\n\n        ;return __code__;\n    }(__data__, __modifierMap__));\n    return html;\n",
+        "file": "/nodetaint/packageData/template_js/node_modules/template_js/dist/index.js",
+        "startLineNumber": 37,
+        "startColumnNumber": 10,
+        "endLineNumber": 37,
+        "endColumnNumber": 36,
+        "tainted": true,
+        "flows_from": [
+            "3",
+            "61",
+            "63"
+        ],
+        "sink_type": ""
+    },
+    "3": {
+        "operation": "precise:string.concat",
+        "value": "\n    var html = (function (__data__, __modifierMap__) {\n        var __str__ = \"\", __code__ = \"\";\n        for(var key in __data__) {\n            __str__+=(\"var \" + key + \"=__data__['\" + key + \"'];\");\n        }\n        eval(__str__);\n\n;__code__ += (\"[object Object]\")\n\n        ;return __code__;\n    }(__data__, __modifierMap__));\n    return html;\n",
+        "file": "/nodetaint/packageData/template_js/node_modules/template_js/dist/index.js",
+        "startLineNumber": 36,
+        "startColumnNumber": 14,
+        "endLineNumber": 36,
+        "endColumnNumber": 48,
+        "tainted": true,
+        "flows_from": [
+            "4",
+            "54"
+        ],
+        "sink_type": ""
+    },
+    "4": {
+        "operation": "precise:string.concat",
+        "value": "\n    var html = (function (__data__, __modifierMap__) {\n        var __str__ = \"\", __code__ = \"\";\n        for(var key in __data__) {\n            __str__+=(\"var \" + key + \"=__data__['\" + key + \"'];\");\n        }\n        eval(__str__);\n\n;__code__ += (\"[object Object]\")\n",
+        "file": "/nodetaint/packageData/template_js/node_modules/template_js/dist/index.js",
+        "startLineNumber": 36,
+        "startColumnNumber": 14,
+        "endLineNumber": 36,
+        "endColumnNumber": 35,
+        "tainted": true,
+        "flows_from": [
+            "5",
+            "18"
+        ],
+        "sink_type": ""
+    },
+    "5": {
+        "operation": "precise:string.concat",
+        "value": "\n    var html = (function (__data__, __modifierMap__) {\n        var __str__ = \"\", __code__ = \"\";\n        for(var key in __data__) {\n            __str__+=(\"var \" + key + \"=__data__['\" + key + \"'];\");\n        }\n        eval(__str__);\n\n",
+        "file": "/nodetaint/packageData/template_js/node_modules/template_js/dist/index.js",
+        "startLineNumber": 34,
+        "startColumnNumber": 20,
+        "endLineNumber": 34,
+        "endColumnNumber": 295,
+        "tainted": false,
+        "flows_from": [
+            "6",
+            "17"
+        ],
+        "sink_type": ""
+    },
+    "6": {
+        "operation": "precise:string.concat",
+        "value": "\n    var html = (function (__data__, __modifierMap__) {\n        var __str__ = \"\", __code__ = \"\";\n        for(var key in __data__) {\n            __str__+=(\"var \" + key + \"=__data__['\" + key + \"'];\");\n        }\n",
+        "file": "/nodetaint/packageData/template_js/node_modules/template_js/dist/index.js",
+        "startLineNumber": 34,
+        "startColumnNumber": 20,
+        "endLineNumber": 34,
+        "endColumnNumber": 264,
+        "tainted": false,
+        "flows_from": [
+            "7",
+            "16"
+        ],
+        "sink_type": ""
+    },
+    "7": {
+        "operation": "precise:string.concat",
+        "value": "\n    var html = (function (__data__, __modifierMap__) {\n        var __str__ = \"\", __code__ = \"\";\n        for(var key in __data__) {\n            __str__+=(\"var \" + key + \"=__data__['\" + key + \"'];\");\n",
+        "file": "/nodetaint/packageData/template_js/node_modules/template_js/dist/index.js",
+        "startLineNumber": 34,
+        "startColumnNumber": 20,
+        "endLineNumber": 34,
+        "endColumnNumber": 248,
+        "tainted": false,
+        "flows_from": [
+            "8",
+            "15"
+        ],
+        "sink_type": ""
+    },
+    "8": {
+        "operation": "precise:string.concat",
+        "value": "\n    var html = (function (__data__, __modifierMap__) {\n        var __str__ = \"\", __code__ = \"\";\n        for(var key in __data__) {\n",
+        "file": "/nodetaint/packageData/template_js/node_modules/template_js/dist/index.js",
+        "startLineNumber": 34,
+        "startColumnNumber": 20,
+        "endLineNumber": 34,
+        "endColumnNumber": 173,
+        "tainted": false,
+        "flows_from": [
+            "9",
+            "14"
+        ],
+        "sink_type": ""
+    },
+    "9": {
+        "operation": "precise:string.concat",
+        "value": "\n    var html = (function (__data__, __modifierMap__) {\n        var __str__ = \"\", __code__ = \"\";\n",
+        "file": "/nodetaint/packageData/template_js/node_modules/template_js/dist/index.js",
+        "startLineNumber": 34,
+        "startColumnNumber": 20,
+        "endLineNumber": 34,
+        "endColumnNumber": 132,
+        "tainted": false,
+        "flows_from": [
+            "10",
+            "13"
+        ],
+        "sink_type": ""
+    },
+    "10": {
+        "operation": "precise:string.concat",
+        "value": "\n    var html = (function (__data__, __modifierMap__) {\n",
+        "file": "/nodetaint/packageData/template_js/node_modules/template_js/dist/index.js",
+        "startLineNumber": 34,
+        "startColumnNumber": 20,
+        "endLineNumber": 34,
+        "endColumnNumber": 85,
+        "tainted": false,
+        "flows_from": [
+            "11",
+            "12"
+        ],
+        "sink_type": ""
+    },
+    "11": {
+        "operation": "Untainted",
+        "value": "\n",
+        "file": "/nodetaint/packageData/template_js/node_modules/template_js/dist/index.js",
+        "startLineNumber": 34,
+        "startColumnNumber": 20,
+        "endLineNumber": 34,
+        "endColumnNumber": 85,
+        "tainted": false,
+        "flows_from": [],
+        "sink_type": ""
+    },
+    "12": {
+        "operation": "Untainted",
+        "value": "    var html = (function (__data__, __modifierMap__) {\n",
+        "file": "/nodetaint/packageData/template_js/node_modules/template_js/dist/index.js",
+        "startLineNumber": 34,
+        "startColumnNumber": 20,
+        "endLineNumber": 34,
+        "endColumnNumber": 85,
+        "tainted": false,
+        "flows_from": [],
+        "sink_type": ""
+    },
+    "13": {
+        "operation": "Untainted",
+        "value": "        var __str__ = \"\", __code__ = \"\";\n",
+        "file": "/nodetaint/packageData/template_js/node_modules/template_js/dist/index.js",
+        "startLineNumber": 34,
+        "startColumnNumber": 20,
+        "endLineNumber": 34,
+        "endColumnNumber": 132,
+        "tainted": false,
+        "flows_from": [],
+        "sink_type": ""
+    },
+    "14": {
+        "operation": "Untainted",
+        "value": "        for(var key in __data__) {\n",
+        "file": "/nodetaint/packageData/template_js/node_modules/template_js/dist/index.js",
+        "startLineNumber": 34,
+        "startColumnNumber": 20,
+        "endLineNumber": 34,
+        "endColumnNumber": 173,
+        "tainted": false,
+        "flows_from": [],
+        "sink_type": ""
+    },
+    "15": {
+        "operation": "Untainted",
+        "value": "            __str__+=(\"var \" + key + \"=__data__['\" + key + \"'];\");\n",
+        "file": "/nodetaint/packageData/template_js/node_modules/template_js/dist/index.js",
+        "startLineNumber": 34,
+        "startColumnNumber": 20,
+        "endLineNumber": 34,
+        "endColumnNumber": 248,
+        "tainted": false,
+        "flows_from": [],
+        "sink_type": ""
+    },
+    "16": {
+        "operation": "Untainted",
+        "value": "        }\n",
+        "file": "/nodetaint/packageData/template_js/node_modules/template_js/dist/index.js",
+        "startLineNumber": 34,
+        "startColumnNumber": 20,
+        "endLineNumber": 34,
+        "endColumnNumber": 264,
+        "tainted": false,
+        "flows_from": [],
+        "sink_type": ""
+    },
+    "17": {
+        "operation": "Untainted",
+        "value": "        eval(__str__);\n\n",
+        "file": "/nodetaint/packageData/template_js/node_modules/template_js/dist/index.js",
+        "startLineNumber": 34,
+        "startColumnNumber": 20,
+        "endLineNumber": 34,
+        "endColumnNumber": 295,
+        "tainted": false,
+        "flows_from": [],
+        "sink_type": ""
+    },
+    "18": {
+        "operation": "precise:string.concat",
+        "value": ";__code__ += (\"[object Object]\")\n",
+        "file": "/nodetaint/packageData/template_js/node_modules/template_js/node_modules/@templatejs/parser/dist/index.js",
+        "startLineNumber": 67,
+        "startColumnNumber": 15,
+        "endLineNumber": 67,
+        "endColumnNumber": 34,
+        "tainted": true,
+        "flows_from": [
+            "19",
+            "20"
+        ],
+        "sink_type": ""
+    },
+    "19": {
+        "operation": "Untainted",
+        "value": "",
+        "file": "/nodetaint/packageData/template_js/node_modules/template_js/node_modules/@templatejs/parser/dist/index.js",
+        "startLineNumber": 67,
+        "startColumnNumber": 15,
+        "endLineNumber": 67,
+        "endColumnNumber": 34,
+        "tainted": false,
+        "flows_from": [],
+        "sink_type": ""
+    },
+    "20": {
+        "operation": "precise:string.concat",
+        "value": ";__code__ += (\"[object Object]\")\n",
+        "file": "/nodetaint/packageData/template_js/node_modules/template_js/node_modules/@templatejs/parser/dist/index.js",
+        "startLineNumber": 24,
+        "startColumnNumber": 13,
+        "endLineNumber": 24,
+        "endColumnNumber": 95,
+        "tainted": true,
+        "flows_from": [
+            "21",
+            "22"
+        ],
+        "sink_type": ""
+    },
+    "21": {
+        "operation": "Untainted",
+        "value": "",
+        "file": "/nodetaint/packageData/template_js/node_modules/template_js/node_modules/@templatejs/parser/dist/index.js",
+        "startLineNumber": 24,
+        "startColumnNumber": 13,
+        "endLineNumber": 24,
+        "endColumnNumber": 95,
+        "tainted": false,
+        "flows_from": [],
+        "sink_type": ""
+    },
+    "22": {
+        "operation": "precise:string.concat",
+        "value": ";__code__ += (\"[object Object]\")\n",
+        "file": "/nodetaint/packageData/template_js/node_modules/template_js/node_modules/@templatejs/parser/dist/index.js",
+        "startLineNumber": 24,
+        "startColumnNumber": 13,
+        "endLineNumber": 24,
+        "endColumnNumber": 95,
+        "tainted": true,
+        "flows_from": [
+            "23",
+            "53"
+        ],
+        "sink_type": ""
+    },
+    "23": {
+        "operation": "precise:string.concat",
+        "value": ";__code__ += (\"[object Object]",
+        "file": "/nodetaint/packageData/template_js/node_modules/template_js/node_modules/@templatejs/parser/dist/index.js",
+        "startLineNumber": 24,
+        "startColumnNumber": 13,
+        "endLineNumber": 24,
+        "endColumnNumber": 44,
+        "tainted": true,
+        "flows_from": [
+            "24",
+            "25"
+        ],
+        "sink_type": ""
+    },
+    "24": {
+        "operation": "Untainted",
+        "value": ";__code__ += (\"",
+        "file": "/nodetaint/packageData/template_js/node_modules/template_js/node_modules/@templatejs/parser/dist/index.js",
+        "startLineNumber": 24,
+        "startColumnNumber": 13,
+        "endLineNumber": 24,
+        "endColumnNumber": 44,
+        "tainted": false,
+        "flows_from": [],
+        "sink_type": ""
+    },
+    "25": {
+        "operation": "object.GetField",
+        "value": "[object Object]",
+        "file": "UNKNOWN",
+        "startLineNumber": -1,
+        "startColumnNumber": -1,
+        "endLineNumber": -1,
+        "endColumnNumber": -1,
+        "tainted": true,
+        "flows_from": [
+            "26",
+            "27",
+            "28"
+        ],
+        "sink_type": ""
+    },
+    "26": {
+        "operation": "Untainted",
+        "value": [
+            {
+                "0": "[",
+                "1": "o",
+                "2": "b",
+                "3": "j",
+                "4": "e",
+                "5": "c",
+                "6": "t",
+                "7": " ",
+                "8": "O",
+                "9": "b",
+                "10": "j",
+                "11": "e",
+                "12": "c",
+                "13": "t",
+                "14": "]"
+            }
+        ],
+        "file": "/nodetaint/packageData/template_js/node_modules/template_js/node_modules/@templatejs/parser/dist/index.js",
+        "startLineNumber": 21,
+        "startColumnNumber": 18,
+        "endLineNumber": 21,
+        "endColumnNumber": 39,
+        "tainted": false,
+        "flows_from": [],
+        "sink_type": ""
+    },
+    "27": {
+        "operation": "Untainted",
+        "value": 0,
+        "file": "UNKNOWN",
+        "startLineNumber": -1,
+        "startColumnNumber": -1,
+        "endLineNumber": -1,
+        "endColumnNumber": -1,
+        "tainted": false,
+        "flows_from": [],
+        "sink_type": ""
+    },
+    "28": {
+        "operation": "model:string.split",
+        "value": {
+            "0": "[",
+            "1": "o",
+            "2": "b",
+            "3": "j",
+            "4": "e",
+            "5": "c",
+            "6": "t",
+            "7": " ",
+            "8": "O",
+            "9": "b",
+            "10": "j",
+            "11": "e",
+            "12": "c",
+            "13": "t",
+            "14": "]"
+        },
+        "file": "/nodetaint/packageData/template_js/node_modules/template_js/node_modules/@templatejs/parser/dist/index.js",
+        "startLineNumber": 21,
+        "startColumnNumber": 18,
+        "endLineNumber": 21,
+        "endColumnNumber": 39,
+        "tainted": true,
+        "flows_from": [
+            "29"
+        ],
+        "sink_type": ""
+    },
+    "29": {
+        "operation": "precise:string.replace",
+        "value": "[object Object]",
+        "file": "/nodetaint/packageData/template_js/node_modules/template_js/node_modules/@templatejs/parser/dist/index.js",
+        "startLineNumber": 20,
+        "startColumnNumber": 10,
+        "endLineNumber": 20,
+        "endColumnNumber": 48,
+        "tainted": true,
+        "flows_from": [
+            "30",
+            "49",
+            "51"
+        ],
+        "sink_type": ""
+    },
+    "30": {
+        "operation": "imprecise:String",
+        "value": "[object Object]",
+        "file": "/nodetaint/packageData/template_js/node_modules/template_js/node_modules/@templatejs/parser/dist/index.js",
+        "startLineNumber": 20,
+        "startColumnNumber": 10,
+        "endLineNumber": 20,
+        "endColumnNumber": 22,
+        "tainted": true,
+        "flows_from": [
+            "31"
+        ],
+        "sink_type": ""
+    },
+    "31": {
+        "operation": "call:String",
+        "value": "[object Object]",
+        "file": "/nodetaint/packageData/template_js/node_modules/template_js/node_modules/@templatejs/parser/dist/index.js",
+        "startLineNumber": 20,
+        "startColumnNumber": 10,
+        "endLineNumber": 20,
+        "endColumnNumber": 22,
+        "tainted": true,
+        "flows_from": [
+            "32"
+        ],
+        "sink_type": ""
+    },
+    "32": {
+        "operation": "call:parsehtml",
+        "value": "[object Object]",
+        "file": "/nodetaint/packageData/template_js/node_modules/template_js/node_modules/@templatejs/parser/dist/index.js",
+        "startLineNumber": 67,
+        "startColumnNumber": 15,
+        "endLineNumber": 67,
+        "endColumnNumber": 34,
+        "tainted": true,
+        "flows_from": [
+            "33"
+        ],
+        "sink_type": ""
+    },
+    "33": {
+        "operation": "object.GetField",
+        "value": "[object Object]",
+        "file": "UNKNOWN",
+        "startLineNumber": -1,
+        "startColumnNumber": -1,
+        "endLineNumber": -1,
+        "endColumnNumber": -1,
+        "tainted": true,
+        "flows_from": [
+            "34",
+            "35",
+            "36"
+        ],
+        "sink_type": ""
+    },
+    "34": {
+        "operation": "Untainted",
+        "value": [
+            {
+                "0": "[",
+                "1": "o",
+                "2": "b",
+                "3": "j",
+                "4": "e",
+                "5": "c",
+                "6": "t",
+                "7": " ",
+                "8": "O",
+                "9": "b",
+                "10": "j",
+                "11": "e",
+                "12": "c",
+                "13": "t",
+                "14": "]"
+            }
+        ],
+        "file": "/nodetaint/packageData/template_js/node_modules/template_js/node_modules/@templatejs/parser/dist/index.js",
+        "startLineNumber": 63,
+        "startColumnNumber": 17,
+        "endLineNumber": 63,
+        "endColumnNumber": 38,
+        "tainted": false,
+        "flows_from": [],
+        "sink_type": ""
+    },
+    "35": {
+        "operation": "Untainted",
+        "value": 0,
+        "file": "UNKNOWN",
+        "startLineNumber": -1,
+        "startColumnNumber": -1,
+        "endLineNumber": -1,
+        "endColumnNumber": -1,
+        "tainted": false,
+        "flows_from": [],
+        "sink_type": ""
+    },
+    "36": {
+        "operation": "model:string.split",
+        "value": {
+            "0": "[",
+            "1": "o",
+            "2": "b",
+            "3": "j",
+            "4": "e",
+            "5": "c",
+            "6": "t",
+            "7": " ",
+            "8": "O",
+            "9": "b",
+            "10": "j",
+            "11": "e",
+            "12": "c",
+            "13": "t",
+            "14": "]"
+        },
+        "file": "/nodetaint/packageData/template_js/node_modules/template_js/node_modules/@templatejs/parser/dist/index.js",
+        "startLineNumber": 63,
+        "startColumnNumber": 17,
+        "endLineNumber": 63,
+        "endColumnNumber": 38,
+        "tainted": true,
+        "flows_from": [
+            "37"
+        ],
+        "sink_type": ""
+    },
+    "37": {
+        "operation": "object.GetField",
+        "value": "[object Object]",
+        "file": "UNKNOWN",
+        "startLineNumber": -1,
+        "startColumnNumber": -1,
+        "endLineNumber": -1,
+        "endColumnNumber": -1,
+        "tainted": true,
+        "flows_from": [
+            "38",
+            "39",
+            "40"
+        ],
+        "sink_type": ""
+    },
+    "38": {
+        "operation": "Untainted",
+        "value": [
+            {
+                "0": "[",
+                "1": "o",
+                "2": "b",
+                "3": "j",
+                "4": "e",
+                "5": "c",
+                "6": "t",
+                "7": " ",
+                "8": "O",
+                "9": "b",
+                "10": "j",
+                "11": "e",
+                "12": "c",
+                "13": "t",
+                "14": "]"
+            }
+        ],
+        "file": "/nodetaint/packageData/template_js/node_modules/template_js/node_modules/@templatejs/parser/dist/index.js",
+        "startLineNumber": 61,
+        "startColumnNumber": 16,
+        "endLineNumber": 61,
+        "endColumnNumber": 31,
+        "tainted": false,
+        "flows_from": [],
+        "sink_type": ""
+    },
+    "39": {
+        "operation": "Untainted",
+        "value": 0,
+        "file": "UNKNOWN",
+        "startLineNumber": -1,
+        "startColumnNumber": -1,
+        "endLineNumber": -1,
+        "endColumnNumber": -1,
+        "tainted": false,
+        "flows_from": [],
+        "sink_type": ""
+    },
+    "40": {
+        "operation": "model:string.split",
+        "value": {
+            "0": "[",
+            "1": "o",
+            "2": "b",
+            "3": "j",
+            "4": "e",
+            "5": "c",
+            "6": "t",
+            "7": " ",
+            "8": "O",
+            "9": "b",
+            "10": "j",
+            "11": "e",
+            "12": "c",
+            "13": "t",
+            "14": "]"
+        },
+        "file": "/nodetaint/packageData/template_js/node_modules/template_js/node_modules/@templatejs/parser/dist/index.js",
+        "startLineNumber": 61,
+        "startColumnNumber": 16,
+        "endLineNumber": 61,
+        "endColumnNumber": 31,
+        "tainted": true,
+        "flows_from": [
+            "41"
+        ],
+        "sink_type": ""
+    },
+    "41": {
+        "operation": "imprecise:String",
+        "value": "[object Object]",
+        "file": "/nodetaint/packageData/template_js/node_modules/template_js/node_modules/@templatejs/parser/dist/index.js",
+        "startLineNumber": 59,
+        "startColumnNumber": 9,
+        "endLineNumber": 59,
+        "endColumnNumber": 20,
+        "tainted": true,
+        "flows_from": [
+            "42"
+        ],
+        "sink_type": ""
+    },
+    "42": {
+        "operation": "call:String",
+        "value": {},
+        "file": "/nodetaint/packageData/template_js/node_modules/template_js/node_modules/@templatejs/parser/dist/index.js",
+        "startLineNumber": 59,
+        "startColumnNumber": 9,
+        "endLineNumber": 59,
+        "endColumnNumber": 20,
+        "tainted": true,
+        "flows_from": [
+            "43"
+        ],
+        "sink_type": ""
+    },
+    "43": {
+        "operation": "call:parse",
+        "value": {},
+        "file": "/nodetaint/packageData/template_js/node_modules/template_js/dist/index.js",
+        "startLineNumber": 33,
+        "startColumnNumber": 18,
+        "endLineNumber": 33,
+        "endColumnNumber": 40,
+        "tainted": true,
+        "flows_from": [
+            "44"
+        ],
+        "sink_type": ""
+    },
+    "44": {
+        "operation": "call:compiler",
+        "value": {},
+        "file": "/nodetaint/packageData/template_js/node_modules/template_js/dist/index.js",
+        "startLineNumber": 53,
+        "startColumnNumber": 18,
+        "endLineNumber": 53,
+        "endColumnNumber": 36,
+        "tainted": true,
+        "flows_from": [
+            "45"
+        ],
+        "sink_type": ""
+    },
+    "45": {
+        "operation": "call:compile",
+        "value": {},
+        "file": "/nodetaint/analysisArtifacts/run-template_js2.js",
+        "startLineNumber": 8,
+        "startColumnNumber": 1,
+        "endLineNumber": 8,
+        "endColumnNumber": 25,
+        "tainted": true,
+        "flows_from": [
+            "46"
+        ],
+        "sink_type": ""
+    },
+    "46": {
+        "operation": "Tainted",
+        "value": {},
+        "file": "/nodetaint/analysisArtifacts/run-template_js2.js",
+        "startLineNumber": 7,
+        "startColumnNumber": 1,
+        "endLineNumber": 7,
+        "endColumnNumber": 26,
+        "tainted": true,
+        "flows_from": [
+            "47"
+        ],
+        "sink_type": ""
+    },
+    "47": {
+        "operation": "call:__jalangi_set_taint__",
+        "value": {},
+        "file": "/nodetaint/analysisArtifacts/run-template_js2.js",
+        "startLineNumber": 7,
+        "startColumnNumber": 1,
+        "endLineNumber": 7,
+        "endColumnNumber": 26,
+        "tainted": false,
+        "flows_from": [
+            "48"
+        ],
+        "sink_type": ""
+    },
+    "48": {
+        "operation": "Untainted",
+        "value": {},
+        "file": "/nodetaint/analysisArtifacts/run-template_js2.js",
+        "startLineNumber": 7,
+        "startColumnNumber": 1,
+        "endLineNumber": 7,
+        "endColumnNumber": 26,
+        "tainted": false,
+        "flows_from": [],
+        "sink_type": ""
+    },
+    "49": {
+        "operation": "call:replace",
+        "value": {},
+        "file": "/nodetaint/packageData/template_js/node_modules/template_js/node_modules/@templatejs/parser/dist/index.js",
+        "startLineNumber": 20,
+        "startColumnNumber": 10,
+        "endLineNumber": 20,
+        "endColumnNumber": 48,
+        "tainted": false,
+        "flows_from": [
+            "50"
+        ],
+        "sink_type": ""
+    },
+    "50": {
+        "operation": "Untainted",
+        "value": {},
+        "file": "/nodetaint/packageData/template_js/node_modules/template_js/node_modules/@templatejs/parser/dist/index.js",
+        "startLineNumber": 20,
+        "startColumnNumber": 10,
+        "endLineNumber": 20,
+        "endColumnNumber": 48,
+        "tainted": false,
+        "flows_from": [],
+        "sink_type": ""
+    },
+    "51": {
+        "operation": "call:replace",
+        "value": "\\$1",
+        "file": "/nodetaint/packageData/template_js/node_modules/template_js/node_modules/@templatejs/parser/dist/index.js",
+        "startLineNumber": 20,
+        "startColumnNumber": 10,
+        "endLineNumber": 20,
+        "endColumnNumber": 48,
+        "tainted": false,
+        "flows_from": [
+            "52"
+        ],
+        "sink_type": ""
+    },
+    "52": {
+        "operation": "Untainted",
+        "value": "\\$1",
+        "file": "/nodetaint/packageData/template_js/node_modules/template_js/node_modules/@templatejs/parser/dist/index.js",
+        "startLineNumber": 20,
+        "startColumnNumber": 10,
+        "endLineNumber": 20,
+        "endColumnNumber": 48,
+        "tainted": false,
+        "flows_from": [],
+        "sink_type": ""
+    },
+    "53": {
+        "operation": "Untainted",
+        "value": "\")\n",
+        "file": "/nodetaint/packageData/template_js/node_modules/template_js/node_modules/@templatejs/parser/dist/index.js",
+        "startLineNumber": 24,
+        "startColumnNumber": 13,
+        "endLineNumber": 24,
+        "endColumnNumber": 95,
+        "tainted": false,
+        "flows_from": [],
+        "sink_type": ""
+    },
+    "54": {
+        "operation": "precise:string.concat",
+        "value": "\n        ;return __code__;\n    }(__data__, __modifierMap__));\n    return html;\n",
+        "file": "/nodetaint/packageData/template_js/node_modules/template_js/dist/index.js",
+        "startLineNumber": 35,
+        "startColumnNumber": 20,
+        "endLineNumber": 35,
+        "endColumnNumber": 120,
+        "tainted": false,
+        "flows_from": [
+            "55",
+            "60"
+        ],
+        "sink_type": ""
+    },
+    "55": {
+        "operation": "precise:string.concat",
+        "value": "\n        ;return __code__;\n    }(__data__, __modifierMap__));\n",
+        "file": "/nodetaint/packageData/template_js/node_modules/template_js/dist/index.js",
+        "startLineNumber": 35,
+        "startColumnNumber": 20,
+        "endLineNumber": 35,
+        "endColumnNumber": 97,
+        "tainted": false,
+        "flows_from": [
+            "56",
+            "59"
+        ],
+        "sink_type": ""
+    },
+    "56": {
+        "operation": "precise:string.concat",
+        "value": "\n        ;return __code__;\n",
+        "file": "/nodetaint/packageData/template_js/node_modules/template_js/dist/index.js",
+        "startLineNumber": 35,
+        "startColumnNumber": 20,
+        "endLineNumber": 35,
+        "endColumnNumber": 56,
+        "tainted": false,
+        "flows_from": [
+            "57",
+            "58"
+        ],
+        "sink_type": ""
+    },
+    "57": {
+        "operation": "Untainted",
+        "value": "\n",
+        "file": "/nodetaint/packageData/template_js/node_modules/template_js/dist/index.js",
+        "startLineNumber": 35,
+        "startColumnNumber": 20,
+        "endLineNumber": 35,
+        "endColumnNumber": 56,
+        "tainted": false,
+        "flows_from": [],
+        "sink_type": ""
+    },
+    "58": {
+        "operation": "Untainted",
+        "value": "        ;return __code__;\n",
+        "file": "/nodetaint/packageData/template_js/node_modules/template_js/dist/index.js",
+        "startLineNumber": 35,
+        "startColumnNumber": 20,
+        "endLineNumber": 35,
+        "endColumnNumber": 56,
+        "tainted": false,
+        "flows_from": [],
+        "sink_type": ""
+    },
+    "59": {
+        "operation": "Untainted",
+        "value": "    }(__data__, __modifierMap__));\n",
+        "file": "/nodetaint/packageData/template_js/node_modules/template_js/dist/index.js",
+        "startLineNumber": 35,
+        "startColumnNumber": 20,
+        "endLineNumber": 35,
+        "endColumnNumber": 97,
+        "tainted": false,
+        "flows_from": [],
+        "sink_type": ""
+    },
+    "60": {
+        "operation": "Untainted",
+        "value": "    return html;\n",
+        "file": "/nodetaint/packageData/template_js/node_modules/template_js/dist/index.js",
+        "startLineNumber": 35,
+        "startColumnNumber": 20,
+        "endLineNumber": 35,
+        "endColumnNumber": 120,
+        "tainted": false,
+        "flows_from": [],
+        "sink_type": ""
+    },
+    "61": {
+        "operation": "call:replace",
+        "value": {},
+        "file": "/nodetaint/packageData/template_js/node_modules/template_js/dist/index.js",
+        "startLineNumber": 37,
+        "startColumnNumber": 10,
+        "endLineNumber": 37,
+        "endColumnNumber": 36,
+        "tainted": false,
+        "flows_from": [
+            "62"
+        ],
+        "sink_type": ""
+    },
+    "62": {
+        "operation": "Untainted",
+        "value": {},
+        "file": "/nodetaint/packageData/template_js/node_modules/template_js/dist/index.js",
+        "startLineNumber": 37,
+        "startColumnNumber": 10,
+        "endLineNumber": 37,
+        "endColumnNumber": 36,
+        "tainted": false,
+        "flows_from": [],
+        "sink_type": ""
+    },
+    "63": {
+        "operation": "call:replace",
+        "value": " ",
+        "file": "/nodetaint/packageData/template_js/node_modules/template_js/dist/index.js",
+        "startLineNumber": 37,
+        "startColumnNumber": 10,
+        "endLineNumber": 37,
+        "endColumnNumber": 36,
+        "tainted": false,
+        "flows_from": [
+            "64"
+        ],
+        "sink_type": ""
+    },
+    "64": {
+        "operation": "Untainted",
+        "value": " ",
+        "file": "/nodetaint/packageData/template_js/node_modules/template_js/dist/index.js",
+        "startLineNumber": 37,
+        "startColumnNumber": 10,
+        "endLineNumber": 37,
+        "endColumnNumber": 36,
+        "tainted": false,
+        "flows_from": [],
+        "sink_type": ""
+    }
+}

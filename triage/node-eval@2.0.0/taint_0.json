@@ -1,0 +1,98 @@
+{
+    "1": {
+        "operation": "call:runInNewContext",
+        "value": "Zv!uw-$pe",
+        "file": "/nodetaint/packageData/node-eval/node_modules/node-eval/index.js",
+        "startLineNumber": 43,
+        "startColumnNumber": 24,
+        "endLineNumber": 43,
+        "endColumnNumber": 60,
+        "tainted": true,
+        "flows_from": [
+            "2"
+        ],
+        "sink_type": "eval"
+    },
+    "2": {
+        "operation": "call:test",
+        "value": "Zv!uw-$pe",
+        "file": "/nodetaint/packageData/node-eval/node_modules/node-eval/index.js",
+        "startLineNumber": 35,
+        "startColumnNumber": 7,
+        "endLineNumber": 35,
+        "endColumnNumber": 43,
+        "tainted": true,
+        "flows_from": [
+            "3"
+        ],
+        "sink_type": ""
+    },
+    "3": {
+        "operation": "call:stripBOM",
+        "value": "Zv!uw-$pe",
+        "file": "/nodetaint/packageData/node-eval/node_modules/node-eval/index.js",
+        "startLineNumber": 20,
+        "startColumnNumber": 13,
+        "endLineNumber": 20,
+        "endColumnNumber": 30,
+        "tainted": true,
+        "flows_from": [
+            "4"
+        ],
+        "sink_type": ""
+    },
+    "4": {
+        "operation": "call:Anonymous Function",
+        "value": "Zv!uw-$pe",
+        "file": "/nodetaint/analysisArtifacts/run-node-eval2.js",
+        "startLineNumber": 10,
+        "startColumnNumber": 1,
+        "endLineNumber": 10,
+        "endColumnNumber": 16,
+        "tainted": true,
+        "flows_from": [
+            "5"
+        ],
+        "sink_type": ""
+    },
+    "5": {
+        "operation": "Tainted",
+        "value": "Zv!uw-$pe",
+        "file": "/nodetaint/analysisArtifacts/run-node-eval2.js",
+        "startLineNumber": 9,
+        "startColumnNumber": 1,
+        "endLineNumber": 9,
+        "endColumnNumber": 26,
+        "tainted": true,
+        "flows_from": [
+            "6"
+        ],
+        "sink_type": ""
+    },
+    "6": {
+        "operation": "call:__jalangi_set_taint__",
+        "value": "Zv!uw-$pe",
+        "file": "/nodetaint/analysisArtifacts/run-node-eval2.js",
+        "startLineNumber": 9,
+        "startColumnNumber": 1,
+        "endLineNumber": 9,
+        "endColumnNumber": 26,
+        "tainted": false,
+        "flows_from": [
+            "7"
+        ],
+        "sink_type": ""
+    },
+    "7": {
+        "operation": "Untainted",
+        "value": "Zv!uw-$pe",
+        "file": "/nodetaint/analysisArtifacts/run-node-eval2.js",
+        "startLineNumber": 9,
+        "startColumnNumber": 1,
+        "endLineNumber": 9,
+        "endColumnNumber": 26,
+        "tainted": false,
+        "flows_from": [],
+        "sink_type": ""
+    }
+}

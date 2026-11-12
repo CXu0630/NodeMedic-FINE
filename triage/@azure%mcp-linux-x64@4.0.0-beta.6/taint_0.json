@@ -1,0 +1,262 @@
+{
+    "1": {
+        "operation": "call:spawn",
+        "value": [
+            {
+                "0": "P",
+                "1": ";",
+                "2": "w",
+                "3": ":",
+                "4": ">",
+                "5": "I",
+                "6": "b",
+                "7": "$",
+                "8": "Y"
+            }
+        ],
+        "file": "/nodetaint/packageData/@azure/mcp-linux-x64/node_modules/@azure/mcp-linux-x64/index.js",
+        "startLineNumber": 47,
+        "startColumnNumber": 17,
+        "endLineNumber": 50,
+        "endColumnNumber": 7,
+        "tainted": true,
+        "flows_from": [
+            "2"
+        ],
+        "sink_type": "spawn"
+    },
+    "2": {
+        "operation": "object.GetField",
+        "value": [
+            {
+                "0": "P",
+                "1": ";",
+                "2": "w",
+                "3": ":",
+                "4": ">",
+                "5": "I",
+                "6": "b",
+                "7": "$",
+                "8": "Y"
+            }
+        ],
+        "file": "UNKNOWN",
+        "startLineNumber": -1,
+        "startColumnNumber": -1,
+        "endLineNumber": -1,
+        "endColumnNumber": -1,
+        "tainted": true,
+        "flows_from": [
+            "3",
+            "4",
+            "5"
+        ],
+        "sink_type": ""
+    },
+    "3": {
+        "operation": "Untainted",
+        "value": {
+            "0": [
+                {
+                    "0": "P",
+                    "1": ";",
+                    "2": "w",
+                    "3": ":",
+                    "4": ">",
+                    "5": "I",
+                    "6": "b",
+                    "7": "$",
+                    "8": "Y"
+                }
+            ]
+        },
+        "file": "UNKNOWN",
+        "startLineNumber": -1,
+        "startColumnNumber": -1,
+        "endLineNumber": -1,
+        "endColumnNumber": -1,
+        "tainted": false,
+        "flows_from": [],
+        "sink_type": ""
+    },
+    "4": {
+        "operation": "Untainted",
+        "value": 0,
+        "file": "UNKNOWN",
+        "startLineNumber": -1,
+        "startColumnNumber": -1,
+        "endLineNumber": -1,
+        "endColumnNumber": -1,
+        "tainted": false,
+        "flows_from": [],
+        "sink_type": ""
+    },
+    "5": {
+        "operation": "object.GetField",
+        "value": [
+            {
+                "0": "P",
+                "1": ";",
+                "2": "w",
+                "3": ":",
+                "4": ">",
+                "5": "I",
+                "6": "b",
+                "7": "$",
+                "8": "Y"
+            }
+        ],
+        "file": "UNKNOWN",
+        "startLineNumber": -1,
+        "startColumnNumber": -1,
+        "endLineNumber": -1,
+        "endColumnNumber": -1,
+        "tainted": true,
+        "flows_from": [
+            "6",
+            "7",
+            "8"
+        ],
+        "sink_type": ""
+    },
+    "6": {
+        "operation": "Untainted",
+        "value": {
+            "0": [
+                {
+                    "0": "P",
+                    "1": ";",
+                    "2": "w",
+                    "3": ":",
+                    "4": ">",
+                    "5": "I",
+                    "6": "b",
+                    "7": "$",
+                    "8": "Y"
+                }
+            ]
+        },
+        "file": "UNKNOWN",
+        "startLineNumber": -1,
+        "startColumnNumber": -1,
+        "endLineNumber": -1,
+        "endColumnNumber": -1,
+        "tainted": false,
+        "flows_from": [],
+        "sink_type": ""
+    },
+    "7": {
+        "operation": "Untainted",
+        "value": 0,
+        "file": "UNKNOWN",
+        "startLineNumber": -1,
+        "startColumnNumber": -1,
+        "endLineNumber": -1,
+        "endColumnNumber": -1,
+        "tainted": false,
+        "flows_from": [],
+        "sink_type": ""
+    },
+    "8": {
+        "operation": "call:runExecutable",
+        "value": [
+            {
+                "0": "P",
+                "1": ";",
+                "2": "w",
+                "3": ":",
+                "4": ">",
+                "5": "I",
+                "6": "b",
+                "7": "$",
+                "8": "Y"
+            }
+        ],
+        "file": "/nodetaint/analysisArtifacts/run-@azure%mcp-linux-x642.js",
+        "startLineNumber": 8,
+        "startColumnNumber": 1,
+        "endLineNumber": 8,
+        "endColumnNumber": 29,
+        "tainted": true,
+        "flows_from": [
+            "9"
+        ],
+        "sink_type": ""
+    },
+    "9": {
+        "operation": "Tainted",
+        "value": [
+            {
+                "0": "P",
+                "1": ";",
+                "2": "w",
+                "3": ":",
+                "4": ">",
+                "5": "I",
+                "6": "b",
+                "7": "$",
+                "8": "Y"
+            }
+        ],
+        "file": "/nodetaint/analysisArtifacts/run-@azure%mcp-linux-x642.js",
+        "startLineNumber": 7,
+        "startColumnNumber": 1,
+        "endLineNumber": 7,
+        "endColumnNumber": 26,
+        "tainted": true,
+        "flows_from": [
+            "10"
+        ],
+        "sink_type": ""
+    },
+    "10": {
+        "operation": "call:__jalangi_set_taint__",
+        "value": [
+            {
+                "0": "P",
+                "1": ";",
+                "2": "w",
+                "3": ":",
+                "4": ">",
+                "5": "I",
+                "6": "b",
+                "7": "$",
+                "8": "Y"
+            }
+        ],
+        "file": "/nodetaint/analysisArtifacts/run-@azure%mcp-linux-x642.js",
+        "startLineNumber": 7,
+        "startColumnNumber": 1,
+        "endLineNumber": 7,
+        "endColumnNumber": 26,
+        "tainted": false,
+        "flows_from": [
+            "11"
+        ],
+        "sink_type": ""
+    },
+    "11": {
+        "operation": "Untainted",
+        "value": [
+            {
+                "0": "P",
+                "1": ";",
+                "2": "w",
+                "3": ":",
+                "4": ">",
+                "5": "I",
+                "6": "b",
+                "7": "$",
+                "8": "Y"
+            }
+        ],
+        "file": "/nodetaint/analysisArtifacts/run-@azure%mcp-linux-x642.js",
+        "startLineNumber": 7,
+        "startColumnNumber": 1,
+        "endLineNumber": 7,
+        "endColumnNumber": 26,
+        "tainted": false,
+        "flows_from": [],
+        "sink_type": ""
+    }
+}

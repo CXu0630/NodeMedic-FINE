@@ -1,0 +1,64 @@
+{
+    "1": {
+        "operation": "call:spawn",
+        "value": [
+            {}
+        ],
+        "file": "/nodetaint/packageData/svn-spawn/node_modules/svn-spawn/node_modules/easy-spawn/index.js",
+        "startLineNumber": 63,
+        "startColumnNumber": 11,
+        "endLineNumber": 63,
+        "endColumnNumber": 31,
+        "tainted": false,
+        "flows_from": [
+            "2"
+        ],
+        "sink_type": "spawn"
+    },
+    "2": {
+        "operation": "call:isArray",
+        "value": [
+            {}
+        ],
+        "file": "/nodetaint/packageData/svn-spawn/node_modules/svn-spawn/node_modules/easy-spawn/index.js",
+        "startLineNumber": 37,
+        "startColumnNumber": 10,
+        "endLineNumber": 37,
+        "endColumnNumber": 28,
+        "tainted": false,
+        "flows_from": [
+            "3"
+        ],
+        "sink_type": ""
+    },
+    "3": {
+        "operation": "call:cmd",
+        "value": [
+            {}
+        ],
+        "file": "/nodetaint/packageData/svn-spawn/node_modules/svn-spawn/lib/svn.js",
+        "startLineNumber": 31,
+        "startColumnNumber": 10,
+        "endLineNumber": 31,
+        "endColumnNumber": 66,
+        "tainted": false,
+        "flows_from": [
+            "4"
+        ],
+        "sink_type": ""
+    },
+    "4": {
+        "operation": "Untainted",
+        "value": [
+            {}
+        ],
+        "file": "/nodetaint/packageData/svn-spawn/node_modules/svn-spawn/lib/svn.js",
+        "startLineNumber": 31,
+        "startColumnNumber": 10,
+        "endLineNumber": 31,
+        "endColumnNumber": 66,
+        "tainted": false,
+        "flows_from": [],
+        "sink_type": ""
+    }
+}

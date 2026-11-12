@@ -255,13 +255,13 @@ def collect(args, client, approved):
 def main():
     parser = argparse.ArgumentParser(description=__doc__,
                                      formatter_class=argparse.RawDescriptionHelpFormatter)
-    parser.add_argument("--limit", type=int, default=10000, help="Target number of names")
+    parser.add_argument("--limit", type=int, default=50000, help="Target number of names")
     parser.add_argument("--min-downloads", type=int, default=10000,
                         help="Minimum monthly downloads (default: 10000)")
     parser.add_argument("--output", default="npm_packages.txt",
                         help="Output path; existing contents are overwritten")
     parser.add_argument("--cache", default="npm_package_cache.sqlite3")
-    parser.add_argument("--pages", type=int, default=10,
+    parser.add_argument("--pages", type=int, default=40,
                         help="Pages per topic, 250 candidates each (default: 10)")
     parser.add_argument("--query", action="append", help="Search topic; repeat as needed")
     parser.add_argument("--delay", type=float, default=0.5,
